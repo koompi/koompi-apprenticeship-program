@@ -21,52 +21,52 @@ Every module awards badges based on demonstrated competency:
 
 ### Three Badge Levels Per Module
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ │
-│ FOUNDATION BADGE │
-│ ───────────────── │
-│ How to earn: │
-│ • Complete all module readings │
-│ • Type out all code examples │
-│ • Complete self-check exercises │
-│ • Pass mentor verification quiz (verbal or written) │
-│ │
-│ Evidence needed: │
-│ □ Completed exercise files in your project folder │
-│ □ Mentor sign-off │
-│ │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ BUILDER BADGE │
-│ ─────────────── │
-│ How to earn: │
-│ • Complete the module mini-project │
-│ • Project must work correctly │
-│ • Code must be clean and organized │
-│ • Project pushed to GitHub │
-│ │
-│ Evidence needed: │
-│ □ Working project URL or GitHub repository │
-│ □ Brief explanation of how you built it │
-│ □ Mentor code review approval │
-│ │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ MASTER BADGE │
-│ ───────────── │
-│ How to earn: │
-│ • Help at least 1 other apprentice complete this module │
-│ • Successfully explain concepts and debug their code │
-│ • Your mentee earns their Foundation Badge │
-│ │
-│ Evidence needed: │
-│ □ Name of apprentice(s) you helped │
-│ □ Their confirmation that you helped │
-│ □ Mentor observation or testimonial │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+**Foundation Badge**
+
+How to earn:
+
+- Complete all module readings
+- Type out all code examples
+- Complete self-check exercises
+- Pass mentor verification quiz (verbal or written)
+
+Evidence needed:
+
+- Completed exercise files in your project folder
+- Mentor sign-off
+
+---
+
+**Builder Badge**
+
+How to earn:
+
+- Complete the module mini-project
+- Project must work correctly
+- Code must be clean and organized
+- Project pushed to GitHub
+
+Evidence needed:
+
+- Working project URL or GitHub repository
+- Brief explanation of how you built it
+- Mentor code review approval
+
+---
+
+**Master Badge**
+
+How to earn:
+
+- Help at least 1 other apprentice complete this module
+- Successfully explain concepts and debug their code
+- Your mentee earns their Foundation Badge
+
+Evidence needed:
+
+- Name of apprentice(s) you helped
+- Their confirmation that you helped
+- Mentor observation or testimonial
 
 ---
 
@@ -76,155 +76,129 @@ Certificates are awarded when you complete major milestones:
 
 ### Level 1: Digital Citizen Certificate
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│ │
-│ DIGITAL CITIZEN │
-│ ═══════════════ │
-│ │
-│ Requirements: │
-│ ───────────── │
-│ □ Track 00 Complete (all 4 modules, Foundation badges) │
-│ □ Can type at least 30 WPM in English │
-│ □ Can navigate Linux terminal with basic commands │
-│ □ Demonstrates basic English reading comprehension │
-│ │
-│ You have proven: │
-│ • Computer literacy │
-│ • Basic digital skills │
-│ • Foundation for technical learning │
-│ │
-└─────────────────────────────────────────────────────────────────┘
-```
+**Level 1: Digital Citizen**
+
+Requirements:
+
+- Track 00 Complete (all 4 modules, Foundation badges)
+- Can type at least 30 WPM in English
+- Can navigate Linux terminal with basic commands
+- Demonstrates basic English reading comprehension
+
+You have proven:
+
+- Computer literacy
+- Basic digital skills
+- Foundation for technical learning
 
 ### Level 2: Web Developer Apprentice Certificate
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│ │
-│ WEB DEVELOPER APPRENTICE │
-│ ════════════════════════ │
-│ │
-│ Requirements: │
-│ ───────────── │
-│ □ Level 1 Certificate (Digital Citizen) │
-│ □ HTML Complete (all 7 modules, at least Foundation badges) │
-│ □ CSS Complete (all 7 modules, at least Foundation badges) │
-│ □ Portfolio Project: Personal website with multiple pages │
-│ □ Can communicate with customers in basic English │
-│ │
-│ Portfolio must include: │
-│ • Home page with introduction │
-│ • About page with your story │
-│ • Projects page (even if empty for now) │
-│ • Contact page with working links │
-│ • Responsive design (works on mobile) │
-│ │
-│ You have proven: │
-│ • Can build static websites from scratch │
-│ • Understands web fundamentals │
-│ • Ready for programming │
-│ │
-└─────────────────────────────────────────────────────────────────┘
-```
+**Level 2: Web Developer Apprentice**
+
+Requirements:
+
+- Level 1 Certificate (Digital Citizen)
+- HTML Complete (all 7 modules, at least Foundation badges)
+- CSS Complete (all 7 modules, at least Foundation badges)
+- Portfolio Project: Personal website with multiple pages
+- Can communicate with customers in basic English
+
+Portfolio must include:
+
+- Home page with introduction
+- About page with your story
+- Projects page (even if empty for now)
+- Contact page with working links
+- Responsive design (works on mobile)
+
+You have proven:
+
+- Can build static websites from scratch
+- Understands web fundamentals
+- Ready for programming
 
 ### Level 3: JavaScript Developer Certificate
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│ │
-│ JAVASCRIPT DEVELOPER │
-│ ════════════════════ │
-│ │
-│ Requirements: │
-│ ───────────── │
-│ □ Level 2 Certificate (Web Developer Apprentice) │
-│ □ JavaScript Basics Complete (7 modules) │
-│ □ JavaScript Advanced Complete (5 modules) │
-│ □ Git & GitHub Complete (4 modules) │
-│ □ Project: Interactive web application │
-│ □ All projects on GitHub with proper commits │
-│ │
-│ Project must include: │
-│ • User interaction (buttons, forms, etc.) │
-│ • DOM manipulation │
-│ • At least one API integration │
-│ • Clean, commented code │
-│ • README documentation │
-│ │
-│ You have proven: │
-│ • Can write JavaScript programs │
-│ • Understands programming logic │
-│ • Uses version control professionally │
-│ • Ready for frameworks │
-│ │
-└─────────────────────────────────────────────────────────────────┘
-```
+**Level 3: JavaScript Developer**
+
+Requirements:
+
+- Level 2 Certificate (Web Developer Apprentice)
+- JavaScript Basics Complete (7 modules)
+- JavaScript Advanced Complete (5 modules)
+- Git & GitHub Complete (4 modules)
+- Project: Interactive web application
+- All projects on GitHub with proper commits
+
+Project must include:
+
+- User interaction (buttons, forms, etc.)
+- DOM manipulation
+- At least one API integration
+- Clean, commented code
+- README documentation
+
+You have proven:
+
+- Can write JavaScript programs
+- Understands programming logic
+- Uses version control professionally
+- Ready for frameworks
 
 ### Level 4: Full-Stack Apprentice Certificate
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│ │
-│ FULL-STACK APPRENTICE │
-│ ═════════════════════ │
-│ │
-│ Requirements: │
-│ ───────────── │
-│ □ Level 3 Certificate (JavaScript Developer) │
-│ □ React.js Complete (7 modules) │
-│ □ Next.js & Tailwind Complete (6 modules) │
-│ □ Project: Full production website or web application │
-│ □ Professional English communication skills │
-│ │
-│ Project must include: │
-│ • Built with React/Next.js │
-│ • Styled with Tailwind or custom CSS │
-│ • Multiple pages/routes │
-│ • Deployed to the internet │
-│ • Mobile responsive │
-│ • Performance optimized │
-│ │
-│ You have proven: │
-│ • Can build modern web applications │
-│ • Understands full development workflow │
-│ • Ready for professional work │
-│ │
-└─────────────────────────────────────────────────────────────────┘
-```
+**Level 4: Full-Stack Apprentice**
+
+Requirements:
+
+- Level 3 Certificate (JavaScript Developer)
+- React.js Complete (7 modules)
+- Next.js & Tailwind Complete (6 modules)
+- Project: Full production website or web application
+- Professional English communication skills
+
+Project must include:
+
+- Built with React/Next.js
+- Styled with Tailwind or custom CSS
+- Multiple pages/routes
+- Deployed to the internet
+- Mobile responsive
+- Performance optimized
+
+You have proven:
+
+- Can build modern web applications
+- Understands full development workflow
+- Ready for professional work
 
 ### Graduate: KOOMPI Software Engineer & Entrepreneur
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│ │
-│ KOOMPI SOFTWARE ENGINEER & ENTREPRENEUR │
-│ ══════════════════════════════════════════════ │
-│ │
-│ Requirements: │
-│ ───────────── │
-│ □ Level 4 Certificate (Full-Stack Apprentice) │
-│ □ Track 03 Complete (Business & Entrepreneurship) │
-│ □ Demonstrated customer service excellence │
-│ □ Capstone Project approved by mentors │
-│ □ Presentation to KOOMPI team │
-│ │
-│ Capstone Project: │
-│ • Real-world application or website │
-│ • Solves a genuine problem │
-│ • Could be for a client, community, or personal startup │
-│ • Fully deployed and documented │
-│ • Presented and defended │
-│ │
-│ You have proven: │
-│ • Technical excellence │
-│ • Professional communication │
-│ • Business understanding │
-│ • Ready for employment or entrepreneurship │
-│ • A future leader of Cambodia's tech industry │
-│ │
-└─────────────────────────────────────────────────────────────────┘
-```
+**Graduate: KOOMPI Software Engineer & Entrepreneur**
+
+Requirements:
+
+- Level 4 Certificate (Full-Stack Apprentice)
+- Track 03 Complete (Business & Entrepreneurship)
+- Demonstrated customer service excellence
+- Capstone Project approved by mentors
+- Presentation to KOOMPI team
+
+Capstone Project:
+
+- Real-world application or website
+- Solves a genuine problem
+- Could be for a client, community, or personal startup
+- Fully deployed and documented
+- Presented and defended
+
+You have proven:
+
+- Technical excellence
+- Professional communication
+- Business understanding
+- Ready for employment or entrepreneurship
+- A future leader of Cambodia's tech industry
 
 ---
 
@@ -280,7 +254,6 @@ At the end of each lesson, apprentices complete exercises to verify understandin
 
 ```
 Self-Check: HTML Lists
-═══════════════════════
 
 1. Create an unordered list of your 3 favorite foods
 2. Create an ordered list of steps to make rice
@@ -422,6 +395,6 @@ Target Completion: _________________
 
 **It's about knowing where you are and where to go next.**
 
-*Keep learning. Keep building. Keep growing.* 
+*Keep learning. Keep building. Keep growing.*
 
 </div>

@@ -19,213 +19,96 @@ Use this guide to find your entry point:
 
 ## Complete Learning Map
 
-```
-══════════════════════════════════════════════════════════════════════════════
- KOOMPI APPRENTICESHIP ROADMAP
-══════════════════════════════════════════════════════════════════════════════
+### Track 00: Digital Foundations (4-8 weeks)
 
-TRACK 00: DIGITAL FOUNDATIONS [4-8 weeks]
-══════════════════════════════════════════════════════════════════════════════
+Computer Basics > Typing Mastery > Linux Terminal > File Management
 
- ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
- │ Computer │ │ Typing │ │ Linux │ │ File │
- │ Basics │────▶│ Mastery │────▶│ Terminal │────▶│ Management │
- │ │ │ │ │ │ │ │
- └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘
- 
- MILESTONE: Digital Citizen Certificate
+**Milestone:** Digital Citizen Certificate
 
+---
 
-TRACK 01: ENGLISH FOR TECH [Runs parallel always]
-══════════════════════════════════════════════════════════════════════════════
+### Track 01: English for Tech (Runs parallel)
 
- ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
- │ Tech │ │ Customer │ │Professional │ │Presentation │
- │ Vocabulary │ ◀──▶│ Chat/Email │ ◀──▶│ Writing │ ◀──▶│ Skills │
- │ │ │ │ │ │ │ │
- └─────────────┘ └─────────────┘ └─────────────┘ └─────────────┘
- 
- INTEGRATED: Learn English through coding and customer work
+Tech Vocabulary | Customer Communication | Professional Writing | Presentation Skills
 
+**Integrated:** Learn English through coding and customer work
 
-TRACK 02: WEB DEVELOPMENT [8-14 months]
-══════════════════════════════════════════════════════════════════════════════
+---
 
-LEVEL 2.1: HTML FUNDAMENTALS [4-6 weeks]
-─────────────────────────────────────────────────────────────────────────────
+### Track 02: Web Development (8-14 months)
 
- ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
- │Module 1 │──▶│Module 2 │──▶│Module 3 │──▶│Module 4 │──▶│Module 5 │
- │ Intro │ │Structure│ │ Text & │ │ Links & │ │ Media & │
- │ │ │ │ │ Lists │ │ Nav │ │ Tables │
- └─────────┘ └─────────┘ └─────────┘ └─────────┘ └─────────┘
- │ │
- │ ┌─────────┐ ┌─────────┐ │
- └────────────▶│Module 6 │──▶│Module 7 │◀─────────────────┘
- │ Forms │ │ Project │
- │ │ │ │
- └─────────┘ └─────────┘
- │
- ▼
- PROJECT: Personal Bio Page
+**Level 2.1: HTML Fundamentals (4-6 weeks)**
 
- MILESTONE: HTML Fundamentals Badge
+- Modules 1-7: Intro, Structure, Text, Links, Media, Forms, Project
+- Project: Personal Bio Page
+- Milestone: HTML Badge
 
+**Level 2.2: CSS Styling (4-6 weeks)**
 
-LEVEL 2.2: CSS STYLING [4-6 weeks]
-─────────────────────────────────────────────────────────────────────────────
+- Modules 1-7: Intro, Selectors, Box Model, Layout, Flexbox, Responsive, Project
+- Project: Styled Portfolio
+- Milestone: CSS Badge
+- **Certification: Web Developer Apprentice**
 
- ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
- │Module 1 │──▶│Module 2 │──▶│Module 3 │──▶│Module 4 │
- │CSS Intro│ │Selectors│ │Box Model│ │ Layout │
- └─────────┘ └─────────┘ └─────────┘ └─────────┘
- │
- ┌─────────┐ ┌─────────┐ ┌─────────┐ │
- │Module 7 │◀──│Module 6 │◀──│Module 5 │◀───────┘
- │ Project │ │Responsive │ Flexbox │
- └─────────┘ └─────────┘ └─────────┘
- │
- ▼
- PROJECT: Styled Portfolio Website
- 
- MILESTONE: CSS Styling Badge
- CERTIFICATION: Web Developer Apprentice
+**Level 2.3: JavaScript Basics (6-8 weeks)**
 
+- Modules 1-7: Intro, Variables, Functions, DOM, Arrays, Events, Project
+- Project: Interactive Calculator
+- Milestone: JavaScript Basics Badge
 
-LEVEL 2.3: JAVASCRIPT BASICS [6-8 weeks]
-─────────────────────────────────────────────────────────────────────────────
+**Level 2.4: JavaScript Advanced (4-6 weeks)**
 
- ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
- │Module 1 │──▶│Module 2 │──▶│Module 3 │──▶│Module 4 │
- │ Intro │ │Variables│ │Functions│ │ DOM │
- │ │ │ & Types │ │ & Logic │ │ │
- └─────────┘ └─────────┘ └─────────┘ └─────────┘
- │
- ┌─────────┐ ┌─────────┐ ┌─────────┐ │
- │Module 7 │◀──│Module 6 │◀──│Module 5 │◀───────┘
- │ Project │ │ Events │ │ Arrays │
- └─────────┘ └─────────┘ └─────────┘
- │
- ▼
- PROJECT: Interactive Calculator
- 
- MILESTONE: JavaScript Basics Badge
+- Modules 1-5: ES6, Async, APIs, Error Handling, Project
+- Project: To-Do Application
+- Milestone: JavaScript Advanced Badge
 
+**Level 2.5: Git & GitHub (2-3 weeks)**
 
-LEVEL 2.4: JAVASCRIPT ADVANCED [4-6 weeks]
-─────────────────────────────────────────────────────────────────────────────
+- Modules 1-4: Git Intro, Branching, GitHub, Collaboration
+- Project: Published Portfolio
+- Milestone: Version Control Badge
+- **Certification: JavaScript Developer**
 
- ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
- │Module 1 │──▶│Module 2 │──▶│Module 3 │──▶│Module 4 │──▶│Module 5 │
- │ ES6+ │ │ Async │ │ APIs │ │ Error │ │ Project │
- │Features │ │ Code │ │ & Fetch │ │Handling │ │ │
- └─────────┘ └─────────┘ └─────────┘ └─────────┘ └─────────┘
- │
- ▼
- PROJECT: To-Do Application
- 
- MILESTONE: JavaScript Advanced Badge
+**Level 2.6: React.js (6-8 weeks)**
 
+- Modules 1-7: Intro, Components, Props, State, Hooks, Routing, Project
+- Project: React Application
+- Milestone: React Badge
 
-LEVEL 2.5: GIT & GITHUB [2-3 weeks]
-─────────────────────────────────────────────────────────────────────────────
+**Level 2.7: Next.js & Tailwind (4-6 weeks)**
 
- ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
- │Module 1 │──▶│Module 2 │──▶│Module 3 │──▶│Module 4 │
- │Git Intro│ │Branching│ │ GitHub │ │Collab- │
- │& Basics │ │& Merging│ │ Basics │ │oration │
- └─────────┘ └─────────┘ └─────────┘ └─────────┘
- │
- ▼
- PROJECT: Published Portfolio on GitHub
- 
- MILESTONE: Version Control Badge
- CERTIFICATION: JavaScript Developer
+- Modules 1-6: Next.js, Routing, Data Fetching, Tailwind, Deployment, Project
+- Project: Full Production Website
+- Milestone: Full-Stack Badge
+- **Certification: Full-Stack Apprentice**
 
+---
 
-LEVEL 2.6: REACT.JS [6-8 weeks]
-─────────────────────────────────────────────────────────────────────────────
+### Track 03: Business & Entrepreneurship (Ongoing)
 
- ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
- │Module 1 │──▶│Module 2 │──▶│Module 3 │──▶│Module 4 │
- │ Intro │ │Components │ Props │ │ State │
- │ & Setup │ │ & JSX │ │ │ │ │
- └─────────┘ └─────────┘ └─────────┘ └─────────┘
- │
- ┌─────────┐ ┌─────────┐ ┌─────────┐ │
- │Module 7 │◀──│Module 6 │◀──│Module 5 │◀───────┘
- │ Project │ │ Routing │ │ Hooks │
- └─────────┘ └─────────┘ └─────────┘
- │
- ▼
- PROJECT: React Application
- 
- MILESTONE: React Developer Badge
+Customer Service > Problem Solving > Business Communication > Entrepreneurship > Career Development
 
+**Integrated:** Learn through real customer work at KOOMPI
 
-LEVEL 2.7: NEXT.JS & TAILWIND [4-6 weeks]
-─────────────────────────────────────────────────────────────────────────────
+---
 
- ┌─────────┐ ┌─────────┐ ┌─────────┐
- │Module 1 │──▶│Module 2 │──▶│Module 3 │
- │ Next.js │ │ Routing │ │ Data │
- │ Intro │ │ & Pages │ │Fetching │
- └─────────┘ └─────────┘ └─────────┘
- │
- ┌─────────┐ ┌─────────┐ ┌─────────┐
- │Module 6 │◀──│Module 5 │◀──│Module 4 │◀──┘
- │ Project │ │Deployment │Tailwind │
- └─────────┘ └─────────┘ └─────────┘
- │
- ▼
- PROJECT: Full Production Website
- 
- MILESTONE: Full-Stack Badge
- CERTIFICATION: Full-Stack Apprentice
+### Capstone Project (4-8 weeks)
 
+Choose one:
 
-TRACK 03: BUSINESS & ENTREPRENEURSHIP [Ongoing]
-══════════════════════════════════════════════════════════════════════════════
+- Build a complete website for a real client/business
+- Create a web application solving a real problem
+- Launch a personal project/startup idea
+- Contribute significantly to an open-source project
 
- ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
- │ Customer │ │ Problem │ │ Business │
- │ Service │────▶│ Solving │────▶│Communication│
- │ │ │ │ │ │
- └─────────────┘ └─────────────┘ └─────────────┘
- │
- ┌─────────────┐ ┌─────────────┐ │
- │ Career │◀────│Entrepreneur-│◀──────────┘
- │ Development │ │ ship │
- │ │ │ │
- └─────────────┘ └─────────────┘
- 
- INTEGRATED: Learn through real customer work at KOOMPI
+Requirements:
 
+- Must use skills from all completed tracks
+- Must be deployed and publicly accessible
+- Must include documentation
+- Must be presented to mentors and peers
 
-CAPSTONE PROJECT [4-8 weeks]
-══════════════════════════════════════════════════════════════════════════════
-
- ┌─────────────────────────────────────────────────────────────────────┐
- │ │
- │ Choose one: │
- │ │
- │ Build a complete website for a real client/business │
- │ Create a web application solving a real problem │
- │ Launch a personal project/startup idea │
- │ Contribute significantly to an open-source project │
- │ │
- │ Requirements: │
- │ Must use skills from all completed tracks │
- │ Must be deployed and publicly accessible │
- │ Must include documentation │
- │ Must be presented to mentors and peers │
- │ │
- └─────────────────────────────────────────────────────────────────────┘
- 
- GRADUATION: KOOMPI Software Engineer & Entrepreneur Certificate
-
-══════════════════════════════════════════════════════════════════════════════
-```
+**Graduation: KOOMPI Software Engineer & Entrepreneur Certificate**
 
 ---
 
@@ -267,28 +150,12 @@ For apprentices learning 6-10 hours per day:
 
 Each module follows this pattern:
 
-```
- ┌─────────────────────────────────────────────────────────────┐
- │ │
- │ 1. READ Read the lesson content │
- │ │ │
- │ ▼ │
- │ 2. TRY Type out all code examples │
- │ │ │
- │ ▼ │
- │ 3. EXPERIMENT Modify examples, break things │
- │ │ │
- │ ▼ │
- │ 4. BUILD Complete the exercises │
- │ │ │
- │ ▼ │
- │ 5. REFLECT Write what you learned │
- │ │ │
- │ ▼ │
- │ 6. TEACH Explain it to someone else │
- │ │
- └─────────────────────────────────────────────────────────────┘
-```
+1. **Read** — Read the lesson content
+2. **Try** — Type out all code examples
+3. **Experiment** — Modify examples, break things
+4. **Build** — Complete the exercises
+5. **Reflect** — Write what you learned
+6. **Teach** — Explain it to someone else
 
 ---
 
@@ -322,6 +189,6 @@ You're ready for the next module when you can:
 
 **Your journey of a thousand miles begins with a single step.**
 
-*Start today. Keep going. You will get there.* 
+*Start today. Keep going. You will get there.*
 
 </div>
