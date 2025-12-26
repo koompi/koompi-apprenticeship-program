@@ -15,52 +15,42 @@ This is the core technical track. You will learn to build modern websites and we
 ## Track Path
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ WEB DEVELOPMENT JOURNEY │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ Level 2.1: HTML Fundamentals │
-│ ════════════════════════════ │
-│ Structure of web pages │
-│ → Bio Page Project │
-│ │ │
-│ ▼ │
-│ Level 2.2: CSS Styling │
-│ ══════════════════════ │
-│ Making pages beautiful │
-│ → Styled Portfolio Project │
-│ │ │
-│ ▼ │
-│ Level 2.3: JavaScript Basics │
-│ ════════════════════════════ │
-│ Making pages interactive │
-│ → Interactive Quiz Project │
-│ │ │
-│ ▼ │
-│ Level 2.4: JavaScript Advanced │
-│ ══════════════════════════════ │
-│ Async, APIs, Modern JS │
-│ → Weather App Project │
-│ │ │
-│ ▼ │
-│ Level 2.5: Git & GitHub │
-│ ═══════════════════════ │
-│ Version control & collaboration │
-│ → All projects on GitHub │
-│ │ │
-│ ▼ │
-│ Level 2.6: React Fundamentals │
-│ ═════════════════════════════ │
-│ Modern frontend framework │
-│ → Task Manager App │
-│ │ │
-│ ▼ │
-│ Level 2.7: Next.js & Tailwind │
-│ ═════════════════════════════ │
-│ Production-ready applications │
-│ → Full-Stack Project │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
+WEB DEVELOPMENT JOURNEY
+=======================
+
+Level 2.1: HTML Fundamentals
+  Structure of web pages
+  Project: Bio Page
+        |
+        v
+Level 2.2: CSS Styling
+  Making pages beautiful
+  Project: Styled Portfolio
+        |
+        v
+Level 2.3: JavaScript Basics
+  Making pages interactive
+  Project: Interactive Quiz
+        |
+        v
+Level 2.4: JavaScript Advanced
+  Async, APIs, Modern JS
+  Project: Weather App
+        |
+        v
+Level 2.5: Git & GitHub
+  Version control & collaboration
+  Project: All projects on GitHub
+        |
+        v
+Level 2.6: React Fundamentals
+  Modern frontend framework
+  Project: Task Manager App
+        |
+        v
+Level 2.7: Next.js & Tailwind
+  Production-ready applications
+  Project: Full-Stack App
 ```
 
 ---
@@ -117,7 +107,7 @@ Before starting this track:
 
 <div align="center">
 
-**Build the web!** 
+**Build the web!**
 
 *Start with Level 2.1: HTML Fundamentals*
 

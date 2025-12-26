@@ -30,23 +30,14 @@ Version control solves all these problems!
 
 ### Version Control Defined
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ VERSION CONTROL │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ A system that tracks changes to files over time. │
-│ │
-│ You can: │
-│ • See what changed and when │
-│ • Go back to any previous version │
-│ • Work on multiple versions simultaneously │
-│ • Merge work from multiple people │
-│ │
-│ Think of it as unlimited UNDO + history + collaboration │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- VERSION CONTROL
+- A system that tracks changes to files over time.
+- You can:
+- • See what changed and when
+- • Go back to any previous version
+- • Work on multiple versions simultaneously
+- • Merge work from multiple people
+- Think of it as unlimited UNDO + history + collaboration
 
 ---
 

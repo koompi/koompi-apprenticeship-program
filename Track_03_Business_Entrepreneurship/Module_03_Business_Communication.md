@@ -19,25 +19,15 @@ By the end of this module, you will be able to:
 
 ### The 4 C's of Business Communication
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ THE 4 C'S │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ CLEAR │
-│ Say exactly what you mean. Avoid ambiguity. │
-│ │
-│ CONCISE │
-│ Use fewer words. Get to the point. │
-│ │
-│ CORRECT │
-│ Check facts. Proofread. Be accurate. │
-│ │
-│ COURTEOUS │
-│ Be polite. Respect others. Stay professional. │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- THE 4 C'S
+- CLEAR
+- Say exactly what you mean. Avoid ambiguity.
+- CONCISE
+- Use fewer words. Get to the point.
+- CORRECT
+- Check facts. Proofread. Be accurate.
+- COURTEOUS
+- Be polite. Respect others. Stay professional.
 
 ### Professional vs. Casual
 

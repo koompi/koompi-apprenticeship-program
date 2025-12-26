@@ -53,21 +53,13 @@ console.log("Third");
 
 ### Why Async Matters
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ASYNC IS ESSENTIAL FOR: │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ • Fetching data from servers │
-│ • Reading/writing files │
-│ • User interactions │
-│ • Timers and animations │
-│ • Database operations │
-│ │
-│ Without async, your app would FREEZE during these operations! │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- ASYNC IS ESSENTIAL FOR:
+- • Fetching data from servers
+- • Reading/writing files
+- • User interactions
+- • Timers and animations
+- • Database operations
+- Without async, your app would FREEZE during these operations!
 
 ---
 
@@ -151,19 +143,11 @@ const promise = new Promise((resolve, reject) => {
 
 ### Promise States
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ PROMISE STATES │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ PENDING ──────┬───────► FULFILLED (resolved with value) │
-│ (waiting) │ │
-│ └───────► REJECTED (rejected with error) │
-│ │
-│ Once settled (fulfilled or rejected), cannot change │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- PROMISE STATES
+- PENDING ► FULFILLED (resolved with value)
+- (waiting)
+- ► REJECTED (rejected with error)
+- Once settled (fulfilled or rejected), cannot change
 
 ### Using Promises
 

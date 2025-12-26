@@ -19,28 +19,17 @@ By the end of this module, you will be able to:
 
 ### Problems = Opportunities
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ TWO TYPES OF PEOPLE │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ PROBLEM AVOIDERS PROBLEM SOLVERS │
-│ ════════════════ ═══════════════ │
-│ │
-│ "This is too hard" "This is interesting" │
-│ Run from challenges Embrace challenges │
-│ Wait for someone else Figure it out │
-│ Frustrated by obstacles Motivated by obstacles │
-│ │
-│ RESULT: RESULT: │
-│ • Limited growth • Constant growth │
-│ • Dependence on others • Independence │
-│ • Few opportunities • Many opportunities │
-│ │
-│ KOOMPI Apprentices are PROBLEM SOLVERS │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- TWO TYPES OF PEOPLE
+- PROBLEM AVOIDERS PROBLEM SOLVERS
+- "This is too hard" "This is interesting"
+- Run from challenges Embrace challenges
+- Wait for someone else Figure it out
+- Frustrated by obstacles Motivated by obstacles
+- RESULT: RESULT:
+- • Limited growth • Constant growth
+- • Dependence on others • Independence
+- • Few opportunities • Many opportunities
+- KOOMPI Apprentices are PROBLEM SOLVERS
 
 ### The 15-Minute Rule
 
@@ -58,39 +47,25 @@ This builds your problem-solving skills while respecting others' time.
 
 ### 5-Step Problem Solving
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ │
-│ STEP 1: DEFINE │
-│ What exactly is the problem? │
-│ "The login button doesn't work on mobile" │
-│ │
-│ ↓ │
-│ │
-│ STEP 2: ANALYZE │
-│ Why is this happening? │
-│ Gather information, test, investigate │
-│ │
-│ ↓ │
-│ │
-│ STEP 3: GENERATE OPTIONS │
-│ What are possible solutions? │
-│ List multiple ideas, don't judge yet │
-│ │
-│ ↓ │
-│ │
-│ STEP 4: DECIDE & ACT │
-│ Which solution is best? │
-│ Implement the chosen solution │
-│ │
-│ ↓ │
-│ │
-│ STEP 5: EVALUATE │
-│ Did it work? │
-│ Learn from the result │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- STEP 1: DEFINE
+- What exactly is the problem?
+- "The login button doesn't work on mobile"
+- ↓
+- STEP 2: ANALYZE
+- Why is this happening?
+- Gather information, test, investigate
+- ↓
+- STEP 3: GENERATE OPTIONS
+- What are possible solutions?
+- List multiple ideas, don't judge yet
+- ↓
+- STEP 4: DECIDE & ACT
+- Which solution is best?
+- Implement the chosen solution
+- ↓
+- STEP 5: EVALUATE
+- Did it work?
+- Learn from the result
 
 ### Defining Problems Clearly
 
@@ -149,36 +124,24 @@ Ask these questions:
 
 ### When Code Doesn't Work
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ DEBUGGING PROCESS │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ 1. REPRODUCE THE BUG │
-│ Can you make it happen again? │
-│ What exact steps cause it? │
-│ │
-│ 2. READ THE ERROR │
-│ Don't panic. Read the message. │
-│ What file? What line? What type? │
-│ │
-│ 3. CHECK RECENT CHANGES │
-│ What did you change before it broke? │
-│ Can you undo and test? │
-│ │
-│ 4. SIMPLIFY │
-│ Remove code until it works. │
-│ Add back until it breaks. │
-│ │
-│ 5. SEARCH │
-│ Google the error message. │
-│ Check Stack Overflow. │
-│ │
-│ 6. ASK FOR HELP │
-│ After trying above, ask with context. │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- DEBUGGING PROCESS
+- 1. REPRODUCE THE BUG
+- Can you make it happen again?
+- What exact steps cause it?
+- 2. READ THE ERROR
+- Don't panic. Read the message.
+- What file? What line? What type?
+- 3. CHECK RECENT CHANGES
+- What did you change before it broke?
+- Can you undo and test?
+- 4. SIMPLIFY
+- Remove code until it works.
+- Add back until it breaks.
+- 5. SEARCH
+- Google the error message.
+- Check Stack Overflow.
+- 6. ASK FOR HELP
+- After trying above, ask with context.
 
 ### The Rubber Duck Method
 
@@ -236,34 +199,15 @@ When solving problems, consider:
 
 ### Self-Directed Learning
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ THE LEARNING LOOP │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ ┌─────────────┐ │
-│ │ LEARN │ ← Read, watch, study │
-│ └──────┬──────┘ │
-│ │ │
-│ ↓ │
-│ ┌─────────────┐ │
-│ │ PRACTICE │ ← Try it yourself │
-│ └──────┬──────┘ │
-│ │ │
-│ ↓ │
-│ ┌─────────────┐ │
-│ │ BUILD │ ← Create something real │
-│ └──────┬──────┘ │
-│ │ │
-│ ↓ │
-│ ┌─────────────┐ │
-│ │ TEACH │ ← Share with others │
-│ └──────┬──────┘ │
-│ │ │
-│ └──────────→ Repeat │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- THE LEARNING LOOP
+- LEARN ← Read, watch, study
+- ↓
+- PRACTICE ← Try it yourself
+- ↓
+- BUILD ← Create something real
+- ↓
+- TEACH ← Share with others
+- → Repeat
 
 ### When Stuck
 

@@ -298,34 +298,24 @@ function calculateTotal(items) {
 
 ### Browser DevTools
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ DEVTOOLS FEATURES │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ CONSOLE TAB │
-│ • View logs and errors │
-│ • Execute JavaScript │
-│ • Test expressions │
-│ │
-│ SOURCES TAB │
-│ • Set breakpoints │
-│ • Step through code │
-│ • Watch variables │
-│ • View call stack │
-│ │
-│ NETWORK TAB │
-│ • See all requests │
-│ • Check response data │
-│ • Debug API calls │
-│ │
-│ ELEMENTS TAB │
-│ • Inspect DOM │
-│ • See computed styles │
-│ • Debug layout │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- DEVTOOLS FEATURES
+- CONSOLE TAB
+- • View logs and errors
+- • Execute JavaScript
+- • Test expressions
+- SOURCES TAB
+- • Set breakpoints
+- • Step through code
+- • Watch variables
+- • View call stack
+- NETWORK TAB
+- • See all requests
+- • Check response data
+- • Debug API calls
+- ELEMENTS TAB
+- • Inspect DOM
+- • See computed styles
+- • Debug layout
 
 ---
 

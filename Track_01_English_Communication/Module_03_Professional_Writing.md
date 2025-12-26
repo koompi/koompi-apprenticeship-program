@@ -19,26 +19,15 @@ By the end of this module, you will be able to:
 
 ### Email Structure
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ To: recipient@email.com │
-│ Subject: Clear, Specific Subject Line │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ Greeting, │
-│ │
-│ [Opening - purpose of email] │
-│ │
-│ [Body - main content, details] │
-│ │
-│ [Closing - next steps, call to action] │
-│ │
-│ Sign-off, │
-│ Your Name │
-│ Your Title/Role │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- To: recipient@email.com
+- Subject: Clear, Specific Subject Line
+- Greeting,
+- [Opening - purpose of email]
+- [Body - main content, details]
+- [Closing - next steps, call to action]
+- Sign-off,
+- Your Name
+- Your Title/Role
 
 ### Subject Lines
 
@@ -321,25 +310,16 @@ Related guides or resources.
 
 ### Professional Tone Guidelines
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ PROFESSIONAL WRITING TONE │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ DO DON'T │
-│ ════ ═══════ │
-│ │
-│ Be polite and respectful Be rude or demanding │
-│ Use complete sentences Use txt speak (u, r, thx) │
-│ Be clear and concise Write unnecessarily long │
-│ Use "please" and "thank you" Forget common courtesy │
-│ Proofread before sending Send with obvious errors │
-│ Use proper capitalization WRITE IN ALL CAPS │
-│ Stay positive Complain or blame │
-│ Be patient Sound frustrated │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- PROFESSIONAL WRITING TONE
+- DO DON'T
+- Be polite and respectful Be rude or demanding
+- Use complete sentences Use txt speak (u, r, thx)
+- Be clear and concise Write unnecessarily long
+- Use "please" and "thank you" Forget common courtesy
+- Proofread before sending Send with obvious errors
+- Use proper capitalization WRITE IN ALL CAPS
+- Stay positive Complain or blame
+- Be patient Sound frustrated
 
 ### Converting Casual to Professional
 

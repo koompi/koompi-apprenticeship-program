@@ -81,22 +81,13 @@ Without DOCTYPE, browsers enter **"quirks mode"** — they try to guess how to d
 
 With DOCTYPE, browsers use **"standards mode"** — they follow modern web standards.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ QUIRKS MODE vs STANDARDS MODE │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ WITHOUT DOCTYPE WITH DOCTYPE │
-│ ═══════════════ ═════════════ │
-│ │
-│ Quirks Mode Standards Mode │
-│ • Unpredictable behavior • Consistent behavior │
-│ • Different across browsers • Same across browsers │
-│ • Old CSS bugs • Modern CSS support │
-│ • Harder to debug • Easier to debug │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- QUIRKS MODE vs STANDARDS MODE
+- WITHOUT DOCTYPE WITH DOCTYPE
+- Quirks Mode Standards Mode
+- • Unpredictable behavior • Consistent behavior
+- • Different across browsers • Same across browsers
+- • Old CSS bugs • Modern CSS support
+- • Harder to debug • Easier to debug
 
 ### Modern HTML5 DOCTYPE
 

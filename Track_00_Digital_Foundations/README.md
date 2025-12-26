@@ -16,24 +16,14 @@ Before building software, you need strong digital foundations. This track ensure
 
 ## Why Digital Foundations?
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ BUILDING A SOLID FOUNDATION │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ Without foundations: With foundations: │
-│ │
-│ Shaky building Solid structure │
-│ │
-│ • Slow typing = slow coding • Fast typing = productive │
-│ • Lost files = lost work • Organized = efficient │
-│ • Fear of terminal = limited • Terminal comfort = powerful │
-│ • Computer confusion = frustration • Computer mastery = confidence │
-│ │
-│ INVEST TIME HERE → SAVE TIME LATER │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- BUILDING A SOLID FOUNDATION
+- Without foundations: With foundations:
+- Shaky building Solid structure
+- • Slow typing = slow coding • Fast typing = productive
+- • Lost files = lost work • Organized = efficient
+- • Fear of terminal = limited • Terminal comfort = powerful
+- • Computer confusion = frustration • Computer mastery = confidence
+- INVEST TIME HERE → SAVE TIME LATER
 
 ---
 

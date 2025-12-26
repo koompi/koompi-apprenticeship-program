@@ -19,25 +19,15 @@ By the end of this module, you will be able to:
 
 ### Props vs State
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ PROPS vs STATE │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ PROPS STATE │
-│ ═════ ═════ │
-│ │
-│ • Passed from parent • Managed internally │
-│ • Read-only • Can be changed │
-│ • Component doesn't own • Component owns │
-│ • Used for configuration • Used for interactivity │
-│ │
-│ Example: Example: │
-│ <Button color="blue"> Button tracks if clicked │
-│ (parent decides color) (manages own state) │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- PROPS vs STATE
+- PROPS STATE
+- • Passed from parent • Managed internally
+- • Read-only • Can be changed
+- • Component doesn't own • Component owns
+- • Used for configuration • Used for interactivity
+- Example: Example:
+- <Button color="blue"> Button tracks if clicked
+- (parent decides color) (manages own state)
 
 ### When to Use State
 

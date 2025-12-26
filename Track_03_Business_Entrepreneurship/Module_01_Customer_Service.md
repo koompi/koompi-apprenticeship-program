@@ -19,29 +19,19 @@ By the end of this module, you will be able to:
 
 ### Every Interaction Counts
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ THE IMPACT OF CUSTOMER SERVICE │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ GOOD EXPERIENCE BAD EXPERIENCE │
-│ ═══════════════ ══════════════ │
-│ │
-│ Customer happy Customer angry │
-│ ↓ ↓ │
-│ Tells 3-5 friends Tells 10-15 people │
-│ ↓ ↓ │
-│ Comes back again Never returns │
-│ ↓ ↓ │
-│ Business grows Business loses │
-│ │
-│ ONE INTERACTION CAN: │
-│ • Create a lifelong customer • Lose a customer forever │
-│ • Generate referrals • Create negative publicity │
-│ • Build reputation • Damage brand │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- THE IMPACT OF CUSTOMER SERVICE
+- GOOD EXPERIENCE BAD EXPERIENCE
+- Customer happy Customer angry
+- ↓ ↓
+- Tells 3-5 friends Tells 10-15 people
+- ↓ ↓
+- Comes back again Never returns
+- ↓ ↓
+- Business grows Business loses
+- ONE INTERACTION CAN:
+- • Create a lifelong customer • Lose a customer forever
+- • Generate referrals • Create negative publicity
+- • Build reputation • Damage brand
 
 ### The KOOMPI Way
 

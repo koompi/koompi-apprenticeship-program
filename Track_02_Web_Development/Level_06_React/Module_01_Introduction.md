@@ -19,32 +19,19 @@ By the end of this module, you will be able to:
 
 ### React Defined
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ WHAT IS REACT? │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ React is a JavaScript LIBRARY for building user interfaces. │
-│ │
-│ Created by: Facebook (2013) │
-│ Used by: Instagram, Facebook, Netflix, Airbnb, Discord, Notion │
-│ │
-│ KEY CONCEPTS: │
-│ │
-│ 1. COMPONENTS │
-│ Build UI from small, reusable pieces │
-│ │
-│ 2. DECLARATIVE │
-│ Describe WHAT you want, not HOW to do it │
-│ │
-│ 3. VIRTUAL DOM │
-│ Only updates what changed (fast!) │
-│ │
-│ 4. ONE-WAY DATA FLOW │
-│ Data flows from parent to child │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- WHAT IS REACT?
+- React is a JavaScript LIBRARY for building user interfaces.
+- Created by: Facebook (2013)
+- Used by: Instagram, Facebook, Netflix, Airbnb, Discord, Notion
+- KEY CONCEPTS:
+- 1. COMPONENTS
+- Build UI from small, reusable pieces
+- 2. DECLARATIVE
+- Describe WHAT you want, not HOW to do it
+- 3. VIRTUAL DOM
+- Only updates what changed (fast!)
+- 4. ONE-WAY DATA FLOW
+- Data flows from parent to child
 
 ### Why React?
 

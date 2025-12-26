@@ -19,28 +19,18 @@ By the end of this module, you will be able to:
 
 ### More Than Starting a Company
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ENTREPRENEURSHIP IS... │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ NOT JUST ACTUALLY │
-│ ════════════ ══════════ │
-│ │
-│ Starting companies Seeing opportunities │
-│ Getting rich Creating value │
-│ Taking big risks Solving problems │
-│ Working alone Building things that matter │
-│ Only for businesspeople For anyone who wants impact │
-│ │
-│ An ENTREPRENEURIAL MINDSET can be applied: │
-│ • As an employee (intrapreneurship) │
-│ • In your own projects │
-│ • When solving any problem │
-│ • Throughout your career │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- ENTREPRENEURSHIP IS...
+- NOT JUST ACTUALLY
+- Starting companies Seeing opportunities
+- Getting rich Creating value
+- Taking big risks Solving problems
+- Working alone Building things that matter
+- Only for businesspeople For anyone who wants impact
+- An ENTREPRENEURIAL MINDSET can be applied:
+- • As an employee (intrapreneurship)
+- • In your own projects
+- • When solving any problem
+- • Throughout your career
 
 ### The Entrepreneur's Question
 
@@ -236,34 +226,21 @@ How to validate:
 
 ### Develop These Qualities
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ENTREPRENEURIAL QUALITIES │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ INITIATIVE │
-│ Don't wait to be told. See something? Do something. │
-│ │
-│ RESILIENCE │
-│ Failures are lessons. Get back up and try again. │
-│ │
-│ CURIOSITY │
-│ Always learning. Ask questions. Explore. │
-│ │
-│ RESOURCEFULNESS │
-│ Work with what you have. Find creative solutions. │
-│ │
-│ OWNERSHIP │
-│ Take responsibility. Your success depends on you. │
-│ │
-│ PERSISTENCE │
-│ Keep going when it gets hard. Success takes time. │
-│ │
-│ ADAPTABILITY │
-│ Change when needed. Pivot when the market tells you. │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- ENTREPRENEURIAL QUALITIES
+- INITIATIVE
+- Don't wait to be told. See something? Do something.
+- RESILIENCE
+- Failures are lessons. Get back up and try again.
+- CURIOSITY
+- Always learning. Ask questions. Explore.
+- RESOURCEFULNESS
+- Work with what you have. Find creative solutions.
+- OWNERSHIP
+- Take responsibility. Your success depends on you.
+- PERSISTENCE
+- Keep going when it gets hard. Success takes time.
+- ADAPTABILITY
+- Change when needed. Pivot when the market tells you.
 
 ### Apply at KOOMPI
 

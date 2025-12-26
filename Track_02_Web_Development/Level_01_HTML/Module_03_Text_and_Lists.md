@@ -32,26 +32,15 @@ HTML provides six levels of headings, from `<h1>` (most important) to `<h6>` (le
 
 ### Heading Hierarchy
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ HEADING HIERARCHY │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ <h1> Learn Web Development at KOOMPI ──────────────── MAIN TITLE │
-│ │ (only ONE per page)│
-│ ├── <h2> Track 02: Web Development ──────────────── MAJOR SECTION │
-│ │ │ │
-│ │ ├── <h3> Level 1: HTML Fundamentals ─────────── SUBSECTION │
-│ │ │ │ │
-│ │ │ ├── <h4> Module 1: Getting Started ────── SUB-SUBSECTION │
-│ │ │ └── <h4> Module 2: Document Structure │
-│ │ │ │
-│ │ └── <h3> Level 2: CSS Styling │
-│ │ │
-│ └── <h2> Track 03: Business Skills │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- HEADING HIERARCHY
+- <h1> Learn Web Development at KOOMPI MAIN TITLE
+- (only ONE per page)
+- <h2> Track 02: Web Development MAJOR SECTION
+- <h3> Level 1: HTML Fundamentals SUBSECTION
+- <h4> Module 1: Getting Started SUB-SUBSECTION
+- <h4> Module 2: Document Structure
+- <h3> Level 2: CSS Styling
+- <h2> Track 03: Business Skills
 
 ### Important Rules for Headings
 

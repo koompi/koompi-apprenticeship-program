@@ -37,36 +37,18 @@ Before starting this level, you should have:
 
 By the end of this level, you will create:
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ │
-│ YOUR PERSONAL BIO PAGE │
-│ │
-│ ┌─────────────────────────────────────────────────────────────────────┐ │
-│ │ [Your Photo] │ │
-│ │ │ │
-│ │ Your Name │ │
-│ │ ──────────── │ │
-│ │ Future Software Engineer │ │
-│ │ │ │
-│ │ About Me │ │
-│ │ ───────── │ │
-│ │ A paragraph about yourself and your journey... │ │
-│ │ │ │
-│ │ My Skills │ │
-│ │ ───────── │ │
-│ │ • HTML │ │
-│ │ • CSS (learning) │ │
-│ │ • Linux Terminal │ │
-│ │ │ │
-│ │ Contact │ │
-│ │ ─────── │ │
-│ │ email@example.com │ │
-│ │ │ │
-│ └─────────────────────────────────────────────────────────────────────┘ │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- YOUR PERSONAL BIO PAGE
+- [Your Photo]
+- Your Name
+- Future Software Engineer
+- About Me
+- A paragraph about yourself and your journey...
+- My Skills
+- • HTML
+- • CSS (learning)
+- • Linux Terminal
+- Contact
+- email@example.com
 
 ---
 

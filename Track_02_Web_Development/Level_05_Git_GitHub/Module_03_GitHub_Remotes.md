@@ -19,30 +19,16 @@ By the end of this module, you will be able to:
 
 ### GitHub Defined
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ GIT + GITHUB │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ YOUR COMPUTER GITHUB (CLOUD) │
-│ ══════════════ ══════════════ │
-│ │
-│ ┌─────────────┐ ┌─────────────┐ │
-│ │ Local Repo │ ──── push ────────► │ Remote Repo │ │
-│ │ │ ◄─── pull ───────── │ │ │
-│ └─────────────┘ └─────────────┘ │
-│ │ │
-│ Your work │ │
-│ Your history ▼ │
-│ ┌─────────────┐ │
-│ │ Teammates │ │
-│ │ Portfolio │ │
-│ │ Backup │ │
-│ │ Sharing │ │
-│ └─────────────┘ │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- GIT + GITHUB
+- YOUR COMPUTER GITHUB (CLOUD)
+- Local Repo push ► Remote Repo
+- ◄ pull
+- Your work
+- Your history
+- Teammates
+- Portfolio
+- Backup
+- Sharing
 
 ### Why Use GitHub?
 

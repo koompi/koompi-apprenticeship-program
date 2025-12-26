@@ -126,27 +126,17 @@ Alt text is crucial for:
 
 ### Writing Good Alt Text
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ALT TEXT BEST PRACTICES │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ BAD GOOD │
-│ ═════ ══════ │
-│ │
-│ alt="image" alt="KOOMPI laptop computer" │
-│ alt="photo123.jpg" alt="Students learning to code" │
-│ alt="" (for meaningful images) alt="Angkor Wat temple at sunrise" │
-│ alt="Click here" alt="Download button icon" │
-│ │
-│ TIPS: │
-│ • Be specific and descriptive │
-│ • Don't start with "Image of..." or "Photo of..." │
-│ • Keep it concise (under 125 characters) │
-│ • Describe what's important in context │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- ALT TEXT BEST PRACTICES
+- BAD GOOD
+- alt="image" alt="KOOMPI laptop computer"
+- alt="photo123.jpg" alt="Students learning to code"
+- alt="" (for meaningful images) alt="Angkor Wat temple at sunrise"
+- alt="Click here" alt="Download button icon"
+- TIPS:
+- • Be specific and descriptive
+- • Don't start with "Image of..." or "Photo of..."
+- • Keep it concise (under 125 characters)
+- • Describe what's important in context
 
 ### When to Use Empty Alt Text
 
@@ -187,25 +177,13 @@ Use `alt=""` for decorative images that don't add content:
 
 Setting dimensions prevents **layout shift** — the page jumping around while images load.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ WITHOUT DIMENSIONS │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ 1. Page loads text: 2. Image loads: 3. Content jumps! │
-│ │
-│ ┌───────────────┐ ┌───────────────┐ ┌───────────────┐ │
-│ │ Title │ │ Title │ │ Title │ │
-│ │ Text here... │ │ ┌───────────┐ │ │ ┌───────────┐ │ │
-│ │ │ → │ │ IMAGE │ │ → │ │ IMAGE │ │ │
-│ │ │ │ └───────────┘ │ │ └───────────┘ │ │
-│ │ │ │ │ │ Text here... │ │
-│ └───────────────┘ └───────────────┘ └───────────────┘ │
-│ │
-│ WITH DIMENSIONS: Space is reserved, no jumping! │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- WITHOUT DIMENSIONS
+- 1. Page loads text: 2. Image loads: 3. Content jumps!
+- Title Title Title
+- Text here...
+- → IMAGE → IMAGE
+- Text here...
+- WITH DIMENSIONS: Space is reserved, no jumping!
 
 ### Responsive Images (Preview)
 
@@ -233,26 +211,18 @@ This makes images shrink on small screens but never grow larger than their natur
 
 ### Visual Guide
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ CHOOSING IMAGE FORMAT │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ Is it a photograph? │
-│ └── YES → Use JPEG │
-│ └── NO → Does it need transparency? │
-│ └── YES → Use PNG (or WebP) │
-│ └── NO → Is it an icon/logo? │
-│ └── YES → Use SVG │
-│ └── NO → Is it animated? │
-│ └── YES → Use GIF (or WebP) │
-│ └── NO → Use PNG or WebP │
-│ │
-│ MODERN TIP: WebP works for almost everything and has the best │
-│ compression. Use it when browser support isn't a concern. │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- CHOOSING IMAGE FORMAT
+- Is it a photograph?
+- YES → Use JPEG
+- NO → Does it need transparency?
+- YES → Use PNG (or WebP)
+- NO → Is it an icon/logo?
+- YES → Use SVG
+- NO → Is it animated?
+- YES → Use GIF (or WebP)
+- NO → Use PNG or WebP
+- MODERN TIP: WebP works for almost everything and has the best
+- compression. Use it when browser support isn't a concern.
 
 ### Format Examples
 

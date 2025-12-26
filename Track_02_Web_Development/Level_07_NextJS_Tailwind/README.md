@@ -62,29 +62,14 @@ Learn production-ready technologies! **Next.js** is a React framework for buildi
 
 A **Full-Stack E-commerce Product Catalog**:
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ │
-│ KOOMPI SHOP [Products] [About] [Cart (3)] │
-│ │
-│ ┌──────────────────────────────────────────────────────────────────────┐ │
-│ │ HERO: Discover Amazing Tech Products │ │
-│ │ [Shop Now] │ │
-│ └──────────────────────────────────────────────────────────────────────┘ │
-│ │
-│ Featured Products │
-│ │
-│ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ │
-│ │ [Image] │ │ [Image] │ │ [Image] │ │ [Image] │ │
-│ │ │ │ │ │ │ │ │ │
-│ │ KOOMPI E13 │ │ USB-C Hub │ │ Webcam │ │ Keyboard │ │
-│ │ $299 │ │ $45 │ │ $65 │ │ $55 │ │
-│ │ │ │ │ │ │ │ │ │
-│ │ [Add Cart] │ │ [Add Cart] │ │ [Add Cart] │ │ [Add Cart] │ │
-│ └──────────────┘ └──────────────┘ └──────────────┘ └──────────────┘ │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- KOOMPI SHOP [Products] [About] [Cart (3)]
+- HERO: Discover Amazing Tech Products
+- [Shop Now]
+- Featured Products
+- [Image] [Image] [Image] [Image]
+- KOOMPI E13 USB-C Hub Webcam Keyboard
+- $299 $45 $65 $55
+- [Add Cart] [Add Cart] [Add Cart] [Add Cart]
 
 ---
 

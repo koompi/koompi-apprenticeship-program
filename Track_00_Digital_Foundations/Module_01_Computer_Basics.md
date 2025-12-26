@@ -23,42 +23,28 @@ A **computer** is an electronic device that processes information. Think of it a
 
 ### The Main Parts of a Computer
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ COMPUTER COMPONENTS │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ HARDWARE (Physical parts you can touch) │
-│ ═══════════════════════════════════════ │
-│ │
-│ SCREEN (Monitor/Display) │
-│ • Shows you information │
-│ • Output device │
-│ │
-│ KEYBOARD │
-│ • You type letters and numbers │
-│ • Input device │
-│ │
-│ MOUSE / TOUCHPAD │
-│ • You point and click │
-│ • Input device │
-│ │
-│ CPU (Central Processing Unit) │
-│ • The "brain" - does all the thinking │
-│ • Inside the computer │
-│ │
-│ RAM (Random Access Memory) │
-│ • Short-term memory │
-│ • Holds what you're working on now │
-│ • Clears when power off │
-│ │
-│ STORAGE (Hard Drive / SSD) │
-│ • Long-term memory │
-│ • Keeps your files forever │
-│ • Stays when power off │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- COMPUTER COMPONENTS
+- HARDWARE (Physical parts you can touch)
+- SCREEN (Monitor/Display)
+- • Shows you information
+- • Output device
+- KEYBOARD
+- • You type letters and numbers
+- • Input device
+- MOUSE / TOUCHPAD
+- • You point and click
+- • Input device
+- CPU (Central Processing Unit)
+- • The "brain" - does all the thinking
+- • Inside the computer
+- RAM (Random Access Memory)
+- • Short-term memory
+- • Holds what you're working on now
+- • Clears when power off
+- STORAGE (Hard Drive / SSD)
+- • Long-term memory
+- • Keeps your files forever
+- • Stays when power off
 
 ### Software vs Hardware
 
@@ -109,43 +95,21 @@ An **Operating System (OS)** is the main software that controls your computer. I
 
 When you turn on your KOOMPI computer, you see the **desktop**. This is your workspace.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ [Apps] [File Manager] [Browser] 14:30 │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ │
-│ │
-│ ┌──────────────┐ │
-│ │ Home │ │
-│ └──────────────┘ │
-│ │
-│ ┌──────────────┐ │
-│ │ Trash │ │
-│ └──────────────┘ │
-│ │
-│ │
-│ │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ [ Home] [ Files] [ Firefox] [ Editor] │
-└─────────────────────────────────────────────────────────────────────────────┘
-
-PARTS OF THE DESKTOP:
-═══════════════════════
-
-TOP BAR (Panel)
-├── Application Menu (start programs)
-├── Quick Launch (commonly used apps)
-└── System Tray (battery, wifi, volume, clock)
-
-DESKTOP AREA
-├── Icons (shortcuts to folders and files)
-└── Your workspace
-
-BOTTOM BAR (Taskbar/Dock)
-├── Open applications
-└── Quick access to favorite apps
-```
+- [Apps] [File Manager] [Browser] 14:30
+- Home
+- Trash
+- [ Home] [ Files] [ Firefox] [ Editor]
+- PARTS OF THE DESKTOP:
+- TOP BAR (Panel)
+- Application Menu (start programs)
+- Quick Launch (commonly used apps)
+- System Tray (battery, wifi, volume, clock)
+- DESKTOP AREA
+- Icons (shortcuts to folders and files)
+- Your workspace
+- BOTTOM BAR (Taskbar/Dock)
+- Open applications
+- Quick access to favorite apps
 
 ### Key Desktop Actions
 
@@ -179,48 +143,28 @@ Using the keyboard is **faster** than using the mouse. Professional developers u
 
 ### The Most Important Keys
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│ IMPORTANT KEYS │
-├─────────────────────────────────────────────────────────────────┤
-│ │
-│ Ctrl (Control) │
-│ ──────────────── │
-│ • Used with other keys for shortcuts │
-│ • Example: Ctrl + C = Copy │
-│ │
-│ Alt (Alternate) │
-│ ─────────────── │
-│ • Used for menu shortcuts │
-│ • Example: Alt + Tab = Switch windows │
-│ │
-│ Shift │
-│ ───── │
-│ • Makes letters UPPERCASE │
-│ • Modifies other shortcuts │
-│ │
-│ Enter │
-│ ───── │
-│ • Confirms/submits │
-│ • Starts a new line when typing │
-│ │
-│ Esc (Escape) │
-│ ─────────── │
-│ • Cancels current action │
-│ • Closes menus │
-│ │
-│ Tab │
-│ ─── │
-│ • Moves to next field │
-│ • Adds indentation │
-│ │
-│ Backspace vs Delete │
-│ ────────────────────── │
-│ • Backspace: Deletes character BEFORE cursor │
-│ • Delete: Deletes character AFTER cursor │
-│ │
-└─────────────────────────────────────────────────────────────────┘
-```
+- IMPORTANT KEYS
+- Ctrl (Control)
+- • Used with other keys for shortcuts
+- • Example: Ctrl + C = Copy
+- Alt (Alternate)
+- • Used for menu shortcuts
+- • Example: Alt + Tab = Switch windows
+- Shift
+- • Makes letters UPPERCASE
+- • Modifies other shortcuts
+- Enter
+- • Confirms/submits
+- • Starts a new line when typing
+- Esc (Escape)
+- • Cancels current action
+- • Closes menus
+- Tab
+- • Moves to next field
+- • Adds indentation
+- Backspace vs Delete
+- • Backspace: Deletes character BEFORE cursor
+- • Delete: Deletes character AFTER cursor
 
 ### Essential Shortcuts to Memorize
 
@@ -265,35 +209,26 @@ Your computer has settings that control how it looks and behaves. You can change
 
 ### Important Settings to Know
 
-```
-SYSTEM SETTINGS
-═══════════════
-
- Network / WiFi
- • Connect to the internet
- • See connection status
-
- Sound
- • Adjust volume
- • Choose output device (speakers/headphones)
-
- Display
- • Adjust brightness
- • Change screen resolution
- • Night light (easier on eyes at night)
-
- Power
- • Battery status
- • Power saving options
-
- Language & Region
- • Change language
- • Set keyboard layout (English/Khmer)
-
- Date & Time
- • Set your timezone
- • Adjust time format
-```
+- SYSTEM SETTINGS
+- Network / WiFi
+- • Connect to the internet
+- • See connection status
+- Sound
+- • Adjust volume
+- • Choose output device (speakers/headphones)
+- Display
+- • Adjust brightness
+- • Change screen resolution
+- • Night light (easier on eyes at night)
+- Power
+- • Battery status
+- • Power saving options
+- Language & Region
+- • Change language
+- • Set keyboard layout (English/Khmer)
+- Date & Time
+- • Set your timezone
+- • Adjust time format
 
 ### Practice: System Settings
 
@@ -313,38 +248,27 @@ SYSTEM SETTINGS
 
 These habits will help you throughout your career:
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ GOOD DIGITAL HABITS │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ SAVE YOUR WORK OFTEN │
-│ • Press Ctrl + S frequently │
-│ • Don't wait until you're finished │
-│ • Work can be lost if power goes out or computer crashes │
-│ │
-│ ORGANIZE YOUR FILES │
-│ • Create folders for different projects │
-│ • Give files meaningful names │
-│ • Don't put everything on the Desktop │
-│ │
-│ PROTECT YOUR ACCOUNTS │
-│ • Use strong passwords │
-│ • Don't share passwords with others │
-│ • Be careful what you click │
-│ │
-│ TAKE BREAKS │
-│ • Look away from screen every 20 minutes │
-│ • Stand up and stretch every hour │
-│ • Your eyes and body need rest │
-│ │
-│ LEARN EVERY DAY │
-│ • Make small progress daily │
-│ • It's okay to not understand at first │
-│ • Keep asking questions │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- GOOD DIGITAL HABITS
+- SAVE YOUR WORK OFTEN
+- • Press Ctrl + S frequently
+- • Don't wait until you're finished
+- • Work can be lost if power goes out or computer crashes
+- ORGANIZE YOUR FILES
+- • Create folders for different projects
+- • Give files meaningful names
+- • Don't put everything on the Desktop
+- PROTECT YOUR ACCOUNTS
+- • Use strong passwords
+- • Don't share passwords with others
+- • Be careful what you click
+- TAKE BREAKS
+- • Look away from screen every 20 minutes
+- • Stand up and stretch every hour
+- • Your eyes and body need rest
+- LEARN EVERY DAY
+- • Make small progress daily
+- • It's okay to not understand at first
+- • Keep asking questions
 
 ### The 20-20-20 Rule
 

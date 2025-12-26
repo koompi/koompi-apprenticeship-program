@@ -36,27 +36,16 @@ Before starting this level, you should have:
 
 By the end of this level, you will transform your plain HTML bio page into a beautifully styled portfolio:
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ │
-│ BEFORE (HTML Only) AFTER (HTML + CSS) │
-│ │
-│ ┌─────────────────────┐ ┌─────────────────────────────────────┐ │
-│ │ My Name │ │ ████████████████████████████████████│ │
-│ │ ───────── │ │ │ │
-│ │ • About Me │ → │ ┌─────────┐ │ │
-│ │ • Skills │ │ │ PHOTO │ MY NAME │ │
-│ │ • Contact │ │ └─────────┘ Software Dev │ │
-│ │ │ │ │ │
-│ │ Plain text... │ │ ╔═══════════════════════════════╗│ │
-│ │ │ │ ║ Beautiful, styled content ║│ │
-│ └─────────────────────┘ │ ╚═══════════════════════════════╝│ │
-│ │ │ │
-│ Plain & boring └─────────────────────────────────────┘ │
-│ Professional & impressive! │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- BEFORE (HTML Only) AFTER (HTML + CSS)
+- My Name ████████████████████████████████████
+- • About Me →
+- • Skills PHOTO MY NAME
+- • Contact Software Dev
+- Plain text... ╔ ╗
+- ║ Beautiful, styled content ║
+- ╚ ╝
+- Plain & boring
+- Professional & impressive!
 
 ---
 

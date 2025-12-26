@@ -19,26 +19,13 @@ By the end of this module, you will be able to:
 
 ### JavaScript Defined
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ THE WEB DEVELOPMENT TRIO (REVISITED) │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ HTML CSS JavaScript │
-│ ═══════ ═══════ ══════════ │
-│ │
-│ │
-│ STRUCTURE STYLE BEHAVIOR │
-│ │
-│ "What's here" "How it looks" "What it does" │
-│ │
-│ The skeleton The appearance The brains │
-│ │
-│ HTML = Nouns CSS = Adjectives JavaScript = Verbs │
-│ (Things) (Descriptions) (Actions) │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- THE WEB DEVELOPMENT TRIO (REVISITED)
+- HTML CSS JavaScript
+- STRUCTURE STYLE BEHAVIOR
+- "What's here" "How it looks" "What it does"
+- The skeleton The appearance The brains
+- HTML = Nouns CSS = Adjectives JavaScript = Verbs
+- (Things) (Descriptions) (Actions)
 
 ### What JavaScript Can Do
 

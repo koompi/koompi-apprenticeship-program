@@ -19,27 +19,14 @@ By the end of this module, you will be able to:
 
 ### API Defined
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ WHAT IS AN API? │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ API = Application Programming Interface │
-│ │
-│ Think of it as a waiter in a restaurant: │
-│ │
-│ YOU (Client) WAITER (API) KITCHEN (Server) │
-│ ════════════ ════════════ ════════════════ │
-│ │
-│ "I want pizza" ────► Takes order ────► Makes pizza │
-│ │
-│ Eats pizza ◄──── Delivers food ◄──── Prepares dish │
-│ │
-│ You don't need to know HOW the kitchen works. │
-│ The waiter handles the communication. │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- WHAT IS AN API?
+- API = Application Programming Interface
+- Think of it as a waiter in a restaurant:
+- YOU (Client) WAITER (API) KITCHEN (Server)
+- "I want pizza" ► Takes order ► Makes pizza
+- Eats pizza ◄ Delivers food ◄ Prepares dish
+- You don't need to know HOW the kitchen works.
+- The waiter handles the communication.
 
 ### Web APIs
 

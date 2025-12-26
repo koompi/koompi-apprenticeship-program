@@ -90,34 +90,14 @@ Learning English while coding gives you:
 
 ### Understanding Doc Structure
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ TYPICAL DOCUMENTATION STRUCTURE │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ TITLE The name of what you're learning │
-│ ───── │
-│ │
-│ DESCRIPTION What it does (brief explanation) │
-│ ─────────── │
-│ │
-│ SYNTAX How to write it (code format) │
-│ ────── │
-│ │
-│ PARAMETERS Options you can provide │
-│ ────────── │
-│ │
-│ RETURN VALUE What you get back │
-│ ──────────── │
-│ │
-│ EXAMPLES Working code samples │
-│ ──────── │
-│ │
-│ SEE ALSO Related topics │
-│ ──────── │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- TYPICAL DOCUMENTATION STRUCTURE
+- TITLE The name of what you're learning
+- DESCRIPTION What it does (brief explanation)
+- SYNTAX How to write it (code format)
+- PARAMETERS Options you can provide
+- RETURN VALUE What you get back
+- EXAMPLES Working code samples
+- SEE ALSO Related topics
 
 ### Example: Reading MDN
 
@@ -137,30 +117,20 @@ elementN - The element(s) to add to the end of the array.
 
 Return value:
 The new length property of the object upon which the method was called.
-```
-
-**Break it down:**
-
-1. **What**: `push()` adds elements to array
-2. **How**: `array.push(item)`
-3. **Result**: Returns new array length
-
----
-
-## Lesson 4: Understanding Error Messages
-
-### Common Error Patterns
-
-Errors follow patterns. Learn to read them:
-
-```javascript
-TypeError: Cannot read property 'name' of undefined
-│ │ │ │
-│ │ │ └── The variable is undefined
-│ │ └── Looking for 'name'
-│ └── Cannot read a property
-└── Type of error
-```
+- **Break it down:**
+- 1. **What**: `push()` adds elements to array
+- 2. **How**: `array.push(item)`
+- 3. **Result**: Returns new array length
+- ---
+- ## Lesson 4: Understanding Error Messages
+- ### Common Error Patterns
+- Errors follow patterns. Learn to read them:
+- ```javascript
+- TypeError: Cannot read property 'name' of undefined
+- The variable is undefined
+- Looking for 'name'
+- Cannot read a property
+- Type of error
 
 ### Common Error Messages
 
@@ -187,34 +157,23 @@ TypeError: Cannot read property 'name' of undefined
 
 ### How to Search Effectively
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ EFFECTIVE SEARCH STRATEGY │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ STRUCTURE: [technology] [what you want to do] │
-│ │
-│ EXAMPLES: │
-│ │
-│ GOOD SEARCHES │
-│ • "css center div horizontally" │
-│ • "javascript loop through array" │
-│ • "html form submit button" │
-│ • "react useState example" │
-│ │
-│ BAD SEARCHES │
-│ • "why doesn't my code work" │
-│ • "help with my project" │
-│ • "how to make a website" │
-│ │
-│ TIPS: │
-│ • Include the technology (CSS, JavaScript, React) │
-│ • Use specific keywords │
-│ • Add "example" for code samples │
-│ • Add "tutorial" for step-by-step │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- EFFECTIVE SEARCH STRATEGY
+- STRUCTURE: [technology] [what you want to do]
+- EXAMPLES:
+- GOOD SEARCHES
+- • "css center div horizontally"
+- • "javascript loop through array"
+- • "html form submit button"
+- • "react useState example"
+- BAD SEARCHES
+- • "why doesn't my code work"
+- • "help with my project"
+- • "how to make a website"
+- TIPS:
+- • Include the technology (CSS, JavaScript, React)
+- • Use specific keywords
+- • Add "example" for code samples
+- • Add "tutorial" for step-by-step
 
 ### Reading Stack Overflow
 

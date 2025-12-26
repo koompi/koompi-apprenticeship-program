@@ -462,41 +462,27 @@ Your project will be evaluated on:
 
 ### What Makes a Good Bio Page
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ GOOD BIO PAGE │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ • Personal yet professional │
-│ • Shows personality through content │
-│ • Includes specific details about journey │
-│ • Lists actual skills with honesty │
-│ • Has clear goals and aspirations │
-│ • Easy to navigate │
-│ • All links and images work │
-│ • Clean, readable code │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- GOOD BIO PAGE
+- • Personal yet professional
+- • Shows personality through content
+- • Includes specific details about journey
+- • Lists actual skills with honesty
+- • Has clear goals and aspirations
+- • Easy to navigate
+- • All links and images work
+- • Clean, readable code
 
 ### Common Mistakes to Avoid
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ AVOID THESE │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ • Lorem ipsum or placeholder text │
-│ • Missing alt text on images │
-│ • Broken links │
-│ • Wrong heading order (h1 → h3) │
-│ • No navigation │
-│ • Copied content from examples │
-│ • Unclear or vague descriptions │
-│ • Overly long pages with no structure │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- AVOID THESE
+- • Lorem ipsum or placeholder text
+- • Missing alt text on images
+- • Broken links
+- • Wrong heading order (h1 → h3)
+- • No navigation
+- • Copied content from examples
+- • Unclear or vague descriptions
+- • Overly long pages with no structure
 
 ---
 

@@ -27,27 +27,15 @@ By the end of this module, you will be able to:
 
 ### The Role of CSS
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ THE WEB DEVELOPMENT TRIO │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ HTML CSS JavaScript │
-│ ═══════ ═══════ ══════════ │
-│ │
-│ │
-│ Structure Style Behavior │
-│ │
-│ "What's on "How does "What does │
-│ the page?" it look?" it do?" │
-│ │
-│ Headings Colors Click events │
-│ Paragraphs Fonts Animations │
-│ Images Spacing Data loading │
-│ Links Layout Form validation │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- THE WEB DEVELOPMENT TRIO
+- HTML CSS JavaScript
+- Structure Style Behavior
+- "What's on "How does "What does
+- the page?" it look?" it do?"
+- Headings Colors Click events
+- Paragraphs Fonts Animations
+- Images Spacing Data loading
+- Links Layout Form validation
 
 ### Why Learn CSS?
 
@@ -83,16 +71,12 @@ h1 {
 
 ### Breaking It Down
 
-```
- h1 {
- │ color: blue;
- │ │ │
- │ │ └── Value (what to set it to)
- │ └── Property (what to change)
- │
- └── Selector (what to style)
-}
-```
+- h1 {
+- color: blue;
+- Value (what to set it to)
+- Property (what to change)
+- Selector (what to style)
+- }
 
 ### CSS Terminology
 

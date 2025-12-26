@@ -14,31 +14,14 @@ Capstone projects are the final requirement for each certification level. They d
 
 ### What Makes a Good Capstone?
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ CAPSTONE PROJECT CRITERIA │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ SOLVES A REAL PROBLEM │
-│ Not just a tutorial copy — solve an actual need │
-│ │
-│ DEMONSTRATES YOUR SKILLS │
-│ Uses technologies from your completed tracks │
-│ │
-│ IS COMPLETE AND POLISHED │
-│ Not a half-finished prototype │
-│ │
-│ HAS DOCUMENTATION │
-│ README with setup instructions and description │
-│ │
-│ IS YOUR OWN WORK │
-│ You built it, you can explain every part │
-│ │
-│ IS PRESENTABLE │
-│ Ready to show to employers or clients │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+**Capstone Project Criteria:**
+
+1. **Solves a Real Problem** - Not just a tutorial copy; solve an actual need
+2. **Demonstrates Your Skills** - Uses technologies from completed tracks
+3. **Complete and Polished** - Not a half-finished prototype
+4. **Has Documentation** - README with setup instructions
+5. **Your Own Work** - You built it, you can explain every part
+6. **Presentable** - Ready to show employers or clients
 
 ---
 
@@ -76,21 +59,21 @@ Capstone projects are the final requirement for each certification level. They d
 
 ```
 Pages Required:
-├── index.html (Home - welcome, featured dishes)
-├── menu.html (Full menu with prices)
-├── about.html (Story, location, hours)
-├── contact.html (Contact form, map embed)
+├── index.html     (Home - welcome, featured dishes)
+├── menu.html      (Full menu with prices)
+├── about.html     (Story, location, hours)
+├── contact.html   (Contact form, map embed)
 └── css/
- └── style.css (All styling)
+    └── style.css  (All styling)
 
 Features:
-• Responsive navigation
-• Hero section with background image
-• Menu with categories
-• Google Maps embed
-• Contact form
-• Footer with social links
-• Works on mobile and desktop
+- Responsive navigation
+- Hero section with background image
+- Menu with categories
+- Google Maps embed
+- Contact form
+- Footer with social links
+- Works on mobile and desktop
 ```
 
 ---
@@ -122,20 +105,20 @@ Features:
 
 ```
 Features Required:
-• Add new tasks
-• Mark tasks complete/incomplete
-• Delete tasks
-• Filter (All / Active / Completed)
-• Save to localStorage
-• Responsive design
-• Smooth animations
+- Add new tasks
+- Mark tasks complete/incomplete
+- Delete tasks
+- Filter (All / Active / Completed)
+- Save to localStorage
+- Responsive design
+- Smooth animations
 
 Code Structure:
 ├── index.html
 ├── css/
-│ └── style.css
+│   └── style.css
 └── js/
- └── app.js
+    └── app.js
 ```
 
 ---
@@ -168,21 +151,21 @@ Code Structure:
 
 ```
 Features Required:
-• Product listing with categories
-• Product detail pages
-• Shopping cart functionality
-• Add/remove from cart
-• Checkout form
-• Order confirmation
-• Responsive design
-• Search/filter products
+- Product listing with categories
+- Product detail pages
+- Shopping cart functionality
+- Add/remove from cart
+- Checkout form
+- Order confirmation
+- Responsive design
+- Search/filter products
 
 Technology:
-• React (functional components)
-• React Router for navigation
-• Context API or Redux for state
-• Styled components or CSS modules
-• Mock API (json-server or similar)
+- React (functional components)
+- React Router for navigation
+- Context API or Redux for state
+- Styled components or CSS modules
+- Mock API (json-server or similar)
 ```
 
 ---
@@ -281,32 +264,13 @@ Submit:
 
 ### Step 5: Evaluation
 
-```
-EVALUATION CRITERIA:
+**Evaluation Criteria:**
 
-Technical Implementation (40%)
-• Functionality works correctly
-• Code quality and organization
-• Appropriate use of technologies
-
-Design & User Experience (20%)
-• Visual design
-• Usability
-• Responsive/accessible
-
-Completeness (20%)
-• All features working
-• Documentation complete
-• Deployed (if applicable)
-
-Problem Solving (10%)
-• Addresses a real need
-• Creative solutions
-
-Presentation (10%)
-• Clear explanation
-• Answers questions well
-```
+- **Technical Implementation (40%)** - Functionality, code quality, appropriate tech use
+- **Design & User Experience (20%)** - Visual design, usability, responsiveness
+- **Completeness (20%)** - All features working, documentation complete, deployed
+- **Problem Solving (10%)** - Addresses real need, creative solutions
+- **Presentation (10%)** - Clear explanation, answers questions well
 
 ---
 
@@ -353,24 +317,24 @@ Presentation (10%)
 
 ## Tips for Success
 
-### Do's
+**Do:**
 
- Start with a clear plan
- Build incrementally (MVP first)
- Commit frequently to Git
- Ask for help when stuck
- Test on multiple devices
- Get user feedback
- Document as you go
+- Start with a clear plan
+- Build incrementally (MVP first)
+- Commit frequently to Git
+- Ask for help when stuck
+- Test on multiple devices
+- Get user feedback
+- Document as you go
 
-### Don'ts
+**Don't:**
 
- Overscope your project
- Wait until the last minute
- Skip documentation
- Copy code without understanding
- Ignore responsive design
- Submit unfinished work
+- Overscope your project
+- Wait until the last minute
+- Skip documentation
+- Copy code without understanding
+- Ignore responsive design
+- Submit unfinished work
 
 ---
 
@@ -388,12 +352,10 @@ Presentation (10%)
 
 <div align="center">
 
-**Your capstone is your proof.** 
+**Your capstone is your proof.**
 
 *It shows the world what you can do.*
 
 *Make it something you're proud of.*
-
-
 
 </div>

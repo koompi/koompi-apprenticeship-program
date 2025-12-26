@@ -22,32 +22,12 @@ By the end of this module, you will be able to:
 
 In CSS, every element is a rectangular box. The box model describes how space is calculated.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ THE CSS BOX MODEL │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ ┌─────────────────────────────────────────────────────────────────────┐ │
-│ │ MARGIN │ │
-│ │ ┌─────────────────────────────────────────────────────────────┐ │ │
-│ │ │ BORDER │ │ │
-│ │ │ ┌─────────────────────────────────────────────────────┐ │ │ │
-│ │ │ │ PADDING │ │ │ │
-│ │ │ │ ┌─────────────────────────────────────────────┐ │ │ │ │
-│ │ │ │ │ │ │ │ │ │
-│ │ │ │ │ CONTENT │ │ │ │ │
-│ │ │ │ │ (text, images, etc.) │ │ │ │ │
-│ │ │ │ │ │ │ │ │ │
-│ │ │ │ └─────────────────────────────────────────────┘ │ │ │ │
-│ │ │ │ │ │ │ │
-│ │ │ └─────────────────────────────────────────────────────┘ │ │ │
-│ │ │ │ │ │
-│ │ └─────────────────────────────────────────────────────────────┘ │ │
-│ │ │ │
-│ └─────────────────────────────────────────────────────────────────────┘ │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- THE CSS BOX MODEL
+- MARGIN
+- BORDER
+- PADDING
+- CONTENT
+- (text, images, etc.)
 
 ### Box Model Components
 
@@ -205,19 +185,15 @@ border: [width] [style] [color];
 border: 1px solid #333;
 border: 2px dashed blue;
 border: 3px dotted red;
-```
-
-### Border Styles
-
-```css
-border-style: solid; /* ────────── */
-border-style: dashed; /* - - - - - */
-border-style: dotted; /* .......... */
-border-style: double; /* ══════════ */
-border-style: groove; /* 3D groove */
-border-style: ridge; /* 3D ridge */
-border-style: none; /* No border */
-```
+- ### Border Styles
+- ```css
+- border-style: solid; /* */
+- border-style: dashed; /* - - - - - */
+- border-style: dotted; /* .......... */
+- border-style: double; /* */
+- border-style: groove; /* 3D groove */
+- border-style: ridge; /* 3D ridge */
+- border-style: none; /* No border */
 
 ### Individual Border Sides
 
@@ -385,30 +361,16 @@ By default, width and height only apply to content. Padding and border add to to
 
 ### Visual Comparison
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ BOX-SIZING COMPARISON │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ content-box (default) border-box (recommended) │
-│ ═══════════════════════ ════════════════════════ │
-│ │
-│ width: 200px width: 200px │
-│ padding: 20px padding: 20px │
-│ border: 5px border: 5px │
-│ │
-│ ┌──────────────────────────────┐ ┌────────────────────┐ │
-│ │ 250px total │ │ 200px total │ │
-│ │ ┌──────────────────────┐ │ │ ┌──────────────┐ │ │
-│ │ │ 200px content │ │ │ │ content │ │ │
-│ │ └──────────────────────┘ │ │ │ (smaller) │ │ │
-│ └──────────────────────────────┘ │ └──────────────┘ │ │
-│ └────────────────────┘ │
-│ Total width = content + padding + border │
-│ Total width = width (includes padding + border) │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- BOX-SIZING COMPARISON
+- content-box (default) border-box (recommended)
+- width: 200px width: 200px
+- padding: 20px padding: 20px
+- border: 5px border: 5px
+- 250px total 200px total
+- 200px content content
+- (smaller)
+- Total width = content + padding + border
+- Total width = width (includes padding + border)
 
 ---
 

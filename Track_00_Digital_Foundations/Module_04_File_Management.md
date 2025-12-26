@@ -163,28 +163,22 @@ project-name/
 
 Set up your home directory for success:
 
-```
-/home/student/
-│
-├── Documents/ ← General documents
-│ ├── notes/ ← Learning notes
-│ ├── certificates/ ← Earned certificates
-│ └── resources/ ← Downloaded resources
-│
-├── projects/ ← ALL coding projects go here
-│ ├── learning/ ← Practice projects
-│ │ ├── html-practice/
-│ │ ├── css-exercises/
-│ │ └── js-basics/
-│ ├── portfolio/ ← Your personal portfolio
-│ └── client-work/ ← Real projects (later)
-│
-├── Downloads/ ← Temporary downloads
-│ ← Clean this regularly!
-│
-└── Desktop/ ← Keep almost empty!
- └── (only shortcuts)
-```
+- /home/student/
+- Documents/ ← General documents
+- notes/ ← Learning notes
+- certificates/ ← Earned certificates
+- resources/ ← Downloaded resources
+- projects/ ← ALL coding projects go here
+- learning/ ← Practice projects
+- html-practice/
+- css-exercises/
+- js-basics/
+- portfolio/ ← Your personal portfolio
+- client-work/ ← Real projects (later)
+- Downloads/ ← Temporary downloads
+- ← Clean this regularly!
+- Desktop/ ← Keep almost empty!
+- (only shortcuts)
 
 ### Setting Up Your Workspace
 
@@ -212,36 +206,22 @@ ls -la projects/
 
 ### Daily Habits
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ DAILY FILE MANAGEMENT HABITS │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ START OF DAY │
-│ ─────────────── │
-│ • Open terminal, check your projects folder │
-│ • Know what you're working on today │
-│ │
-│ DURING WORK │
-│ ───────────── │
-│ • Save files frequently (Ctrl+S) │
-│ • Keep files in the right folders │
-│ • Name files clearly immediately │
-│ │
-│ END OF DAY │
-│ ─────────── │
-│ • Clean up Downloads folder │
-│ • Delete temporary/test files │
-│ • Make sure work is saved │
-│ │
-│ WEEKLY │
-│ ──────── │
-│ • Clear trash │
-│ • Review and organize Desktop │
-│ • Back up important work │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- DAILY FILE MANAGEMENT HABITS
+- START OF DAY
+- • Open terminal, check your projects folder
+- • Know what you're working on today
+- DURING WORK
+- • Save files frequently (Ctrl+S)
+- • Keep files in the right folders
+- • Name files clearly immediately
+- END OF DAY
+- • Clean up Downloads folder
+- • Delete temporary/test files
+- • Make sure work is saved
+- WEEKLY
+- • Clear trash
+- • Review and organize Desktop
+- • Back up important work
 
 ### The Downloads Folder Problem
 

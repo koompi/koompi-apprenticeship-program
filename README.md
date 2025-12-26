@@ -10,7 +10,7 @@
 
 *From Zero to Software Engineer*
 
- Empowering Cambodian Youth Through Technology Education 
+ Empowering Cambodian Youth Through Technology Education
 
 </div>
 
@@ -44,38 +44,38 @@ To develop Cambodia's human capital by providing world-class technology educatio
 Our curriculum is organized into **Tracks** that can be followed based on your current skill level:
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ YOUR JOURNEY TO SUCCESS │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ START ┌──────────────────────┐ │
-│ HERE ───▶ │ TRACK 00: FOUNDATION │ Computer, Typing, Linux, Terminal │
-│ (Beginners) └──────────┬───────────┘ │
-│ │ │
-│ ▼ │
-│ ┌──────────────────────┐ │
-│ │ TRACK 01: ENGLISH │ Tech English, Communication │
-│ └──────────┬───────────┘ │
-│ │ (Runs parallel with all tracks) │
-│ ▼ │
-│ START ┌──────────────────────┐ │
-│ HERE ───▶ │ TRACK 02: WEB DEV │ HTML → CSS → JS → React → Next.js │
-│ (Some exp) └──────────┬───────────┘ │
-│ │ │
-│ ▼ │
-│ ┌──────────────────────┐ │
-│ │ TRACK 03: BUSINESS │ Customer Service, Entrepreneurship │
-│ └──────────┬───────────┘ │
-│ │ │
-│ ▼ │
-│ ┌──────────────────────┐ │
-│ │ CAPSTONE PROJECT │ Real-world project demonstration │
-│ └──────────┬───────────┘ │
-│ │ │
-│ ▼ │
-│ KOOMPI GRADUATE — SOFTWARE ENGINEER & ENTREPRENEUR │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
+YOUR JOURNEY TO SUCCESS
+========================
+
+START HERE (Beginners)
+        |
+        v
++------------------------+
+| TRACK 00: FOUNDATION   | --> Computer, Typing, Linux, Terminal
++------------------------+
+        |
+        v
++------------------------+
+| TRACK 01: ENGLISH      | --> Tech English, Communication
++------------------------+     (Runs parallel with all tracks)
+        |
+        v
++------------------------+
+| TRACK 02: WEB DEV      | --> HTML > CSS > JS > React > Next.js
++------------------------+     (Start here if you have experience)
+        |
+        v
++------------------------+
+| TRACK 03: BUSINESS     | --> Customer Service, Entrepreneurship
++------------------------+
+        |
+        v
++------------------------+
+| CAPSTONE PROJECT       | --> Real-world project demonstration
++------------------------+
+        |
+        v
+   KOOMPI GRADUATE
 ```
 
 ---
@@ -169,34 +169,20 @@ As you progress, you'll earn certifications recognizing your achievements:
 
 ## The KOOMPI Apprentice Values
 
-```
-┌─────────────────────────────────────────────────────────┐
-│ │
-│ CURIOSITY — Always ask "why?" and "how?" │
-│ │
-│ PERSISTENCE — Keep going when it's hard │
-│ │
-│ COLLABORATION — Learn together, grow together │
-│ │
-│ OWNERSHIP — Take responsibility for learning │
-│ │
-│ GROWTH MINDSET — Mistakes are learning moments │
-│ │
-│ PRIDE — Building Cambodia's future │
-│ │
-└─────────────────────────────────────────────────────────┘
-```
+- **Curiosity** — Always ask "why?" and "how?"
+- **Persistence** — Keep going when it's hard
+- **Collaboration** — Learn together, grow together
+- **Ownership** — Take responsibility for learning
+- **Growth Mindset** — Mistakes are learning moments
+- **Pride** — Building Cambodia's future
 
 ---
 
 ## Repository Structure
 
 ```
- KOOMPI-Apprenticeship-Curriculum/
-├── README.md ← You are here
-├── LEARNING_PATHWAY.md ← Detailed roadmap
-├── ASSESSMENT_GUIDE.md ← Certification requirements
-│
+koompi-apprenticeship-program/
+├── README.md
 ├── Track_00_Digital_Foundations/
 ├── Track_01_English_Communication/
 ├── Track_02_Web_Development/
@@ -224,7 +210,7 @@ As you progress, you'll earn certifications recognizing your achievements:
 
 <div align="center">
 
-**Made with by KOOMPI**
+**Made by KOOMPI**
 
 *Empowering Cambodian Youth Since Day One*
 

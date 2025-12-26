@@ -66,15 +66,9 @@ Use tables for **tabular data** — information that naturally fits in rows and 
 
 ### How It Looks
 
-```
-┌────────────┬────────┬────────────┐
-│ Name │ Age │ Country │ ← Header row (<th>)
-├────────────┼────────┼────────────┤
-│ Sokha │ 22 │ Cambodia │ ← Data row (<td>)
-├────────────┼────────┼────────────┤
-│ Dara │ 25 │ Cambodia │ ← Data row (<td>)
-└────────────┴────────┴────────────┘
-```
+- Name Age Country ← Header row (<th>)
+- Sokha 22 Cambodia ← Data row (<td>)
+- Dara 25 Cambodia ← Data row (<td>)
 
 ---
 
@@ -148,15 +142,9 @@ Use `colspan` to make a cell span multiple columns:
 </table>
 ```
 
-```
-┌─────────────────────────────────┐
-│ Contact Information │ ← spans 2 columns
-├───────────────┬─────────────────┤
-│ Email │ info@koompi.com │
-├───────────────┼─────────────────┤
-│ Phone │ +855 12 345 678 │
-└───────────────┴─────────────────┘
-```
+- Contact Information ← spans 2 columns
+- Email info@koompi.com
+- Phone +855 12 345 678
 
 ### Row Spanning
 
@@ -185,17 +173,12 @@ Use `rowspan` to make a cell span multiple rows:
 </table>
 ```
 
-```
-┌──────────────┬────────────┬────────┐
-│ │ Rent │ $500 │
-│ Housing ├────────────┼────────┤
-│ │ Utilities │ $100 │
-├──────────────┼────────────┼────────┤
-│ │ Gas │ $80 │
-│ Transport ├────────────┼────────┤
-│ │ Insurance │ $50 │
-└──────────────┴────────────┴────────┘
-```
+- Rent $500
+- Housing
+- Utilities $100
+- Gas $80
+- Transport
+- Insurance $50
 
 ---
 

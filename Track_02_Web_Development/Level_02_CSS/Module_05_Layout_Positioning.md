@@ -22,30 +22,18 @@ By the end of this module, you will be able to:
 
 Every element has a default display value:
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ BLOCK vs INLINE │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ BLOCK ELEMENTS INLINE ELEMENTS │
-│ ═══════════════ ═════════════════ │
-│ │
-│ ┌────────────────────────────────┐ text ┌───┐ more ┌────┐ text │
-│ │ Takes full width │ │box│ │ box│ │
-│ └────────────────────────────────┘ └───┘ └────┘ │
-│ ┌────────────────────────────────┐ │
-│ │ Stacks vertically │ • Flows with text │
-│ └────────────────────────────────┘ • Only as wide as content │
-│ • Can't set width/height │
-│ • Full width available │
-│ • Stacks below previous │
-│ • Can set width/height │
-│ │
-│ Examples: Examples: │
-│ div, p, h1-h6, section span, a, strong, em, img │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- BLOCK vs INLINE
+- BLOCK ELEMENTS INLINE ELEMENTS
+- text more text
+- Takes full width box box
+- Stacks vertically • Flows with text
+- • Only as wide as content
+- • Can't set width/height
+- • Full width available
+- • Stacks below previous
+- • Can set width/height
+- Examples: Examples:
+- div, p, h1-h6, section span, a, strong, em, img
 
 ### Display Values
 

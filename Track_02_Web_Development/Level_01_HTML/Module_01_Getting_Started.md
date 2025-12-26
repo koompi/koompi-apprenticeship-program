@@ -21,24 +21,13 @@ By the end of this module, you will be able to:
 
 The **Internet** is a global network of interconnected computers that allows users to share information and communicate. Think of it as millions of computers talking to each other.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ HOW THE INTERNET WORKS │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ │
-│ Your Computer Website Server │
-│ (CLIENT) (SERVER) │
-│ │
-│ ─────── "I want google.com" ───────▶ │
-│ ◀────── sends google.com page ────── │
-│ │
-│ │
-│ The CLIENT asks for information │
-│ The SERVER sends the information │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- HOW THE INTERNET WORKS
+- Your Computer Website Server
+- (CLIENT) (SERVER)
+- "I want google.com"
+- sends google.com page
+- The CLIENT asks for information
+- The SERVER sends the information
 
 ### Key Concepts
 
@@ -83,22 +72,12 @@ When you visit a website, your browser:
 - **Markup**: A way to annotate text for structure
 - **Language**: A set of rules computers understand
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ HTML IS LIKE A SKELETON │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ HTML + CSS + JavaScript = WEBSITE │
-│ (Structure) (Appearance) (Behavior) (Complete) │
-│ │
-│ │
-│ Skeleton Skin/Clothes Movement Living Being │
-│ │
-│ Defines what Makes it look Makes it The final │
-│ content exists beautiful interactive result │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- HTML IS LIKE A SKELETON
+- HTML + CSS + JavaScript = WEBSITE
+- (Structure) (Appearance) (Behavior) (Complete)
+- Skeleton Skin/Clothes Movement Living Being
+- Defines what Makes it look Makes it The final
+- content exists beautiful interactive result
 
 ### HTML Tags
 
@@ -106,17 +85,12 @@ HTML uses **tags** to define content. Tags are keywords inside angle brackets.
 
 ```html
 <tagname>Content goes here</tagname>
-```
-
-**Parts of an Element:**
-
-```html
-<p>This is a paragraph.</p>
-│ │ │
-│ │ └── Closing Tag
-│ └── Content
-└── Opening Tag
-```
+- **Parts of an Element:**
+- ```html
+- <p>This is a paragraph.</p>
+- Closing Tag
+- Content
+- Opening Tag
 
 | Part | Description | Example |
 |------|-------------|---------|
@@ -328,30 +302,18 @@ Or: Right-click anywhere on page → "Inspect"
 
 ### DevTools Panels
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ DEVELOPER TOOLS PANELS │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ ELEMENTS PANEL (or "Inspector" in Firefox) │
-│ ───────────────────────────────────────── │
-│ • See all HTML elements │
-│ • Click to select elements on page │
-│ • Edit HTML temporarily │
-│ • Most important for HTML learning! │
-│ │
-│ CONSOLE PANEL │
-│ ───────────── │
-│ • Shows errors (very useful!) │
-│ • Run JavaScript (later) │
-│ │
-│ NETWORK PANEL │
-│ ───────────── │
-│ • See all files being loaded │
-│ • Loading times │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- DEVELOPER TOOLS PANELS
+- ELEMENTS PANEL (or "Inspector" in Firefox)
+- • See all HTML elements
+- • Click to select elements on page
+- • Edit HTML temporarily
+- • Most important for HTML learning!
+- CONSOLE PANEL
+- • Shows errors (very useful!)
+- • Run JavaScript (later)
+- NETWORK PANEL
+- • See all files being loaded
+- • Loading times
 
 ### Practice: Inspect Your Page
 
@@ -400,18 +362,13 @@ Or: Right-click anywhere on page → "Inspect"
 │ Example: <img>, <br>, <hr> │
 │ │
 └─────────────────────────────────────────────────────────────────────────────┘
-```
-
-### Example with All Parts
-
-```html
-<a href="https://koompi.com" target="_blank">Visit KOOMPI</a>
- │ │ │ │
- │ │ │ └── Content
- │ │ └── Second Attribute
- │ └── First Attribute Value
- └── Tag Name
-```
+- ### Example with All Parts
+- ```html
+- <a href="https://koompi.com" target="_blank">Visit KOOMPI</a>
+- Content
+- Second Attribute
+- First Attribute Value
+- Tag Name
 
 - **Element**: The entire line
 - **Tag**: `<a>` (opening) and `</a>` (closing)

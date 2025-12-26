@@ -21,31 +21,20 @@ By the end of this module, you will be able to:
 
 Every learner has these fears. They are normal!
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ COMMON SPEAKING FEARS │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ "What if I make mistakes?" │
-│ → EVERYONE makes mistakes. Even native speakers. │
-│ → Mistakes help you learn. │
-│ │
-│ "What if people don't understand me?" │
-│ → Speak slowly. It's better than speaking fast and unclear. │
-│ → Ask "Did that make sense?" │
-│ │
-│ "What if I forget words?" │
-│ → Describe the word: "the thing that you use to..." │
-│ → Ask: "How do you say...?" - It's okay! │
-│ │
-│ "My accent isn't good enough" │
-│ → Your accent is fine. Clarity matters more than accent. │
-│ → Many successful tech people have accents. │
-│ │
-│ REMEMBER: The goal is communication, not perfection! │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- COMMON SPEAKING FEARS
+- "What if I make mistakes?"
+- → EVERYONE makes mistakes. Even native speakers.
+- → Mistakes help you learn.
+- "What if people don't understand me?"
+- → Speak slowly. It's better than speaking fast and unclear.
+- → Ask "Did that make sense?"
+- "What if I forget words?"
+- → Describe the word: "the thing that you use to..."
+- → Ask: "How do you say...?" - It's okay!
+- "My accent isn't good enough"
+- → Your accent is fine. Clarity matters more than accent.
+- → Many successful tech people have accents.
+- REMEMBER: The goal is communication, not perfection!
 
 ### Building Confidence
 
@@ -149,37 +138,26 @@ uses flexbox. The nav is the parent, the links are children."
 
 ### Project Demo Structure
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ PROJECT PRESENTATION STRUCTURE │
-│ (5-10 minutes) │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ 1. INTRODUCTION (30 seconds) │
-│ • Your name │
-│ • Project name │
-│ • One sentence about what it does │
-│ │
-│ 2. PROBLEM/GOAL (1 minute) │
-│ • What problem does it solve? │
-│ • Who is it for? │
-│ │
-│ 3. DEMO (3-5 minutes) │
-│ • Show the project working │
-│ • Walk through key features │
-│ • Keep it simple │
-│ │
-│ 4. TECHNICAL HIGHLIGHTS (2 minutes) │
-│ • Technologies used │
-│ • One interesting challenge you solved │
-│ │
-│ 5. CONCLUSION (30 seconds) │
-│ • Summary │
-│ • Thank audience │
-│ • Ask for questions │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- PROJECT PRESENTATION STRUCTURE
+- (5-10 minutes)
+- 1. INTRODUCTION (30 seconds)
+- • Your name
+- • Project name
+- • One sentence about what it does
+- 2. PROBLEM/GOAL (1 minute)
+- • What problem does it solve?
+- • Who is it for?
+- 3. DEMO (3-5 minutes)
+- • Show the project working
+- • Walk through key features
+- • Keep it simple
+- 4. TECHNICAL HIGHLIGHTS (2 minutes)
+- • Technologies used
+- • One interesting challenge you solved
+- 5. CONCLUSION (30 seconds)
+- • Summary
+- • Thank audience
+- • Ask for questions
 
 ### Presentation Phrases
 

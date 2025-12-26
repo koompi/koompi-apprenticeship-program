@@ -19,29 +19,17 @@ By the end of this module, you will be able to:
 
 ### Where Do You Want to Be?
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ THINKING ABOUT YOUR FUTURE │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ NOW 1 YEAR 5 YEARS │
-│ ═══ ══════ ═══════ │
-│ │
-│ KOOMPI Apprentice Junior Developer Senior Developer │
-│ Learning basics Contributing to Leading projects │
-│ Building portfolio real projects Mentoring others │
-│ Earning income Building products │
-│ │
-│ OR: │
-│ Freelance Developer → Own Business → Tech Company Founder │
-│ │
-│ OR: │
-│ Web Developer → Full-Stack Engineer → Tech Lead/Architect │
-│ │
-│ THERE ARE MANY PATHS - WHAT'S YOURS? │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- THINKING ABOUT YOUR FUTURE
+- NOW 1 YEAR 5 YEARS
+- KOOMPI Apprentice Junior Developer Senior Developer
+- Learning basics Contributing to Leading projects
+- Building portfolio real projects Mentoring others
+- Earning income Building products
+- OR:
+- Freelance Developer → Own Business → Tech Company Founder
+- OR:
+- Web Developer → Full-Stack Engineer → Tech Lead/Architect
+- THERE ARE MANY PATHS - WHAT'S YOURS?
 
 ### Goal-Setting Framework
 
@@ -171,25 +159,16 @@ Your portfolio website is a project itself. It shows:
 
 ### The Learning Never Stops
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ TECHNOLOGY CHANGES FAST │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ What's popular today may change in 2-3 years. │
-│ But LEARNING skills never go out of date. │
-│ │
-│ LEARN HOW TO LEARN: │
-│ • Find resources quickly │
-│ • Understand documentation │
-│ • Build projects to practice │
-│ • Stay curious │
-│ • Adapt to change │
-│ │
-│ You can learn any technology if you know HOW to learn │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- TECHNOLOGY CHANGES FAST
+- What's popular today may change in 2-3 years.
+- But LEARNING skills never go out of date.
+- LEARN HOW TO LEARN:
+- • Find resources quickly
+- • Understand documentation
+- • Build projects to practice
+- • Stay curious
+- • Adapt to change
+- You can learn any technology if you know HOW to learn
 
 ### Build Learning Habits
 

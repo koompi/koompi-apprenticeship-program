@@ -19,25 +19,16 @@ By the end of this module, you will be able to:
 
 ### Side Effects Explained
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ SIDE EFFECTS │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ Anything that affects something outside the component: │
-│ │
-│ • Fetching data from an API │
-│ • Updating the document title │
-│ • Setting up subscriptions │
-│ • Manually changing the DOM │
-│ • Setting timers │
-│ • Logging │
-│ • Saving to localStorage │
-│ │
-│ These are NOT pure rendering → they need useEffect │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- SIDE EFFECTS
+- Anything that affects something outside the component:
+- • Fetching data from an API
+- • Updating the document title
+- • Setting up subscriptions
+- • Manually changing the DOM
+- • Setting timers
+- • Logging
+- • Saving to localStorage
+- These are NOT pure rendering → they need useEffect
 
 ---
 

@@ -175,13 +175,11 @@ git reset --hard abc123
 
 Branches let you work on features without affecting main code:
 
-```
- ┌─ [feature-login]
- │ → Add login page
-main: ──●──●──●──●──┤
- │ → Continue main work
- └── [main]
-```
+- [feature-login]
+- → Add login page
+- main: ● ● ● ●
+- → Continue main work
+- [main]
 
 ### Creating Branches
 

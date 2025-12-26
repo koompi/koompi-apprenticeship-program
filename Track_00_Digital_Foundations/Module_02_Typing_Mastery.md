@@ -21,24 +21,15 @@ By the end of this module, you will be able to:
 
 As a future software engineer, you will spend **thousands of hours** typing. Every minute you save per hour adds up to hundreds of hours saved over your career.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ THE MATH OF TYPING SPEED │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ Slow Typer (15 WPM) vs. Fast Typer (60 WPM) │
-│ │
-│ To write 1000 words: │
-│ Slow: 67 minutes Fast: 17 minutes │
-│ Difference: 50 minutes saved! │
-│ │
-│ If you write 1000 words daily for a year: │
-│ Slow typer: 407 hours │
-│ Fast typer: 102 hours │
-│ TIME SAVED: 305 hours = 12+ full days! │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- THE MATH OF TYPING SPEED
+- Slow Typer (15 WPM) vs. Fast Typer (60 WPM)
+- To write 1000 words:
+- Slow: 67 minutes Fast: 17 minutes
+- Difference: 50 minutes saved!
+- If you write 1000 words daily for a year:
+- Slow typer: 407 hours
+- Fast typer: 102 hours
+- TIME SAVED: 305 hours = 12+ full days!
 
 ### Beyond Speed: Accuracy
 
@@ -56,48 +47,27 @@ Speed without accuracy is useless. If you make many mistakes, you spend time fix
 
 The **home row** is where your fingers rest:
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ KEYBOARD HOME ROW │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬──────────┐ │
-│ │ ` │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ = │ Backspace│ │
-│ ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬────────┤ │
-│ │ Tab │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │ [ │ ] │ \ │ │
-│ ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴────────┤ │
-│ │ Caps │ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │ ' │ Enter │ │
-│ ├──────┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴───────────┤ │
-│ │ Shift │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │ Shift │ │
-│ ├────┬───┴┬──┴─┬─┴───┴───┴───┴───┴───┴──┬┴───┼───┴┬──────┬─────┤ │
-│ │Ctrl│Alt │Win │ Space Bar │Alt │ Fn │ Ctrl │Arrow│ │
-│ └────┴────┴────┴────────────────────────┴────┴────┴──────┴─────┘ │
-│ │
-│ HOME ROW KEYS (where fingers rest): │
-│ │
-│ Left Hand: A S D F Right Hand: J K L ; │
-│ (pinky)(ring)(mid)(index) (index)(mid)(ring)(pinky) │
-│ │
-│ The F and J keys have small bumps — feel them without looking! │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- KEYBOARD HOME ROW
+- ` 1 2 3 4 5 6 7 8 9 0 - = Backspace
+- Tab Q W E R T Y U I O P [ ] \
+- Caps A S D F G H J K L ; ' Enter
+- Shift Z X C V B N M , . / Shift
+- Ctrl Alt Win Space Bar Alt Fn Ctrl Arrow
+- HOME ROW KEYS (where fingers rest):
+- Left Hand: A S D F Right Hand: J K L ;
+- (pinky)(ring)(mid)(index) (index)(mid)(ring)(pinky)
+- The F and J keys have small bumps — feel them without looking!
 
 ### Finger Assignment
 
 Each finger is responsible for specific keys:
 
-```
-LEFT HAND RIGHT HAND
-═════════ ══════════
-
-Pinky: A, Q, Z, 1, ` Pinky: ;, ', P, [, ], /, 0, -, =
-Ring: S, W, X, 2 Ring: L, O, ., 9
-Middle: D, E, C, 3 Middle: K, I, ,, 8
-Index: F, G, R, T, V, B, 4, 5 Index: J, H, U, Y, M, N, 6, 7
-
-THUMBS: Both thumbs share the Space Bar
-```
+- LEFT HAND RIGHT HAND
+- Pinky: A, Q, Z, 1, ` Pinky: ;, ', P, [, ], /, 0, -, =
+- Ring: S, W, X, 2 Ring: L, O, ., 9
+- Middle: D, E, C, 3 Middle: K, I, ,, 8
+- Index: F, G, R, T, V, B, 4, 5 Index: J, H, U, Y, M, N, 6, 7
+- THUMBS: Both thumbs share the Space Bar
 
 ### Why This Matters
 
@@ -249,30 +219,20 @@ Your KOOMPI computer can type in both English and Khmer. You'll need to switch b
 
 The Khmer keyboard follows a specific layout. Practice is essential!
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ KHMER TYPING TIPS │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ 1. PRACTICE COMMON WORDS FIRST │
-│ • ខ្មែរ (Khmer) │
-│ • កម្ពុជា (Cambodia) │
-│ • សួស្តី (Hello) │
-│ │
-│ 2. LEARN VOWEL COMBINATIONS │
-│ • Khmer has many vowel diacritics │
-│ • Practice combining consonants with vowels │
-│ │
-│ 3. PRACTICE SPECIAL CHARACTERS │
-│ • Subscript consonants │
-│ • Dependent vowels │
-│ │
-│ 4. USE FOR CUSTOMER COMMUNICATION │
-│ • You'll type in Khmer when helping Cambodian customers │
-│ • Practice professional phrases │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- KHMER TYPING TIPS
+- 1. PRACTICE COMMON WORDS FIRST
+- • ខ្មែរ (Khmer)
+- • កម្ពុជា (Cambodia)
+- • សួស្តី (Hello)
+- 2. LEARN VOWEL COMBINATIONS
+- • Khmer has many vowel diacritics
+- • Practice combining consonants with vowels
+- 3. PRACTICE SPECIAL CHARACTERS
+- • Subscript consonants
+- • Dependent vowels
+- 4. USE FOR CUSTOMER COMMUNICATION
+- • You'll type in Khmer when helping Cambodian customers
+- • Practice professional phrases
 
 ### When to Use Each Language
 
@@ -290,30 +250,18 @@ The Khmer keyboard follows a specific layout. Practice is essential!
 
 ### Recommended Practice Schedule
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ DAILY TYPING PRACTICE │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ MORNING (15-20 minutes) │
-│ ────────────────────── │
-│ • 5 min: Warm-up with home row │
-│ • 10 min: Practice new lessons or weak keys │
-│ • 5 min: Speed test │
-│ │
-│ THROUGHOUT THE DAY │
-│ ────────────────── │
-│ • Practice while doing real work │
-│ • Don't look at keyboard when typing │
-│ • Slow down to be accurate │
-│ │
-│ EVENING (10 minutes) │
-│ ─────────────────── │
-│ • 5 min: Programming symbols practice │
-│ • 5 min: Speed test to track progress │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- DAILY TYPING PRACTICE
+- MORNING (15-20 minutes)
+- • 5 min: Warm-up with home row
+- • 10 min: Practice new lessons or weak keys
+- • 5 min: Speed test
+- THROUGHOUT THE DAY
+- • Practice while doing real work
+- • Don't look at keyboard when typing
+- • Slow down to be accurate
+- EVENING (10 minutes)
+- • 5 min: Programming symbols practice
+- • 5 min: Speed test to track progress
 
 ### Online Typing Practice Resources
 
@@ -399,27 +347,16 @@ Switch to Khmer keyboard and type:
 
 **Commit to this challenge:**
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│ │
-│ 30-DAY TYPING CHALLENGE │
-│ │
-│ Day 1-7: Home row only, 20 min/day │
-│ Goal: Type home row without looking │
-│ │
-│ Day 8-14: Add top row, 25 min/day │
-│ Goal: 15+ WPM │
-│ │
-│ Day 15-21: All rows + symbols, 25 min/day │
-│ Goal: 25+ WPM │
-│ │
-│ Day 22-30: Speed building + code typing, 30 min/day │
-│ Goal: 30+ WPM with 95% accuracy │
-│ │
-│ Track your progress daily! │
-│ │
-└─────────────────────────────────────────────────────────────────┘
-```
+- 30-DAY TYPING CHALLENGE
+- Day 1-7: Home row only, 20 min/day
+- Goal: Type home row without looking
+- Day 8-14: Add top row, 25 min/day
+- Goal: 15+ WPM
+- Day 15-21: All rows + symbols, 25 min/day
+- Goal: 25+ WPM
+- Day 22-30: Speed building + code typing, 30 min/day
+- Goal: 30+ WPM with 95% accuracy
+- Track your progress daily!
 
 ---
 

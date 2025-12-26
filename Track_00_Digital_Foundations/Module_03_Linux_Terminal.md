@@ -21,22 +21,15 @@ By the end of this module, you will be able to:
 
 The **terminal** (also called **command line** or **shell**) is a text-based way to control your computer. Instead of clicking with a mouse, you type commands.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ GUI vs TERMINAL │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ GUI (Graphical User Interface) TERMINAL (Command Line Interface) │
-│ ══════════════════════════════ ══════════════════════════════════ │
-│ │
-│ • Click with mouse • Type commands │
-│ • See icons and windows • See text │
-│ • Beginner-friendly • Powerful for experts │
-│ • Limited to what menus offer • Full control of system │
-│ • Slower for repetitive tasks • Fast for automation │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+**GUI vs Terminal:**
+
+| GUI (Graphical) | Terminal (Command Line) |
+|-----------------|-------------------------|
+| Click with mouse | Type commands |
+| See icons and windows | See text |
+| Beginner-friendly | Powerful for experts |
+| Limited to what menus offer | Full control of system |
+| Slower for repetitive tasks | Fast for automation |
 
 ### Why Developers Use the Terminal
 
@@ -77,16 +70,16 @@ This shows:
 Think of your files as a tree structure:
 
 ```
-/ ← ROOT (the very top)
-├── home/ ← Home directories for users
-│ └── student/ ← YOUR home folder
-│ ├── Documents/
-│ ├── Downloads/
-│ ├── Desktop/
-│ └── projects/
-├── etc/ ← System configuration files
-├── usr/ ← User programs and data
-└── var/ ← Variable data (logs, etc.)
+/                    (root - the top)
+├── home/            (home directories)
+│   └── student/     (your home folder)
+│       ├── Documents/
+│       ├── Downloads/
+│       ├── Desktop/
+│       └── projects/
+├── etc/             (system configuration)
+├── usr/             (user programs)
+└── var/             (logs and data)
 ```
 
 ### Navigation Commands
@@ -229,52 +222,44 @@ rm -rf folder # Force delete (BE CAREFUL!)
 
 ### Quick Reference Card
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ ESSENTIAL TERMINAL COMMANDS │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ NAVIGATION │
-│ ────────── │
-│ pwd Print current directory │
-│ ls List files │
-│ ls -la List all files with details │
-│ cd folder Go to folder │
-│ cd .. Go up one level │
-│ cd ~ Go home │
-│ │
-│ FILES & FOLDERS │
-│ ─────────────── │
-│ mkdir name Create folder │
-│ touch file Create empty file │
-│ cp src dst Copy file │
-│ mv src dst Move/rename file │
-│ rm file Delete file (careful!) │
-│ rm -r folder Delete folder (careful!) │
-│ │
-│ VIEWING FILES │
-│ ───────────── │
-│ cat file Show file contents │
-│ less file View long file (Q to exit) │
-│ head file Show first lines │
-│ tail file Show last lines │
-│ │
-│ HELPFUL │
-│ ─────── │
-│ clear Clear the screen │
-│ history Show command history │
-│ man command Show manual for command │
-│ --help Most commands support this │
-│ │
-│ SHORTCUTS │
-│ ───────── │
-│ Tab Auto-complete file/folder names │
-│ ↑↓ Navigate command history │
-│ Ctrl+C Cancel current command │
-│ Ctrl+L Clear screen (same as 'clear') │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+**Navigation:**
+
+- `pwd` - Print current directory
+- `ls` - List files
+- `ls -la` - List all files with details
+- `cd folder` - Go to folder
+- `cd ..` - Go up one level
+- `cd ~` - Go home
+
+**Files & Folders:**
+
+- `mkdir name` - Create folder
+- `touch file` - Create empty file
+- `cp src dst` - Copy file
+- `mv src dst` - Move/rename file
+- `rm file` - Delete file (careful!)
+- `rm -r folder` - Delete folder (careful!)
+
+**Viewing Files:**
+
+- `cat file` - Show file contents
+- `less file` - View long file (Q to exit)
+- `head file` - Show first lines
+- `tail file` - Show last lines
+
+**Helpful:**
+
+- `clear` - Clear the screen
+- `history` - Show command history
+- `man command` - Show manual
+- `--help` - Most commands support this
+
+**Shortcuts:**
+
+- Tab - Auto-complete
+- Up/Down arrows - Navigate history
+- Ctrl+C - Cancel command
+- Ctrl+L - Clear screen
 
 ---
 
@@ -470,7 +455,7 @@ Using only the keyboard (Tab completion and shortcuts), navigate to three differ
 
 <div align="center">
 
-**The terminal is your superpower!** 
+**The terminal is your superpower!**
 
 *Practice every day. Soon it will feel natural.*
 

@@ -30,13 +30,10 @@ A **hyperlink** (or just "link") is text or an image that you can click to go to
 
 The `<a>` (anchor) element creates links:
 
-```
-<a href="URL">Link Text</a>
-│ │ │
-│ │ └── What users see and click
-│ └── Where the link goes (destination)
-└── Anchor tag
-```
+- <a href="URL">Link Text</a>
+- What users see and click
+- Where the link goes (destination)
+- Anchor tag
 
 ### Anatomy of a Link
 
@@ -376,27 +373,16 @@ Common patterns to show which page the user is on:
 
 ### Writing Good Link Text
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ LINK TEXT BEST PRACTICES │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ BAD GOOD │
-│ ═════ ══════ │
-│ │
-│ Click here Read our privacy policy │
-│ Read more View all products │
-│ Link Download the brochure │
-│ Here Contact our support team │
-│ │
-│ BAD: "To learn more, click here." │
-│ GOOD: "Learn more about our services." │
-│ │
-│ BAD: "For info, click here, here, and here." │
-│ GOOD: "Read about our team, products, and mission." │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- LINK TEXT BEST PRACTICES
+- BAD GOOD
+- Click here Read our privacy policy
+- Read more View all products
+- Link Download the brochure
+- Here Contact our support team
+- BAD: "To learn more, click here."
+- GOOD: "Learn more about our services."
+- BAD: "For info, click here, here, and here."
+- GOOD: "Read about our team, products, and mission."
 
 **Why good link text matters:**
 

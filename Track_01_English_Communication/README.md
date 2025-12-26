@@ -23,23 +23,13 @@ This track helps you learn English while you work and code. English is essential
 
 Don't just study English — **use it**!
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ LEARNING ENGLISH AT KOOMPI │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ OLD WAY KOOMPI WAY │
-│ ═════════ ════════════ │
-│ │
-│ Memorize grammar rules Use English while coding │
-│ Study vocabulary lists Learn tech vocabulary in context │
-│ Practice in classrooms Practice with real customers │
-│ Tests on paper Real-world communication │
-│ │
-│ RESULT: Forgotten quickly RESULT: Practical fluency │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- LEARNING ENGLISH AT KOOMPI
+- OLD WAY KOOMPI WAY
+- Memorize grammar rules Use English while coding
+- Study vocabulary lists Learn tech vocabulary in context
+- Practice in classrooms Practice with real customers
+- Tests on paper Real-world communication
+- RESULT: Forgotten quickly RESULT: Practical fluency
 
 ---
 
@@ -80,18 +70,13 @@ When you code, you encounter English constantly:
 
 This track runs **parallel** to other tracks:
 
-```
-Week 1: Track 00 ────────────┬─────────────────────────────
- Track 01 (English) ──┼─────────────────────────────
- │
-Week 4: Track 02 (HTML) ─────┤
- Track 01 (English) ──┼─────────────────────────────
- │
-Week 8: Track 02 (CSS) ──────┤
- Track 01 (English) ──┼─────────────────────────────
- │
- Continuous improvement throughout program
-```
+- Week 1: Track 00
+- Track 01 (English)
+- Week 4: Track 02 (HTML)
+- Track 01 (English)
+- Week 8: Track 02 (CSS)
+- Track 01 (English)
+- Continuous improvement throughout program
 
 ---
 

@@ -33,24 +33,14 @@ function Greeting(props) {
 
 ### Props Flow
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ DATA FLOW IN REACT │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ App (Parent) │
-│ name="Sokha" age={22} │
-│ │ │
-│ │ props │
-│ ▼ │
-│ Greeting (Child) │
-│ props.name, props.age │
-│ │
-│ Data flows DOWN (parent → child) │
-│ Never UP (child cannot modify parent props) │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- DATA FLOW IN REACT
+- App (Parent)
+- name="Sokha" age={22}
+- props
+- Greeting (Child)
+- props.name, props.age
+- Data flows DOWN (parent → child)
+- Never UP (child cannot modify parent props)
 
 ---
 

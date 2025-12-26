@@ -19,33 +19,23 @@ By the end of this module, you will be able to:
 
 ### The KOOMPI Way
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ CUSTOMER COMMUNICATION PRINCIPLES │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ 1. BE FRIENDLY │
-│ • Start with a greeting │
-│ • Use the customer's name │
-│ • Show you care │
-│ │
-│ 2. BE HELPFUL │
-│ • Focus on solving their problem │
-│ • Provide clear information │
-│ • Go the extra mile │
-│ │
-│ 3. BE PROFESSIONAL │
-│ • Use proper grammar │
-│ • Avoid slang │
-│ • Stay calm always │
-│ │
-│ 4. BE QUICK │
-│ • Respond promptly │
-│ • Don't leave customers waiting │
-│ • If you need time, tell them │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- CUSTOMER COMMUNICATION PRINCIPLES
+- 1. BE FRIENDLY
+- • Start with a greeting
+- • Use the customer's name
+- • Show you care
+- 2. BE HELPFUL
+- • Focus on solving their problem
+- • Provide clear information
+- • Go the extra mile
+- 3. BE PROFESSIONAL
+- • Use proper grammar
+- • Avoid slang
+- • Stay calm always
+- 4. BE QUICK
+- • Respond promptly
+- • Don't leave customers waiting
+- • If you need time, tell them
 
 ---
 

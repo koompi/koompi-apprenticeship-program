@@ -19,29 +19,13 @@ By the end of this module, you will be able to:
 
 ### How Teams Work Together
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ TEAM COLLABORATION │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ ┌─────────────┐ │
-│ │ GITHUB │ │
-│ │ (main) │ │
-│ └──────┬──────┘ │
-│ │ │
-│ ┌───────────────────┼───────────────────┐ │
-│ ▼ ▼ ▼ │
-│ ┌──────────┐ ┌──────────┐ ┌──────────┐ │
-│ │ Sokha's │ │ Dara's │ │ Bopha's │ │
-│ │ Computer │ │ Computer │ │ Computer │ │
-│ └──────────┘ └──────────┘ └──────────┘ │
-│ │ │ │ │
-│ feature-nav feature-footer fix-bug │
-│ │
-│ Everyone pushes to GitHub, pulls updates from GitHub │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- TEAM COLLABORATION
+- GITHUB
+- (main)
+- Sokha's Dara's Bopha's
+- Computer Computer Computer
+- feature-nav feature-footer fix-bug
+- Everyone pushes to GitHub, pulls updates from GitHub
 
 ---
 

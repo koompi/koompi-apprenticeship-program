@@ -497,34 +497,23 @@ a:hover {
 
 ### Readability Rules
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ READABILITY BEST PRACTICES │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ CONTRAST │
-│ • Dark text on light background (or vice versa) │
-│ • Avoid low-contrast combinations │
-│ • Test readability! │
-│ │
-│ FONT SIZE │
-│ • Body text: minimum 16px │
-│ • Never go below 12px │
-│ │
-│ LINE HEIGHT │
-│ • Body text: 1.5 - 1.7 │
-│ • Headings: 1.1 - 1.3 │
-│ │
-│ LINE LENGTH │
-│ • Ideal: 50-75 characters per line │
-│ • Too wide = hard to read │
-│ │
-│ FONT CHOICES │
-│ • Maximum 2-3 fonts per site │
-│ • One for headings, one for body │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- READABILITY BEST PRACTICES
+- CONTRAST
+- • Dark text on light background (or vice versa)
+- • Avoid low-contrast combinations
+- • Test readability!
+- FONT SIZE
+- • Body text: minimum 16px
+- • Never go below 12px
+- LINE HEIGHT
+- • Body text: 1.5 - 1.7
+- • Headings: 1.1 - 1.3
+- LINE LENGTH
+- • Ideal: 50-75 characters per line
+- • Too wide = hard to read
+- FONT CHOICES
+- • Maximum 2-3 fonts per site
+- • One for headings, one for body
 
 ---
 

@@ -32,27 +32,16 @@
 
 ## Why React?
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ WHY LEARN REACT? │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ TRADITIONAL WEBSITE REACT APPLICATION │
-│ ════════════════════ ═══════════════════ │
-│ │
-│ Full page reloads Only updates what changed │
-│ Hard to manage complexity Components organize code │
-│ Repeat similar code Reusable components │
-│ State scattered State management │
-│ │
-│ JOB MARKET USED BY │
-│ ══════════ ═══════ │
-│ #1 most wanted skill Facebook, Instagram │
-│ High demand, good salary Netflix, Airbnb │
-│ Many jobs in Cambodia Discord, Notion │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- WHY LEARN REACT?
+- TRADITIONAL WEBSITE REACT APPLICATION
+- Full page reloads Only updates what changed
+- Hard to manage complexity Components organize code
+- Repeat similar code Reusable components
+- State scattered State management
+- JOB MARKET USED BY
+- #1 most wanted skill Facebook, Instagram
+- High demand, good salary Netflix, Airbnb
+- Many jobs in Cambodia Discord, Notion
 
 ---
 
@@ -60,32 +49,15 @@
 
 A **Task Manager Application**:
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ │
-│ TASK MANAGER [+ Add Task] │
-│ │
-│ ┌─────────────────────────────────────────────────────────────────────┐ │
-│ │ [ All ] [ Active ] [ Completed ] │ │
-│ └─────────────────────────────────────────────────────────────────────┘ │
-│ │
-│ ┌─────────────────────────────────────────────────────────────────────┐ │
-│ │ Learn React basics [Edit] [] │ │
-│ │ Due: Dec 28, 2024 Priority: High │ │
-│ └─────────────────────────────────────────────────────────────────────┘ │
-│ ┌─────────────────────────────────────────────────────────────────────┐ │
-│ │ Complete JavaScript project [Edit] [] │ │
-│ │ Due: Dec 25, 2024 Priority: High Completed │ │
-│ └─────────────────────────────────────────────────────────────────────┘ │
-│ ┌─────────────────────────────────────────────────────────────────────┐ │
-│ │ Read documentation [Edit] [] │ │
-│ │ Due: Dec 30, 2024 Priority: Medium │ │
-│ └─────────────────────────────────────────────────────────────────────┘ │
-│ │
-│ Tasks: 2 active, 1 completed │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- TASK MANAGER [+ Add Task]
+- [ All ] [ Active ] [ Completed ]
+- Learn React basics [Edit] []
+- Due: Dec 28, 2024 Priority: High
+- Complete JavaScript project [Edit] []
+- Due: Dec 25, 2024 Priority: High Completed
+- Read documentation [Edit] []
+- Due: Dec 30, 2024 Priority: Medium
+- Tasks: 2 active, 1 completed
 
 ---
 
