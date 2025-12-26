@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Track Overview
+## Track Overview
 
 Before building software, you need strong digital foundations. This track ensures every apprentice has the essential skills to succeed.
 
@@ -18,20 +18,20 @@ Before building software, you need strong digital foundations. This track ensure
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    BUILDING A SOLID FOUNDATION                               │
+│ BUILDING A SOLID FOUNDATION │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   Without foundations:                 With foundations:                    │
-│                                                                              │
-│   🏗️ Shaky building                    🏛️ Solid structure                  │
-│                                                                              │
-│   • Slow typing = slow coding          • Fast typing = productive          │
-│   • Lost files = lost work             • Organized = efficient             │
-│   • Fear of terminal = limited         • Terminal comfort = powerful       │
-│   • Computer confusion = frustration   • Computer mastery = confidence     │
-│                                                                              │
-│   INVEST TIME HERE → SAVE TIME LATER                                        │
-│                                                                              │
+│ │
+│ Without foundations: With foundations: │
+│ │
+│ Shaky building Solid structure │
+│ │
+│ • Slow typing = slow coding • Fast typing = productive │
+│ • Lost files = lost work • Organized = efficient │
+│ • Fear of terminal = limited • Terminal comfort = powerful │
+│ • Computer confusion = frustration • Computer mastery = confidence │
+│ │
+│ INVEST TIME HERE → SAVE TIME LATER │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -117,18 +117,18 @@ This is the first track! No prerequisites needed.
 
 Just bring:
 
-- ✅ Your KOOMPI laptop
-- ✅ Willingness to learn
-- ✅ Patience with yourself
+- Your KOOMPI laptop
+- Willingness to learn
+- Patience with yourself
 
 ---
 
 <div align="center">
 
-**Master the basics, master everything!** 💪
+**Master the basics, master everything!** 
 
 *Start with Module 01: Computer Basics*
 
-🇰🇭
+
 
 </div>

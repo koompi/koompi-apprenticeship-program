@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,22 +21,22 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    THE WEB DEVELOPMENT TRIO (REVISITED)                      │
+│ THE WEB DEVELOPMENT TRIO (REVISITED) │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│        HTML              CSS              JavaScript                        │
-│       ═══════          ═══════           ══════════                         │
-│                                                                              │
-│        🦴                🎨                  ⚡                               │
-│     STRUCTURE          STYLE              BEHAVIOR                          │
-│                                                                              │
-│     "What's here"    "How it looks"     "What it does"                     │
-│                                                                              │
-│     The skeleton     The appearance     The brains                         │
-│                                                                              │
-│   HTML = Nouns       CSS = Adjectives   JavaScript = Verbs                 │
-│   (Things)           (Descriptions)      (Actions)                          │
-│                                                                              │
+│ │
+│ HTML CSS JavaScript │
+│ ═══════ ═══════ ══════════ │
+│ │
+│ │
+│ STRUCTURE STYLE BEHAVIOR │
+│ │
+│ "What's here" "How it looks" "What it does" │
+│ │
+│ The skeleton The appearance The brains │
+│ │
+│ HTML = Nouns CSS = Adjectives JavaScript = Verbs │
+│ (Things) (Descriptions) (Actions) │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -134,15 +134,15 @@ Just like CSS, there are three ways to add JavaScript:
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Page</title>
+ <title>My Page</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    
-    <script>
-        console.log("Hello from internal script!");
-        alert("Welcome to my page!");
-    </script>
+ <h1>Hello World</h1>
+ 
+ <script>
+ console.log("Hello from internal script!");
+ alert("Welcome to my page!");
+ </script>
 </body>
 </html>
 ```
@@ -164,22 +164,22 @@ alert("Welcome to my page!");
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Page</title>
+ <title>My Page</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    
-    <script src="script.js"></script>
+ <h1>Hello World</h1>
+ 
+ <script src="script.js"></script>
 </body>
 </html>
 ```
 
 | Pros | Cons |
 |------|------|
-| ✅ Clean separation | Extra file to manage |
-| ✅ Reusable across pages | |
-| ✅ Cacheable by browser | |
-| ✅ Easier to maintain | |
+| Clean separation | Extra file to manage |
+| Reusable across pages | |
+| Cacheable by browser | |
+| Easier to maintain | |
 
 ---
 
@@ -232,16 +232,16 @@ Console.log("Error!"); // Console with capital C = error
 
 ```javascript
 // Unclosed string
-console.log("Hello);  // Missing closing quote
+console.log("Hello); // Missing closing quote
 
 // Missing semicolon (usually okay, but can cause issues)
 console.log("Hello")
 
 // Typos in function names
-consol.log("Hello");  // consol instead of console
+consol.log("Hello"); // consol instead of console
 
 // Using undefined variables
-console.log(myName);  // myName hasn't been defined
+console.log(myName); // myName hasn't been defined
 ```
 
 ---
@@ -262,7 +262,7 @@ Shows popup with OK/Cancel, returns true/false:
 
 ```javascript
 let result = confirm("Are you sure?");
-console.log(result);  // true if OK, false if Cancel
+console.log(result); // true if OK, false if Cancel
 ```
 
 ### Prompt
@@ -280,16 +280,16 @@ console.log("Hello, " + name + "!");
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome</title>
+ <title>Welcome</title>
 </head>
 <body>
-    <h1 id="greeting">Welcome!</h1>
-    
-    <script>
-        let name = prompt("What is your name?");
-        alert("Hello, " + name + "! Welcome to KOOMPI.");
-        console.log(name + " visited the page.");
-    </script>
+ <h1 id="greeting">Welcome!</h1>
+ 
+ <script>
+ let name = prompt("What is your name?");
+ alert("Hello, " + name + "! Welcome to KOOMPI.");
+ console.log(name + " visited the page.");
+ </script>
 </body>
 </html>
 ```
@@ -312,35 +312,35 @@ touch index.html script.js
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Practice</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        h1 {
-            color: #333;
-        }
-        #output {
-            background-color: #f0f0f0;
-            padding: 20px;
-            border-radius: 8px;
-            min-height: 100px;
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>JavaScript Practice</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ padding: 20px;
+ max-width: 800px;
+ margin: 0 auto;
+ }
+ h1 {
+ color: #333;
+ }
+ #output {
+ background-color: #f0f0f0;
+ padding: 20px;
+ border-radius: 8px;
+ min-height: 100px;
+ }
+ </style>
 </head>
 <body>
-    <h1>JavaScript Practice</h1>
-    
-    <div id="output">
-        <p>Output will appear here...</p>
-    </div>
-    
-    <script src="script.js"></script>
+ <h1>JavaScript Practice</h1>
+ 
+ <div id="output">
+ <p>Output will appear here...</p>
+ </div>
+ 
+ <script src="script.js"></script>
 </body>
 </html>
 ```
@@ -391,7 +391,7 @@ This tells you:
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Console Practice
 
@@ -438,7 +438,7 @@ Write a code file with:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Key Terminology**
 
@@ -456,11 +456,11 @@ Write a code file with:
 |--------|----------|
 | Inline | Never use |
 | Internal `<script>` | Small tests |
-| External file | Real projects ✅ |
+| External file | Real projects |
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 02:**
 
@@ -478,7 +478,7 @@ Write a code file with:
 
 <div align="center">
 
-**You're now a JavaScript developer!** ⚡
+**You're now a JavaScript developer!** 
 
 *The browser console is your new playground.*
 

@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,26 +21,26 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    GIT + GITHUB                                              │
+│ GIT + GITHUB │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   YOUR COMPUTER                        GITHUB (CLOUD)                       │
-│   ══════════════                       ══════════════                       │
-│                                                                              │
-│   ┌─────────────┐                     ┌─────────────┐                       │
-│   │ Local Repo  │ ──── push ────────► │ Remote Repo │                       │
-│   │             │ ◄─── pull ───────── │             │                       │
-│   └─────────────┘                     └─────────────┘                       │
-│                                             │                                │
-│   Your work                                 │                                │
-│   Your history                              ▼                                │
-│                                       ┌─────────────┐                       │
-│                                       │  Teammates  │                       │
-│                                       │  Portfolio  │                       │
-│                                       │  Backup     │                       │
-│                                       │  Sharing    │                       │
-│                                       └─────────────┘                       │
-│                                                                              │
+│ │
+│ YOUR COMPUTER GITHUB (CLOUD) │
+│ ══════════════ ══════════════ │
+│ │
+│ ┌─────────────┐ ┌─────────────┐ │
+│ │ Local Repo │ ──── push ────────► │ Remote Repo │ │
+│ │ │ ◄─── pull ───────── │ │ │
+│ └─────────────┘ └─────────────┘ │
+│ │ │
+│ Your work │ │
+│ Your history ▼ │
+│ ┌─────────────┐ │
+│ │ Teammates │ │
+│ │ Portfolio │ │
+│ │ Backup │ │
+│ │ Sharing │ │
+│ └─────────────┘ │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -84,10 +84,10 @@ By the end of this module, you will be able to:
 
 1. Click "+" in top right → "New repository"
 2. Fill in details:
-   - Repository name: `my-portfolio`
-   - Description: "My personal portfolio website"
-   - Public or Private
-   - Don't add README (we have local files)
+ - Repository name: `my-portfolio`
+ - Description: "My personal portfolio website"
+ - Public or Private
+ - Don't add README (we have local files)
 3. Click "Create repository"
 
 ### You'll See Instructions Like
@@ -116,8 +116,8 @@ git remote add origin https://github.com/username/my-portfolio.git
 git remote -v
 
 # Output:
-# origin  https://github.com/username/my-portfolio.git (fetch)
-# origin  https://github.com/username/my-portfolio.git (push)
+# origin https://github.com/username/my-portfolio.git (fetch)
+# origin https://github.com/username/my-portfolio.git (push)
 ```
 
 ### Push to GitHub
@@ -249,7 +249,7 @@ git remote set-url origin git@github.com:username/repo.git
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Create GitHub Account
 
@@ -279,7 +279,7 @@ git remote set-url origin git@github.com:username/repo.git
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Key Commands**
 
@@ -299,16 +299,16 @@ git remote add origin url
 git push -u origin main
 
 # Daily workflow
-git pull               # Get updates
+git pull # Get updates
 # work...
 git add .
 git commit -m "msg"
-git push               # Send updates
+git push # Send updates
 ```
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 04:**
 
@@ -325,7 +325,7 @@ git push               # Send updates
 
 <div align="center">
 
-**Your code is online!** 🌐
+**Your code is online!** 
 
 *GitHub is your professional portfolio.*
 

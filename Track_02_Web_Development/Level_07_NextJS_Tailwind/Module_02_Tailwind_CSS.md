@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,28 +21,28 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    TRADITIONAL CSS vs TAILWIND                               │
+│ TRADITIONAL CSS vs TAILWIND │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   TRADITIONAL CSS:                     TAILWIND CSS:                        │
-│   ════════════════                     ═══════════════                      │
-│                                                                              │
-│   .card {                              <div class="bg-white               │
-│     background: white;                              rounded-lg              │
-│     border-radius: 8px;                             shadow-md               │
-│     box-shadow: 0 2px 4px rgba();                   p-6">                  │
-│     padding: 24px;                       Content                           │
-│   }                                    </div>                               │
-│                                                                              │
-│   <div class="card">                   No CSS file needed!                 │
-│     Content                            Styles right in HTML                │
-│   </div>                                                                    │
-│                                                                              │
-│   + Separate files                     + Rapid development                 │
-│   + Reusable classes                   + No naming struggles               │
-│   - Naming is hard                     + Consistent design                 │
-│   - Growing CSS files                  - Long class lists                  │
-│                                                                              │
+│ │
+│ TRADITIONAL CSS: TAILWIND CSS: │
+│ ════════════════ ═══════════════ │
+│ │
+│ .card { <div class="bg-white │
+│ background: white; rounded-lg │
+│ border-radius: 8px; shadow-md │
+│ box-shadow: 0 2px 4px rgba(); p-6"> │
+│ padding: 24px; Content │
+│ } </div> │
+│ │
+│ <div class="card"> No CSS file needed! │
+│ Content Styles right in HTML │
+│ </div> │
+│ │
+│ + Separate files + Rapid development │
+│ + Reusable classes + No naming struggles │
+│ - Naming is hard + Consistent design │
+│ - Growing CSS files - Long class lists │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -201,8 +201,8 @@ Each color has shades from 50-950:
 ```html
 <!-- Basic flex container -->
 <div class="flex">
-  <div>Item 1</div>
-  <div>Item 2</div>
+ <div>Item 1</div>
+ <div>Item 2</div>
 </div>
 
 <!-- Direction -->
@@ -233,21 +233,21 @@ Each color has shades from 50-950:
 ```html
 <!-- Basic grid -->
 <div class="grid grid-cols-3 gap-4">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
+ <div>1</div>
+ <div>2</div>
+ <div>3</div>
 </div>
 
 <!-- Responsive columns -->
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-  <!-- 1 col on mobile, 2 on tablet, 4 on desktop -->
+ <!-- 1 col on mobile, 2 on tablet, 4 on desktop -->
 </div>
 
 <!-- Column span -->
 <div class="grid grid-cols-4">
-  <div class="col-span-2">Spans 2 columns</div>
-  <div>Normal</div>
-  <div>Normal</div>
+ <div class="col-span-2">Spans 2 columns</div>
+ <div>Normal</div>
+ <div>Normal</div>
 </div>
 ```
 
@@ -270,27 +270,27 @@ Each color has shades from 50-950:
 ```html
 <!-- Mobile first, then add larger screen styles -->
 <div class="
-  text-sm          /* Mobile: small text */
-  md:text-base     /* Tablet: base text */
-  lg:text-lg       /* Desktop: large text */
+ text-sm /* Mobile: small text */
+ md:text-base /* Tablet: base text */
+ lg:text-lg /* Desktop: large text */
 ">
-  Responsive text
+ Responsive text
 </div>
 
 <div class="
-  flex flex-col    /* Mobile: stack vertically */
-  md:flex-row      /* Tablet+: side by side */
+ flex flex-col /* Mobile: stack vertically */
+ md:flex-row /* Tablet+: side by side */
 ">
-  <div>Sidebar</div>
-  <div>Content</div>
+ <div>Sidebar</div>
+ <div>Content</div>
 </div>
 
 <div class="
-  p-4              /* Mobile: small padding */
-  md:p-8           /* Tablet: medium padding */
-  lg:p-12          /* Desktop: large padding */
+ p-4 /* Mobile: small padding */
+ md:p-8 /* Tablet: medium padding */
+ lg:p-12 /* Desktop: large padding */
 ">
-  Responsive padding
+ Responsive padding
 </div>
 ```
 
@@ -298,11 +298,11 @@ Each color has shades from 50-950:
 
 ```html
 <div class="hidden md:block">
-  Only visible on tablet and up
+ Only visible on tablet and up
 </div>
 
 <div class="block md:hidden">
-  Only visible on mobile
+ Only visible on mobile
 </div>
 ```
 
@@ -314,17 +314,17 @@ Each color has shades from 50-950:
 
 ```html
 <div class="bg-white rounded-lg shadow-md overflow-hidden">
-  <img src="/image.jpg" alt="Product" class="w-full h-48 object-cover" />
-  <div class="p-6">
-    <h3 class="text-xl font-semibold mb-2">Product Name</h3>
-    <p class="text-gray-600 mb-4">Product description goes here.</p>
-    <div class="flex justify-between items-center">
-      <span class="text-2xl font-bold text-blue-600">$99</span>
-      <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-        Add to Cart
-      </button>
-    </div>
-  </div>
+ <img src="/image.jpg" alt="Product" class="w-full h-48 object-cover" />
+ <div class="p-6">
+ <h3 class="text-xl font-semibold mb-2">Product Name</h3>
+ <p class="text-gray-600 mb-4">Product description goes here.</p>
+ <div class="flex justify-between items-center">
+ <span class="text-2xl font-bold text-blue-600">$99</span>
+ <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+ Add to Cart
+ </button>
+ </div>
+ </div>
 </div>
 ```
 
@@ -333,22 +333,22 @@ Each color has shades from 50-950:
 ```html
 <!-- Primary -->
 <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
-  Primary
+ Primary
 </button>
 
 <!-- Secondary -->
 <button class="bg-gray-200 text-gray-800 px-6 py-2 rounded-lg hover:bg-gray-300 transition">
-  Secondary
+ Secondary
 </button>
 
 <!-- Outline -->
 <button class="border-2 border-blue-600 text-blue-600 px-6 py-2 rounded-lg hover:bg-blue-600 hover:text-white transition">
-  Outline
+ Outline
 </button>
 
 <!-- Danger -->
 <button class="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700 transition">
-  Danger
+ Danger
 </button>
 ```
 
@@ -356,35 +356,35 @@ Each color has shades from 50-950:
 
 ```html
 <nav class="bg-white shadow-md">
-  <div class="max-w-6xl mx-auto px-4">
-    <div class="flex justify-between items-center h-16">
-      <!-- Logo -->
-      <a href="/" class="text-xl font-bold text-blue-600">
-        KOOMPI
-      </a>
-      
-      <!-- Desktop Nav -->
-      <div class="hidden md:flex space-x-8">
-        <a href="/" class="text-gray-600 hover:text-blue-600">Home</a>
-        <a href="/products" class="text-gray-600 hover:text-blue-600">Products</a>
-        <a href="/about" class="text-gray-600 hover:text-blue-600">About</a>
-        <a href="/contact" class="text-gray-600 hover:text-blue-600">Contact</a>
-      </div>
-      
-      <!-- Mobile menu button -->
-      <button class="md:hidden">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
-    </div>
-  </div>
+ <div class="max-w-6xl mx-auto px-4">
+ <div class="flex justify-between items-center h-16">
+ <!-- Logo -->
+ <a href="/" class="text-xl font-bold text-blue-600">
+ KOOMPI
+ </a>
+ 
+ <!-- Desktop Nav -->
+ <div class="hidden md:flex space-x-8">
+ <a href="/" class="text-gray-600 hover:text-blue-600">Home</a>
+ <a href="/products" class="text-gray-600 hover:text-blue-600">Products</a>
+ <a href="/about" class="text-gray-600 hover:text-blue-600">About</a>
+ <a href="/contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+ </div>
+ 
+ <!-- Mobile menu button -->
+ <button class="md:hidden">
+ <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+ </svg>
+ </button>
+ </div>
+ </div>
 </nav>
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Button Styles
 
@@ -408,7 +408,7 @@ Build a full-width hero section with centered text and call-to-action.
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 | Category | Common Classes |
 |----------|----------------|
@@ -421,7 +421,7 @@ Build a full-width hero section with centered text and call-to-action.
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Coming Next**: Module 03 - Data Fetching
 
@@ -431,7 +431,7 @@ Build a full-width hero section with centered text and call-to-action.
 
 <div align="center">
 
-**Style at the speed of thought!** 💨
+**Style at the speed of thought!** 
 
 *Utility classes = rapid development*
 

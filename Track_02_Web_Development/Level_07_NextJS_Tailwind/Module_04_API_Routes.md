@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,22 +21,22 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    NEXT.JS = FRONTEND + BACKEND                              │
+│ NEXT.JS = FRONTEND + BACKEND │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   TRADITIONAL:                         NEXT.JS:                             │
-│   ════════════                         ════════                             │
-│                                                                              │
-│   Frontend (React)  ←──→  Backend (Express)                               │
-│   Separate project        Separate project                                 │
-│   Different deploy        Different deploy                                 │
-│                                                                              │
-│                           Frontend (React)                                  │
-│                              +                                              │
-│                           Backend (API Routes)                             │
-│                           ─────────────────────                            │
-│                           ONE project, ONE deploy                          │
-│                                                                              │
+│ │
+│ TRADITIONAL: NEXT.JS: │
+│ ════════════ ════════ │
+│ │
+│ Frontend (React) ←──→ Backend (Express) │
+│ Separate project Separate project │
+│ Different deploy Different deploy │
+│ │
+│ Frontend (React) │
+│ + │
+│ Backend (API Routes) │
+│ ───────────────────── │
+│ ONE project, ONE deploy │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -45,14 +45,14 @@ By the end of this module, you will be able to:
 ```
 app/
 ├── api/
-│   ├── hello/
-│   │   └── route.js    → GET /api/hello
-│   ├── users/
-│   │   ├── route.js    → /api/users
-│   │   └── [id]/
-│   │       └── route.js → /api/users/123
-│   └── products/
-│       └── route.js    → /api/products
+│ ├── hello/
+│ │ └── route.js → GET /api/hello
+│ ├── users/
+│ │ ├── route.js → /api/users
+│ │ └── [id]/
+│ │ └── route.js → /api/users/123
+│ └── products/
+│ └── route.js → /api/products
 ```
 
 ---
@@ -66,7 +66,7 @@ app/
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  return NextResponse.json({ message: 'Hello, World!' });
+ return NextResponse.json({ message: 'Hello, World!' });
 }
 ```
 
@@ -79,10 +79,10 @@ Test it: `http://localhost:3000/api/hello`
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  return NextResponse.json({
-    time: new Date().toISOString(),
-    timezone: 'Asia/Phnom_Penh'
-  });
+ return NextResponse.json({
+ time: new Date().toISOString(),
+ timezone: 'Asia/Phnom_Penh'
+ });
 }
 ```
 
@@ -98,28 +98,28 @@ import { NextResponse } from 'next/server';
 
 // Simulated database
 let products = [
-  { id: 1, name: 'Laptop', price: 299 },
-  { id: 2, name: 'Mouse', price: 25 },
+ { id: 1, name: 'Laptop', price: 299 },
+ { id: 2, name: 'Mouse', price: 25 },
 ];
 
 // GET - List all products
 export async function GET() {
-  return NextResponse.json(products);
+ return NextResponse.json(products);
 }
 
 // POST - Create new product
 export async function POST(request) {
-  const body = await request.json();
-  
-  const newProduct = {
-    id: products.length + 1,
-    name: body.name,
-    price: body.price
-  };
-  
-  products.push(newProduct);
-  
-  return NextResponse.json(newProduct, { status: 201 });
+ const body = await request.json();
+ 
+ const newProduct = {
+ id: products.length + 1,
+ name: body.name,
+ price: body.price
+ };
+ 
+ products.push(newProduct);
+ 
+ return NextResponse.json(newProduct, { status: 201 });
 }
 ```
 
@@ -131,54 +131,54 @@ import { NextResponse } from 'next/server';
 
 // GET single product
 export async function GET(request, { params }) {
-  const id = parseInt(params.id);
-  const product = products.find(p => p.id === id);
-  
-  if (!product) {
-    return NextResponse.json(
-      { error: 'Product not found' },
-      { status: 404 }
-    );
-  }
-  
-  return NextResponse.json(product);
+ const id = parseInt(params.id);
+ const product = products.find(p => p.id === id);
+ 
+ if (!product) {
+ return NextResponse.json(
+ { error: 'Product not found' },
+ { status: 404 }
+ );
+ }
+ 
+ return NextResponse.json(product);
 }
 
 // PUT - Update product
 export async function PUT(request, { params }) {
-  const id = parseInt(params.id);
-  const body = await request.json();
-  
-  const index = products.findIndex(p => p.id === id);
-  
-  if (index === -1) {
-    return NextResponse.json(
-      { error: 'Product not found' },
-      { status: 404 }
-    );
-  }
-  
-  products[index] = { ...products[index], ...body };
-  
-  return NextResponse.json(products[index]);
+ const id = parseInt(params.id);
+ const body = await request.json();
+ 
+ const index = products.findIndex(p => p.id === id);
+ 
+ if (index === -1) {
+ return NextResponse.json(
+ { error: 'Product not found' },
+ { status: 404 }
+ );
+ }
+ 
+ products[index] = { ...products[index], ...body };
+ 
+ return NextResponse.json(products[index]);
 }
 
 // DELETE - Remove product
 export async function DELETE(request, { params }) {
-  const id = parseInt(params.id);
-  
-  const index = products.findIndex(p => p.id === id);
-  
-  if (index === -1) {
-    return NextResponse.json(
-      { error: 'Product not found' },
-      { status: 404 }
-    );
-  }
-  
-  products.splice(index, 1);
-  
-  return NextResponse.json({ success: true });
+ const id = parseInt(params.id);
+ 
+ const index = products.findIndex(p => p.id === id);
+ 
+ if (index === -1) {
+ return NextResponse.json(
+ { error: 'Product not found' },
+ { status: 404 }
+ );
+ }
+ 
+ products.splice(index, 1);
+ 
+ return NextResponse.json({ success: true });
 }
 ```
 
@@ -190,21 +190,21 @@ export async function DELETE(request, { params }) {
 
 ```jsx
 export async function POST(request) {
-  // JSON body
-  const body = await request.json();
-  
-  // URL search params
-  const { searchParams } = new URL(request.url);
-  const query = searchParams.get('q');
-  
-  // Headers
-  const authHeader = request.headers.get('authorization');
-  
-  // Cookies
-  const cookies = request.cookies;
-  const token = cookies.get('token');
-  
-  return NextResponse.json({ body, query, authHeader });
+ // JSON body
+ const body = await request.json();
+ 
+ // URL search params
+ const { searchParams } = new URL(request.url);
+ const query = searchParams.get('q');
+ 
+ // Headers
+ const authHeader = request.headers.get('authorization');
+ 
+ // Cookies
+ const cookies = request.cookies;
+ const token = cookies.get('token');
+ 
+ return NextResponse.json({ body, query, authHeader });
 }
 ```
 
@@ -219,9 +219,9 @@ return NextResponse.json(data, { status: 201 });
 
 // With headers
 return NextResponse.json(data, {
-  headers: {
-    'Cache-Control': 'max-age=3600'
-  }
+ headers: {
+ 'Cache-Control': 'max-age=3600'
+ }
 });
 
 // Redirect
@@ -229,8 +229,8 @@ return NextResponse.redirect(new URL('/login', request.url));
 
 // Error response
 return NextResponse.json(
-  { error: 'Not Found' },
-  { status: 404 }
+ { error: 'Not Found' },
+ { status: 404 }
 );
 ```
 
@@ -248,12 +248,12 @@ import path from 'path';
 const dbPath = path.join(process.cwd(), 'data', 'db.json');
 
 export async function readDB() {
-  const data = await fs.readFile(dbPath, 'utf8');
-  return JSON.parse(data);
+ const data = await fs.readFile(dbPath, 'utf8');
+ return JSON.parse(data);
 }
 
 export async function writeDB(data) {
-  await fs.writeFile(dbPath, JSON.stringify(data, null, 2));
+ await fs.writeFile(dbPath, JSON.stringify(data, null, 2));
 }
 ```
 
@@ -265,24 +265,24 @@ import { NextResponse } from 'next/server';
 import { readDB, writeDB } from '@/lib/db';
 
 export async function GET() {
-  const db = await readDB();
-  return NextResponse.json(db.todos);
+ const db = await readDB();
+ return NextResponse.json(db.todos);
 }
 
 export async function POST(request) {
-  const body = await request.json();
-  const db = await readDB();
-  
-  const newTodo = {
-    id: Date.now(),
-    text: body.text,
-    completed: false
-  };
-  
-  db.todos.push(newTodo);
-  await writeDB(db);
-  
-  return NextResponse.json(newTodo, { status: 201 });
+ const body = await request.json();
+ const db = await readDB();
+ 
+ const newTodo = {
+ id: Date.now(),
+ text: body.text,
+ completed: false
+ };
+ 
+ db.todos.push(newTodo);
+ await writeDB(db);
+ 
+ return NextResponse.json(newTodo, { status: 201 });
 }
 ```
 
@@ -299,32 +299,32 @@ import { cookies } from 'next/headers';
 
 // In real app, use proper auth library and database
 const users = [
-  { id: 1, email: 'sokha@example.com', password: 'password123' }
+ { id: 1, email: 'sokha@example.com', password: 'password123' }
 ];
 
 export async function POST(request) {
-  const { email, password } = await request.json();
-  
-  // Find user
-  const user = users.find(u => u.email === email && u.password === password);
-  
-  if (!user) {
-    return NextResponse.json(
-      { error: 'Invalid credentials' },
-      { status: 401 }
-    );
-  }
-  
-  // Set cookie (in real app, use proper JWT)
-  cookies().set('session', user.id.toString(), {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === 'production',
-    maxAge: 60 * 60 * 24 * 7 // 1 week
-  });
-  
-  return NextResponse.json({
-    user: { id: user.id, email: user.email }
-  });
+ const { email, password } = await request.json();
+ 
+ // Find user
+ const user = users.find(u => u.email === email && u.password === password);
+ 
+ if (!user) {
+ return NextResponse.json(
+ { error: 'Invalid credentials' },
+ { status: 401 }
+ );
+ }
+ 
+ // Set cookie (in real app, use proper JWT)
+ cookies().set('session', user.id.toString(), {
+ httpOnly: true,
+ secure: process.env.NODE_ENV === 'production',
+ maxAge: 60 * 60 * 24 * 7 // 1 week
+ });
+ 
+ return NextResponse.json({
+ user: { id: user.id, email: user.email }
+ });
 }
 ```
 
@@ -336,19 +336,19 @@ import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
 
 export async function GET() {
-  const session = cookies().get('session');
-  
-  if (!session) {
-    return NextResponse.json(
-      { error: 'Unauthorized' },
-      { status: 401 }
-    );
-  }
-  
-  // Fetch user by session
-  // ... 
-  
-  return NextResponse.json({ user: { /* user data */ } });
+ const session = cookies().get('session');
+ 
+ if (!session) {
+ return NextResponse.json(
+ { error: 'Unauthorized' },
+ { status: 401 }
+ );
+ }
+ 
+ // Fetch user by session
+ // ... 
+ 
+ return NextResponse.json({ user: { /* user data */ } });
 }
 ```
 
@@ -361,7 +361,7 @@ export async function GET() {
 ```jsx
 // data/db.json
 {
-  "tasks": []
+ "tasks": []
 }
 ```
 
@@ -372,49 +372,49 @@ import { readDB, writeDB } from '@/lib/db';
 
 // GET all tasks
 export async function GET() {
-  try {
-    const db = await readDB();
-    return NextResponse.json(db.tasks);
-  } catch (error) {
-    return NextResponse.json(
-      { error: 'Failed to fetch tasks' },
-      { status: 500 }
-    );
-  }
+ try {
+ const db = await readDB();
+ return NextResponse.json(db.tasks);
+ } catch (error) {
+ return NextResponse.json(
+ { error: 'Failed to fetch tasks' },
+ { status: 500 }
+ );
+ }
 }
 
 // POST new task
 export async function POST(request) {
-  try {
-    const body = await request.json();
-    
-    if (!body.title) {
-      return NextResponse.json(
-        { error: 'Title is required' },
-        { status: 400 }
-      );
-    }
-    
-    const db = await readDB();
-    
-    const newTask = {
-      id: Date.now().toString(),
-      title: body.title,
-      description: body.description || '',
-      completed: false,
-      createdAt: new Date().toISOString()
-    };
-    
-    db.tasks.push(newTask);
-    await writeDB(db);
-    
-    return NextResponse.json(newTask, { status: 201 });
-  } catch (error) {
-    return NextResponse.json(
-      { error: 'Failed to create task' },
-      { status: 500 }
-    );
-  }
+ try {
+ const body = await request.json();
+ 
+ if (!body.title) {
+ return NextResponse.json(
+ { error: 'Title is required' },
+ { status: 400 }
+ );
+ }
+ 
+ const db = await readDB();
+ 
+ const newTask = {
+ id: Date.now().toString(),
+ title: body.title,
+ description: body.description || '',
+ completed: false,
+ createdAt: new Date().toISOString()
+ };
+ 
+ db.tasks.push(newTask);
+ await writeDB(db);
+ 
+ return NextResponse.json(newTask, { status: 201 });
+ } catch (error) {
+ return NextResponse.json(
+ { error: 'Failed to create task' },
+ { status: 500 }
+ );
+ }
 }
 ```
 
@@ -425,88 +425,88 @@ import { readDB, writeDB } from '@/lib/db';
 
 // GET single task
 export async function GET(request, { params }) {
-  try {
-    const db = await readDB();
-    const task = db.tasks.find(t => t.id === params.id);
-    
-    if (!task) {
-      return NextResponse.json(
-        { error: 'Task not found' },
-        { status: 404 }
-      );
-    }
-    
-    return NextResponse.json(task);
-  } catch (error) {
-    return NextResponse.json(
-      { error: 'Failed to fetch task' },
-      { status: 500 }
-    );
-  }
+ try {
+ const db = await readDB();
+ const task = db.tasks.find(t => t.id === params.id);
+ 
+ if (!task) {
+ return NextResponse.json(
+ { error: 'Task not found' },
+ { status: 404 }
+ );
+ }
+ 
+ return NextResponse.json(task);
+ } catch (error) {
+ return NextResponse.json(
+ { error: 'Failed to fetch task' },
+ { status: 500 }
+ );
+ }
 }
 
 // PUT update task
 export async function PUT(request, { params }) {
-  try {
-    const body = await request.json();
-    const db = await readDB();
-    
-    const index = db.tasks.findIndex(t => t.id === params.id);
-    
-    if (index === -1) {
-      return NextResponse.json(
-        { error: 'Task not found' },
-        { status: 404 }
-      );
-    }
-    
-    db.tasks[index] = {
-      ...db.tasks[index],
-      ...body,
-      updatedAt: new Date().toISOString()
-    };
-    
-    await writeDB(db);
-    
-    return NextResponse.json(db.tasks[index]);
-  } catch (error) {
-    return NextResponse.json(
-      { error: 'Failed to update task' },
-      { status: 500 }
-    );
-  }
+ try {
+ const body = await request.json();
+ const db = await readDB();
+ 
+ const index = db.tasks.findIndex(t => t.id === params.id);
+ 
+ if (index === -1) {
+ return NextResponse.json(
+ { error: 'Task not found' },
+ { status: 404 }
+ );
+ }
+ 
+ db.tasks[index] = {
+ ...db.tasks[index],
+ ...body,
+ updatedAt: new Date().toISOString()
+ };
+ 
+ await writeDB(db);
+ 
+ return NextResponse.json(db.tasks[index]);
+ } catch (error) {
+ return NextResponse.json(
+ { error: 'Failed to update task' },
+ { status: 500 }
+ );
+ }
 }
 
 // DELETE task
 export async function DELETE(request, { params }) {
-  try {
-    const db = await readDB();
-    
-    const index = db.tasks.findIndex(t => t.id === params.id);
-    
-    if (index === -1) {
-      return NextResponse.json(
-        { error: 'Task not found' },
-        { status: 404 }
-      );
-    }
-    
-    db.tasks.splice(index, 1);
-    await writeDB(db);
-    
-    return NextResponse.json({ success: true });
-  } catch (error) {
-    return NextResponse.json(
-      { error: 'Failed to delete task' },
-      { status: 500 }
-    );
-  }
+ try {
+ const db = await readDB();
+ 
+ const index = db.tasks.findIndex(t => t.id === params.id);
+ 
+ if (index === -1) {
+ return NextResponse.json(
+ { error: 'Task not found' },
+ { status: 404 }
+ );
+ }
+ 
+ db.tasks.splice(index, 1);
+ await writeDB(db);
+ 
+ return NextResponse.json({ success: true });
+ } catch (error) {
+ return NextResponse.json(
+ { error: 'Failed to delete task' },
+ { status: 500 }
+ );
+ }
 }
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Hello API
 
@@ -530,7 +530,7 @@ Create an endpoint that requires authentication.
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 | Concept | Description |
 |---------|-------------|
@@ -543,7 +543,7 @@ Create an endpoint that requires authentication.
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Coming Next**: Module 05 - Deployment
 
@@ -553,7 +553,7 @@ Create an endpoint that requires authentication.
 
 <div align="center">
 
-**Full-stack development!** 🔧
+**Full-stack development!** 
 
 *Backend and frontend in harmony.*
 

@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -23,18 +23,18 @@ The **terminal** (also called **command line** or **shell**) is a text-based way
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                     GUI vs TERMINAL                                          │
+│ GUI vs TERMINAL │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   GUI (Graphical User Interface)      TERMINAL (Command Line Interface)     │
-│   ══════════════════════════════      ══════════════════════════════════   │
-│                                                                              │
-│   • Click with mouse                  • Type commands                        │
-│   • See icons and windows             • See text                             │
-│   • Beginner-friendly                 • Powerful for experts                │
-│   • Limited to what menus offer       • Full control of system              │
-│   • Slower for repetitive tasks       • Fast for automation                 │
-│                                                                              │
+│ │
+│ GUI (Graphical User Interface) TERMINAL (Command Line Interface) │
+│ ══════════════════════════════ ══════════════════════════════════ │
+│ │
+│ • Click with mouse • Type commands │
+│ • See icons and windows • See text │
+│ • Beginner-friendly • Powerful for experts │
+│ • Limited to what menus offer • Full control of system │
+│ • Slower for repetitive tasks • Fast for automation │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -77,16 +77,16 @@ This shows:
 Think of your files as a tree structure:
 
 ```
-/                          ← ROOT (the very top)
-├── home/                  ← Home directories for users
-│   └── student/           ← YOUR home folder
-│       ├── Documents/
-│       ├── Downloads/
-│       ├── Desktop/
-│       └── projects/
-├── etc/                   ← System configuration files
-├── usr/                   ← User programs and data
-└── var/                   ← Variable data (logs, etc.)
+/ ← ROOT (the very top)
+├── home/ ← Home directories for users
+│ └── student/ ← YOUR home folder
+│ ├── Documents/
+│ ├── Downloads/
+│ ├── Desktop/
+│ └── projects/
+├── etc/ ← System configuration files
+├── usr/ ← User programs and data
+└── var/ ← Variable data (logs, etc.)
 ```
 
 ### Navigation Commands
@@ -108,7 +108,7 @@ Shows what's in the current directory.
 
 ```bash
 $ ls
-Desktop    Documents    Downloads    Music    Pictures    projects
+Desktop Documents Downloads Music Pictures projects
 ```
 
 **Useful variations:**
@@ -125,11 +125,11 @@ Desktop    Documents    Downloads    Music    Pictures    projects
 ```bash
 $ ls -la
 total 32
-drwxr-xr-x  8 student student 4096 Dec 26 10:00 .
-drwxr-xr-x  3 root    root    4096 Dec 25 09:00 ..
--rw-r--r--  1 student student  220 Dec 25 09:00 .bashrc
-drwxr-xr-x  2 student student 4096 Dec 26 09:30 Documents
-drwxr-xr-x  2 student student 4096 Dec 26 10:00 Downloads
+drwxr-xr-x 8 student student 4096 Dec 26 10:00 .
+drwxr-xr-x 3 root root 4096 Dec 25 09:00 ..
+-rw-r--r-- 1 student student 220 Dec 25 09:00 .bashrc
+drwxr-xr-x 2 student student 4096 Dec 26 09:30 Documents
+drwxr-xr-x 2 student student 4096 Dec 26 10:00 Downloads
 ```
 
 #### `cd` — Change Directory
@@ -137,10 +137,10 @@ drwxr-xr-x  2 student student 4096 Dec 26 10:00 Downloads
 Move to a different folder.
 
 ```bash
-cd Documents      # Go into Documents folder
-cd ..             # Go up one level (parent folder)
-cd ~              # Go to your home folder
-cd /              # Go to the root of the system
+cd Documents # Go into Documents folder
+cd .. # Go up one level (parent folder)
+cd ~ # Go to your home folder
+cd / # Go to the root of the system
 ```
 
 ### Path Types
@@ -162,8 +162,8 @@ cd /              # Go to the root of the system
 #### `mkdir` — Make Directory
 
 ```bash
-mkdir my_project           # Create a folder called "my_project"
-mkdir -p projects/web/css  # Create nested folders
+mkdir my_project # Create a folder called "my_project"
+mkdir -p projects/web/css # Create nested folders
 ```
 
 ### Creating Files
@@ -171,8 +171,8 @@ mkdir -p projects/web/css  # Create nested folders
 #### `touch` — Create Empty File
 
 ```bash
-touch index.html           # Create an empty file
-touch style.css script.js  # Create multiple files
+touch index.html # Create an empty file
+touch style.css script.js # Create multiple files
 ```
 
 ### Viewing File Contents
@@ -180,21 +180,21 @@ touch style.css script.js  # Create multiple files
 #### `cat` — Concatenate (Display File)
 
 ```bash
-cat index.html             # Show file contents
+cat index.html # Show file contents
 ```
 
 #### `less` — View Long Files
 
 ```bash
-less long_file.txt         # Scroll through (press Q to exit)
+less long_file.txt # Scroll through (press Q to exit)
 ```
 
 #### `head` and `tail`
 
 ```bash
-head file.txt              # Show first 10 lines
-tail file.txt              # Show last 10 lines
-head -n 5 file.txt         # Show first 5 lines
+head file.txt # Show first 10 lines
+tail file.txt # Show last 10 lines
+head -n 5 file.txt # Show first 5 lines
 ```
 
 ### Copying, Moving, Removing
@@ -202,26 +202,26 @@ head -n 5 file.txt         # Show first 5 lines
 #### `cp` — Copy
 
 ```bash
-cp file.txt backup.txt              # Copy file
-cp -r folder1 folder2               # Copy folder (recursive)
+cp file.txt backup.txt # Copy file
+cp -r folder1 folder2 # Copy folder (recursive)
 ```
 
 #### `mv` — Move (also Rename)
 
 ```bash
-mv old_name.txt new_name.txt        # Rename a file
-mv file.txt Documents/              # Move file to Documents
+mv old_name.txt new_name.txt # Rename a file
+mv file.txt Documents/ # Move file to Documents
 ```
 
 #### `rm` — Remove (Delete)
 
 ```bash
-rm file.txt                         # Delete a file
-rm -r folder                        # Delete a folder and contents
-rm -rf folder                       # Force delete (BE CAREFUL!)
+rm file.txt # Delete a file
+rm -r folder # Delete a folder and contents
+rm -rf folder # Force delete (BE CAREFUL!)
 ```
 
-⚠️ **WARNING**: There is NO undo for `rm`! Deleted files are gone forever.
+ **WARNING**: There is NO undo for `rm`! Deleted files are gone forever.
 
 ---
 
@@ -231,48 +231,48 @@ rm -rf folder                       # Force delete (BE CAREFUL!)
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    ESSENTIAL TERMINAL COMMANDS                               │
+│ ESSENTIAL TERMINAL COMMANDS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   NAVIGATION                                                                 │
-│   ──────────                                                                 │
-│   pwd          Print current directory                                      │
-│   ls           List files                                                    │
-│   ls -la       List all files with details                                  │
-│   cd folder    Go to folder                                                  │
-│   cd ..        Go up one level                                               │
-│   cd ~         Go home                                                       │
-│                                                                              │
-│   FILES & FOLDERS                                                           │
-│   ───────────────                                                           │
-│   mkdir name   Create folder                                                 │
-│   touch file   Create empty file                                            │
-│   cp src dst   Copy file                                                     │
-│   mv src dst   Move/rename file                                             │
-│   rm file      Delete file (careful!)                                       │
-│   rm -r folder Delete folder (careful!)                                     │
-│                                                                              │
-│   VIEWING FILES                                                              │
-│   ─────────────                                                              │
-│   cat file     Show file contents                                           │
-│   less file    View long file (Q to exit)                                   │
-│   head file    Show first lines                                             │
-│   tail file    Show last lines                                              │
-│                                                                              │
-│   HELPFUL                                                                    │
-│   ───────                                                                    │
-│   clear        Clear the screen                                             │
-│   history      Show command history                                         │
-│   man command  Show manual for command                                      │
-│   --help       Most commands support this                                   │
-│                                                                              │
-│   SHORTCUTS                                                                  │
-│   ─────────                                                                  │
-│   Tab          Auto-complete file/folder names                              │
-│   ↑↓           Navigate command history                                     │
-│   Ctrl+C       Cancel current command                                       │
-│   Ctrl+L       Clear screen (same as 'clear')                              │
-│                                                                              │
+│ │
+│ NAVIGATION │
+│ ────────── │
+│ pwd Print current directory │
+│ ls List files │
+│ ls -la List all files with details │
+│ cd folder Go to folder │
+│ cd .. Go up one level │
+│ cd ~ Go home │
+│ │
+│ FILES & FOLDERS │
+│ ─────────────── │
+│ mkdir name Create folder │
+│ touch file Create empty file │
+│ cp src dst Copy file │
+│ mv src dst Move/rename file │
+│ rm file Delete file (careful!) │
+│ rm -r folder Delete folder (careful!) │
+│ │
+│ VIEWING FILES │
+│ ───────────── │
+│ cat file Show file contents │
+│ less file View long file (Q to exit) │
+│ head file Show first lines │
+│ tail file Show last lines │
+│ │
+│ HELPFUL │
+│ ─────── │
+│ clear Clear the screen │
+│ history Show command history │
+│ man command Show manual for command │
+│ --help Most commands support this │
+│ │
+│ SHORTCUTS │
+│ ───────── │
+│ Tab Auto-complete file/folder names │
+│ ↑↓ Navigate command history │
+│ Ctrl+C Cancel current command │
+│ Ctrl+L Clear screen (same as 'clear') │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -333,8 +333,8 @@ $ rm -r old-project
 Press **Tab** to auto-complete:
 
 ```bash
-cd Doc[TAB]           # Completes to: cd Documents/
-ls Down[TAB]          # Completes to: ls Downloads/
+cd Doc[TAB] # Completes to: cd Documents/
+ls Down[TAB] # Completes to: ls Downloads/
 ```
 
 If there are multiple options, press **Tab twice** to see them all.
@@ -361,7 +361,7 @@ If there are multiple options, press **Tab twice** to see them all.
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Navigation Practice
 
@@ -393,9 +393,9 @@ my-first-website/
 ├── index.html
 ├── about.html
 ├── css/
-│   └── style.css
+│ └── style.css
 ├── js/
-│   └── main.js
+│ └── main.js
 └── images/
 ```
 
@@ -421,7 +421,7 @@ ls -la
 3. Delete the file
 4. Delete the folder
 
-⚠️ Be careful with `rm`!
+ Be careful with `rm`!
 
 ### Exercise 5: Speed Challenge
 
@@ -429,7 +429,7 @@ Using only the keyboard (Tab completion and shortcuts), navigate to three differ
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Key Vocabulary**
 
@@ -453,7 +453,7 @@ Using only the keyboard (Tab completion and shortcuts), navigate to three differ
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 04:**
 
@@ -470,7 +470,7 @@ Using only the keyboard (Tab completion and shortcuts), navigate to three differ
 
 <div align="center">
 
-**The terminal is your superpower!** 💻
+**The terminal is your superpower!** 
 
 *Practice every day. Soon it will feel natural.*
 

@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -32,19 +32,19 @@ Version control solves all these problems!
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    VERSION CONTROL                                           │
+│ VERSION CONTROL │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   A system that tracks changes to files over time.                          │
-│                                                                              │
-│   You can:                                                                   │
-│   • See what changed and when                                               │
-│   • Go back to any previous version                                         │
-│   • Work on multiple versions simultaneously                                │
-│   • Merge work from multiple people                                         │
-│                                                                              │
-│   Think of it as unlimited UNDO + history + collaboration                  │
-│                                                                              │
+│ │
+│ A system that tracks changes to files over time. │
+│ │
+│ You can: │
+│ • See what changed and when │
+│ • Go back to any previous version │
+│ • Work on multiple versions simultaneously │
+│ • Merge work from multiple people │
+│ │
+│ Think of it as unlimited UNDO + history + collaboration │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -81,7 +81,7 @@ my-project/
 ├── index.html
 ├── style.css
 ├── script.js
-└── .git/          ← Git's data (hidden folder)
+└── .git/ ← Git's data (hidden folder)
 ```
 
 ### Commit
@@ -91,10 +91,10 @@ A "snapshot" of your files at a point in time:
 ```
 Commit History:
 ────────────────────────────────────────────────────────────
-  [Initial] → [Add CSS] → [Fix bug] → [Add feature] → [Now]
+ [Initial] → [Add CSS] → [Fix bug] → [Add feature] → [Now]
 ────────────────────────────────────────────────────────────
-              ↑
-              You can go back to any of these!
+ ↑
+ You can go back to any of these!
 ```
 
 ### Staging Area
@@ -103,19 +103,19 @@ Before committing, you "stage" files — select which changes to include:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    THE GIT WORKFLOW                                          │
+│ THE GIT WORKFLOW │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   WORKING DIRECTORY    →    STAGING AREA    →    REPOSITORY                │
-│   (Your files)               (To be saved)       (Saved history)            │
-│                                                                              │
-│   index.html (modified)      ┌─────────────┐     Commit 1                  │
-│   style.css (modified)  ──►  │ index.html  │ ──► Commit 2                  │
-│   readme.md (no change)      │ style.css   │     Commit 3                  │
-│                              └─────────────┘     ...                        │
-│                                                                              │
-│       git add              git commit                                        │
-│                                                                              │
+│ │
+│ WORKING DIRECTORY → STAGING AREA → REPOSITORY │
+│ (Your files) (To be saved) (Saved history) │
+│ │
+│ index.html (modified) ┌─────────────┐ Commit 1 │
+│ style.css (modified) ──► │ index.html │ ──► Commit 2 │
+│ readme.md (no change) │ style.css │ Commit 3 │
+│ └─────────────┘ ... │
+│ │
+│ git add git commit │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -264,14 +264,14 @@ Files can be in three states:
 
 ```bash
 # 1. Make changes to your files
-#    (edit index.html, add style.css, etc.)
+# (edit index.html, add style.css, etc.)
 
 # 2. Check what changed
 git status
 
 # 3. Stage changes
-git add .                    # All changes
-git add index.html           # Specific file
+git add . # All changes
+git add index.html # Specific file
 
 # 4. Commit with message
 git commit -m "Add navigation bar"
@@ -301,7 +301,7 @@ git commit -m "Update hero section styling"
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Install & Configure
 
@@ -340,7 +340,7 @@ git commit -m "Update hero section styling"
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Key Commands**
 
@@ -363,7 +363,7 @@ git commit -m "Update hero section styling"
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 02:**
 
@@ -381,7 +381,7 @@ git commit -m "Update hero section styling"
 
 <div align="center">
 
-**You've entered the Git world!** 🌳
+**You've entered the Git world!** 
 
 *Every professional developer uses Git.*
 

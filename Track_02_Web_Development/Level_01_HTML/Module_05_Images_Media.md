@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -31,16 +31,16 @@ The `<img>` element displays images. It's a **void element** (no closing tag).
 
 | Attribute | Purpose | Required? |
 |-----------|---------|-----------|
-| `src` | Image file location | ✅ Yes |
-| `alt` | Alternative text (accessibility) | ✅ Yes |
+| `src` | Image file location | Yes |
+| `alt` | Alternative text (accessibility) | Yes |
 
 ### Anatomy of an Image Element
 
 ```html
 <img src="images/koompi-laptop.jpg" 
-     alt="KOOMPI laptop computer on a wooden desk" 
-     width="800" 
-     height="600">
+ alt="KOOMPI laptop computer on a wooden desk" 
+ width="800" 
+ height="600">
 ```
 
 | Attribute | Value | Purpose |
@@ -61,16 +61,16 @@ my-website/
 ├── index.html
 ├── about.html
 ├── images/
-│   ├── logo.png
-│   ├── hero-banner.jpg
-│   ├── team/
-│   │   ├── sokha.jpg
-│   │   └── dara.jpg
-│   └── products/
-│       ├── laptop-1.jpg
-│       └── laptop-2.jpg
+│ ├── logo.png
+│ ├── hero-banner.jpg
+│ ├── team/
+│ │ ├── sokha.jpg
+│ │ └── dara.jpg
+│ └── products/
+│ ├── laptop-1.jpg
+│ └── laptop-2.jpg
 └── pages/
-    └── contact.html
+ └── contact.html
 ```
 
 ### Relative Paths from index.html
@@ -128,23 +128,23 @@ Alt text is crucial for:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    ALT TEXT BEST PRACTICES                                   │
+│ ALT TEXT BEST PRACTICES │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   ❌ BAD                              ✅ GOOD                                │
-│   ═════                               ══════                                │
-│                                                                              │
-│   alt="image"                         alt="KOOMPI laptop computer"          │
-│   alt="photo123.jpg"                  alt="Students learning to code"       │
-│   alt=""  (for meaningful images)     alt="Angkor Wat temple at sunrise"    │
-│   alt="Click here"                    alt="Download button icon"            │
-│                                                                              │
-│   TIPS:                                                                      │
-│   • Be specific and descriptive                                             │
-│   • Don't start with "Image of..." or "Photo of..."                        │
-│   • Keep it concise (under 125 characters)                                 │
-│   • Describe what's important in context                                   │
-│                                                                              │
+│ │
+│ BAD GOOD │
+│ ═════ ══════ │
+│ │
+│ alt="image" alt="KOOMPI laptop computer" │
+│ alt="photo123.jpg" alt="Students learning to code" │
+│ alt="" (for meaningful images) alt="Angkor Wat temple at sunrise" │
+│ alt="Click here" alt="Download button icon" │
+│ │
+│ TIPS: │
+│ • Be specific and descriptive │
+│ • Don't start with "Image of..." or "Photo of..." │
+│ • Keep it concise (under 125 characters) │
+│ • Describe what's important in context │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -189,21 +189,21 @@ Setting dimensions prevents **layout shift** — the page jumping around while i
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    WITHOUT DIMENSIONS                                        │
+│ WITHOUT DIMENSIONS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   1. Page loads text:       2. Image loads:        3. Content jumps!        │
-│                                                                              │
-│   ┌───────────────┐        ┌───────────────┐      ┌───────────────┐         │
-│   │ Title         │        │ Title         │      │ Title         │         │
-│   │ Text here... │        │ ┌───────────┐ │      │ ┌───────────┐ │         │
-│   │               │   →    │ │  IMAGE    │ │  →   │ │  IMAGE    │ │        │
-│   │               │        │ └───────────┘ │      │ └───────────┘ │         │
-│   │               │        │               │      │ Text here... │         │
-│   └───────────────┘        └───────────────┘      └───────────────┘         │
-│                                                                              │
-│   WITH DIMENSIONS: Space is reserved, no jumping!                           │
-│                                                                              │
+│ │
+│ 1. Page loads text: 2. Image loads: 3. Content jumps! │
+│ │
+│ ┌───────────────┐ ┌───────────────┐ ┌───────────────┐ │
+│ │ Title │ │ Title │ │ Title │ │
+│ │ Text here... │ │ ┌───────────┐ │ │ ┌───────────┐ │ │
+│ │ │ → │ │ IMAGE │ │ → │ │ IMAGE │ │ │
+│ │ │ │ └───────────┘ │ │ └───────────┘ │ │
+│ │ │ │ │ │ Text here... │ │
+│ └───────────────┘ └───────────────┘ └───────────────┘ │
+│ │
+│ WITH DIMENSIONS: Space is reserved, no jumping! │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -235,22 +235,22 @@ This makes images shrink on small screens but never grow larger than their natur
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    CHOOSING IMAGE FORMAT                                     │
+│ CHOOSING IMAGE FORMAT │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   Is it a photograph?                                                        │
-│   └── YES → Use JPEG                                                         │
-│   └── NO  → Does it need transparency?                                      │
-│             └── YES → Use PNG (or WebP)                                     │
-│             └── NO  → Is it an icon/logo?                                   │
-│                       └── YES → Use SVG                                     │
-│                       └── NO  → Is it animated?                             │
-│                                 └── YES → Use GIF (or WebP)                │
-│                                 └── NO  → Use PNG or WebP                  │
-│                                                                              │
-│   MODERN TIP: WebP works for almost everything and has the best            │
-│   compression. Use it when browser support isn't a concern.                │
-│                                                                              │
+│ │
+│ Is it a photograph? │
+│ └── YES → Use JPEG │
+│ └── NO → Does it need transparency? │
+│ └── YES → Use PNG (or WebP) │
+│ └── NO → Is it an icon/logo? │
+│ └── YES → Use SVG │
+│ └── NO → Is it animated? │
+│ └── YES → Use GIF (or WebP) │
+│ └── NO → Use PNG or WebP │
+│ │
+│ MODERN TIP: WebP works for almost everything and has the best │
+│ compression. Use it when browser support isn't a concern. │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -280,7 +280,7 @@ Make images clickable by wrapping them in an anchor tag:
 
 ```html
 <a href="https://koompi.com">
-    <img src="koompi-logo.png" alt="KOOMPI - Visit our website">
+ <img src="koompi-logo.png" alt="KOOMPI - Visit our website">
 </a>
 ```
 
@@ -288,8 +288,8 @@ Make images clickable by wrapping them in an anchor tag:
 
 ```html
 <a href="products.html">
-    <img src="laptop.jpg" alt="">
-    <span>View Our Products</span>
+ <img src="laptop.jpg" alt="">
+ <span>View Our Products</span>
 </a>
 ```
 
@@ -300,17 +300,17 @@ Make images clickable by wrapping them in an anchor tag:
 ```html
 <!-- Logo links to homepage -->
 <a href="index.html">
-    <img src="logo.png" alt="KOOMPI Home">
+ <img src="logo.png" alt="KOOMPI Home">
 </a>
 
 <!-- Product thumbnail links to product page -->
 <a href="products/koompi-e13.html">
-    <img src="images/koompi-e13-thumb.jpg" alt="View KOOMPI E13 details">
+ <img src="images/koompi-e13-thumb.jpg" alt="View KOOMPI E13 details">
 </a>
 
 <!-- Social media icon -->
 <a href="https://facebook.com/koompi" target="_blank" rel="noopener noreferrer">
-    <img src="icons/facebook.svg" alt="KOOMPI on Facebook">
+ <img src="icons/facebook.svg" alt="KOOMPI on Facebook">
 </a>
 ```
 
@@ -324,8 +324,8 @@ The `<figure>` element wraps images (or other content) with a caption.
 
 ```html
 <figure>
-    <img src="angkor-wat.jpg" alt="Angkor Wat temple complex at sunrise">
-    <figcaption>Angkor Wat, a UNESCO World Heritage Site in Cambodia</figcaption>
+ <img src="angkor-wat.jpg" alt="Angkor Wat temple complex at sunrise">
+ <figcaption>Angkor Wat, a UNESCO World Heritage Site in Cambodia</figcaption>
 </figure>
 ```
 
@@ -341,9 +341,9 @@ Use `<figure>` when:
 
 ```html
 <figure>
-    <img src="before.jpg" alt="Website before redesign">
-    <img src="after.jpg" alt="Website after redesign">
-    <figcaption>Website design: before and after the modernization</figcaption>
+ <img src="before.jpg" alt="Website before redesign">
+ <img src="after.jpg" alt="Website after redesign">
+ <figcaption>Website design: before and after the modernization</figcaption>
 </figure>
 ```
 
@@ -353,14 +353,14 @@ Use `<figure>` when:
 
 ```html
 <figure>
-    <pre><code>&lt;img src="photo.jpg" alt="Description"&gt;</code></pre>
-    <figcaption>HTML code for adding an image</figcaption>
+ <pre><code>&lt;img src="photo.jpg" alt="Description"&gt;</code></pre>
+ <figcaption>HTML code for adding an image</figcaption>
 </figure>
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Image Gallery
 
@@ -390,11 +390,11 @@ Given this structure:
 project/
 ├── index.html
 ├── pages/
-│   └── about.html
+│ └── about.html
 └── assets/
-    └── images/
-        ├── logo.png
-        └── hero.jpg
+ └── images/
+ ├── logo.png
+ └── hero.jpg
 ```
 
 Write the correct paths from both files to both images.
@@ -417,7 +417,7 @@ Create a photo gallery of Cambodia using `<figure>`:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Elements Learned**
 
@@ -447,7 +447,7 @@ Create a photo gallery of Cambodia using `<figure>`:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 06:**
 
@@ -465,7 +465,7 @@ Create a photo gallery of Cambodia using `<figure>`:
 
 <div align="center">
 
-**A picture is worth a thousand words!** 🖼️
+**A picture is worth a thousand words!** 
 
 *But only if everyone can "see" it (with good alt text).*
 

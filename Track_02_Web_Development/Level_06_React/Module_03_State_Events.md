@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,21 +21,21 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    PROPS vs STATE                                            │
+│ PROPS vs STATE │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   PROPS                                STATE                                │
-│   ═════                                ═════                                │
-│                                                                              │
-│   • Passed from parent                 • Managed internally                │
-│   • Read-only                          • Can be changed                    │
-│   • Component doesn't own              • Component owns                    │
-│   • Used for configuration             • Used for interactivity           │
-│                                                                              │
-│   Example:                             Example:                            │
-│   <Button color="blue">               Button tracks if clicked            │
-│   (parent decides color)               (manages own state)                 │
-│                                                                              │
+│ │
+│ PROPS STATE │
+│ ═════ ═════ │
+│ │
+│ • Passed from parent • Managed internally │
+│ • Read-only • Can be changed │
+│ • Component doesn't own • Component owns │
+│ • Used for configuration • Used for interactivity │
+│ │
+│ Example: Example: │
+│ <Button color="blue"> Button tracks if clicked │
+│ (parent decides color) (manages own state) │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -59,18 +59,18 @@ By the end of this module, you will be able to:
 import { useState } from 'react';
 
 function Counter() {
-  // Declare state: [currentValue, setterFunction]
-  const [count, setCount] = useState(0);
-  //                        ↑ initial value
-  
-  return (
-    <div>
-      <p>Count: {count}</p>
-      <button onClick={() => setCount(count + 1)}>
-        Increment
-      </button>
-    </div>
-  );
+ // Declare state: [currentValue, setterFunction]
+ const [count, setCount] = useState(0);
+ // ↑ initial value
+ 
+ return (
+ <div>
+ <p>Count: {count}</p>
+ <button onClick={() => setCount(count + 1)}>
+ Increment
+ </button>
+ </div>
+ );
 }
 ```
 
@@ -78,36 +78,36 @@ function Counter() {
 
 ```jsx
 const [value, setValue] = useState(initialValue);
-//     ↑           ↑                    ↑
-//     |           |                    └── Starting value
-//     |           └── Function to update value
-//     └── Current value
+// ↑ ↑ ↑
+// | | └── Starting value
+// | └── Function to update value
+// └── Current value
 ```
 
 ### Multiple State Variables
 
 ```jsx
 function UserForm() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [age, setAge] = useState(0);
-  const [isSubscribed, setIsSubscribed] = useState(false);
-  
-  return (
-    <form>
-      <input 
-        value={name}
-        onChange={e => setName(e.target.value)}
-        placeholder="Name"
-      />
-      <input 
-        value={email}
-        onChange={e => setEmail(e.target.value)}
-        placeholder="Email"
-      />
-      {/* ... */}
-    </form>
-  );
+ const [name, setName] = useState("");
+ const [email, setEmail] = useState("");
+ const [age, setAge] = useState(0);
+ const [isSubscribed, setIsSubscribed] = useState(false);
+ 
+ return (
+ <form>
+ <input 
+ value={name}
+ onChange={e => setName(e.target.value)}
+ placeholder="Name"
+ />
+ <input 
+ value={email}
+ onChange={e => setEmail(e.target.value)}
+ placeholder="Email"
+ />
+ {/* ... */}
+ </form>
+ );
 }
 ```
 
@@ -142,21 +142,21 @@ function UserForm() {
 
 ```jsx
 function Button() {
-  // Define handler function
-  const handleClick = () => {
-    console.log("Button clicked!");
-  };
-  
-  return <button onClick={handleClick}>Click Me</button>;
+ // Define handler function
+ const handleClick = () => {
+ console.log("Button clicked!");
+ };
+ 
+ return <button onClick={handleClick}>Click Me</button>;
 }
 
 // Or inline
 function Button() {
-  return (
-    <button onClick={() => console.log("Clicked!")}>
-      Click Me
-    </button>
-  );
+ return (
+ <button onClick={() => console.log("Clicked!")}>
+ Click Me
+ </button>
+ );
 }
 ```
 
@@ -164,11 +164,11 @@ function Button() {
 
 ```jsx
 function Input() {
-  const handleChange = (event) => {
-    console.log(event.target.value);
-  };
-  
-  return <input onChange={handleChange} />;
+ const handleChange = (event) => {
+ console.log(event.target.value);
+ };
+ 
+ return <input onChange={handleChange} />;
 }
 ```
 
@@ -182,20 +182,20 @@ function Input() {
 import { useState } from 'react';
 
 function Counter() {
-  const [count, setCount] = useState(0);
-  
-  const increment = () => setCount(count + 1);
-  const decrement = () => setCount(count - 1);
-  const reset = () => setCount(0);
-  
-  return (
-    <div className="counter">
-      <h2>Count: {count}</h2>
-      <button onClick={decrement}>-</button>
-      <button onClick={reset}>Reset</button>
-      <button onClick={increment}>+</button>
-    </div>
-  );
+ const [count, setCount] = useState(0);
+ 
+ const increment = () => setCount(count + 1);
+ const decrement = () => setCount(count - 1);
+ const reset = () => setCount(0);
+ 
+ return (
+ <div className="counter">
+ <h2>Count: {count}</h2>
+ <button onClick={decrement}>-</button>
+ <button onClick={reset}>Reset</button>
+ <button onClick={increment}>+</button>
+ </div>
+ );
 }
 ```
 
@@ -203,18 +203,18 @@ function Counter() {
 
 ```jsx
 function Toggle() {
-  const [isOn, setIsOn] = useState(false);
-  
-  const toggle = () => setIsOn(!isOn);
-  
-  return (
-    <div>
-      <p>Status: {isOn ? "ON" : "OFF"}</p>
-      <button onClick={toggle}>
-        Turn {isOn ? "OFF" : "ON"}
-      </button>
-    </div>
-  );
+ const [isOn, setIsOn] = useState(false);
+ 
+ const toggle = () => setIsOn(!isOn);
+ 
+ return (
+ <div>
+ <p>Status: {isOn ? "ON" : "OFF"}</p>
+ <button onClick={toggle}>
+ Turn {isOn ? "OFF" : "ON"}
+ </button>
+ </div>
+ );
 }
 ```
 
@@ -222,19 +222,19 @@ function Toggle() {
 
 ```jsx
 function NameInput() {
-  const [name, setName] = useState("");
-  
-  return (
-    <div>
-      <input
-        type="text"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-        placeholder="Enter your name"
-      />
-      <p>Hello, {name || "stranger"}!</p>
-    </div>
-  );
+ const [name, setName] = useState("");
+ 
+ return (
+ <div>
+ <input
+ type="text"
+ value={name}
+ onChange={(e) => setName(e.target.value)}
+ placeholder="Enter your name"
+ />
+ <p>Hello, {name || "stranger"}!</p>
+ </div>
+ );
 }
 ```
 
@@ -248,32 +248,32 @@ React controls the input value:
 
 ```jsx
 function LoginForm() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Login:", { email, password });
-    // Submit to API
-  };
-  
-  return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        placeholder="Email"
-      />
-      <input
-        type="password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        placeholder="Password"
-      />
-      <button type="submit">Login</button>
-    </form>
-  );
+ const [email, setEmail] = useState("");
+ const [password, setPassword] = useState("");
+ 
+ const handleSubmit = (e) => {
+ e.preventDefault();
+ console.log("Login:", { email, password });
+ // Submit to API
+ };
+ 
+ return (
+ <form onSubmit={handleSubmit}>
+ <input
+ type="email"
+ value={email}
+ onChange={(e) => setEmail(e.target.value)}
+ placeholder="Email"
+ />
+ <input
+ type="password"
+ value={password}
+ onChange={(e) => setPassword(e.target.value)}
+ placeholder="Password"
+ />
+ <button type="submit">Login</button>
+ </form>
+ );
 }
 ```
 
@@ -281,49 +281,49 @@ function LoginForm() {
 
 ```jsx
 function SignupForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    password: ""
-  });
-  
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
-  
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData);
-  };
-  
-  return (
-    <form onSubmit={handleSubmit}>
-      <input
-        name="name"
-        value={formData.name}
-        onChange={handleChange}
-        placeholder="Name"
-      />
-      <input
-        name="email"
-        value={formData.email}
-        onChange={handleChange}
-        placeholder="Email"
-      />
-      <input
-        name="password"
-        type="password"
-        value={formData.password}
-        onChange={handleChange}
-        placeholder="Password"
-      />
-      <button type="submit">Sign Up</button>
-    </form>
-  );
+ const [formData, setFormData] = useState({
+ name: "",
+ email: "",
+ password: ""
+ });
+ 
+ const handleChange = (e) => {
+ const { name, value } = e.target;
+ setFormData(prev => ({
+ ...prev,
+ [name]: value
+ }));
+ };
+ 
+ const handleSubmit = (e) => {
+ e.preventDefault();
+ console.log(formData);
+ };
+ 
+ return (
+ <form onSubmit={handleSubmit}>
+ <input
+ name="name"
+ value={formData.name}
+ onChange={handleChange}
+ placeholder="Name"
+ />
+ <input
+ name="email"
+ value={formData.email}
+ onChange={handleChange}
+ placeholder="Email"
+ />
+ <input
+ name="password"
+ type="password"
+ value={formData.password}
+ onChange={handleChange}
+ placeholder="Password"
+ />
+ <button type="submit">Sign Up</button>
+ </form>
+ );
 }
 ```
 
@@ -334,15 +334,15 @@ function SignupForm() {
 ### State Updates are Asynchronous
 
 ```jsx
-// ❌ Wrong: Reading state immediately after setting
+// Wrong: Reading state immediately after setting
 const handleClick = () => {
-  setCount(count + 1);
-  console.log(count);  // Still old value!
+ setCount(count + 1);
+ console.log(count); // Still old value!
 };
 
-// ✅ Use functional update for derived state
+// Use functional update for derived state
 const handleClick = () => {
-  setCount(prevCount => prevCount + 1);
+ setCount(prevCount => prevCount + 1);
 };
 ```
 
@@ -353,15 +353,15 @@ Use when new state depends on previous:
 ```jsx
 // Multiple increments
 const incrementThree = () => {
-  // ❌ Wrong: Only increments by 1
-  setCount(count + 1);
-  setCount(count + 1);
-  setCount(count + 1);
-  
-  // ✅ Correct: Increments by 3
-  setCount(prev => prev + 1);
-  setCount(prev => prev + 1);
-  setCount(prev => prev + 1);
+ // Wrong: Only increments by 1
+ setCount(count + 1);
+ setCount(count + 1);
+ setCount(count + 1);
+ 
+ // Correct: Increments by 3
+ setCount(prev => prev + 1);
+ setCount(prev => prev + 1);
+ setCount(prev => prev + 1);
 };
 ```
 
@@ -370,10 +370,10 @@ const incrementThree = () => {
 ```jsx
 const [user, setUser] = useState({ name: "Sokha", age: 22 });
 
-// ❌ Wrong: Mutating state directly
+// Wrong: Mutating state directly
 user.age = 23;
 
-// ✅ Correct: Create new object
+// Correct: Create new object
 setUser({ ...user, age: 23 });
 
 // Or with functional update
@@ -393,7 +393,7 @@ setItems(items.filter(item => item !== "Banana"));
 
 // Update item
 setItems(items.map(item => 
-  item === "Apple" ? "Red Apple" : item
+ item === "Apple" ? "Red Apple" : item
 ));
 ```
 
@@ -405,74 +405,74 @@ setItems(items.map(item =>
 
 ```jsx
 function TodoItem({ todo, onToggle, onDelete }) {
-  return (
-    <div className={`todo ${todo.completed ? 'completed' : ''}`}>
-      <input
-        type="checkbox"
-        checked={todo.completed}
-        onChange={() => onToggle(todo.id)}
-      />
-      <span>{todo.text}</span>
-      <button onClick={() => onDelete(todo.id)}>Delete</button>
-    </div>
-  );
+ return (
+ <div className={`todo ${todo.completed ? 'completed' : ''}`}>
+ <input
+ type="checkbox"
+ checked={todo.completed}
+ onChange={() => onToggle(todo.id)}
+ />
+ <span>{todo.text}</span>
+ <button onClick={() => onDelete(todo.id)}>Delete</button>
+ </div>
+ );
 }
 
 function TodoList() {
-  const [todos, setTodos] = useState([
-    { id: 1, text: "Learn React", completed: false },
-    { id: 2, text: "Build project", completed: false }
-  ]);
-  const [newTodo, setNewTodo] = useState("");
-  
-  const addTodo = (e) => {
-    e.preventDefault();
-    if (!newTodo.trim()) return;
-    
-    setTodos([
-      ...todos,
-      { id: Date.now(), text: newTodo, completed: false }
-    ]);
-    setNewTodo("");
-  };
-  
-  const toggleTodo = (id) => {
-    setTodos(todos.map(todo =>
-      todo.id === id ? { ...todo, completed: !todo.completed } : todo
-    ));
-  };
-  
-  const deleteTodo = (id) => {
-    setTodos(todos.filter(todo => todo.id !== id));
-  };
-  
-  return (
-    <div>
-      <form onSubmit={addTodo}>
-        <input
-          value={newTodo}
-          onChange={(e) => setNewTodo(e.target.value)}
-          placeholder="New todo..."
-        />
-        <button type="submit">Add</button>
-      </form>
-      
-      {todos.map(todo => (
-        <TodoItem
-          key={todo.id}
-          todo={todo}
-          onToggle={toggleTodo}
-          onDelete={deleteTodo}
-        />
-      ))}
-    </div>
-  );
+ const [todos, setTodos] = useState([
+ { id: 1, text: "Learn React", completed: false },
+ { id: 2, text: "Build project", completed: false }
+ ]);
+ const [newTodo, setNewTodo] = useState("");
+ 
+ const addTodo = (e) => {
+ e.preventDefault();
+ if (!newTodo.trim()) return;
+ 
+ setTodos([
+ ...todos,
+ { id: Date.now(), text: newTodo, completed: false }
+ ]);
+ setNewTodo("");
+ };
+ 
+ const toggleTodo = (id) => {
+ setTodos(todos.map(todo =>
+ todo.id === id ? { ...todo, completed: !todo.completed } : todo
+ ));
+ };
+ 
+ const deleteTodo = (id) => {
+ setTodos(todos.filter(todo => todo.id !== id));
+ };
+ 
+ return (
+ <div>
+ <form onSubmit={addTodo}>
+ <input
+ value={newTodo}
+ onChange={(e) => setNewTodo(e.target.value)}
+ placeholder="New todo..."
+ />
+ <button type="submit">Add</button>
+ </form>
+ 
+ {todos.map(todo => (
+ <TodoItem
+ key={todo.id}
+ todo={todo}
+ onToggle={toggleTodo}
+ onDelete={deleteTodo}
+ />
+ ))}
+ </div>
+ );
 }
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Counter
 
@@ -496,7 +496,7 @@ Create a simple list where you can add/remove items.
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 | Concept | Description |
 |---------|-------------|
@@ -508,7 +508,7 @@ Create a simple list where you can add/remove items.
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Coming Next**: Module 04 - Hooks (useEffect)
 
@@ -518,7 +518,7 @@ Create a simple list where you can add/remove items.
 
 <div align="center">
 
-**State makes React interactive!** ✨
+**State makes React interactive!** 
 
 *User actions → State changes → UI updates*
 

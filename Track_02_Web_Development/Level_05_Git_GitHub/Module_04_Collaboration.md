@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,25 +21,25 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    TEAM COLLABORATION                                        │
+│ TEAM COLLABORATION │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│                         ┌─────────────┐                                     │
-│                         │   GITHUB    │                                     │
-│                         │   (main)    │                                     │
-│                         └──────┬──────┘                                     │
-│                                │                                            │
-│            ┌───────────────────┼───────────────────┐                       │
-│            ▼                   ▼                   ▼                       │
-│      ┌──────────┐        ┌──────────┐        ┌──────────┐                  │
-│      │ Sokha's  │        │ Dara's   │        │ Bopha's  │                  │
-│      │ Computer │        │ Computer │        │ Computer │                  │
-│      └──────────┘        └──────────┘        └──────────┘                  │
-│            │                   │                   │                       │
-│      feature-nav         feature-footer       fix-bug                      │
-│                                                                              │
-│   Everyone pushes to GitHub, pulls updates from GitHub                     │
-│                                                                              │
+│ │
+│ ┌─────────────┐ │
+│ │ GITHUB │ │
+│ │ (main) │ │
+│ └──────┬──────┘ │
+│ │ │
+│ ┌───────────────────┼───────────────────┐ │
+│ ▼ ▼ ▼ │
+│ ┌──────────┐ ┌──────────┐ ┌──────────┐ │
+│ │ Sokha's │ │ Dara's │ │ Bopha's │ │
+│ │ Computer │ │ Computer │ │ Computer │ │
+│ └──────────┘ └──────────┘ └──────────┘ │
+│ │ │ │ │
+│ feature-nav feature-footer fix-bug │
+│ │
+│ Everyone pushes to GitHub, pulls updates from GitHub │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -50,12 +50,12 @@ By the end of this module, you will be able to:
 ### For Contributing to Others' Projects
 
 ```
-1. FORK      → Create your copy of their repo
-2. CLONE     → Download your fork
-3. BRANCH    → Create feature branch
-4. CODE      → Make your changes
-5. PUSH      → Push to YOUR fork
-6. PR        → Request they merge your changes
+1. FORK → Create your copy of their repo
+2. CLONE → Download your fork
+3. BRANCH → Create feature branch
+4. CODE → Make your changes
+5. PUSH → Push to YOUR fork
+6. PR → Request they merge your changes
 ```
 
 ### Step-by-Step
@@ -156,9 +156,9 @@ When reviewing someone's PR:
 Conflicts occur when two people change the same lines:
 
 ```
-You:     "The color is blue"
+You: "The color is blue"
 Teammate: "The color is red"
-Git:     "I don't know which one to use!"
+Git: "I don't know which one to use!"
 ```
 
 ### Conflict Markers
@@ -306,7 +306,7 @@ Host websites for free!
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Fork & PR
 
@@ -336,7 +336,7 @@ Host websites for free!
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Collaboration Commands**
 
@@ -361,23 +361,23 @@ fork → clone → branch → code → push → PR
 
 ---
 
-## 🎓 Level Complete
+## Level Complete
 
 You've completed Git & GitHub! You can now:
 
-✅ Track changes with Git
-✅ Use branches for features
-✅ Host code on GitHub
-✅ Collaborate with pull requests
-✅ Contribute to open source
+ Track changes with Git
+ Use branches for features
+ Host code on GitHub
+ Collaborate with pull requests
+ Contribute to open source
 
-**Git & GitHub Badge** earned! 🏅
+**Git & GitHub Badge** earned! 
 
 ---
 
 <div align="center">
 
-**You're a Git collaborator!** 🤝
+**You're a Git collaborator!** 
 
 *Open source awaits your contributions.*
 

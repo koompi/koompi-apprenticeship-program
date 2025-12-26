@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Track Overview
+## Track Overview
 
 This is the core technical track. You will learn to build modern websites and web applications from scratch.
 
@@ -16,50 +16,50 @@ This is the core technical track. You will learn to build modern websites and we
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    WEB DEVELOPMENT JOURNEY                                   │
+│ WEB DEVELOPMENT JOURNEY │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   Level 2.1: HTML Fundamentals                                              │
-│   ════════════════════════════                                              │
-│   Structure of web pages                                                    │
-│   → Bio Page Project                                                        │
-│                     │                                                        │
-│                     ▼                                                        │
-│   Level 2.2: CSS Styling                                                    │
-│   ══════════════════════                                                    │
-│   Making pages beautiful                                                    │
-│   → Styled Portfolio Project                                                │
-│                     │                                                        │
-│                     ▼                                                        │
-│   Level 2.3: JavaScript Basics                                              │
-│   ════════════════════════════                                              │
-│   Making pages interactive                                                  │
-│   → Interactive Quiz Project                                                │
-│                     │                                                        │
-│                     ▼                                                        │
-│   Level 2.4: JavaScript Advanced                                            │
-│   ══════════════════════════════                                            │
-│   Async, APIs, Modern JS                                                    │
-│   → Weather App Project                                                     │
-│                     │                                                        │
-│                     ▼                                                        │
-│   Level 2.5: Git & GitHub                                                   │
-│   ═══════════════════════                                                   │
-│   Version control & collaboration                                           │
-│   → All projects on GitHub                                                  │
-│                     │                                                        │
-│                     ▼                                                        │
-│   Level 2.6: React Fundamentals                                             │
-│   ═════════════════════════════                                             │
-│   Modern frontend framework                                                 │
-│   → Task Manager App                                                        │
-│                     │                                                        │
-│                     ▼                                                        │
-│   Level 2.7: Next.js & Tailwind                                            │
-│   ═════════════════════════════                                             │
-│   Production-ready applications                                             │
-│   → Full-Stack Project                                                      │
-│                                                                              │
+│ │
+│ Level 2.1: HTML Fundamentals │
+│ ════════════════════════════ │
+│ Structure of web pages │
+│ → Bio Page Project │
+│ │ │
+│ ▼ │
+│ Level 2.2: CSS Styling │
+│ ══════════════════════ │
+│ Making pages beautiful │
+│ → Styled Portfolio Project │
+│ │ │
+│ ▼ │
+│ Level 2.3: JavaScript Basics │
+│ ════════════════════════════ │
+│ Making pages interactive │
+│ → Interactive Quiz Project │
+│ │ │
+│ ▼ │
+│ Level 2.4: JavaScript Advanced │
+│ ══════════════════════════════ │
+│ Async, APIs, Modern JS │
+│ → Weather App Project │
+│ │ │
+│ ▼ │
+│ Level 2.5: Git & GitHub │
+│ ═══════════════════════ │
+│ Version control & collaboration │
+│ → All projects on GitHub │
+│ │ │
+│ ▼ │
+│ Level 2.6: React Fundamentals │
+│ ═════════════════════════════ │
+│ Modern frontend framework │
+│ → Task Manager App │
+│ │ │
+│ ▼ │
+│ Level 2.7: Next.js & Tailwind │
+│ ═════════════════════════════ │
+│ Production-ready applications │
+│ → Full-Stack Project │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -108,16 +108,16 @@ This is the core technical track. You will learn to build modern websites and we
 
 Before starting this track:
 
-- ✅ Complete Track 00: Digital Foundations
-- ✅ Typing speed 30+ WPM
-- ✅ Comfortable with computer basics
-- ✅ English reading ability
+- Complete Track 00: Digital Foundations
+- Typing speed 30+ WPM
+- Comfortable with computer basics
+- English reading ability
 
 ---
 
 <div align="center">
 
-**Build the web!** 🌐
+**Build the web!** 
 
 *Start with Level 2.1: HTML Fundamentals*
 

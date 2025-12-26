@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,21 +21,21 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    SPA ROUTING                                               │
+│ SPA ROUTING │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   TRADITIONAL                          SPA (React)                          │
-│   ═══════════                          ════════════                         │
-│                                                                              │
-│   /home → Load page.html               /home → Show <Home />                │
-│   /about → Load about.html             /about → Show <About />              │
-│   /contact → Load contact.html         /contact → Show <Contact />          │
-│                                                                              │
-│   Full page reload each time           Same page, different component       │
-│   Slow, jarring                        Fast, smooth                         │
-│                                                                              │
-│   React Router handles URL changes without page reloads                    │
-│                                                                              │
+│ │
+│ TRADITIONAL SPA (React) │
+│ ═══════════ ════════════ │
+│ │
+│ /home → Load page.html /home → Show <Home /> │
+│ /about → Load about.html /about → Show <About /> │
+│ /contact → Load contact.html /contact → Show <Contact /> │
+│ │
+│ Full page reload each time Same page, different component │
+│ Slow, jarring Fast, smooth │
+│ │
+│ React Router handles URL changes without page reloads │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -58,9 +58,9 @@ Wrap your app:
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+ <BrowserRouter>
+ <App />
+ </BrowserRouter>
 );
 ```
 
@@ -74,13 +74,13 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 
 function App() {
-  return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
-  );
+ return (
+ <Routes>
+ <Route path="/" element={<Home />} />
+ <Route path="/about" element={<About />} />
+ <Route path="/contact" element={<Contact />} />
+ </Routes>
+ );
 }
 ```
 
@@ -94,13 +94,13 @@ function App() {
 import { Link } from 'react-router-dom';
 
 function Navigation() {
-  return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/contact">Contact</Link>
-    </nav>
-  );
+ return (
+ <nav>
+ <Link to="/">Home</Link>
+ <Link to="/about">About</Link>
+ <Link to="/contact">Contact</Link>
+ </nav>
+ );
 }
 ```
 
@@ -110,22 +110,22 @@ function Navigation() {
 import { NavLink } from 'react-router-dom';
 
 function Navigation() {
-  return (
-    <nav>
-      <NavLink 
-        to="/"
-        className={({ isActive }) => isActive ? 'active' : ''}
-      >
-        Home
-      </NavLink>
-      <NavLink 
-        to="/about"
-        className={({ isActive }) => isActive ? 'active' : ''}
-      >
-        About
-      </NavLink>
-    </nav>
-  );
+ return (
+ <nav>
+ <NavLink 
+ to="/"
+ className={({ isActive }) => isActive ? 'active' : ''}
+ >
+ Home
+ </NavLink>
+ <NavLink 
+ to="/about"
+ className={({ isActive }) => isActive ? 'active' : ''}
+ >
+ About
+ </NavLink>
+ </nav>
+ );
 }
 ```
 
@@ -135,19 +135,19 @@ function Navigation() {
 import { useNavigate } from 'react-router-dom';
 
 function LoginForm() {
-  const navigate = useNavigate();
-  
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    // ... login logic
-    navigate('/dashboard');  // Redirect after login
-  };
-  
-  return (
-    <form onSubmit={handleSubmit}>
-      {/* form fields */}
-    </form>
-  );
+ const navigate = useNavigate();
+ 
+ const handleSubmit = async (e) => {
+ e.preventDefault();
+ // ... login logic
+ navigate('/dashboard'); // Redirect after login
+ };
+ 
+ return (
+ <form onSubmit={handleSubmit}>
+ {/* form fields */}
+ </form>
+ );
 }
 ```
 
@@ -160,8 +160,8 @@ function LoginForm() {
 ```jsx
 // App.jsx
 <Routes>
-  <Route path="/users/:userId" element={<UserProfile />} />
-  <Route path="/products/:productId" element={<ProductDetail />} />
+ <Route path="/users/:userId" element={<UserProfile />} />
+ <Route path="/products/:productId" element={<ProductDetail />} />
 </Routes>
 ```
 
@@ -171,23 +171,23 @@ function LoginForm() {
 import { useParams } from 'react-router-dom';
 
 function UserProfile() {
-  const { userId } = useParams();
-  const [user, setUser] = useState(null);
-  
-  useEffect(() => {
-    fetch(`/api/users/${userId}`)
-      .then(res => res.json())
-      .then(data => setUser(data));
-  }, [userId]);
-  
-  if (!user) return <p>Loading...</p>;
-  
-  return (
-    <div>
-      <h1>{user.name}</h1>
-      <p>{user.email}</p>
-    </div>
-  );
+ const { userId } = useParams();
+ const [user, setUser] = useState(null);
+ 
+ useEffect(() => {
+ fetch(`/api/users/${userId}`)
+ .then(res => res.json())
+ .then(data => setUser(data));
+ }, [userId]);
+ 
+ if (!user) return <p>Loading...</p>;
+ 
+ return (
+ <div>
+ <h1>{user.name}</h1>
+ <p>{user.email}</p>
+ </div>
+ );
 }
 ```
 
@@ -195,15 +195,15 @@ function UserProfile() {
 
 ```jsx
 function UserList({ users }) {
-  return (
-    <ul>
-      {users.map(user => (
-        <li key={user.id}>
-          <Link to={`/users/${user.id}`}>{user.name}</Link>
-        </li>
-      ))}
-    </ul>
-  );
+ return (
+ <ul>
+ {users.map(user => (
+ <li key={user.id}>
+ <Link to={`/users/${user.id}`}>{user.name}</Link>
+ </li>
+ ))}
+ </ul>
+ );
 }
 ```
 
@@ -218,24 +218,24 @@ function UserList({ users }) {
 import { Outlet, Link } from 'react-router-dom';
 
 function Layout() {
-  return (
-    <div>
-      <header>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-        </nav>
-      </header>
-      
-      <main>
-        <Outlet />  {/* Child routes render here */}
-      </main>
-      
-      <footer>
-        <p>&copy; 2024 My App</p>
-      </footer>
-    </div>
-  );
+ return (
+ <div>
+ <header>
+ <nav>
+ <Link to="/">Home</Link>
+ <Link to="/about">About</Link>
+ </nav>
+ </header>
+ 
+ <main>
+ <Outlet /> {/* Child routes render here */}
+ </main>
+ 
+ <footer>
+ <p>&copy; 2024 My App</p>
+ </footer>
+ </div>
+ );
 }
 ```
 
@@ -244,19 +244,19 @@ function Layout() {
 ```jsx
 // App.jsx
 function App() {
-  return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="users" element={<Users />}>
-          <Route index element={<UserList />} />
-          <Route path=":userId" element={<UserProfile />} />
-        </Route>
-      </Route>
-    </Routes>
-  );
+ return (
+ <Routes>
+ <Route path="/" element={<Layout />}>
+ <Route index element={<Home />} />
+ <Route path="about" element={<About />} />
+ <Route path="contact" element={<Contact />} />
+ <Route path="users" element={<Users />}>
+ <Route index element={<UserList />} />
+ <Route path=":userId" element={<UserProfile />} />
+ </Route>
+ </Route>
+ </Routes>
+ );
 }
 ```
 
@@ -268,25 +268,25 @@ function App() {
 
 ```jsx
 function App() {
-  return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="*" element={<NotFound />} />
-      </Route>
-    </Routes>
-  );
+ return (
+ <Routes>
+ <Route path="/" element={<Layout />}>
+ <Route index element={<Home />} />
+ <Route path="about" element={<About />} />
+ <Route path="*" element={<NotFound />} />
+ </Route>
+ </Routes>
+ );
 }
 
 function NotFound() {
-  return (
-    <div className="not-found">
-      <h1>404</h1>
-      <p>Page not found</p>
-      <Link to="/">Go Home</Link>
-    </div>
-  );
+ return (
+ <div className="not-found">
+ <h1>404</h1>
+ <p>Page not found</p>
+ <Link to="/">Go Home</Link>
+ </div>
+ );
 }
 ```
 
@@ -300,18 +300,18 @@ const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
 
 function App() {
-  return (
-    <Suspense fallback={<Loading />}>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-    </Suspense>
-  );
+ return (
+ <Suspense fallback={<Loading />}>
+ <Routes>
+ <Route path="/" element={<Home />} />
+ <Route path="/about" element={<About />} />
+ </Routes>
+ </Suspense>
+ );
 }
 
 function Loading() {
-  return <div className="loading">Loading...</div>;
+ return <div className="loading">Loading...</div>;
 }
 ```
 
@@ -325,31 +325,31 @@ function Loading() {
 import { Navigate } from 'react-router-dom';
 
 function ProtectedRoute({ children }) {
-  const isAuthenticated = checkAuth();  // Your auth logic
-  
-  if (!isAuthenticated) {
-    return <Navigate to="/login" replace />;
-  }
-  
-  return children;
+ const isAuthenticated = checkAuth(); // Your auth logic
+ 
+ if (!isAuthenticated) {
+ return <Navigate to="/login" replace />;
+ }
+ 
+ return children;
 }
 
 // Usage in routes
 function App() {
-  return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-      <Route 
-        path="/dashboard" 
-        element={
-          <ProtectedRoute>
-            <Dashboard />
-          </ProtectedRoute>
-        } 
-      />
-    </Routes>
-  );
+ return (
+ <Routes>
+ <Route path="/" element={<Home />} />
+ <Route path="/login" element={<Login />} />
+ <Route 
+ path="/dashboard" 
+ element={
+ <ProtectedRoute>
+ <Dashboard />
+ </ProtectedRoute>
+ } 
+ />
+ </Routes>
+ );
 }
 ```
 
@@ -362,35 +362,35 @@ import { createContext, useContext, useState } from 'react';
 const AuthContext = createContext();
 
 export function AuthProvider({ children }) {
-  const [user, setUser] = useState(null);
-  
-  const login = (userData) => setUser(userData);
-  const logout = () => setUser(null);
-  
-  return (
-    <AuthContext.Provider value={{ user, login, logout }}>
-      {children}
-    </AuthContext.Provider>
-  );
+ const [user, setUser] = useState(null);
+ 
+ const login = (userData) => setUser(userData);
+ const logout = () => setUser(null);
+ 
+ return (
+ <AuthContext.Provider value={{ user, login, logout }}>
+ {children}
+ </AuthContext.Provider>
+ );
 }
 
 export const useAuth = () => useContext(AuthContext);
 
 // ProtectedRoute.jsx
 function ProtectedRoute({ children }) {
-  const { user } = useAuth();
-  
-  if (!user) {
-    return <Navigate to="/login" replace />;
-  }
-  
-  return children;
+ const { user } = useAuth();
+ 
+ if (!user) {
+ return <Navigate to="/login" replace />;
+ }
+ 
+ return children;
 }
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Basic Routes
 
@@ -414,7 +414,7 @@ Create login functionality with a protected dashboard page.
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 | Component/Hook | Purpose |
 |----------------|---------|
@@ -429,7 +429,7 @@ Create login functionality with a protected dashboard page.
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Coming Next**: Module 06 - Project: Task Manager
 
@@ -439,7 +439,7 @@ Create login functionality with a protected dashboard page.
 
 <div align="center">
 
-**Navigation makes apps complete!** 🧭
+**Navigation makes apps complete!** 
 
 *Routes connect your pages.*
 

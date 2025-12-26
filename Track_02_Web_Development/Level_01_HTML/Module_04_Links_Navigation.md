@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -32,9 +32,9 @@ The `<a>` (anchor) element creates links:
 
 ```
 <a href="URL">Link Text</a>
-│     │          │
-│     │          └── What users see and click
-│     └── Where the link goes (destination)
+│ │ │
+│ │ └── What users see and click
+│ └── Where the link goes (destination)
 └── Anchor tag
 ```
 
@@ -42,11 +42,11 @@ The `<a>` (anchor) element creates links:
 
 ```html
 <a href="https://www.google.com" target="_blank" title="Search Engine">Google</a>
-   │                            │                │                     │
-   │                            │                │                     └── Visible text
-   │                            │                └── Tooltip on hover
-   │                            └── Open in new tab
-   └── Destination URL
+ │ │ │ │
+ │ │ │ └── Visible text
+ │ │ └── Tooltip on hover
+ │ └── Open in new tab
+ └── Destination URL
 ```
 
 ---
@@ -67,9 +67,9 @@ The `<a>` (anchor) element creates links:
 
 ```
 https://www.example.com/folder/page.html
-│       │                │
-│       │                └── Path to file
-│       └── Domain name
+│ │ │
+│ │ └── Path to file
+│ └── Domain name
 └── Protocol (https = secure)
 ```
 
@@ -79,12 +79,12 @@ https://www.example.com/folder/page.html
 
 ```
 my-website/
-├── index.html        ← You are here
+├── index.html ← You are here
 ├── about.html
 ├── contact.html
 └── pages/
-    ├── services.html
-    └── team.html
+ ├── services.html
+ └── team.html
 ```
 
 **From index.html:**
@@ -165,9 +165,9 @@ When using `target="_blank"`, add security attributes:
 
 ```html
 <a href="https://external-site.com" 
-   target="_blank" 
-   rel="noopener noreferrer">
-    External Link
+ target="_blank" 
+ rel="noopener noreferrer">
+ External Link
 </a>
 ```
 
@@ -206,46 +206,46 @@ You can link to specific parts of the same page using **IDs**.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Article</title>
+ <meta charset="UTF-8">
+ <title>My Article</title>
 </head>
 <body>
-    <h1>Complete Guide to HTML</h1>
-    
-    <!-- Table of Contents -->
-    <nav>
-        <h2>Contents</h2>
-        <ul>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#basics">HTML Basics</a></li>
-            <li><a href="#elements">Common Elements</a></li>
-            <li><a href="#conclusion">Conclusion</a></li>
-        </ul>
-    </nav>
-    
-    <!-- Sections -->
-    <section id="introduction">
-        <h2>Introduction</h2>
-        <p>HTML is the foundation of web pages...</p>
-    </section>
-    
-    <section id="basics">
-        <h2>HTML Basics</h2>
-        <p>Every HTML page has a structure...</p>
-    </section>
-    
-    <section id="elements">
-        <h2>Common Elements</h2>
-        <p>The most common elements are...</p>
-    </section>
-    
-    <section id="conclusion">
-        <h2>Conclusion</h2>
-        <p>Now you understand HTML basics...</p>
-    </section>
-    
-    <!-- Back to top link -->
-    <a href="#top">Back to Top</a>
+ <h1>Complete Guide to HTML</h1>
+ 
+ <!-- Table of Contents -->
+ <nav>
+ <h2>Contents</h2>
+ <ul>
+ <li><a href="#introduction">Introduction</a></li>
+ <li><a href="#basics">HTML Basics</a></li>
+ <li><a href="#elements">Common Elements</a></li>
+ <li><a href="#conclusion">Conclusion</a></li>
+ </ul>
+ </nav>
+ 
+ <!-- Sections -->
+ <section id="introduction">
+ <h2>Introduction</h2>
+ <p>HTML is the foundation of web pages...</p>
+ </section>
+ 
+ <section id="basics">
+ <h2>HTML Basics</h2>
+ <p>Every HTML page has a structure...</p>
+ </section>
+ 
+ <section id="elements">
+ <h2>Common Elements</h2>
+ <p>The most common elements are...</p>
+ </section>
+ 
+ <section id="conclusion">
+ <h2>Conclusion</h2>
+ <p>Now you understand HTML basics...</p>
+ </section>
+ 
+ <!-- Back to top link -->
+ <a href="#top">Back to Top</a>
 </body>
 </html>
 ```
@@ -274,7 +274,7 @@ Opens the user's email program with a new message:
 
 <!-- With subject and body -->
 <a href="mailto:info@koompi.com?subject=Question&body=Hi, I have a question...">
-    Contact Support
+ Contact Support
 </a>
 ```
 
@@ -316,10 +316,10 @@ Use the `<nav>` element for navigation:
 
 ```html
 <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
+ <a href="index.html">Home</a>
+ <a href="about.html">About</a>
+ <a href="services.html">Services</a>
+ <a href="contact.html">Contact</a>
 </nav>
 ```
 
@@ -329,12 +329,12 @@ More common and accessible approach:
 
 ```html
 <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+ <ul>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="about.html">About</a></li>
+ <li><a href="services.html">Services</a></li>
+ <li><a href="contact.html">Contact</a></li>
+ </ul>
 </nav>
 ```
 
@@ -342,19 +342,19 @@ More common and accessible approach:
 
 ```html
 <header>
-    <div class="logo">
-        <a href="index.html">KOOMPI</a>
-    </div>
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+ <div class="logo">
+ <a href="index.html">KOOMPI</a>
+ </div>
+ 
+ <nav>
+ <ul>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="about.html">About Us</a></li>
+ <li><a href="products.html">Products</a></li>
+ <li><a href="blog.html">Blog</a></li>
+ <li><a href="contact.html">Contact</a></li>
+ </ul>
+ </nav>
 </header>
 ```
 
@@ -378,23 +378,23 @@ Common patterns to show which page the user is on:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    LINK TEXT BEST PRACTICES                                  │
+│ LINK TEXT BEST PRACTICES │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   ❌ BAD                                    ✅ GOOD                          │
-│   ═════                                     ══════                          │
-│                                                                              │
-│   Click here                               Read our privacy policy          │
-│   Read more                                View all products                │
-│   Link                                     Download the brochure            │
-│   Here                                     Contact our support team         │
-│                                                                              │
-│   BAD: "To learn more, click here."                                         │
-│   GOOD: "Learn more about our services."                                    │
-│                                                                              │
-│   BAD: "For info, click here, here, and here."                             │
-│   GOOD: "Read about our team, products, and mission."                      │
-│                                                                              │
+│ │
+│ BAD GOOD │
+│ ═════ ══════ │
+│ │
+│ Click here Read our privacy policy │
+│ Read more View all products │
+│ Link Download the brochure │
+│ Here Contact our support team │
+│ │
+│ BAD: "To learn more, click here." │
+│ GOOD: "Learn more about our services." │
+│ │
+│ BAD: "For info, click here, here, and here." │
+│ GOOD: "Read about our team, products, and mission." │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -417,31 +417,31 @@ Common patterns to show which page the user is on:
 
 ```html
 <nav aria-label="Main navigation">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About KOOMPI</a></li>
-        <li><a href="products.html">Our Products</a></li>
-        <li><a href="blog.html">Read Our Blog</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-    </ul>
+ <ul>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="about.html">About KOOMPI</a></li>
+ <li><a href="products.html">Our Products</a></li>
+ <li><a href="blog.html">Read Our Blog</a></li>
+ <li><a href="contact.html">Contact Us</a></li>
+ </ul>
 </nav>
 
 <p>
-    Read our <a href="privacy.html">privacy policy</a> for information 
-    about how we protect your data.
+ Read our <a href="privacy.html">privacy policy</a> for information 
+ about how we protect your data.
 </p>
 
 <p>
-    Learn more at 
-    <a href="https://wikipedia.org" target="_blank" rel="noopener noreferrer">
-        Wikipedia (opens in new tab)
-    </a>.
+ Learn more at 
+ <a href="https://wikipedia.org" target="_blank" rel="noopener noreferrer">
+ Wikipedia (opens in new tab)
+ </a>.
 </p>
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Create a Multi-Page Site
 
@@ -449,9 +449,9 @@ Create three HTML files that link to each other:
 
 ```
 my-site/
-├── index.html    (Home - links to about and contact)
-├── about.html    (About - links to home and contact)
-└── contact.html  (Contact - links to home and about)
+├── index.html (Home - links to about and contact)
+├── about.html (About - links to home and contact)
+└── contact.html (Contact - links to home and about)
 ```
 
 Each page should have navigation that works correctly.
@@ -494,7 +494,7 @@ Create a complete navigation menu with:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Elements & Attributes**
 
@@ -519,7 +519,7 @@ Create a complete navigation menu with:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 05:**
 
@@ -536,7 +536,7 @@ Create a complete navigation menu with:
 
 <div align="center">
 
-**Links connect the web!** 🔗
+**Links connect the web!** 
 
 *Good navigation makes happy users.*
 

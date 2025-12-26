@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -25,38 +25,38 @@ A **computer** is an electronic device that processes information. Think of it a
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                         COMPUTER COMPONENTS                                  │
+│ COMPUTER COMPONENTS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   HARDWARE (Physical parts you can touch)                                   │
-│   ═══════════════════════════════════════                                   │
-│                                                                              │
-│   🖥️  SCREEN (Monitor/Display)                                              │
-│       • Shows you information                                                │
-│       • Output device                                                        │
-│                                                                              │
-│   ⌨️  KEYBOARD                                                               │
-│       • You type letters and numbers                                         │
-│       • Input device                                                         │
-│                                                                              │
-│   🖱️  MOUSE / TOUCHPAD                                                       │
-│       • You point and click                                                  │
-│       • Input device                                                         │
-│                                                                              │
-│   💻  CPU (Central Processing Unit)                                          │
-│       • The "brain" - does all the thinking                                 │
-│       • Inside the computer                                                  │
-│                                                                              │
-│   🧠  RAM (Random Access Memory)                                             │
-│       • Short-term memory                                                    │
-│       • Holds what you're working on now                                    │
-│       • Clears when power off                                               │
-│                                                                              │
-│   💾  STORAGE (Hard Drive / SSD)                                             │
-│       • Long-term memory                                                     │
-│       • Keeps your files forever                                            │
-│       • Stays when power off                                                │
-│                                                                              │
+│ │
+│ HARDWARE (Physical parts you can touch) │
+│ ═══════════════════════════════════════ │
+│ │
+│ SCREEN (Monitor/Display) │
+│ • Shows you information │
+│ • Output device │
+│ │
+│ KEYBOARD │
+│ • You type letters and numbers │
+│ • Input device │
+│ │
+│ MOUSE / TOUCHPAD │
+│ • You point and click │
+│ • Input device │
+│ │
+│ CPU (Central Processing Unit) │
+│ • The "brain" - does all the thinking │
+│ • Inside the computer │
+│ │
+│ RAM (Random Access Memory) │
+│ • Short-term memory │
+│ • Holds what you're working on now │
+│ • Clears when power off │
+│ │
+│ STORAGE (Hard Drive / SSD) │
+│ • Long-term memory │
+│ • Keeps your files forever │
+│ • Stays when power off │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -86,9 +86,9 @@ An **Operating System (OS)** is the main software that controls your computer. I
 **Linux** is a family of operating systems that is:
 
 - 🆓 **Free** — No cost to use
-- 🔓 **Open Source** — Anyone can see and improve the code
-- 🔒 **Secure** — Very safe from viruses
-- 🚀 **Powerful** — Used by professional developers worldwide
+- **Open Source** — Anyone can see and improve the code
+- **Secure** — Very safe from viruses
+- **Powerful** — Used by professional developers worldwide
 
 **Fun Fact**: Most of the internet runs on Linux! Google, Facebook, and most servers use Linux.
 
@@ -111,23 +111,23 @@ When you turn on your KOOMPI computer, you see the **desktop**. This is your wor
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│  [Apps]  [File Manager]  [Browser]                    🔋 📶 🔊  14:30       │
+│ [Apps] [File Manager] [Browser] 14:30 │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│           ┌──────────────┐                                                  │
-│           │  📁 Home     │                                                  │
-│           └──────────────┘                                                  │
-│                                                                              │
-│           ┌──────────────┐                                                  │
-│           │  🗑️ Trash    │                                                  │
-│           └──────────────┘                                                  │
-│                                                                              │
-│                                                                              │
-│                                                                              │
+│ │
+│ │
+│ │
+│ ┌──────────────┐ │
+│ │ Home │ │
+│ └──────────────┘ │
+│ │
+│ ┌──────────────┐ │
+│ │ Trash │ │
+│ └──────────────┘ │
+│ │
+│ │
+│ │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│  [🏠 Home]  [📁 Files]  [🌐 Firefox]  [📝 Editor]                           │
+│ [ Home] [ Files] [ Firefox] [ Editor] │
 └─────────────────────────────────────────────────────────────────────────────┘
 
 PARTS OF THE DESKTOP:
@@ -162,12 +162,12 @@ BOTTOM BAR (Taskbar/Dock)
 
 **Try these actions now:**
 
-1. ✅ Find the application menu
-2. ✅ Open the file manager
-3. ✅ Minimize it
-4. ✅ Maximize it
-5. ✅ Move it to a different position
-6. ✅ Close it
+1. Find the application menu
+2. Open the file manager
+3. Minimize it
+4. Maximize it
+5. Move it to a different position
+6. Close it
 
 ---
 
@@ -181,44 +181,44 @@ Using the keyboard is **faster** than using the mouse. Professional developers u
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    IMPORTANT KEYS                                │
+│ IMPORTANT KEYS │
 ├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  Ctrl  (Control)                                                 │
-│  ────────────────                                                │
-│  • Used with other keys for shortcuts                           │
-│  • Example: Ctrl + C = Copy                                     │
-│                                                                  │
-│  Alt  (Alternate)                                                │
-│  ───────────────                                                 │
-│  • Used for menu shortcuts                                       │
-│  • Example: Alt + Tab = Switch windows                          │
-│                                                                  │
-│  Shift                                                           │
-│  ─────                                                           │
-│  • Makes letters UPPERCASE                                       │
-│  • Modifies other shortcuts                                      │
-│                                                                  │
-│  Enter                                                           │
-│  ─────                                                           │
-│  • Confirms/submits                                              │
-│  • Starts a new line when typing                                │
-│                                                                  │
-│  Esc (Escape)                                                    │
-│  ───────────                                                     │
-│  • Cancels current action                                        │
-│  • Closes menus                                                  │
-│                                                                  │
-│  Tab                                                             │
-│  ───                                                             │
-│  • Moves to next field                                           │
-│  • Adds indentation                                              │
-│                                                                  │
-│  Backspace  vs  Delete                                           │
-│  ──────────────────────                                          │
-│  • Backspace: Deletes character BEFORE cursor                   │
-│  • Delete: Deletes character AFTER cursor                       │
-│                                                                  │
+│ │
+│ Ctrl (Control) │
+│ ──────────────── │
+│ • Used with other keys for shortcuts │
+│ • Example: Ctrl + C = Copy │
+│ │
+│ Alt (Alternate) │
+│ ─────────────── │
+│ • Used for menu shortcuts │
+│ • Example: Alt + Tab = Switch windows │
+│ │
+│ Shift │
+│ ───── │
+│ • Makes letters UPPERCASE │
+│ • Modifies other shortcuts │
+│ │
+│ Enter │
+│ ───── │
+│ • Confirms/submits │
+│ • Starts a new line when typing │
+│ │
+│ Esc (Escape) │
+│ ─────────── │
+│ • Cancels current action │
+│ • Closes menus │
+│ │
+│ Tab │
+│ ─── │
+│ • Moves to next field │
+│ • Adds indentation │
+│ │
+│ Backspace vs Delete │
+│ ────────────────────── │
+│ • Backspace: Deletes character BEFORE cursor │
+│ • Delete: Deletes character AFTER cursor │
+│ │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -269,41 +269,41 @@ Your computer has settings that control how it looks and behaves. You can change
 SYSTEM SETTINGS
 ═══════════════
 
-📶 Network / WiFi
-   • Connect to the internet
-   • See connection status
+ Network / WiFi
+ • Connect to the internet
+ • See connection status
 
-🔊 Sound
-   • Adjust volume
-   • Choose output device (speakers/headphones)
+ Sound
+ • Adjust volume
+ • Choose output device (speakers/headphones)
 
-💡 Display
-   • Adjust brightness
-   • Change screen resolution
-   • Night light (easier on eyes at night)
+ Display
+ • Adjust brightness
+ • Change screen resolution
+ • Night light (easier on eyes at night)
 
-🔋 Power
-   • Battery status
-   • Power saving options
+ Power
+ • Battery status
+ • Power saving options
 
-🌐 Language & Region
-   • Change language
-   • Set keyboard layout (English/Khmer)
+ Language & Region
+ • Change language
+ • Set keyboard layout (English/Khmer)
 
-📅 Date & Time
-   • Set your timezone
-   • Adjust time format
+ Date & Time
+ • Set your timezone
+ • Adjust time format
 ```
 
 ### Practice: System Settings
 
 **Complete these tasks:**
 
-1. ✅ Find and open System Settings
-2. ✅ Adjust your screen brightness
-3. ✅ Check your WiFi connection
-4. ✅ View your battery status (if laptop)
-5. ✅ Find the Language settings
+1. Find and open System Settings
+2. Adjust your screen brightness
+3. Check your WiFi connection
+4. View your battery status (if laptop)
+5. Find the Language settings
 
 ---
 
@@ -315,34 +315,34 @@ These habits will help you throughout your career:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                       GOOD DIGITAL HABITS                                    │
+│ GOOD DIGITAL HABITS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   💾 SAVE YOUR WORK OFTEN                                                   │
-│      • Press Ctrl + S frequently                                            │
-│      • Don't wait until you're finished                                     │
-│      • Work can be lost if power goes out or computer crashes              │
-│                                                                              │
-│   📁 ORGANIZE YOUR FILES                                                    │
-│      • Create folders for different projects                                │
-│      • Give files meaningful names                                          │
-│      • Don't put everything on the Desktop                                  │
-│                                                                              │
-│   🔒 PROTECT YOUR ACCOUNTS                                                  │
-│      • Use strong passwords                                                  │
-│      • Don't share passwords with others                                    │
-│      • Be careful what you click                                            │
-│                                                                              │
-│   😴 TAKE BREAKS                                                            │
-│      • Look away from screen every 20 minutes                               │
-│      • Stand up and stretch every hour                                      │
-│      • Your eyes and body need rest                                         │
-│                                                                              │
-│   📚 LEARN EVERY DAY                                                        │
-│      • Make small progress daily                                            │
-│      • It's okay to not understand at first                                │
-│      • Keep asking questions                                                │
-│                                                                              │
+│ │
+│ SAVE YOUR WORK OFTEN │
+│ • Press Ctrl + S frequently │
+│ • Don't wait until you're finished │
+│ • Work can be lost if power goes out or computer crashes │
+│ │
+│ ORGANIZE YOUR FILES │
+│ • Create folders for different projects │
+│ • Give files meaningful names │
+│ • Don't put everything on the Desktop │
+│ │
+│ PROTECT YOUR ACCOUNTS │
+│ • Use strong passwords │
+│ • Don't share passwords with others │
+│ • Be careful what you click │
+│ │
+│ TAKE BREAKS │
+│ • Look away from screen every 20 minutes │
+│ • Stand up and stretch every hour │
+│ • Your eyes and body need rest │
+│ │
+│ LEARN EVERY DAY │
+│ • Make small progress daily │
+│ • It's okay to not understand at first │
+│ • Keep asking questions │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -356,7 +356,7 @@ To protect your eyes:
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Hardware Identification
 
@@ -395,7 +395,7 @@ To protect your eyes:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Key Vocabulary** (English words you learned)
 
@@ -411,16 +411,16 @@ To protect your eyes:
 
 **Key Skills Learned**
 
-- ✅ Understanding computer components
-- ✅ Navigating KOOMPI desktop
-- ✅ Using keyboard shortcuts
-- ✅ Managing windows
-- ✅ Adjusting system settings
-- ✅ Practicing good digital habits
+- Understanding computer components
+- Navigating KOOMPI desktop
+- Using keyboard shortcuts
+- Managing windows
+- Adjusting system settings
+- Practicing good digital habits
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 02:**
 
@@ -437,7 +437,7 @@ To protect your eyes:
 
 <div align="center">
 
-**Congratulations on completing your first module!** 🎉
+**Congratulations on completing your first module!** 
 
 *You're on your way to becoming a software engineer.*
 

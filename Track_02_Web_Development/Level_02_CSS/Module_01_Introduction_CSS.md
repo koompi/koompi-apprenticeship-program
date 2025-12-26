@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -29,23 +29,23 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    THE WEB DEVELOPMENT TRIO                                  │
+│ THE WEB DEVELOPMENT TRIO │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│        HTML              CSS              JavaScript                        │
-│       ═══════          ═══════           ══════════                         │
-│                                                                              │
-│        🦴                🎨                  ⚡                               │
-│     Structure          Style              Behavior                          │
-│                                                                              │
-│     "What's on        "How does          "What does                        │
-│      the page?"        it look?"           it do?"                          │
-│                                                                              │
-│     Headings          Colors             Click events                       │
-│     Paragraphs        Fonts              Animations                         │
-│     Images            Spacing            Data loading                       │
-│     Links             Layout             Form validation                    │
-│                                                                              │
+│ │
+│ HTML CSS JavaScript │
+│ ═══════ ═══════ ══════════ │
+│ │
+│ │
+│ Structure Style Behavior │
+│ │
+│ "What's on "How does "What does │
+│ the page?" it look?" it do?" │
+│ │
+│ Headings Colors Click events │
+│ Paragraphs Fonts Animations │
+│ Images Spacing Data loading │
+│ Links Layout Form validation │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -67,8 +67,8 @@ By the end of this module, you will be able to:
 
 ```css
 selector {
-    property: value;
-    property: value;
+ property: value;
+ property: value;
 }
 ```
 
@@ -76,21 +76,21 @@ selector {
 
 ```css
 h1 {
-    color: blue;
-    font-size: 24px;
+ color: blue;
+ font-size: 24px;
 }
 ```
 
 ### Breaking It Down
 
 ```
-    h1 {
-    │    color: blue;
-    │    │      │
-    │    │      └── Value (what to set it to)
-    │    └── Property (what to change)
-    │
-    └── Selector (what to style)
+ h1 {
+ │ color: blue;
+ │ │ │
+ │ │ └── Value (what to set it to)
+ │ └── Property (what to change)
+ │
+ └── Selector (what to style)
 }
 ```
 
@@ -108,10 +108,10 @@ h1 {
 
 ```css
 p {
-    color: #333333;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+ color: #333333;
+ font-size: 16px;
+ line-height: 1.6;
+ margin-bottom: 20px;
 }
 ```
 
@@ -145,22 +145,22 @@ CSS written in a `<style>` element in the `<head>` section.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Page</title>
-    <style>
-        h1 {
-            color: blue;
-            font-size: 24px;
-        }
-        p {
-            color: gray;
-            line-height: 1.6;
-        }
-    </style>
+ <meta charset="UTF-8">
+ <title>My Page</title>
+ <style>
+ h1 {
+ color: blue;
+ font-size: 24px;
+ }
+ p {
+ color: gray;
+ line-height: 1.6;
+ }
+ </style>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>This is a paragraph.</p>
+ <h1>Hello World</h1>
+ <p>This is a paragraph.</p>
 </body>
 </html>
 ```
@@ -179,13 +179,13 @@ CSS in a separate `.css` file, linked to HTML.
 
 ```css
 h1 {
-    color: blue;
-    font-size: 24px;
+ color: blue;
+ font-size: 24px;
 }
 
 p {
-    color: gray;
-    line-height: 1.6;
+ color: gray;
+ line-height: 1.6;
 }
 ```
 
@@ -195,24 +195,24 @@ p {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Page</title>
-    <link rel="stylesheet" href="styles.css">
+ <meta charset="UTF-8">
+ <title>My Page</title>
+ <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>This is a paragraph.</p>
+ <h1>Hello World</h1>
+ <p>This is a paragraph.</p>
 </body>
 </html>
 ```
 
 | Pros | Cons |
 |------|------|
-| ✅ Clean separation | Extra file to manage |
-| ✅ Reuse across all pages | Need to link in each HTML |
-| ✅ Easy to maintain | |
-| ✅ Browser can cache it | |
-| ✅ **Best practice!** | |
+| Clean separation | Extra file to manage |
+| Reuse across all pages | Need to link in each HTML |
+| Easy to maintain | |
+| Browser can cache it | |
+| **Best practice!** | |
 
 ---
 
@@ -238,7 +238,7 @@ project/
 ├── index.html
 ├── about.html
 ├── css/
-│   └── style.css        ← External CSS file
+│ └── style.css ← External CSS file
 └── images/
 ```
 
@@ -254,9 +254,9 @@ You can link multiple CSS files:
 
 ```html
 <head>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+ <link rel="stylesheet" href="css/reset.css">
+ <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/responsive.css">
 </head>
 ```
 
@@ -284,37 +284,37 @@ touch index.html css/style.css
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Styled Page</title>
-    <link rel="stylesheet" href="css/style.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>My First Styled Page</title>
+ <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <p>This is my first styled page!</p>
-    </header>
-    
-    <main>
-        <section>
-            <h2>About This Page</h2>
-            <p>I am learning CSS at KOOMPI. CSS makes websites beautiful!</p>
-            <p>With CSS, I can change colors, fonts, spacing, and layout.</p>
-        </section>
-        
-        <section>
-            <h2>What I'm Learning</h2>
-            <ul>
-                <li>HTML structure</li>
-                <li>CSS styling</li>
-                <li>Web development</li>
-            </ul>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2024 My Name. Learning at KOOMPI.</p>
-    </footer>
+ <header>
+ <h1>Welcome to My Website</h1>
+ <p>This is my first styled page!</p>
+ </header>
+ 
+ <main>
+ <section>
+ <h2>About This Page</h2>
+ <p>I am learning CSS at KOOMPI. CSS makes websites beautiful!</p>
+ <p>With CSS, I can change colors, fonts, spacing, and layout.</p>
+ </section>
+ 
+ <section>
+ <h2>What I'm Learning</h2>
+ <ul>
+ <li>HTML structure</li>
+ <li>CSS styling</li>
+ <li>Web development</li>
+ </ul>
+ </section>
+ </main>
+ 
+ <footer>
+ <p>&copy; 2024 My Name. Learning at KOOMPI.</p>
+ </footer>
 </body>
 </html>
 ```
@@ -326,57 +326,57 @@ touch index.html css/style.css
 
 /* Body styles - applies to whole page */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-    background-color: #f4f4f4;
-    color: #333;
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+ margin: 0;
+ padding: 20px;
+ background-color: #f4f4f4;
+ color: #333;
 }
 
 /* Header styles */
 header {
-    background-color: #35424a;
-    color: white;
-    padding: 20px;
-    text-align: center;
+ background-color: #35424a;
+ color: white;
+ padding: 20px;
+ text-align: center;
 }
 
 /* Main heading */
 h1 {
-    margin: 0;
+ margin: 0;
 }
 
 /* Section headings */
 h2 {
-    color: #35424a;
-    border-bottom: 2px solid #35424a;
-    padding-bottom: 10px;
+ color: #35424a;
+ border-bottom: 2px solid #35424a;
+ padding-bottom: 10px;
 }
 
 /* Paragraphs */
 p {
-    margin-bottom: 15px;
+ margin-bottom: 15px;
 }
 
 /* Lists */
 ul {
-    background-color: white;
-    padding: 20px;
-    padding-left: 40px;
+ background-color: white;
+ padding: 20px;
+ padding-left: 40px;
 }
 
 li {
-    margin-bottom: 10px;
+ margin-bottom: 10px;
 }
 
 /* Footer */
 footer {
-    background-color: #35424a;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+ background-color: #35424a;
+ color: white;
+ text-align: center;
+ padding: 10px;
+ margin-top: 20px;
 }
 ```
 
@@ -404,21 +404,21 @@ Comments help you organize and explain your CSS:
  */
 
 /* ==========================================
-   HEADER STYLES
-   ========================================== */
+ HEADER STYLES
+ ========================================== */
 header {
-    background-color: #333;
+ background-color: #333;
 }
 
 /* Navigation */
 nav {
-    /* TODO: Add responsive styles */
+ /* TODO: Add responsive styles */
 }
 ```
 
 ### Comment Best Practices
 
-| Do ✅ | Don't ❌ |
+| Do | Don't |
 |-------|----------|
 | Explain why, not what | Comment obvious code |
 | Mark sections | Leave TODO comments in production |
@@ -437,9 +437,9 @@ Different browsers have different default styles. A CSS reset creates a consiste
 ```css
 /* Simple CSS Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
 ```
 
@@ -449,37 +449,37 @@ The `*` selector targets ALL elements.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    CSS BEST PRACTICES                                        │
+│ CSS BEST PRACTICES │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   ✅ USE EXTERNAL CSS                                                       │
-│      • Keep styles in .css files                                            │
-│      • Link from HTML <head>                                                │
-│                                                                              │
-│   ✅ ORGANIZE YOUR CODE                                                     │
-│      • Use comments to mark sections                                        │
-│      • Group related styles together                                        │
-│      • Keep consistent indentation                                          │
-│                                                                              │
-│   ✅ USE MEANINGFUL NAMES                                                   │
-│      • Name classes by purpose, not appearance                              │
-│      • .error not .red-text                                                 │
-│      • .primary-button not .big-blue-button                                │
-│                                                                              │
-│   ✅ START WITH A RESET                                                     │
-│      • Normalize browser differences                                        │
-│      • Creates consistent base                                              │
-│                                                                              │
-│   ✅ TEST IN BROWSER                                                        │
-│      • Refresh often to see changes                                         │
-│      • Use DevTools to experiment                                           │
-│                                                                              │
+│ │
+│ USE EXTERNAL CSS │
+│ • Keep styles in .css files │
+│ • Link from HTML <head> │
+│ │
+│ ORGANIZE YOUR CODE │
+│ • Use comments to mark sections │
+│ • Group related styles together │
+│ • Keep consistent indentation │
+│ │
+│ USE MEANINGFUL NAMES │
+│ • Name classes by purpose, not appearance │
+│ • .error not .red-text │
+│ • .primary-button not .big-blue-button │
+│ │
+│ START WITH A RESET │
+│ • Normalize browser differences │
+│ • Creates consistent base │
+│ │
+│ TEST IN BROWSER │
+│ • Refresh often to see changes │
+│ • Use DevTools to experiment │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: CSS Terminology
 
@@ -526,7 +526,7 @@ Take your HTML Bio Page from Level 2.1 and:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Key Vocabulary**
 
@@ -545,11 +545,11 @@ Take your HTML Bio Page from Level 2.1 and:
 |--------|----------|
 | Inline | Quick tests only |
 | Internal | Single-page sites |
-| External | Real projects ✅ |
+| External | Real projects |
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 02:**
 
@@ -566,7 +566,7 @@ Take your HTML Bio Page from Level 2.1 and:
 
 <div align="center">
 
-**You're starting to paint the web!** 🎨
+**You're starting to paint the web!** 
 
 *CSS turns structure into beauty.*
 

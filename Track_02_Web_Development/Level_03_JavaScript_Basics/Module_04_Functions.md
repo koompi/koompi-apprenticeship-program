@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,23 +21,23 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    WHY FUNCTIONS?                                            │
+│ WHY FUNCTIONS? │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   WITHOUT FUNCTIONS:                   WITH FUNCTIONS:                      │
-│                                                                              │
-│   console.log("Hello, Sokha");         function greet(name) {               │
-│   console.log("Hello, Dara");              console.log("Hello, " + name);  │
-│   console.log("Hello, Bopha");         }                                    │
-│   console.log("Hello, Vanna");                                              │
-│   // ... repeat for every person       greet("Sokha");                      │
-│                                        greet("Dara");                       │
-│                                        greet("Bopha");                      │
-│                                        greet("Vanna");                      │
-│                                        // Reuse for anyone!                 │
-│                                                                              │
-│   Functions let you write once and use many times.                          │
-│                                                                              │
+│ │
+│ WITHOUT FUNCTIONS: WITH FUNCTIONS: │
+│ │
+│ console.log("Hello, Sokha"); function greet(name) { │
+│ console.log("Hello, Dara"); console.log("Hello, " + name); │
+│ console.log("Hello, Bopha"); } │
+│ console.log("Hello, Vanna"); │
+│ // ... repeat for every person greet("Sokha"); │
+│ greet("Dara"); │
+│ greet("Bopha"); │
+│ greet("Vanna"); │
+│ // Reuse for anyone! │
+│ │
+│ Functions let you write once and use many times. │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -49,30 +49,30 @@ By the end of this module, you will be able to:
 
 ```javascript
 function sayHello() {
-    console.log("Hello!");
+ console.log("Hello!");
 }
 
 // Call the function
-sayHello();  // Output: Hello!
-sayHello();  // Output: Hello!
+sayHello(); // Output: Hello!
+sayHello(); // Output: Hello!
 ```
 
 ### Function with Parameters
 
 ```javascript
 function greet(name) {
-    console.log("Hello, " + name + "!");
+ console.log("Hello, " + name + "!");
 }
 
-greet("Sokha");  // Hello, Sokha!
-greet("Dara");   // Hello, Dara!
+greet("Sokha"); // Hello, Sokha!
+greet("Dara"); // Hello, Dara!
 ```
 
 ### Multiple Parameters
 
 ```javascript
 function introduce(name, age, job) {
-    console.log(`My name is ${name}, I'm ${age}, and I work as a ${job}.`);
+ console.log(`My name is ${name}, I'm ${age}, and I work as a ${job}.`);
 }
 
 introduce("Sokha", 22, "developer");
@@ -83,11 +83,11 @@ introduce("Sokha", 22, "developer");
 
 ```javascript
 function greet(name = "Friend") {
-    console.log(`Hello, ${name}!`);
+ console.log(`Hello, ${name}!`);
 }
 
-greet("Sokha");  // Hello, Sokha!
-greet();         // Hello, Friend!
+greet("Sokha"); // Hello, Sokha!
+greet(); // Hello, Friend!
 ```
 
 ---
@@ -100,29 +100,29 @@ Functions can send a value back:
 
 ```javascript
 function add(a, b) {
-    return a + b;
+ return a + b;
 }
 
 let result = add(5, 3);
-console.log(result);  // 8
+console.log(result); // 8
 
 // Use directly
-console.log(add(10, 20));  // 30
+console.log(add(10, 20)); // 30
 ```
 
 ### Return Stops Execution
 
 ```javascript
 function checkAge(age) {
-    if (age < 18) {
-        return "Too young";
-    }
-    return "Welcome!";
-    console.log("This never runs");  // Unreachable
+ if (age < 18) {
+ return "Too young";
+ }
+ return "Welcome!";
+ console.log("This never runs"); // Unreachable
 }
 
-console.log(checkAge(15));  // Too young
-console.log(checkAge(25));  // Welcome!
+console.log(checkAge(15)); // Too young
+console.log(checkAge(25)); // Welcome!
 ```
 
 ### Returning Different Types
@@ -130,26 +130,26 @@ console.log(checkAge(25));  // Welcome!
 ```javascript
 // Return a number
 function calculateArea(width, height) {
-    return width * height;
+ return width * height;
 }
 
 // Return a string
 function getFullName(first, last) {
-    return first + " " + last;
+ return first + " " + last;
 }
 
 // Return a boolean
 function isAdult(age) {
-    return age >= 18;
+ return age >= 18;
 }
 
 // Return an object
 function createUser(name, age) {
-    return {
-        name: name,
-        age: age,
-        isAdult: age >= 18
-    };
+ return {
+ name: name,
+ age: age,
+ isAdult: age >= 18
+ };
 }
 ```
 
@@ -165,15 +165,15 @@ Scope determines where variables are accessible.
 let globalVar = "I'm global";
 
 function myFunction() {
-    let localVar = "I'm local";
-    
-    console.log(globalVar);  // ✅ Can access global
-    console.log(localVar);   // ✅ Can access local
+ let localVar = "I'm local";
+ 
+ console.log(globalVar); // Can access global
+ console.log(localVar); // Can access local
 }
 
 myFunction();
-console.log(globalVar);  // ✅ Can access global
-console.log(localVar);   // ❌ Error! localVar not defined
+console.log(globalVar); // Can access global
+console.log(localVar); // Error! localVar not defined
 ```
 
 ### Block Scope
@@ -182,16 +182,16 @@ Variables declared with `let` and `const` are block-scoped:
 
 ```javascript
 if (true) {
-    let blockVar = "I'm in a block";
-    console.log(blockVar);  // ✅ Works here
+ let blockVar = "I'm in a block";
+ console.log(blockVar); // Works here
 }
-console.log(blockVar);  // ❌ Error! Not accessible outside
+console.log(blockVar); // Error! Not accessible outside
 
 // var leaks out of blocks (avoid!)
 if (true) {
-    var leakyVar = "I leak!";
+ var leakyVar = "I leak!";
 }
-console.log(leakyVar);  // "I leak!" - This actually works
+console.log(leakyVar); // "I leak!" - This actually works
 ```
 
 ---
@@ -205,12 +205,12 @@ A shorter way to write functions:
 ```javascript
 // Traditional function
 function add(a, b) {
-    return a + b;
+ return a + b;
 }
 
 // Arrow function
 const add = (a, b) => {
-    return a + b;
+ return a + b;
 };
 
 // Even shorter (implicit return)
@@ -225,16 +225,16 @@ const sayHello = () => console.log("Hello!");
 
 // One parameter (parentheses optional)
 const double = x => x * 2;
-const double = (x) => x * 2;  // Also valid
+const double = (x) => x * 2; // Also valid
 
 // Multiple parameters
 const add = (a, b) => a + b;
 
 // With function body
 const greet = (name) => {
-    let message = `Hello, ${name}!`;
-    console.log(message);
-    return message;
+ let message = `Hello, ${name}!`;
+ console.log(message);
+ return message;
 };
 ```
 
@@ -255,12 +255,12 @@ const greet = (name) => {
 ```javascript
 // Function declaration
 function greet1(name) {
-    return `Hello, ${name}!`;
+ return `Hello, ${name}!`;
 }
 
 // Function expression
 const greet2 = function(name) {
-    return `Hello, ${name}!`;
+ return `Hello, ${name}!`;
 };
 
 // Arrow function expression
@@ -276,14 +276,14 @@ console.log(greet3("Sokha"));
 
 ```javascript
 function doOperation(a, b, operation) {
-    return operation(a, b);
+ return operation(a, b);
 }
 
 const add = (x, y) => x + y;
 const subtract = (x, y) => x - y;
 const multiply = (x, y) => x * y;
 
-console.log(doOperation(10, 5, add));      // 15
+console.log(doOperation(10, 5, add)); // 15
 console.log(doOperation(10, 5, subtract)); // 5
 console.log(doOperation(10, 5, multiply)); // 50
 ```
@@ -301,61 +301,61 @@ const multiply = (a, b) => a * b;
 const divide = (a, b) => b !== 0 ? a / b : "Cannot divide by zero";
 
 function calculate(num1, num2, operation) {
-    switch(operation) {
-        case '+': return add(num1, num2);
-        case '-': return subtract(num1, num2);
-        case '*': return multiply(num1, num2);
-        case '/': return divide(num1, num2);
-        default: return "Invalid operation";
-    }
+ switch(operation) {
+ case '+': return add(num1, num2);
+ case '-': return subtract(num1, num2);
+ case '*': return multiply(num1, num2);
+ case '/': return divide(num1, num2);
+ default: return "Invalid operation";
+ }
 }
 
-console.log(calculate(10, 5, '+'));  // 15
-console.log(calculate(10, 5, '/'));  // 2
+console.log(calculate(10, 5, '+')); // 15
+console.log(calculate(10, 5, '/')); // 2
 ```
 
 ### Validation Functions
 
 ```javascript
 function isValidEmail(email) {
-    return email.includes('@') && email.includes('.');
+ return email.includes('@') && email.includes('.');
 }
 
 function isValidPassword(password) {
-    return password.length >= 8;
+ return password.length >= 8;
 }
 
 function validateUser(email, password) {
-    if (!isValidEmail(email)) {
-        return "Invalid email format";
-    }
-    if (!isValidPassword(password)) {
-        return "Password must be at least 8 characters";
-    }
-    return "Valid!";
+ if (!isValidEmail(email)) {
+ return "Invalid email format";
+ }
+ if (!isValidPassword(password)) {
+ return "Password must be at least 8 characters";
+ }
+ return "Valid!";
 }
 
-console.log(validateUser("test@email.com", "12345678"));  // Valid!
-console.log(validateUser("testemail", "12345678"));       // Invalid email
+console.log(validateUser("test@email.com", "12345678")); // Valid!
+console.log(validateUser("testemail", "12345678")); // Invalid email
 ```
 
 ### Greeting Function
 
 ```javascript
 function getGreeting() {
-    const hour = new Date().getHours();
-    
-    if (hour < 12) {
-        return "Good morning";
-    } else if (hour < 18) {
-        return "Good afternoon";
-    } else {
-        return "Good evening";
-    }
+ const hour = new Date().getHours();
+ 
+ if (hour < 12) {
+ return "Good morning";
+ } else if (hour < 18) {
+ return "Good afternoon";
+ } else {
+ return "Good evening";
+ }
 }
 
 function personalizeGreeting(name) {
-    return `${getGreeting()}, ${name}!`;
+ return `${getGreeting()}, ${name}!`;
 }
 
 console.log(personalizeGreeting("Sokha"));
@@ -364,7 +364,7 @@ console.log(personalizeGreeting("Sokha"));
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Basic Function
 
@@ -404,7 +404,7 @@ Create a function that generates a random password:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Function Types**
 
@@ -425,7 +425,7 @@ Create a function that generates a random password:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 05:**
 
@@ -443,7 +443,7 @@ Create a function that generates a random password:
 
 <div align="center">
 
-**Functions are your building blocks!** 🧱
+**Functions are your building blocks!** 
 
 *Good functions make good code.*
 

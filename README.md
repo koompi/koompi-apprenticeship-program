@@ -1,4 +1,4 @@
-# 🎓 KOOMPI Apprenticeship Program
+# KOOMPI Apprenticeship Program
 
 ## Building Cambodia's Future Software Engineers & Entrepreneurs
 
@@ -10,13 +10,13 @@
 
 *From Zero to Software Engineer*
 
-🇰🇭 Empowering Cambodian Youth Through Technology Education 🇰🇭
+ Empowering Cambodian Youth Through Technology Education 
 
 </div>
 
 ---
 
-## 📖 About This Program
+## About This Program
 
 The **KOOMPI Apprenticeship Program** is a comprehensive, self-paced learning curriculum designed to transform Cambodian youth into skilled software engineers, effective researchers, and innovative entrepreneurs.
 
@@ -31,56 +31,56 @@ To develop Cambodia's human capital by providing world-class technology educatio
 
 ### Who Is This For?
 
-- 🎯 Students of all ages
-- 🎯 High school graduates or dropouts
-- 🎯 Anyone seeking a career in technology
-- 🎯 ESL learners (English as Second Language)
-- 🎯 Future entrepreneurs and innovators
+- Students of all ages
+- High school graduates or dropouts
+- Anyone seeking a career in technology
+- ESL learners (English as Second Language)
+- Future entrepreneurs and innovators
 
 ---
 
-## 🛤️ The Learning Pathway
+## The Learning Pathway
 
 Our curriculum is organized into **Tracks** that can be followed based on your current skill level:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                         YOUR JOURNEY TO SUCCESS                              │
+│ YOUR JOURNEY TO SUCCESS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   START       ┌──────────────────────┐                                      │
-│   HERE   ───▶ │ TRACK 00: FOUNDATION │ Computer, Typing, Linux, Terminal    │
-│   (Beginners) └──────────┬───────────┘                                      │
-│                          │                                                   │
-│                          ▼                                                   │
-│              ┌──────────────────────┐                                       │
-│              │ TRACK 01: ENGLISH    │ Tech English, Communication           │
-│              └──────────┬───────────┘                                       │
-│                          │              (Runs parallel with all tracks)     │
-│                          ▼                                                   │
-│   START      ┌──────────────────────┐                                       │
-│   HERE  ───▶ │ TRACK 02: WEB DEV    │ HTML → CSS → JS → React → Next.js    │
-│   (Some exp) └──────────┬───────────┘                                       │
-│                          │                                                   │
-│                          ▼                                                   │
-│              ┌──────────────────────┐                                       │
-│              │ TRACK 03: BUSINESS   │ Customer Service, Entrepreneurship    │
-│              └──────────┬───────────┘                                       │
-│                          │                                                   │
-│                          ▼                                                   │
-│              ┌──────────────────────┐                                       │
-│              │   CAPSTONE PROJECT   │ Real-world project demonstration      │
-│              └──────────┬───────────┘                                       │
-│                          │                                                   │
-│                          ▼                                                   │
-│              🎓 KOOMPI GRADUATE — SOFTWARE ENGINEER & ENTREPRENEUR 🎓       │
-│                                                                              │
+│ │
+│ START ┌──────────────────────┐ │
+│ HERE ───▶ │ TRACK 00: FOUNDATION │ Computer, Typing, Linux, Terminal │
+│ (Beginners) └──────────┬───────────┘ │
+│ │ │
+│ ▼ │
+│ ┌──────────────────────┐ │
+│ │ TRACK 01: ENGLISH │ Tech English, Communication │
+│ └──────────┬───────────┘ │
+│ │ (Runs parallel with all tracks) │
+│ ▼ │
+│ START ┌──────────────────────┐ │
+│ HERE ───▶ │ TRACK 02: WEB DEV │ HTML → CSS → JS → React → Next.js │
+│ (Some exp) └──────────┬───────────┘ │
+│ │ │
+│ ▼ │
+│ ┌──────────────────────┐ │
+│ │ TRACK 03: BUSINESS │ Customer Service, Entrepreneurship │
+│ └──────────┬───────────┘ │
+│ │ │
+│ ▼ │
+│ ┌──────────────────────┐ │
+│ │ CAPSTONE PROJECT │ Real-world project demonstration │
+│ └──────────┬───────────┘ │
+│ │ │
+│ ▼ │
+│ KOOMPI GRADUATE — SOFTWARE ENGINEER & ENTREPRENEUR │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📚 Curriculum Structure
+## Curriculum Structure
 
 ### Track 00: Digital Foundations
 >
@@ -132,7 +132,7 @@ Our curriculum is organized into **Tracks** that can be followed based on your c
 
 ---
 
-## 🏆 Certification Levels
+## Certification Levels
 
 As you progress, you'll earn certifications recognizing your achievements:
 
@@ -142,11 +142,11 @@ As you progress, you'll earn certifications recognizing your achievements:
 | 2 | **Web Developer Apprentice** | HTML + CSS + Portfolio |
 | 3 | **JavaScript Developer** | JavaScript + Git/GitHub |
 | 4 | **Full-Stack Apprentice** | React + Next.js + Tailwind |
-| 🎓 | **KOOMPI Graduate** | All Tracks + Capstone Project |
+| | **KOOMPI Graduate** | All Tracks + Capstone Project |
 
 ---
 
-## 📖 How to Use This Curriculum
+## How to Use This Curriculum
 
 ### For Apprentices
 
@@ -167,46 +167,46 @@ As you progress, you'll earn certifications recognizing your achievements:
 
 ---
 
-## 🌟 The KOOMPI Apprentice Values
+## The KOOMPI Apprentice Values
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                                                          │
-│   🔥 CURIOSITY      — Always ask "why?" and "how?"      │
-│                                                          │
-│   💪 PERSISTENCE    — Keep going when it's hard         │
-│                                                          │
-│   🤝 COLLABORATION  — Learn together, grow together     │
-│                                                          │
-│   🎯 OWNERSHIP      — Take responsibility for learning  │
-│                                                          │
-│   🌱 GROWTH MINDSET — Mistakes are learning moments     │
-│                                                          │
-│   🇰🇭 PRIDE         — Building Cambodia's future        │
-│                                                          │
+│ │
+│ CURIOSITY — Always ask "why?" and "how?" │
+│ │
+│ PERSISTENCE — Keep going when it's hard │
+│ │
+│ COLLABORATION — Learn together, grow together │
+│ │
+│ OWNERSHIP — Take responsibility for learning │
+│ │
+│ GROWTH MINDSET — Mistakes are learning moments │
+│ │
+│ PRIDE — Building Cambodia's future │
+│ │
 └─────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
-📁 KOOMPI-Apprenticeship-Curriculum/
-├── 📄 README.md                    ← You are here
-├── 📄 LEARNING_PATHWAY.md          ← Detailed roadmap
-├── 📄 ASSESSMENT_GUIDE.md          ← Certification requirements
+ KOOMPI-Apprenticeship-Curriculum/
+├── README.md ← You are here
+├── LEARNING_PATHWAY.md ← Detailed roadmap
+├── ASSESSMENT_GUIDE.md ← Certification requirements
 │
-├── 📁 Track_00_Digital_Foundations/
-├── 📁 Track_01_English_Communication/
-├── 📁 Track_02_Web_Development/
-├── 📁 Track_03_Business_Entrepreneurship/
-└── 📁 Capstone_Projects/
+├── Track_00_Digital_Foundations/
+├── Track_01_English_Communication/
+├── Track_02_Web_Development/
+├── Track_03_Business_Entrepreneurship/
+└── Capstone_Projects/
 ```
 
 ---
 
-## 🇰🇭 A Message to Apprentices
+## A Message to Apprentices
 
 > *"You are not just learning to code. You are becoming the future of Cambodia. Every line of code you write, every customer you help, every problem you solve — you are building skills that will transform your life and your country."*
 >
@@ -214,7 +214,7 @@ As you progress, you'll earn certifications recognizing your achievements:
 
 ---
 
-## 📞 Getting Help
+## Getting Help
 
 - **In Person**: Ask your KOOMPI mentors
 - **Online**: Join our community discussions
@@ -224,7 +224,7 @@ As you progress, you'll earn certifications recognizing your achievements:
 
 <div align="center">
 
-**Made with ❤️ by KOOMPI**
+**Made with by KOOMPI**
 
 *Empowering Cambodian Youth Since Day One*
 

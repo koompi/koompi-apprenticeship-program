@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -30,15 +30,15 @@ Output:
 ```
 commit a1b2c3d4e5f6... (HEAD -> main)
 Author: Sokha <sokha@email.com>
-Date:   Thu Dec 26 10:00:00 2024 +0700
+Date: Thu Dec 26 10:00:00 2024 +0700
 
-    Add navigation styling
+ Add navigation styling
 
 commit f6e5d4c3b2a1...
 Author: Sokha <sokha@email.com>
-Date:   Thu Dec 26 09:30:00 2024 +0700
+Date: Thu Dec 26 09:30:00 2024 +0700
 
-    Add header section
+ Add header section
 ```
 
 ### Compact Log View
@@ -93,11 +93,11 @@ diff --git a/index.html b/index.html
 +++ b/index.html
 @@ -1,5 +1,6 @@
  <html>
-   <head>
--    <title>Old Title</title>
-+    <title>New Title</title>
-+    <link rel="stylesheet" href="style.css">
-   </head>
+ <head>
+- <title>Old Title</title>
++ <title>New Title</title>
++ <link rel="stylesheet" href="style.css">
+ </head>
  </html>
 ```
 
@@ -176,11 +176,11 @@ git reset --hard abc123
 Branches let you work on features without affecting main code:
 
 ```
-                    ┌─ [feature-login]
-                    │   → Add login page
+ ┌─ [feature-login]
+ │ → Add login page
 main: ──●──●──●──●──┤
-                    │   → Continue main work
-                    └── [main]
+ │ → Continue main work
+ └── [main]
 ```
 
 ### Creating Branches
@@ -206,7 +206,7 @@ git switch -c feature-login
 git branch
 
 # Current branch has asterisk
-#   feature-login
+# feature-login
 # * main
 ```
 
@@ -248,8 +248,8 @@ git branch -D abandoned-feature
 
 ```bash
 # Morning: Start work
-git status                    # Check current state
-git pull                      # Get latest changes (if using remote)
+git status # Check current state
+git pull # Get latest changes (if using remote)
 
 # Make changes to files...
 
@@ -373,7 +373,7 @@ Their version
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Log Exploration
 
@@ -405,7 +405,7 @@ Their version
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Essential Commands**
 
@@ -430,7 +430,7 @@ git merge name
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 03:**
 
@@ -447,7 +447,7 @@ git merge name
 
 <div align="center">
 
-**Git mastery growing!** 🌱
+**Git mastery growing!** 
 
 *These commands will become second nature.*
 

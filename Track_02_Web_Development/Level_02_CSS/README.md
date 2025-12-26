@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Level Overview
+## Level Overview
 
 **CSS (Cascading Style Sheets)** controls how your HTML looks. Colors, fonts, layouts, spacing — all done with CSS.
 
@@ -26,9 +26,9 @@
 
 Before starting this level, you should have:
 
-- ✅ Completed Level 2.1: HTML Fundamentals
-- ✅ Built your Personal Bio Page
-- ✅ Earned HTML Fundamentals Badge
+- Completed Level 2.1: HTML Fundamentals
+- Built your Personal Bio Page
+- Earned HTML Fundamentals Badge
 
 ---
 
@@ -38,23 +38,23 @@ By the end of this level, you will transform your plain HTML bio page into a bea
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                              │
-│   BEFORE (HTML Only)              AFTER (HTML + CSS)                        │
-│                                                                              │
-│   ┌─────────────────────┐        ┌─────────────────────────────────────┐   │
-│   │ My Name             │        │ ████████████████████████████████████│   │
-│   │ ─────────           │        │                                     │   │
-│   │ • About Me          │   →    │      ┌─────────┐                   │   │
-│   │ • Skills            │        │      │  PHOTO  │    MY NAME        │   │
-│   │ • Contact           │        │      └─────────┘    Software Dev   │   │
-│   │                     │        │                                     │   │
-│   │ Plain text...       │        │   ╔═══════════════════════════════╗│   │
-│   │                     │        │   ║  Beautiful, styled content   ║│   │
-│   └─────────────────────┘        │   ╚═══════════════════════════════╝│   │
-│                                   │          🎨                        │   │
-│   Plain & boring                 └─────────────────────────────────────┘   │
-│                                   Professional & impressive!               │
-│                                                                              │
+│ │
+│ BEFORE (HTML Only) AFTER (HTML + CSS) │
+│ │
+│ ┌─────────────────────┐ ┌─────────────────────────────────────┐ │
+│ │ My Name │ │ ████████████████████████████████████│ │
+│ │ ───────── │ │ │ │
+│ │ • About Me │ → │ ┌─────────┐ │ │
+│ │ • Skills │ │ │ PHOTO │ MY NAME │ │
+│ │ • Contact │ │ └─────────┘ Software Dev │ │
+│ │ │ │ │ │
+│ │ Plain text... │ │ ╔═══════════════════════════════╗│ │
+│ │ │ │ ║ Beautiful, styled content ║│ │
+│ └─────────────────────┘ │ ╚═══════════════════════════════╝│ │
+│ │ │ │
+│ Plain & boring └─────────────────────────────────────┘ │
+│ Professional & impressive! │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -79,15 +79,15 @@ By the end of this level, you will transform your plain HTML bio page into a bea
 ```css
 /* Just a few lines of CSS... */
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f5f5f5;
+ font-family: 'Arial', sans-serif;
+ line-height: 1.6;
+ color: #333;
+ background-color: #f5f5f5;
 }
 
 h1 {
-    color: #2c3e50;
-    text-align: center;
+ color: #2c3e50;
+ text-align: center;
 }
 
 /* ...transforms your entire page! */
@@ -105,13 +105,13 @@ h1 {
 - [ ] Portfolio is responsive (works on mobile)
 - [ ] Mentor verification received
 - [ ] **CSS Styling Badge** earned
-- [ ] **Web Developer Apprentice Certificate** awarded! 🎓
+- [ ] **Web Developer Apprentice Certificate** awarded! 
 
 ---
 
 <div align="center">
 
-**Time to make your websites beautiful!** 🎨
+**Time to make your websites beautiful!** 
 
 *Start with Module 01: Introduction to CSS*
 

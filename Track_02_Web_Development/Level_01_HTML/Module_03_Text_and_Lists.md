@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -34,22 +34,22 @@ HTML provides six levels of headings, from `<h1>` (most important) to `<h6>` (le
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    HEADING HIERARCHY                                         │
+│ HEADING HIERARCHY │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   <h1> Learn Web Development at KOOMPI ──────────────── MAIN TITLE         │
-│   │                                                      (only ONE per page)│
-│   ├── <h2> Track 02: Web Development ──────────────── MAJOR SECTION        │
-│   │   │                                                                      │
-│   │   ├── <h3> Level 1: HTML Fundamentals ─────────── SUBSECTION           │
-│   │   │   │                                                                  │
-│   │   │   ├── <h4> Module 1: Getting Started ────── SUB-SUBSECTION         │
-│   │   │   └── <h4> Module 2: Document Structure                            │
-│   │   │                                                                      │
-│   │   └── <h3> Level 2: CSS Styling                                        │
-│   │                                                                          │
-│   └── <h2> Track 03: Business Skills                                        │
-│                                                                              │
+│ │
+│ <h1> Learn Web Development at KOOMPI ──────────────── MAIN TITLE │
+│ │ (only ONE per page)│
+│ ├── <h2> Track 02: Web Development ──────────────── MAJOR SECTION │
+│ │ │ │
+│ │ ├── <h3> Level 1: HTML Fundamentals ─────────── SUBSECTION │
+│ │ │ │ │
+│ │ │ ├── <h4> Module 1: Getting Started ────── SUB-SUBSECTION │
+│ │ │ └── <h4> Module 2: Document Structure │
+│ │ │ │
+│ │ └── <h3> Level 2: CSS Styling │
+│ │ │
+│ └── <h2> Track 03: Business Skills │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -66,30 +66,30 @@ HTML provides six levels of headings, from `<h1>` (most important) to `<h6>` (le
 
 ```html
 <article>
-    <h1>The Complete Guide to Learning HTML</h1>
-    
-    <h2>Introduction</h2>
-    <p>HTML is the foundation of web development...</p>
-    
-    <h2>Getting Started</h2>
-    
-    <h3>What You Need</h3>
-    <p>A text editor and a browser...</p>
-    
-    <h3>Your First Page</h3>
-    <p>Create a file called index.html...</p>
-    
-    <h2>Basic Elements</h2>
-    
-    <h3>Text Elements</h3>
-    <h4>Headings</h4>
-    <p>There are six levels of headings...</p>
-    
-    <h4>Paragraphs</h4>
-    <p>Use the p tag for paragraphs...</p>
-    
-    <h2>Conclusion</h2>
-    <p>You now know the basics of HTML...</p>
+ <h1>The Complete Guide to Learning HTML</h1>
+ 
+ <h2>Introduction</h2>
+ <p>HTML is the foundation of web development...</p>
+ 
+ <h2>Getting Started</h2>
+ 
+ <h3>What You Need</h3>
+ <p>A text editor and a browser...</p>
+ 
+ <h3>Your First Page</h3>
+ <p>Create a file called index.html...</p>
+ 
+ <h2>Basic Elements</h2>
+ 
+ <h3>Text Elements</h3>
+ <h4>Headings</h4>
+ <p>There are six levels of headings...</p>
+ 
+ <h4>Paragraphs</h4>
+ <p>Use the p tag for paragraphs...</p>
+ 
+ <h2>Conclusion</h2>
+ <p>You now know the basics of HTML...</p>
 </article>
 ```
 
@@ -113,9 +113,9 @@ To break a line without starting a new paragraph, use `<br>`:
 
 ```html
 <p>
-    KOOMPI Company<br>
-    Phnom Penh, Cambodia<br>
-    info@koompi.com
+ KOOMPI Company<br>
+ Phnom Penh, Cambodia<br>
+ info@koompi.com
 </p>
 ```
 
@@ -141,9 +141,9 @@ The `<pre>` element preserves spaces and line breaks exactly as written:
 
 ```html
 <pre>
-    Name:    Sokha
-    Age:     22
-    Country: Cambodia
+ Name: Sokha
+ Age: 22
+ Country: Cambodia
 </pre>
 ```
 
@@ -206,19 +206,19 @@ You can nest formatting elements:
 
 ```html
 <article>
-    <h1>HTML Text Formatting</h1>
-    
-    <p>HTML provides many ways to format text. The most common are 
-    <strong>bold</strong> and <em>italic</em>.</p>
-    
-    <p><strong>Important:</strong> Use semantic elements like 
-    <code>&lt;strong&gt;</code> instead of <code>&lt;b&gt;</code>.</p>
-    
-    <p>Water is written as H<sub>2</sub>O in chemistry.</p>
-    
-    <p>The area formula is πr<sup>2</sup>.</p>
-    
-    <p><small>© 2024 KOOMPI. All rights reserved.</small></p>
+ <h1>HTML Text Formatting</h1>
+ 
+ <p>HTML provides many ways to format text. The most common are 
+ <strong>bold</strong> and <em>italic</em>.</p>
+ 
+ <p><strong>Important:</strong> Use semantic elements like 
+ <code>&lt;strong&gt;</code> instead of <code>&lt;b&gt;</code>.</p>
+ 
+ <p>Water is written as H<sub>2</sub>O in chemistry.</p>
+ 
+ <p>The area formula is πr<sup>2</sup>.</p>
+ 
+ <p><small>© 2024 KOOMPI. All rights reserved.</small></p>
 </article>
 ```
 
@@ -232,9 +232,9 @@ An **unordered list** displays items with bullet points. Order doesn't matter.
 
 ```html
 <ul>
-    <li>Rice</li>
-    <li>Fish</li>
-    <li>Vegetables</li>
+ <li>Rice</li>
+ <li>Fish</li>
+ <li>Vegetables</li>
 </ul>
 ```
 
@@ -257,10 +257,10 @@ Displays as:
 ```html
 <h2>My Skills</h2>
 <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Linux Terminal</li>
-    <li>Basic English</li>
+ <li>HTML</li>
+ <li>CSS</li>
+ <li>Linux Terminal</li>
+ <li>Basic English</li>
 </ul>
 ```
 
@@ -274,11 +274,11 @@ An **ordered list** displays items with numbers. Order matters.
 
 ```html
 <ol>
-    <li>Turn on computer</li>
-    <li>Open text editor</li>
-    <li>Create new file</li>
-    <li>Write HTML code</li>
-    <li>Save and preview</li>
+ <li>Turn on computer</li>
+ <li>Open text editor</li>
+ <li>Create new file</li>
+ <li>Write HTML code</li>
+ <li>Save and preview</li>
 </ol>
 ```
 
@@ -303,20 +303,20 @@ Displays as:
 ```html
 <!-- Letters instead of numbers -->
 <ol type="A">
-    <li>First item</li>   <!-- Displays as A. -->
-    <li>Second item</li>  <!-- Displays as B. -->
+ <li>First item</li> <!-- Displays as A. -->
+ <li>Second item</li> <!-- Displays as B. -->
 </ol>
 
 <!-- Start from different number -->
 <ol start="5">
-    <li>Fifth item</li>   <!-- Displays as 5. -->
-    <li>Sixth item</li>   <!-- Displays as 6. -->
+ <li>Fifth item</li> <!-- Displays as 5. -->
+ <li>Sixth item</li> <!-- Displays as 6. -->
 </ol>
 
 <!-- Roman numerals -->
 <ol type="I">
-    <li>Chapter One</li>  <!-- Displays as I. -->
-    <li>Chapter Two</li>  <!-- Displays as II. -->
+ <li>Chapter One</li> <!-- Displays as I. -->
+ <li>Chapter Two</li> <!-- Displays as II. -->
 </ol>
 ```
 
@@ -331,27 +331,27 @@ You can put lists inside other lists:
 ```html
 <h2>Web Development Curriculum</h2>
 <ol>
-    <li>HTML Fundamentals
-        <ul>
-            <li>Document Structure</li>
-            <li>Text Content</li>
-            <li>Links and Images</li>
-        </ul>
-    </li>
-    <li>CSS Styling
-        <ul>
-            <li>Selectors</li>
-            <li>Box Model</li>
-            <li>Layout</li>
-        </ul>
-    </li>
-    <li>JavaScript
-        <ul>
-            <li>Variables</li>
-            <li>Functions</li>
-            <li>DOM</li>
-        </ul>
-    </li>
+ <li>HTML Fundamentals
+ <ul>
+ <li>Document Structure</li>
+ <li>Text Content</li>
+ <li>Links and Images</li>
+ </ul>
+ </li>
+ <li>CSS Styling
+ <ul>
+ <li>Selectors</li>
+ <li>Box Model</li>
+ <li>Layout</li>
+ </ul>
+ </li>
+ <li>JavaScript
+ <ul>
+ <li>Variables</li>
+ <li>Functions</li>
+ <li>DOM</li>
+ </ul>
+ </li>
 </ol>
 ```
 
@@ -362,19 +362,19 @@ You can put lists inside other lists:
 ```html
 <!-- CORRECT -->
 <ul>
-    <li>Item
-        <ul>
-            <li>Nested item</li>
-        </ul>
-    </li>
+ <li>Item
+ <ul>
+ <li>Nested item</li>
+ </ul>
+ </li>
 </ul>
 
 <!-- WRONG -->
 <ul>
-    <li>Item</li>
-    <ul>
-        <li>Nested item</li>
-    </ul>
+ <li>Item</li>
+ <ul>
+ <li>Nested item</li>
+ </ul>
 </ul>
 ```
 
@@ -388,14 +388,14 @@ A **description list** pairs terms with their definitions.
 
 ```html
 <dl>
-    <dt>HTML</dt>
-    <dd>HyperText Markup Language - the structure of web pages</dd>
-    
-    <dt>CSS</dt>
-    <dd>Cascading Style Sheets - the styling of web pages</dd>
-    
-    <dt>JavaScript</dt>
-    <dd>A programming language - adds interactivity to web pages</dd>
+ <dt>HTML</dt>
+ <dd>HyperText Markup Language - the structure of web pages</dd>
+ 
+ <dt>CSS</dt>
+ <dd>Cascading Style Sheets - the styling of web pages</dd>
+ 
+ <dt>JavaScript</dt>
+ <dd>A programming language - adds interactivity to web pages</dd>
 </dl>
 ```
 
@@ -413,10 +413,10 @@ A term can have multiple definitions:
 
 ```html
 <dl>
-    <dt>JavaScript</dt>
-    <dd>A programming language for web development</dd>
-    <dd>Can run in browsers and on servers (Node.js)</dd>
-    <dd>Originally created in 1995</dd>
+ <dt>JavaScript</dt>
+ <dd>A programming language for web development</dd>
+ <dd>Can run in browsers and on servers (Node.js)</dd>
+ <dd>Originally created in 1995</dd>
 </dl>
 ```
 
@@ -430,7 +430,7 @@ A term can have multiple definitions:
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Heading Practice
 
@@ -438,16 +438,16 @@ Create a page about Cambodia with proper heading structure:
 
 ```
 h1: Cambodia - Kingdom of Wonder
-  h2: Geography
-    h3: Location
-    h3: Climate
-  h2: Culture
-    h3: Language
-    h3: Food
-    h3: Festivals
-  h2: Tourism
-    h3: Angkor Wat
-    h3: Phnom Penh
+ h2: Geography
+ h3: Location
+ h3: Climate
+ h2: Culture
+ h3: Language
+ h3: Food
+ h3: Festivals
+ h2: Tourism
+ h3: Angkor Wat
+ h3: Phnom Penh
 ```
 
 ### Exercise 2: Format This Text
@@ -500,7 +500,7 @@ Create a glossary page using description lists with these terms:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Elements Learned**
 
@@ -521,7 +521,7 @@ Create a glossary page using description lists with these terms:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 04:**
 
@@ -539,7 +539,7 @@ Create a glossary page using description lists with these terms:
 
 <div align="center">
 
-**Content is king!** 👑
+**Content is king!** 
 
 *Well-structured content is easier to read and find.*
 

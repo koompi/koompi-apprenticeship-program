@@ -1,21 +1,21 @@
-# 🏆 Assessment & Certification Guide
+# Assessment & Certification Guide
 
 ## KOOMPI Apprenticeship Program
 
 ---
 
-## 📋 Overview
+## Overview
 
 The KOOMPI Apprenticeship Program uses a **competency-based assessment system**. This means:
 
-- ✅ You advance when you **demonstrate mastery**, not after a fixed time
-- ✅ Assessment is **continuous**, not just exams
-- ✅ **Projects and real work** count more than tests
-- ✅ **Teaching others** is the highest form of proof
+- You advance when you **demonstrate mastery**, not after a fixed time
+- Assessment is **continuous**, not just exams
+- **Projects and real work** count more than tests
+- **Teaching others** is the highest form of proof
 
 ---
 
-## 🎖️ Badge System
+## Badge System
 
 Every module awards badges based on demonstrated competency:
 
@@ -23,54 +23,54 @@ Every module awards badges based on demonstrated competency:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                              │
-│   🥉 FOUNDATION BADGE                                                       │
-│   ─────────────────                                                         │
-│   How to earn:                                                              │
-│   • Complete all module readings                                            │
-│   • Type out all code examples                                              │
-│   • Complete self-check exercises                                           │
-│   • Pass mentor verification quiz (verbal or written)                       │
-│                                                                              │
-│   Evidence needed:                                                          │
-│   □ Completed exercise files in your project folder                        │
-│   □ Mentor sign-off                                                         │
-│                                                                              │
+│ │
+│ FOUNDATION BADGE │
+│ ───────────────── │
+│ How to earn: │
+│ • Complete all module readings │
+│ • Type out all code examples │
+│ • Complete self-check exercises │
+│ • Pass mentor verification quiz (verbal or written) │
+│ │
+│ Evidence needed: │
+│ □ Completed exercise files in your project folder │
+│ □ Mentor sign-off │
+│ │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   🥈 BUILDER BADGE                                                          │
-│   ───────────────                                                           │
-│   How to earn:                                                              │
-│   • Complete the module mini-project                                        │
-│   • Project must work correctly                                             │
-│   • Code must be clean and organized                                        │
-│   • Project pushed to GitHub                                                │
-│                                                                              │
-│   Evidence needed:                                                          │
-│   □ Working project URL or GitHub repository                               │
-│   □ Brief explanation of how you built it                                  │
-│   □ Mentor code review approval                                            │
-│                                                                              │
+│ │
+│ BUILDER BADGE │
+│ ─────────────── │
+│ How to earn: │
+│ • Complete the module mini-project │
+│ • Project must work correctly │
+│ • Code must be clean and organized │
+│ • Project pushed to GitHub │
+│ │
+│ Evidence needed: │
+│ □ Working project URL or GitHub repository │
+│ □ Brief explanation of how you built it │
+│ □ Mentor code review approval │
+│ │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   🥇 MASTER BADGE                                                           │
-│   ─────────────                                                             │
-│   How to earn:                                                              │
-│   • Help at least 1 other apprentice complete this module                  │
-│   • Successfully explain concepts and debug their code                     │
-│   • Your mentee earns their Foundation Badge                               │
-│                                                                              │
-│   Evidence needed:                                                          │
-│   □ Name of apprentice(s) you helped                                       │
-│   □ Their confirmation that you helped                                     │
-│   □ Mentor observation or testimonial                                      │
-│                                                                              │
+│ │
+│ MASTER BADGE │
+│ ───────────── │
+│ How to earn: │
+│ • Help at least 1 other apprentice complete this module │
+│ • Successfully explain concepts and debug their code │
+│ • Your mentee earns their Foundation Badge │
+│ │
+│ Evidence needed: │
+│ □ Name of apprentice(s) you helped │
+│ □ Their confirmation that you helped │
+│ □ Mentor observation or testimonial │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📜 Certificate Levels
+## Certificate Levels
 
 Certificates are awarded when you complete major milestones:
 
@@ -78,22 +78,22 @@ Certificates are awarded when you complete major milestones:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│                    DIGITAL CITIZEN                               │
-│                    ═══════════════                               │
-│                                                                  │
-│   Requirements:                                                  │
-│   ─────────────                                                  │
-│   □ Track 00 Complete (all 4 modules, Foundation badges)        │
-│   □ Can type at least 30 WPM in English                         │
-│   □ Can navigate Linux terminal with basic commands             │
-│   □ Demonstrates basic English reading comprehension            │
-│                                                                  │
-│   You have proven:                                               │
-│   • Computer literacy                                            │
-│   • Basic digital skills                                         │
-│   • Foundation for technical learning                            │
-│                                                                  │
+│ │
+│ DIGITAL CITIZEN │
+│ ═══════════════ │
+│ │
+│ Requirements: │
+│ ───────────── │
+│ □ Track 00 Complete (all 4 modules, Foundation badges) │
+│ □ Can type at least 30 WPM in English │
+│ □ Can navigate Linux terminal with basic commands │
+│ □ Demonstrates basic English reading comprehension │
+│ │
+│ You have proven: │
+│ • Computer literacy │
+│ • Basic digital skills │
+│ • Foundation for technical learning │
+│ │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -101,30 +101,30 @@ Certificates are awarded when you complete major milestones:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│               WEB DEVELOPER APPRENTICE                           │
-│               ════════════════════════                           │
-│                                                                  │
-│   Requirements:                                                  │
-│   ─────────────                                                  │
-│   □ Level 1 Certificate (Digital Citizen)                       │
-│   □ HTML Complete (all 7 modules, at least Foundation badges)   │
-│   □ CSS Complete (all 7 modules, at least Foundation badges)    │
-│   □ Portfolio Project: Personal website with multiple pages     │
-│   □ Can communicate with customers in basic English             │
-│                                                                  │
-│   Portfolio must include:                                        │
-│   • Home page with introduction                                  │
-│   • About page with your story                                   │
-│   • Projects page (even if empty for now)                       │
-│   • Contact page with working links                              │
-│   • Responsive design (works on mobile)                         │
-│                                                                  │
-│   You have proven:                                               │
-│   • Can build static websites from scratch                       │
-│   • Understands web fundamentals                                 │
-│   • Ready for programming                                        │
-│                                                                  │
+│ │
+│ WEB DEVELOPER APPRENTICE │
+│ ════════════════════════ │
+│ │
+│ Requirements: │
+│ ───────────── │
+│ □ Level 1 Certificate (Digital Citizen) │
+│ □ HTML Complete (all 7 modules, at least Foundation badges) │
+│ □ CSS Complete (all 7 modules, at least Foundation badges) │
+│ □ Portfolio Project: Personal website with multiple pages │
+│ □ Can communicate with customers in basic English │
+│ │
+│ Portfolio must include: │
+│ • Home page with introduction │
+│ • About page with your story │
+│ • Projects page (even if empty for now) │
+│ • Contact page with working links │
+│ • Responsive design (works on mobile) │
+│ │
+│ You have proven: │
+│ • Can build static websites from scratch │
+│ • Understands web fundamentals │
+│ • Ready for programming │
+│ │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -132,32 +132,32 @@ Certificates are awarded when you complete major milestones:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│                 JAVASCRIPT DEVELOPER                             │
-│                 ════════════════════                             │
-│                                                                  │
-│   Requirements:                                                  │
-│   ─────────────                                                  │
-│   □ Level 2 Certificate (Web Developer Apprentice)              │
-│   □ JavaScript Basics Complete (7 modules)                      │
-│   □ JavaScript Advanced Complete (5 modules)                    │
-│   □ Git & GitHub Complete (4 modules)                           │
-│   □ Project: Interactive web application                        │
-│   □ All projects on GitHub with proper commits                  │
-│                                                                  │
-│   Project must include:                                          │
-│   • User interaction (buttons, forms, etc.)                     │
-│   • DOM manipulation                                             │
-│   • At least one API integration                                │
-│   • Clean, commented code                                        │
-│   • README documentation                                         │
-│                                                                  │
-│   You have proven:                                               │
-│   • Can write JavaScript programs                                │
-│   • Understands programming logic                                │
-│   • Uses version control professionally                          │
-│   • Ready for frameworks                                         │
-│                                                                  │
+│ │
+│ JAVASCRIPT DEVELOPER │
+│ ════════════════════ │
+│ │
+│ Requirements: │
+│ ───────────── │
+│ □ Level 2 Certificate (Web Developer Apprentice) │
+│ □ JavaScript Basics Complete (7 modules) │
+│ □ JavaScript Advanced Complete (5 modules) │
+│ □ Git & GitHub Complete (4 modules) │
+│ □ Project: Interactive web application │
+│ □ All projects on GitHub with proper commits │
+│ │
+│ Project must include: │
+│ • User interaction (buttons, forms, etc.) │
+│ • DOM manipulation │
+│ • At least one API integration │
+│ • Clean, commented code │
+│ • README documentation │
+│ │
+│ You have proven: │
+│ • Can write JavaScript programs │
+│ • Understands programming logic │
+│ • Uses version control professionally │
+│ • Ready for frameworks │
+│ │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -165,70 +165,70 @@ Certificates are awarded when you complete major milestones:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│                 FULL-STACK APPRENTICE                            │
-│                 ═════════════════════                            │
-│                                                                  │
-│   Requirements:                                                  │
-│   ─────────────                                                  │
-│   □ Level 3 Certificate (JavaScript Developer)                  │
-│   □ React.js Complete (7 modules)                               │
-│   □ Next.js & Tailwind Complete (6 modules)                     │
-│   □ Project: Full production website or web application         │
-│   □ Professional English communication skills                   │
-│                                                                  │
-│   Project must include:                                          │
-│   • Built with React/Next.js                                    │
-│   • Styled with Tailwind or custom CSS                          │
-│   • Multiple pages/routes                                        │
-│   • Deployed to the internet                                     │
-│   • Mobile responsive                                            │
-│   • Performance optimized                                        │
-│                                                                  │
-│   You have proven:                                               │
-│   • Can build modern web applications                            │
-│   • Understands full development workflow                        │
-│   • Ready for professional work                                  │
-│                                                                  │
+│ │
+│ FULL-STACK APPRENTICE │
+│ ═════════════════════ │
+│ │
+│ Requirements: │
+│ ───────────── │
+│ □ Level 3 Certificate (JavaScript Developer) │
+│ □ React.js Complete (7 modules) │
+│ □ Next.js & Tailwind Complete (6 modules) │
+│ □ Project: Full production website or web application │
+│ □ Professional English communication skills │
+│ │
+│ Project must include: │
+│ • Built with React/Next.js │
+│ • Styled with Tailwind or custom CSS │
+│ • Multiple pages/routes │
+│ • Deployed to the internet │
+│ • Mobile responsive │
+│ • Performance optimized │
+│ │
+│ You have proven: │
+│ • Can build modern web applications │
+│ • Understands full development workflow │
+│ • Ready for professional work │
+│ │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### 🎓 Graduate: KOOMPI Software Engineer & Entrepreneur
+### Graduate: KOOMPI Software Engineer & Entrepreneur
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│          🎓 KOOMPI SOFTWARE ENGINEER & ENTREPRENEUR 🎓          │
-│          ══════════════════════════════════════════════          │
-│                                                                  │
-│   Requirements:                                                  │
-│   ─────────────                                                  │
-│   □ Level 4 Certificate (Full-Stack Apprentice)                 │
-│   □ Track 03 Complete (Business & Entrepreneurship)             │
-│   □ Demonstrated customer service excellence                    │
-│   □ Capstone Project approved by mentors                        │
-│   □ Presentation to KOOMPI team                                 │
-│                                                                  │
-│   Capstone Project:                                              │
-│   • Real-world application or website                           │
-│   • Solves a genuine problem                                    │
-│   • Could be for a client, community, or personal startup       │
-│   • Fully deployed and documented                               │
-│   • Presented and defended                                      │
-│                                                                  │
-│   You have proven:                                               │
-│   • Technical excellence                                         │
-│   • Professional communication                                   │
-│   • Business understanding                                       │
-│   • Ready for employment or entrepreneurship                     │
-│   • A future leader of Cambodia's tech industry                 │
-│                                                                  │
+│ │
+│ KOOMPI SOFTWARE ENGINEER & ENTREPRENEUR │
+│ ══════════════════════════════════════════════ │
+│ │
+│ Requirements: │
+│ ───────────── │
+│ □ Level 4 Certificate (Full-Stack Apprentice) │
+│ □ Track 03 Complete (Business & Entrepreneurship) │
+│ □ Demonstrated customer service excellence │
+│ □ Capstone Project approved by mentors │
+│ □ Presentation to KOOMPI team │
+│ │
+│ Capstone Project: │
+│ • Real-world application or website │
+│ • Solves a genuine problem │
+│ • Could be for a client, community, or personal startup │
+│ • Fully deployed and documented │
+│ • Presented and defended │
+│ │
+│ You have proven: │
+│ • Technical excellence │
+│ • Professional communication │
+│ • Business understanding │
+│ • Ready for employment or entrepreneurship │
+│ • A future leader of Cambodia's tech industry │
+│ │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📊 Skills Assessment Matrix
+## Skills Assessment Matrix
 
 For each skill area, apprentices are rated on a 4-level scale:
 
@@ -264,7 +264,7 @@ For each skill area, apprentices are rated on a 4-level scale:
 
 ---
 
-## 🔍 Assessment Methods
+## Assessment Methods
 
 ### 1. Self-Check Exercises (Every Lesson)
 
@@ -336,7 +336,7 @@ How apprentices perform in real KOOMPI work:
 
 ---
 
-## 📝 Progress Tracking Template
+## Progress Tracking Template
 
 Each apprentice maintains a progress log:
 
@@ -350,11 +350,11 @@ Each apprentice maintains a progress log:
 - Mentor: _________________
 
 ## Certificates Earned
-- [ ] Digital Citizen          Date: _______
+- [ ] Digital Citizen Date: _______
 - [ ] Web Developer Apprentice Date: _______
-- [ ] JavaScript Developer     Date: _______
-- [ ] Full-Stack Apprentice    Date: _______
-- [ ] KOOMPI Graduate          Date: _______
+- [ ] JavaScript Developer Date: _______
+- [ ] Full-Stack Apprentice Date: _______
+- [ ] KOOMPI Graduate Date: _______
 
 ## Current Focus
 Module: _________________
@@ -369,8 +369,8 @@ Target Completion: _________________
 ## Completed Modules
 | Module | Foundation | Builder | Master | Date |
 |--------|------------|---------|--------|------|
-| 00.01  | □          | □       | □      |      |
-| ...    |            |         |        |      |
+| 00.01 | □ | □ | □ | |
+| ... | | | | |
 
 ## Projects Completed
 1. _________________ (GitHub Link)
@@ -382,7 +382,7 @@ Target Completion: _________________
 
 ---
 
-## 🎯 Assessment Best Practices
+## Assessment Best Practices
 
 ### For Mentors
 
@@ -402,7 +402,7 @@ Target Completion: _________________
 
 ---
 
-## 📅 Assessment Schedule
+## Assessment Schedule
 
 | Frequency | Activity | Who |
 |-----------|----------|-----|
@@ -422,6 +422,6 @@ Target Completion: _________________
 
 **It's about knowing where you are and where to go next.**
 
-*Keep learning. Keep building. Keep growing.* 🇰🇭
+*Keep learning. Keep building. Keep growing.* 
 
 </div>

@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -23,27 +23,27 @@ Every learner has these fears. They are normal!
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    COMMON SPEAKING FEARS                                     │
+│ COMMON SPEAKING FEARS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   😰 "What if I make mistakes?"                                             │
-│      → EVERYONE makes mistakes. Even native speakers.                       │
-│      → Mistakes help you learn.                                             │
-│                                                                              │
-│   😰 "What if people don't understand me?"                                  │
-│      → Speak slowly. It's better than speaking fast and unclear.           │
-│      → Ask "Did that make sense?"                                          │
-│                                                                              │
-│   😰 "What if I forget words?"                                              │
-│      → Describe the word: "the thing that you use to..."                   │
-│      → Ask: "How do you say...?" - It's okay!                              │
-│                                                                              │
-│   😰 "My accent isn't good enough"                                          │
-│      → Your accent is fine. Clarity matters more than accent.              │
-│      → Many successful tech people have accents.                           │
-│                                                                              │
-│   REMEMBER: The goal is communication, not perfection!                      │
-│                                                                              │
+│ │
+│ "What if I make mistakes?" │
+│ → EVERYONE makes mistakes. Even native speakers. │
+│ → Mistakes help you learn. │
+│ │
+│ "What if people don't understand me?" │
+│ → Speak slowly. It's better than speaking fast and unclear. │
+│ → Ask "Did that make sense?" │
+│ │
+│ "What if I forget words?" │
+│ → Describe the word: "the thing that you use to..." │
+│ → Ask: "How do you say...?" - It's okay! │
+│ │
+│ "My accent isn't good enough" │
+│ → Your accent is fine. Clarity matters more than accent. │
+│ → Many successful tech people have accents. │
+│ │
+│ REMEMBER: The goal is communication, not perfection! │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -151,33 +151,33 @@ uses flexbox. The nav is the parent, the links are children."
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    PROJECT PRESENTATION STRUCTURE                            │
-│                         (5-10 minutes)                                       │
+│ PROJECT PRESENTATION STRUCTURE │
+│ (5-10 minutes) │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   1. INTRODUCTION (30 seconds)                                              │
-│      • Your name                                                            │
-│      • Project name                                                         │
-│      • One sentence about what it does                                      │
-│                                                                              │
-│   2. PROBLEM/GOAL (1 minute)                                                │
-│      • What problem does it solve?                                          │
-│      • Who is it for?                                                       │
-│                                                                              │
-│   3. DEMO (3-5 minutes)                                                     │
-│      • Show the project working                                             │
-│      • Walk through key features                                            │
-│      • Keep it simple                                                       │
-│                                                                              │
-│   4. TECHNICAL HIGHLIGHTS (2 minutes)                                       │
-│      • Technologies used                                                    │
-│      • One interesting challenge you solved                                │
-│                                                                              │
-│   5. CONCLUSION (30 seconds)                                                │
-│      • Summary                                                              │
-│      • Thank audience                                                       │
-│      • Ask for questions                                                    │
-│                                                                              │
+│ │
+│ 1. INTRODUCTION (30 seconds) │
+│ • Your name │
+│ • Project name │
+│ • One sentence about what it does │
+│ │
+│ 2. PROBLEM/GOAL (1 minute) │
+│ • What problem does it solve? │
+│ • Who is it for? │
+│ │
+│ 3. DEMO (3-5 minutes) │
+│ • Show the project working │
+│ • Walk through key features │
+│ • Keep it simple │
+│ │
+│ 4. TECHNICAL HIGHLIGHTS (2 minutes) │
+│ • Technologies used │
+│ • One interesting challenge you solved │
+│ │
+│ 5. CONCLUSION (30 seconds) │
+│ • Summary │
+│ • Thank audience │
+│ • Ask for questions │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -310,7 +310,7 @@ Each time gets easier!
 
 ---
 
-## 🧪 Practice Exercises
+## Practice Exercises
 
 ### Exercise 1: Elevator Pitch
 
@@ -355,7 +355,7 @@ Practice these scenarios:
 
 ---
 
-## 📝 Speaking Cheat Sheet
+## Speaking Cheat Sheet
 
 ### Quick Phrases
 
@@ -371,7 +371,7 @@ Practice these scenarios:
 
 ---
 
-## 🎯 Track Complete
+## Track Complete
 
 You've completed all English modules. Continue practicing:
 
@@ -387,10 +387,10 @@ You've completed all English modules. Continue practicing:
 
 <div align="center">
 
-**Your voice matters!** 🎤
+**Your voice matters!** 
 
 *Every conversation is practice. Keep speaking!*
 
-🇰🇭 → 🌍
+ → 
 
 </div>

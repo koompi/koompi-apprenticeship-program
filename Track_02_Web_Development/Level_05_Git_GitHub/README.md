@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Level Overview
+## Level Overview
 
 **Git** is version control — it tracks changes to your code. **GitHub** hosts your code online and enables collaboration.
 
@@ -21,9 +21,9 @@
 
 ## Prerequisites
 
-- ✅ Completed at least Level 2.1-2.2 (HTML & CSS)
-- ✅ Comfortable with terminal commands
-- ✅ Have a project you want to track
+- Completed at least Level 2.1-2.2 (HTML & CSS)
+- Comfortable with terminal commands
+- Have a project you want to track
 
 ---
 
@@ -31,23 +31,23 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    WITHOUT GIT vs WITH GIT                                   │
+│ WITHOUT GIT vs WITH GIT │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   WITHOUT GIT:                         WITH GIT:                            │
-│                                                                              │
-│   project_final.html                   project/                             │
-│   project_final_v2.html                ├── index.html                       │
-│   project_final_REAL.html              └── .git/                            │
-│   project_final_FINAL.html                  (all versions saved)            │
-│   project_DONT_DELETE.html                                                  │
-│   project_backup_jan.html              → One folder                         │
-│   ...                                  → Complete history                   │
-│                                        → Easy to undo                       │
-│   → Messy                              → Collaboration ready                │
-│   → No history                         → Professional                       │
-│   → Hard to undo                                                            │
-│                                                                              │
+│ │
+│ WITHOUT GIT: WITH GIT: │
+│ │
+│ project_final.html project/ │
+│ project_final_v2.html ├── index.html │
+│ project_final_REAL.html └── .git/ │
+│ project_final_FINAL.html (all versions saved) │
+│ project_DONT_DELETE.html │
+│ project_backup_jan.html → One folder │
+│ ... → Complete history │
+│ → Easy to undo │
+│ → Messy → Collaboration ready │
+│ → No history → Professional │
+│ → Hard to undo │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -110,7 +110,7 @@ git pull origin main
 
 <div align="center">
 
-**Professionals use Git!** 🔧
+**Professionals use Git!** 
 
 *Your code deserves version control.*
 

@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -92,30 +92,30 @@ Learning English while coding gives you:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    TYPICAL DOCUMENTATION STRUCTURE                           │
+│ TYPICAL DOCUMENTATION STRUCTURE │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   TITLE                    The name of what you're learning                 │
-│   ─────                                                                      │
-│                                                                              │
-│   DESCRIPTION              What it does (brief explanation)                 │
-│   ───────────                                                               │
-│                                                                              │
-│   SYNTAX                   How to write it (code format)                    │
-│   ──────                                                                     │
-│                                                                              │
-│   PARAMETERS               Options you can provide                          │
-│   ──────────                                                                │
-│                                                                              │
-│   RETURN VALUE             What you get back                                │
-│   ────────────                                                              │
-│                                                                              │
-│   EXAMPLES                 Working code samples                             │
-│   ────────                                                                  │
-│                                                                              │
-│   SEE ALSO                 Related topics                                   │
-│   ────────                                                                  │
-│                                                                              │
+│ │
+│ TITLE The name of what you're learning │
+│ ───── │
+│ │
+│ DESCRIPTION What it does (brief explanation) │
+│ ─────────── │
+│ │
+│ SYNTAX How to write it (code format) │
+│ ────── │
+│ │
+│ PARAMETERS Options you can provide │
+│ ────────── │
+│ │
+│ RETURN VALUE What you get back │
+│ ──────────── │
+│ │
+│ EXAMPLES Working code samples │
+│ ──────── │
+│ │
+│ SEE ALSO Related topics │
+│ ──────── │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -155,10 +155,10 @@ Errors follow patterns. Learn to read them:
 
 ```javascript
 TypeError: Cannot read property 'name' of undefined
-│           │                    │           │
-│           │                    │           └── The variable is undefined
-│           │                    └── Looking for 'name'
-│           └── Cannot read a property
+│ │ │ │
+│ │ │ └── The variable is undefined
+│ │ └── Looking for 'name'
+│ └── Cannot read a property
 └── Type of error
 ```
 
@@ -189,30 +189,30 @@ TypeError: Cannot read property 'name' of undefined
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    EFFECTIVE SEARCH STRATEGY                                 │
+│ EFFECTIVE SEARCH STRATEGY │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   STRUCTURE: [technology] [what you want to do]                             │
-│                                                                              │
-│   EXAMPLES:                                                                  │
-│                                                                              │
-│   ✅ GOOD SEARCHES                                                          │
-│   • "css center div horizontally"                                           │
-│   • "javascript loop through array"                                         │
-│   • "html form submit button"                                               │
-│   • "react useState example"                                                │
-│                                                                              │
-│   ❌ BAD SEARCHES                                                           │
-│   • "why doesn't my code work"                                              │
-│   • "help with my project"                                                  │
-│   • "how to make a website"                                                 │
-│                                                                              │
-│   TIPS:                                                                      │
-│   • Include the technology (CSS, JavaScript, React)                         │
-│   • Use specific keywords                                                   │
-│   • Add "example" for code samples                                          │
-│   • Add "tutorial" for step-by-step                                         │
-│                                                                              │
+│ │
+│ STRUCTURE: [technology] [what you want to do] │
+│ │
+│ EXAMPLES: │
+│ │
+│ GOOD SEARCHES │
+│ • "css center div horizontally" │
+│ • "javascript loop through array" │
+│ • "html form submit button" │
+│ • "react useState example" │
+│ │
+│ BAD SEARCHES │
+│ • "why doesn't my code work" │
+│ • "help with my project" │
+│ • "how to make a website" │
+│ │
+│ TIPS: │
+│ • Include the technology (CSS, JavaScript, React) │
+│ • Use specific keywords │
+│ • Add "example" for code samples │
+│ • Add "tutorial" for step-by-step │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -250,14 +250,14 @@ Create `vocabulary.md`:
 
 ### Monday
 - **Deploy**: Put a website online for people to see
-  - Example: "I deployed my website to Vercel"
-  
+ - Example: "I deployed my website to Vercel"
+ 
 - **Repository (repo)**: Storage for project files on GitHub
-  - Example: "Clone the repository to your computer"
+ - Example: "Clone the repository to your computer"
 
 ### Tuesday
 - **Render**: Display something on screen
-  - Example: "The browser renders HTML as a webpage"
+ - Example: "The browser renders HTML as a webpage"
 ```
 
 ### Learning New Words
@@ -328,7 +328,7 @@ Write about your coding day in English:
 
 ---
 
-## 📝 Key Phrases for Developers
+## Key Phrases for Developers
 
 ### Asking for Help
 
@@ -359,7 +359,7 @@ Example:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Daily Practice:**
 
@@ -376,7 +376,7 @@ Example:
 
 <div align="center">
 
-**Code in English, think in solutions!** 💻
+**Code in English, think in solutions!** 
 
 *Your English improves every time you code.*
 

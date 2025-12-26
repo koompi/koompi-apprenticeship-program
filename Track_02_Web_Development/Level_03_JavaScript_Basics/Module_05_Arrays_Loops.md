@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -54,20 +54,20 @@ Arrays are **zero-indexed** (start at 0):
 ```javascript
 let colors = ["red", "green", "blue"];
 
-console.log(colors[0]);  // "red"
-console.log(colors[1]);  // "green"
-console.log(colors[2]);  // "blue"
-console.log(colors[3]);  // undefined (doesn't exist)
+console.log(colors[0]); // "red"
+console.log(colors[1]); // "green"
+console.log(colors[2]); // "blue"
+console.log(colors[3]); // undefined (doesn't exist)
 
 // Last element
-console.log(colors[colors.length - 1]);  // "blue"
+console.log(colors[colors.length - 1]); // "blue"
 ```
 
 ### Array Length
 
 ```javascript
 let fruits = ["apple", "banana", "orange"];
-console.log(fruits.length);  // 3
+console.log(fruits.length); // 3
 ```
 
 ---
@@ -80,7 +80,7 @@ console.log(fruits.length);  // 3
 let colors = ["red", "green", "blue"];
 
 colors[1] = "yellow";
-console.log(colors);  // ["red", "yellow", "blue"]
+console.log(colors); // ["red", "yellow", "blue"]
 ```
 
 ### Adding Elements
@@ -90,11 +90,11 @@ let fruits = ["apple", "banana"];
 
 // Add to end
 fruits.push("orange");
-console.log(fruits);  // ["apple", "banana", "orange"]
+console.log(fruits); // ["apple", "banana", "orange"]
 
 // Add to beginning
 fruits.unshift("mango");
-console.log(fruits);  // ["mango", "apple", "banana", "orange"]
+console.log(fruits); // ["mango", "apple", "banana", "orange"]
 ```
 
 ### Removing Elements
@@ -104,13 +104,13 @@ let fruits = ["apple", "banana", "orange"];
 
 // Remove from end
 let last = fruits.pop();
-console.log(last);    // "orange"
-console.log(fruits);  // ["apple", "banana"]
+console.log(last); // "orange"
+console.log(fruits); // ["apple", "banana"]
 
 // Remove from beginning
 let first = fruits.shift();
-console.log(first);   // "apple"
-console.log(fruits);  // ["banana"]
+console.log(first); // "apple"
+console.log(fruits); // ["banana"]
 ```
 
 ### Splice (Add/Remove at Position)
@@ -120,15 +120,15 @@ let colors = ["red", "green", "blue", "yellow"];
 
 // Remove 1 element at index 2
 colors.splice(2, 1);
-console.log(colors);  // ["red", "green", "yellow"]
+console.log(colors); // ["red", "green", "yellow"]
 
 // Insert "purple" at index 1
 colors.splice(1, 0, "purple");
-console.log(colors);  // ["red", "purple", "green", "yellow"]
+console.log(colors); // ["red", "purple", "green", "yellow"]
 
 // Replace 1 element at index 0 with "orange"
 colors.splice(0, 1, "orange");
-console.log(colors);  // ["orange", "purple", "green", "yellow"]
+console.log(colors); // ["orange", "purple", "green", "yellow"]
 ```
 
 ---
@@ -139,7 +139,7 @@ console.log(colors);  // ["orange", "purple", "green", "yellow"]
 
 ```javascript
 for (let i = 0; i < 5; i++) {
-    console.log(i);
+ console.log(i);
 }
 // Output: 0, 1, 2, 3, 4
 ```
@@ -148,12 +148,12 @@ for (let i = 0; i < 5; i++) {
 
 ```javascript
 for (initialization; condition; update) {
-    // code to repeat
+ // code to repeat
 }
 
-// initialization: let i = 0   → runs once at start
-// condition: i < 5            → checked before each iteration
-// update: i++                 → runs after each iteration
+// initialization: let i = 0 → runs once at start
+// condition: i < 5 → checked before each iteration
+// update: i++ → runs after each iteration
 ```
 
 ### Looping Through Arrays
@@ -162,7 +162,7 @@ for (initialization; condition; update) {
 let fruits = ["apple", "banana", "orange"];
 
 for (let i = 0; i < fruits.length; i++) {
-    console.log(fruits[i]);
+ console.log(fruits[i]);
 }
 // apple
 // banana
@@ -175,7 +175,7 @@ for (let i = 0; i < fruits.length; i++) {
 let fruits = ["apple", "banana", "orange"];
 
 for (let fruit of fruits) {
-    console.log(fruit);
+ console.log(fruit);
 }
 // apple
 // banana
@@ -194,8 +194,8 @@ Repeats while condition is true:
 let count = 0;
 
 while (count < 5) {
-    console.log(count);
-    count++;
+ console.log(count);
+ count++;
 }
 // 0, 1, 2, 3, 4
 ```
@@ -208,8 +208,8 @@ Runs at least once:
 let count = 0;
 
 do {
-    console.log(count);
-    count++;
+ console.log(count);
+ count++;
 } while (count < 5);
 // 0, 1, 2, 3, 4
 ```
@@ -233,7 +233,7 @@ do {
 let numbers = [1, 2, 3, 4, 5];
 
 numbers.forEach(function(num) {
-    console.log(num * 2);
+ console.log(num * 2);
 });
 // 2, 4, 6, 8, 10
 
@@ -247,10 +247,10 @@ numbers.forEach(num => console.log(num * 2));
 let numbers = [1, 2, 3, 4, 5];
 
 let doubled = numbers.map(num => num * 2);
-console.log(doubled);  // [2, 4, 6, 8, 10]
+console.log(doubled); // [2, 4, 6, 8, 10]
 
 // Original unchanged
-console.log(numbers);  // [1, 2, 3, 4, 5]
+console.log(numbers); // [1, 2, 3, 4, 5]
 ```
 
 ### filter — Keep Matching Elements
@@ -259,25 +259,25 @@ console.log(numbers);  // [1, 2, 3, 4, 5]
 let numbers = [1, 2, 3, 4, 5, 6];
 
 let evenNumbers = numbers.filter(num => num % 2 === 0);
-console.log(evenNumbers);  // [2, 4, 6]
+console.log(evenNumbers); // [2, 4, 6]
 
 // Find students with passing grades
 let scores = [45, 72, 88, 55, 91, 67];
 let passing = scores.filter(score => score >= 60);
-console.log(passing);  // [72, 88, 91, 67]
+console.log(passing); // [72, 88, 91, 67]
 ```
 
 ### find — Get First Match
 
 ```javascript
 let users = [
-    { name: "Sokha", age: 22 },
-    { name: "Dara", age: 25 },
-    { name: "Bopha", age: 22 }
+ { name: "Sokha", age: 22 },
+ { name: "Dara", age: 25 },
+ { name: "Bopha", age: 22 }
 ];
 
 let user = users.find(u => u.name === "Dara");
-console.log(user);  // { name: "Dara", age: 25 }
+console.log(user); // { name: "Dara", age: 25 }
 ```
 
 ### includes — Check if Element Exists
@@ -285,8 +285,8 @@ console.log(user);  // { name: "Dara", age: 25 }
 ```javascript
 let fruits = ["apple", "banana", "orange"];
 
-console.log(fruits.includes("banana"));  // true
-console.log(fruits.includes("grape"));   // false
+console.log(fruits.includes("banana")); // true
+console.log(fruits.includes("grape")); // false
 ```
 
 ### reduce — Combine to Single Value
@@ -295,7 +295,7 @@ console.log(fruits.includes("grape"));   // false
 let numbers = [1, 2, 3, 4, 5];
 
 let sum = numbers.reduce((total, num) => total + num, 0);
-console.log(sum);  // 15
+console.log(sum); // 15
 
 // Initial value is 0, then:
 // 0 + 1 = 1
@@ -313,32 +313,32 @@ console.log(sum);  // 15
 
 ```javascript
 let cart = [
-    { name: "Laptop", price: 299 },
-    { name: "Mouse", price: 25 },
-    { name: "Keyboard", price: 49 }
+ { name: "Laptop", price: 299 },
+ { name: "Mouse", price: 25 },
+ { name: "Keyboard", price: 49 }
 ];
 
 // Calculate total
 let total = cart.reduce((sum, item) => sum + item.price, 0);
-console.log(`Total: $${total}`);  // Total: $373
+console.log(`Total: $${total}`); // Total: $373
 
 // Get item names
 let items = cart.map(item => item.name);
-console.log(items);  // ["Laptop", "Mouse", "Keyboard"]
+console.log(items); // ["Laptop", "Mouse", "Keyboard"]
 
 // Find expensive items
 let expensive = cart.filter(item => item.price > 30);
-console.log(expensive);  // Laptop and Keyboard
+console.log(expensive); // Laptop and Keyboard
 ```
 
 ### Student Grades
 
 ```javascript
 let students = [
-    { name: "Sokha", score: 85 },
-    { name: "Dara", score: 72 },
-    { name: "Bopha", score: 91 },
-    { name: "Vanna", score: 58 }
+ { name: "Sokha", score: 85 },
+ { name: "Dara", score: 72 },
+ { name: "Bopha", score: 91 },
+ { name: "Vanna", score: 58 }
 ];
 
 // Get passing students
@@ -352,7 +352,7 @@ console.log(names);
 // Calculate average
 let total = students.reduce((sum, s) => sum + s.score, 0);
 let average = total / students.length;
-console.log(`Average: ${average}`);  // 76.5
+console.log(`Average: ${average}`); // 76.5
 ```
 
 ---
@@ -363,15 +363,15 @@ console.log(`Average: ${average}`);  // 76.5
 
 ```javascript
 let matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
+ [1, 2, 3],
+ [4, 5, 6],
+ [7, 8, 9]
 ];
 
 for (let row of matrix) {
-    for (let num of row) {
-        console.log(num);
-    }
+ for (let num of row) {
+ console.log(num);
+ }
 }
 // 1, 2, 3, 4, 5, 6, 7, 8, 9
 ```
@@ -380,20 +380,20 @@ for (let row of matrix) {
 
 ```javascript
 for (let i = 1; i <= 5; i++) {
-    let row = "";
-    for (let j = 1; j <= 5; j++) {
-        row += `${i * j}\t`;
-    }
-    console.log(row);
+ let row = "";
+ for (let j = 1; j <= 5; j++) {
+ row += `${i * j}\t`;
+ }
+ console.log(row);
 }
-// 1  2  3  4  5
-// 2  4  6  8  10
+// 1 2 3 4 5
+// 2 4 6 8 10
 // ...
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Array Basics
 
@@ -430,7 +430,7 @@ Create an array of todo objects with task and done properties. Write functions t
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Array Methods**
 
@@ -456,7 +456,7 @@ Create an array of todo objects with task and done properties. Write functions t
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 06:**
 
@@ -474,7 +474,7 @@ Create an array of todo objects with task and done properties. Write functions t
 
 <div align="center">
 
-**Collections power your apps!** 📦
+**Collections power your apps!** 
 
 *Arrays hold all your data.*
 

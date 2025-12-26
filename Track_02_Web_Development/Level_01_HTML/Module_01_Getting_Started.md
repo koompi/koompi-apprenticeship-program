@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -23,20 +23,20 @@ The **Internet** is a global network of interconnected computers that allows use
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    HOW THE INTERNET WORKS                                    │
+│ HOW THE INTERNET WORKS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│                                                                              │
-│   Your Computer                             Website Server                   │
-│   (CLIENT)                                  (SERVER)                         │
-│                                                                              │
-│      🖥️  ─────── "I want google.com" ───────▶  🖥️                          │
-│         ◀────── sends google.com page ──────                                │
-│                                                                              │
-│                                                                              │
-│   The CLIENT asks for information                                           │
-│   The SERVER sends the information                                          │
-│                                                                              │
+│ │
+│ │
+│ Your Computer Website Server │
+│ (CLIENT) (SERVER) │
+│ │
+│ ─────── "I want google.com" ───────▶ │
+│ ◀────── sends google.com page ────── │
+│ │
+│ │
+│ The CLIENT asks for information │
+│ The SERVER sends the information │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -85,18 +85,18 @@ When you visit a website, your browser:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    HTML IS LIKE A SKELETON                                   │
+│ HTML IS LIKE A SKELETON │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│      HTML      +      CSS       +      JavaScript    =    WEBSITE           │
-│   (Structure)     (Appearance)       (Behavior)       (Complete)            │
-│                                                                              │
-│      🦴              🎨                ⚡                 🌐                  │
-│   Skeleton         Skin/Clothes       Movement          Living Being        │
-│                                                                              │
-│   Defines what     Makes it look     Makes it          The final            │
-│   content exists   beautiful         interactive        result              │
-│                                                                              │
+│ │
+│ HTML + CSS + JavaScript = WEBSITE │
+│ (Structure) (Appearance) (Behavior) (Complete) │
+│ │
+│ │
+│ Skeleton Skin/Clothes Movement Living Being │
+│ │
+│ Defines what Makes it look Makes it The final │
+│ content exists beautiful interactive result │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -112,9 +112,9 @@ HTML uses **tags** to define content. Tags are keywords inside angle brackets.
 
 ```html
 <p>This is a paragraph.</p>
-│  │                    │
-│  │                    └── Closing Tag
-│  └── Content
+│ │ │
+│ │ └── Closing Tag
+│ └── Content
 └── Opening Tag
 ```
 
@@ -212,14 +212,14 @@ code index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Webpage</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>My First Webpage</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>This is my very first HTML page.</p>
-    <p>I am learning web development at KOOMPI.</p>
+ <h1>Hello World!</h1>
+ <p>This is my very first HTML page.</p>
+ <p>I am learning web development at KOOMPI.</p>
 </body>
 </html>
 ```
@@ -239,7 +239,7 @@ firefox index.html
 xdg-open index.html
 ```
 
-### 🎉 Congratulations! You've built your first webpage
+### Congratulations! You've built your first webpage
 
 ---
 
@@ -261,7 +261,7 @@ Let's break down each part of your first HTML page:
 
 ```html
 <html lang="en">
-    ...
+ ...
 </html>
 ```
 
@@ -273,9 +273,9 @@ Let's break down each part of your first HTML page:
 
 ```html
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Webpage</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>My First Webpage</title>
 </head>
 ```
 
@@ -291,9 +291,9 @@ Contains **metadata** (information about the page, not visible content):
 
 ```html
 <body>
-    <h1>Hello World!</h1>
-    <p>This is my very first HTML page.</p>
-    <p>I am learning web development at KOOMPI.</p>
+ <h1>Hello World!</h1>
+ <p>This is my very first HTML page.</p>
+ <p>I am learning web development at KOOMPI.</p>
 </body>
 ```
 
@@ -330,26 +330,26 @@ Or: Right-click anywhere on page → "Inspect"
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    DEVELOPER TOOLS PANELS                                    │
+│ DEVELOPER TOOLS PANELS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   ELEMENTS PANEL (or "Inspector" in Firefox)                                │
-│   ─────────────────────────────────────────                                 │
-│   • See all HTML elements                                                   │
-│   • Click to select elements on page                                        │
-│   • Edit HTML temporarily                                                    │
-│   • Most important for HTML learning!                                       │
-│                                                                              │
-│   CONSOLE PANEL                                                              │
-│   ─────────────                                                              │
-│   • Shows errors (very useful!)                                             │
-│   • Run JavaScript (later)                                                  │
-│                                                                              │
-│   NETWORK PANEL                                                              │
-│   ─────────────                                                              │
-│   • See all files being loaded                                              │
-│   • Loading times                                                           │
-│                                                                              │
+│ │
+│ ELEMENTS PANEL (or "Inspector" in Firefox) │
+│ ───────────────────────────────────────── │
+│ • See all HTML elements │
+│ • Click to select elements on page │
+│ • Edit HTML temporarily │
+│ • Most important for HTML learning! │
+│ │
+│ CONSOLE PANEL │
+│ ───────────── │
+│ • Shows errors (very useful!) │
+│ • Run JavaScript (later) │
+│ │
+│ NETWORK PANEL │
+│ ───────────── │
+│ • See all files being loaded │
+│ • Loading times │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -369,36 +369,36 @@ Or: Right-click anywhere on page → "Inspect"
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    WEB DEVELOPMENT VOCABULARY                                │
+│ WEB DEVELOPMENT VOCABULARY │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   TAG                                                                        │
-│   ───                                                                        │
-│   The markers that define elements                                          │
-│   Example: <p>, </p>, <h1>                                                  │
-│                                                                              │
-│   ELEMENT                                                                    │
-│   ───────                                                                    │
-│   The complete unit: opening tag + content + closing tag                   │
-│   Example: <p>This is a paragraph.</p>                                      │
-│                                                                              │
-│   ATTRIBUTE                                                                  │
-│   ─────────                                                                  │
-│   Extra information in the opening tag                                      │
-│   Format: name="value"                                                       │
-│   Example: <html lang="en"> ← 'lang' is an attribute                       │
-│                                                                              │
-│   NESTING                                                                    │
-│   ───────                                                                    │
-│   Putting elements inside other elements                                    │
-│   Example: <body><p>Text</p></body>                                         │
-│   (p is nested inside body)                                                 │
-│                                                                              │
-│   VOID ELEMENT                                                               │
-│   ────────────                                                               │
-│   Elements that don't have closing tags                                     │
-│   Example: <img>, <br>, <hr>                                                │
-│                                                                              │
+│ │
+│ TAG │
+│ ─── │
+│ The markers that define elements │
+│ Example: <p>, </p>, <h1> │
+│ │
+│ ELEMENT │
+│ ─────── │
+│ The complete unit: opening tag + content + closing tag │
+│ Example: <p>This is a paragraph.</p> │
+│ │
+│ ATTRIBUTE │
+│ ───────── │
+│ Extra information in the opening tag │
+│ Format: name="value" │
+│ Example: <html lang="en"> ← 'lang' is an attribute │
+│ │
+│ NESTING │
+│ ─────── │
+│ Putting elements inside other elements │
+│ Example: <body><p>Text</p></body> │
+│ (p is nested inside body) │
+│ │
+│ VOID ELEMENT │
+│ ──────────── │
+│ Elements that don't have closing tags │
+│ Example: <img>, <br>, <hr> │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -406,11 +406,11 @@ Or: Right-click anywhere on page → "Inspect"
 
 ```html
 <a href="https://koompi.com" target="_blank">Visit KOOMPI</a>
-   │           │               │              │
-   │           │               │              └── Content
-   │           │               └── Second Attribute
-   │           └── First Attribute Value
-   └── Tag Name
+ │ │ │ │
+ │ │ │ └── Content
+ │ │ └── Second Attribute
+ │ └── First Attribute Value
+ └── Tag Name
 ```
 
 - **Element**: The entire line
@@ -420,7 +420,7 @@ Or: Right-click anywhere on page → "Inspect"
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Vocabulary Quiz
 
@@ -469,7 +469,7 @@ Create a new file `about-me.html` with:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Key Vocabulary**
 
@@ -483,16 +483,16 @@ Create a new file `about-me.html` with:
 
 **What You Learned**
 
-- ✅ How the internet works (client-server)
-- ✅ What HTML is and its role in websites
-- ✅ Setting up VS Code for development
-- ✅ Creating your first HTML page
-- ✅ Using browser DevTools
-- ✅ HTML terminology: tags, elements, attributes
+- How the internet works (client-server)
+- What HTML is and its role in websites
+- Setting up VS Code for development
+- Creating your first HTML page
+- Using browser DevTools
+- HTML terminology: tags, elements, attributes
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 02:**
 
@@ -509,7 +509,7 @@ Create a new file `about-me.html` with:
 
 <div align="center">
 
-**You've taken your first step!** 🎉
+**You've taken your first step!** 
 
 *The journey of a web developer begins with "Hello World"*
 

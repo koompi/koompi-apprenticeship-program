@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -23,20 +23,20 @@ As a future software engineer, you will spend **thousands of hours** typing. Eve
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    THE MATH OF TYPING SPEED                                  │
+│ THE MATH OF TYPING SPEED │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   Slow Typer (15 WPM)          vs.         Fast Typer (60 WPM)              │
-│                                                                              │
-│   To write 1000 words:                                                       │
-│   ➤ Slow: 67 minutes            ➤ Fast: 17 minutes                          │
-│   ➤ Difference: 50 minutes saved!                                           │
-│                                                                              │
-│   If you write 1000 words daily for a year:                                 │
-│   ➤ Slow typer: 407 hours                                                   │
-│   ➤ Fast typer: 102 hours                                                   │
-│   ➤ TIME SAVED: 305 hours = 12+ full days!                                  │
-│                                                                              │
+│ │
+│ Slow Typer (15 WPM) vs. Fast Typer (60 WPM) │
+│ │
+│ To write 1000 words: │
+│ Slow: 67 minutes Fast: 17 minutes │
+│ Difference: 50 minutes saved! │
+│ │
+│ If you write 1000 words daily for a year: │
+│ Slow typer: 407 hours │
+│ Fast typer: 102 hours │
+│ TIME SAVED: 305 hours = 12+ full days! │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -58,28 +58,28 @@ The **home row** is where your fingers rest:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                        KEYBOARD HOME ROW                                     │
+│ KEYBOARD HOME ROW │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬──────────┐         │
-│   │ ` │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ = │ Backspace│         │
-│   ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬────────┤         │
-│   │ Tab │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │ [ │ ] │   \    │         │
-│   ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴────────┤         │
-│   │ Caps │ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │ ' │   Enter   │         │
-│   ├──────┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴───────────┤         │
-│   │ Shift  │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │    Shift    │         │
-│   ├────┬───┴┬──┴─┬─┴───┴───┴───┴───┴───┴──┬┴───┼───┴┬──────┬─────┤         │
-│   │Ctrl│Alt │Win │       Space Bar        │Alt │ Fn │ Ctrl │Arrow│         │
-│   └────┴────┴────┴────────────────────────┴────┴────┴──────┴─────┘         │
-│                                                                              │
-│   HOME ROW KEYS (where fingers rest):                                        │
-│                                                                              │
-│   Left Hand:  A  S  D  F     Right Hand:  J  K  L  ;                        │
-│   (pinky)(ring)(mid)(index)  (index)(mid)(ring)(pinky)                      │
-│                                                                              │
-│   👍 The F and J keys have small bumps — feel them without looking!         │
-│                                                                              │
+│ │
+│ ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬──────────┐ │
+│ │ ` │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ = │ Backspace│ │
+│ ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬────────┤ │
+│ │ Tab │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │ [ │ ] │ \ │ │
+│ ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴────────┤ │
+│ │ Caps │ A │ S │ D │ F │ G │ H │ J │ K │ L │ ; │ ' │ Enter │ │
+│ ├──────┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴───────────┤ │
+│ │ Shift │ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │ Shift │ │
+│ ├────┬───┴┬──┴─┬─┴───┴───┴───┴───┴───┴──┬┴───┼───┴┬──────┬─────┤ │
+│ │Ctrl│Alt │Win │ Space Bar │Alt │ Fn │ Ctrl │Arrow│ │
+│ └────┴────┴────┴────────────────────────┴────┴────┴──────┴─────┘ │
+│ │
+│ HOME ROW KEYS (where fingers rest): │
+│ │
+│ Left Hand: A S D F Right Hand: J K L ; │
+│ (pinky)(ring)(mid)(index) (index)(mid)(ring)(pinky) │
+│ │
+│ The F and J keys have small bumps — feel them without looking! │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -88,13 +88,13 @@ The **home row** is where your fingers rest:
 Each finger is responsible for specific keys:
 
 ```
-LEFT HAND                              RIGHT HAND
-═════════                              ══════════
+LEFT HAND RIGHT HAND
+═════════ ══════════
 
-Pinky: A, Q, Z, 1, `                   Pinky: ;, ', P, [, ], /, 0, -, =
-Ring:  S, W, X, 2                      Ring:  L, O, ., 9
-Middle: D, E, C, 3                     Middle: K, I, ,, 8
-Index: F, G, R, T, V, B, 4, 5          Index: J, H, U, Y, M, N, 6, 7
+Pinky: A, Q, Z, 1, ` Pinky: ;, ', P, [, ], /, 0, -, =
+Ring: S, W, X, 2 Ring: L, O, ., 9
+Middle: D, E, C, 3 Middle: K, I, ,, 8
+Index: F, G, R, T, V, B, 4, 5 Index: J, H, U, Y, M, N, 6, 7
 
 THUMBS: Both thumbs share the Space Bar
 ```
@@ -103,10 +103,10 @@ THUMBS: Both thumbs share the Space Bar
 
 Using the correct fingers:
 
-- ✅ Is faster once you learn
-- ✅ Reduces hand strain
-- ✅ Allows you to type without looking
-- ✅ Becomes automatic with practice
+- Is faster once you learn
+- Reduces hand strain
+- Allows you to type without looking
+- Becomes automatic with practice
 
 ---
 
@@ -167,36 +167,36 @@ Coding uses many symbols that regular typing doesn't. You must become comfortabl
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    IMPORTANT PROGRAMMING SYMBOLS                             │
+│ IMPORTANT PROGRAMMING SYMBOLS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   SYMBOL     NAME              HOW TO TYPE          USED FOR                │
-│   ══════════════════════════════════════════════════════════════════════   │
-│                                                                              │
-│   { }        Curly Braces      Shift + [ ]          Code blocks            │
-│   [ ]        Square Brackets   [ ]                  Arrays, lists          │
-│   ( )        Parentheses       Shift + 9, 0         Functions              │
-│   < >        Angle Brackets    Shift + , .          HTML tags              │
-│   /          Forward Slash     /                    Paths, division        │
-│   \          Backslash         \                    Escape character       │
-│   |          Pipe              Shift + \            OR operator            │
-│   &          Ampersand         Shift + 7            AND operator           │
-│   =          Equals            =                    Assignment             │
-│   ==         Double Equals     = =                  Comparison             │
-│   !          Exclamation       Shift + 1            NOT, negation          │
-│   @          At Sign           Shift + 2            Decorators, emails     │
-│   #          Hash/Pound        Shift + 3            Comments, IDs          │
-│   $          Dollar            Shift + 4            Variables              │
-│   %          Percent           Shift + 5            Modulo                 │
-│   ^          Caret             Shift + 6            Exponent               │
-│   *          Asterisk          Shift + 8            Multiplication         │
-│   _          Underscore        Shift + -            Variable names         │
-│   ;          Semicolon         ;                    Statement end          │
-│   :          Colon             Shift + ;            Object keys            │
-│   '          Single Quote      '                    Strings                │
-│   "          Double Quote      Shift + '            Strings                │
-│   `          Backtick          `                    Template strings       │
-│                                                                              │
+│ │
+│ SYMBOL NAME HOW TO TYPE USED FOR │
+│ ══════════════════════════════════════════════════════════════════════ │
+│ │
+│ { } Curly Braces Shift + [ ] Code blocks │
+│ [ ] Square Brackets [ ] Arrays, lists │
+│ ( ) Parentheses Shift + 9, 0 Functions │
+│ < > Angle Brackets Shift + , . HTML tags │
+│ / Forward Slash / Paths, division │
+│ \ Backslash \ Escape character │
+│ | Pipe Shift + \ OR operator │
+│ & Ampersand Shift + 7 AND operator │
+│ = Equals = Assignment │
+│ == Double Equals = = Comparison │
+│ ! Exclamation Shift + 1 NOT, negation │
+│ @ At Sign Shift + 2 Decorators, emails │
+│ # Hash/Pound Shift + 3 Comments, IDs │
+│ $ Dollar Shift + 4 Variables │
+│ % Percent Shift + 5 Modulo │
+│ ^ Caret Shift + 6 Exponent │
+│ * Asterisk Shift + 8 Multiplication │
+│ _ Underscore Shift + - Variable names │
+│ ; Semicolon ; Statement end │
+│ : Colon Shift + ; Object keys │
+│ ' Single Quote ' Strings │
+│ " Double Quote Shift + ' Strings │
+│ ` Backtick ` Template strings │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -251,26 +251,26 @@ The Khmer keyboard follows a specific layout. Practice is essential!
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                     KHMER TYPING TIPS                                        │
+│ KHMER TYPING TIPS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   1. PRACTICE COMMON WORDS FIRST                                            │
-│      • ខ្មែរ (Khmer)                                                          │
-│      • កម្ពុជា (Cambodia)                                                      │
-│      • សួស្តី (Hello)                                                          │
-│                                                                              │
-│   2. LEARN VOWEL COMBINATIONS                                               │
-│      • Khmer has many vowel diacritics                                      │
-│      • Practice combining consonants with vowels                            │
-│                                                                              │
-│   3. PRACTICE SPECIAL CHARACTERS                                            │
-│      • Subscript consonants                                                  │
-│      • Dependent vowels                                                      │
-│                                                                              │
-│   4. USE FOR CUSTOMER COMMUNICATION                                         │
-│      • You'll type in Khmer when helping Cambodian customers               │
-│      • Practice professional phrases                                         │
-│                                                                              │
+│ │
+│ 1. PRACTICE COMMON WORDS FIRST │
+│ • ខ្មែរ (Khmer) │
+│ • កម្ពុជា (Cambodia) │
+│ • សួស្តី (Hello) │
+│ │
+│ 2. LEARN VOWEL COMBINATIONS │
+│ • Khmer has many vowel diacritics │
+│ • Practice combining consonants with vowels │
+│ │
+│ 3. PRACTICE SPECIAL CHARACTERS │
+│ • Subscript consonants │
+│ • Dependent vowels │
+│ │
+│ 4. USE FOR CUSTOMER COMMUNICATION │
+│ • You'll type in Khmer when helping Cambodian customers │
+│ • Practice professional phrases │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -292,26 +292,26 @@ The Khmer keyboard follows a specific layout. Practice is essential!
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    DAILY TYPING PRACTICE                                     │
+│ DAILY TYPING PRACTICE │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   MORNING (15-20 minutes)                                                   │
-│   ──────────────────────                                                    │
-│   • 5 min: Warm-up with home row                                           │
-│   • 10 min: Practice new lessons or weak keys                              │
-│   • 5 min: Speed test                                                       │
-│                                                                              │
-│   THROUGHOUT THE DAY                                                        │
-│   ──────────────────                                                        │
-│   • Practice while doing real work                                          │
-│   • Don't look at keyboard when typing                                      │
-│   • Slow down to be accurate                                                │
-│                                                                              │
-│   EVENING (10 minutes)                                                       │
-│   ───────────────────                                                       │
-│   • 5 min: Programming symbols practice                                     │
-│   • 5 min: Speed test to track progress                                     │
-│                                                                              │
+│ │
+│ MORNING (15-20 minutes) │
+│ ────────────────────── │
+│ • 5 min: Warm-up with home row │
+│ • 10 min: Practice new lessons or weak keys │
+│ • 5 min: Speed test │
+│ │
+│ THROUGHOUT THE DAY │
+│ ────────────────── │
+│ • Practice while doing real work │
+│ • Don't look at keyboard when typing │
+│ • Slow down to be accurate │
+│ │
+│ EVENING (10 minutes) │
+│ ─────────────────── │
+│ • 5 min: Programming symbols practice │
+│ • 5 min: Speed test to track progress │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -328,7 +328,7 @@ Use these FREE websites to practice:
 
 ---
 
-## 📊 Progress Milestones
+## Progress Milestones
 
 Track your Words Per Minute (WPM) progress:
 
@@ -345,7 +345,7 @@ Track your Words Per Minute (WPM) progress:
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Speed Test
 
@@ -371,7 +371,7 @@ Type the following without errors:
 
 ```
 <div class="container">
-  <p id="text">Hello!</p>
+ <p id="text">Hello!</p>
 </div>
 ```
 
@@ -381,7 +381,7 @@ Type this JavaScript code correctly:
 
 ```
 function greet(name) {
-  console.log("Hello, " + name + "!");
+ console.log("Hello, " + name + "!");
 }
 ```
 
@@ -395,35 +395,35 @@ Switch to Khmer keyboard and type:
 
 ---
 
-## 💪 30-Day Challenge
+## 30-Day Challenge
 
 **Commit to this challenge:**
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│              🏆 30-DAY TYPING CHALLENGE 🏆                       │
-│                                                                  │
-│   Day 1-7:   Home row only, 20 min/day                          │
-│   Goal:      Type home row without looking                      │
-│                                                                  │
-│   Day 8-14:  Add top row, 25 min/day                            │
-│   Goal:      15+ WPM                                            │
-│                                                                  │
-│   Day 15-21: All rows + symbols, 25 min/day                     │
-│   Goal:      25+ WPM                                            │
-│                                                                  │
-│   Day 22-30: Speed building + code typing, 30 min/day           │
-│   Goal:      30+ WPM with 95% accuracy                          │
-│                                                                  │
-│   ✍️ Track your progress daily!                                  │
-│                                                                  │
+│ │
+│ 30-DAY TYPING CHALLENGE │
+│ │
+│ Day 1-7: Home row only, 20 min/day │
+│ Goal: Type home row without looking │
+│ │
+│ Day 8-14: Add top row, 25 min/day │
+│ Goal: 15+ WPM │
+│ │
+│ Day 15-21: All rows + symbols, 25 min/day │
+│ Goal: 25+ WPM │
+│ │
+│ Day 22-30: Speed building + code typing, 30 min/day │
+│ Goal: 30+ WPM with 95% accuracy │
+│ │
+│ Track your progress daily! │
+│ │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Key Vocabulary**
 
@@ -436,15 +436,15 @@ Switch to Khmer keyboard and type:
 
 **Key Skills Learned**
 
-- ✅ Proper finger placement for touch typing
-- ✅ Home row, top row, and bottom row keys
-- ✅ Programming symbols and special characters
-- ✅ Switching between English and Khmer keyboards
-- ✅ Daily practice routine
+- Proper finger placement for touch typing
+- Home row, top row, and bottom row keys
+- Programming symbols and special characters
+- Switching between English and Khmer keyboards
+- Daily practice routine
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 03:**
 
@@ -461,7 +461,7 @@ Switch to Khmer keyboard and type:
 
 <div align="center">
 
-**Practice makes permanent!** ⌨️
+**Practice makes permanent!** 
 
 *Type every day. Speed will come naturally.*
 

@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,24 +21,24 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    ENTREPRENEURSHIP IS...                                    │
+│ ENTREPRENEURSHIP IS... │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   ❌ NOT JUST                          ✅ ACTUALLY                           │
-│   ════════════                         ══════════                           │
-│                                                                              │
-│   Starting companies                   Seeing opportunities                  │
-│   Getting rich                         Creating value                        │
-│   Taking big risks                     Solving problems                      │
-│   Working alone                        Building things that matter          │
-│   Only for businesspeople              For anyone who wants impact          │
-│                                                                              │
-│   An ENTREPRENEURIAL MINDSET can be applied:                                │
-│   • As an employee (intrapreneurship)                                       │
-│   • In your own projects                                                    │
-│   • When solving any problem                                                │
-│   • Throughout your career                                                  │
-│                                                                              │
+│ │
+│ NOT JUST ACTUALLY │
+│ ════════════ ══════════ │
+│ │
+│ Starting companies Seeing opportunities │
+│ Getting rich Creating value │
+│ Taking big risks Solving problems │
+│ Working alone Building things that matter │
+│ Only for businesspeople For anyone who wants impact │
+│ │
+│ An ENTREPRENEURIAL MINDSET can be applied: │
+│ • As an employee (intrapreneurship) │
+│ • In your own projects │
+│ • When solving any problem │
+│ • Throughout your career │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -56,9 +56,9 @@ Value is solving problems or fulfilling needs for others.
 
 ```
 VALUE = Solving a problem someone has
-      = Doing something better, faster, cheaper
-      = Making someone's life easier
-      = Creating something people want
+ = Doing something better, faster, cheaper
+ = Making someone's life easier
+ = Creating something people want
 ```
 
 ### Example: KOOMPI's Value
@@ -118,15 +118,15 @@ Observation: "Many Cambodian businesses have no website"
 
 Opportunity Questions:
 • Why don't they have websites?
-   → They think it's expensive
-   → They don't know how
-   → They don't see the value
+ → They think it's expensive
+ → They don't know how
+ → They don't see the value
 
 • How could this be solved?
-   → Affordable website packages
-   → Simple website templates
-   → Education about benefits
-   → Khmer-language platforms
+ → Affordable website packages
+ → Simple website templates
+ → Education about benefits
+ → Khmer-language platforms
 
 Each answer is a potential opportunity!
 ```
@@ -138,14 +138,14 @@ Each answer is a potential opportunity!
 ### Revenue and Profit
 
 ```
-REVENUE     = Money coming in (sales)
-EXPENSES    = Money going out (costs)
-PROFIT      = Revenue - Expenses
+REVENUE = Money coming in (sales)
+EXPENSES = Money going out (costs)
+PROFIT = Revenue - Expenses
 
 Example:
 Sell 10 websites at $200 each = $2,000 revenue
-Hosting costs, time, etc.     = $500 expenses
-Profit                        = $1,500
+Hosting costs, time, etc. = $500 expenses
+Profit = $1,500
 ```
 
 ### Business Models
@@ -177,10 +177,10 @@ How do businesses make money?
 ```
 IDEA
 "Make a website for restaurants"
-           ↓
+ ↓
 SOLUTION (with detail)
 "An easy-to-update menu page for small Cambodian restaurants"
-           ↓
+ ↓
 PRODUCT (with features)
 - Simple admin panel
 - Menu with photos
@@ -238,30 +238,30 @@ How to validate:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    ENTREPRENEURIAL QUALITIES                                 │
+│ ENTREPRENEURIAL QUALITIES │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   INITIATIVE                                                                │
-│   Don't wait to be told. See something? Do something.                       │
-│                                                                              │
-│   RESILIENCE                                                                │
-│   Failures are lessons. Get back up and try again.                         │
-│                                                                              │
-│   CURIOSITY                                                                 │
-│   Always learning. Ask questions. Explore.                                  │
-│                                                                              │
-│   RESOURCEFULNESS                                                           │
-│   Work with what you have. Find creative solutions.                        │
-│                                                                              │
-│   OWNERSHIP                                                                 │
-│   Take responsibility. Your success depends on you.                        │
-│                                                                              │
-│   PERSISTENCE                                                               │
-│   Keep going when it gets hard. Success takes time.                        │
-│                                                                              │
-│   ADAPTABILITY                                                              │
-│   Change when needed. Pivot when the market tells you.                     │
-│                                                                              │
+│ │
+│ INITIATIVE │
+│ Don't wait to be told. See something? Do something. │
+│ │
+│ RESILIENCE │
+│ Failures are lessons. Get back up and try again. │
+│ │
+│ CURIOSITY │
+│ Always learning. Ask questions. Explore. │
+│ │
+│ RESOURCEFULNESS │
+│ Work with what you have. Find creative solutions. │
+│ │
+│ OWNERSHIP │
+│ Take responsibility. Your success depends on you. │
+│ │
+│ PERSISTENCE │
+│ Keep going when it gets hard. Success takes time. │
+│ │
+│ ADAPTABILITY │
+│ Change when needed. Pivot when the market tells you. │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -324,7 +324,7 @@ For each idea, ask:
 
 ---
 
-## 🧪 Practice Exercises
+## Practice Exercises
 
 ### Exercise 1: Opportunity Spotting
 
@@ -357,7 +357,7 @@ If possible, interview a local entrepreneur:
 
 ---
 
-## 📝 Key Concepts
+## Key Concepts
 
 | Concept | Definition |
 |---------|------------|
@@ -370,7 +370,7 @@ If possible, interview a local entrepreneur:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Start Practicing:**
 
@@ -387,7 +387,7 @@ If possible, interview a local entrepreneur:
 
 <div align="center">
 
-**Every problem is an opportunity!** 💡
+**Every problem is an opportunity!** 
 
 *Entrepreneurs see what others miss.*
 

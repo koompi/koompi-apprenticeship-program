@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -23,13 +23,13 @@ By the end of this module, you will be able to:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Metadata goes here (not visible) -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Title</title>
+ <!-- Metadata goes here (not visible) -->
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Page Title</title>
 </head>
 <body>
-    <!-- Visible content goes here -->
+ <!-- Visible content goes here -->
 </body>
 </html>
 ```
@@ -38,27 +38,27 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│  <!DOCTYPE html>  ← Declaration (tells browser this is HTML5)              │
+│ <!DOCTYPE html> ← Declaration (tells browser this is HTML5) │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│  <html lang="en">  ← Root element (contains everything)                    │
-│  ├─────────────────────────────────────────────────────────────────────┐   │
-│  │  <head>  ← Metadata container (invisible info)                      │   │
-│  │  │                                                                   │   │
-│  │  │  <meta charset="UTF-8">                                          │   │
-│  │  │  <meta name="viewport" content="...">                            │   │
-│  │  │  <title>Page Title</title>                                       │   │
-│  │  │  <link rel="stylesheet" href="style.css">                       │   │
-│  │  │                                                                   │   │
-│  │  </head>                                                             │   │
-│  ├─────────────────────────────────────────────────────────────────────┤   │
-│  │  <body>  ← Content container (visible content)                      │   │
-│  │  │                                                                   │   │
-│  │  │  <h1>Welcome</h1>                                                │   │
-│  │  │  <p>This is visible on the page!</p>                            │   │
-│  │  │                                                                   │   │
-│  │  </body>                                                             │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
-│  </html>                                                                    │
+│ <html lang="en"> ← Root element (contains everything) │
+│ ├─────────────────────────────────────────────────────────────────────┐ │
+│ │ <head> ← Metadata container (invisible info) │ │
+│ │ │ │ │
+│ │ │ <meta charset="UTF-8"> │ │
+│ │ │ <meta name="viewport" content="..."> │ │
+│ │ │ <title>Page Title</title> │ │
+│ │ │ <link rel="stylesheet" href="style.css"> │ │
+│ │ │ │ │
+│ │ </head> │ │
+│ ├─────────────────────────────────────────────────────────────────────┤ │
+│ │ <body> ← Content container (visible content) │ │
+│ │ │ │ │
+│ │ │ <h1>Welcome</h1> │ │
+│ │ │ <p>This is visible on the page!</p> │ │
+│ │ │ │ │
+│ │ </body> │ │
+│ └─────────────────────────────────────────────────────────────────────┘ │
+│ </html> │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -83,18 +83,18 @@ With DOCTYPE, browsers use **"standards mode"** — they follow modern web stand
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    QUIRKS MODE vs STANDARDS MODE                             │
+│ QUIRKS MODE vs STANDARDS MODE │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   WITHOUT DOCTYPE                        WITH DOCTYPE                        │
-│   ═══════════════                        ═════════════                        │
-│                                                                              │
-│   ❌ Quirks Mode                          ✅ Standards Mode                   │
-│   • Unpredictable behavior               • Consistent behavior               │
-│   • Different across browsers            • Same across browsers              │
-│   • Old CSS bugs                         • Modern CSS support                │
-│   • Harder to debug                      • Easier to debug                   │
-│                                                                              │
+│ │
+│ WITHOUT DOCTYPE WITH DOCTYPE │
+│ ═══════════════ ═════════════ │
+│ │
+│ Quirks Mode Standards Mode │
+│ • Unpredictable behavior • Consistent behavior │
+│ • Different across browsers • Same across browsers │
+│ • Old CSS bugs • Modern CSS support │
+│ • Harder to debug • Easier to debug │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -116,7 +116,7 @@ Everything in your HTML document (except DOCTYPE) goes inside the `<html>` eleme
 
 ```html
 <html lang="en">
-    <!-- All other elements go here -->
+ <!-- All other elements go here -->
 </html>
 ```
 
@@ -145,12 +145,12 @@ The `lang` attribute specifies the primary language of the document.
 <!DOCTYPE html>
 <html lang="km">
 <head>
-    <meta charset="UTF-8">
-    <title>គេហទំព័រខ្មែរ</title>
+ <meta charset="UTF-8">
+ <title>គេហទំព័រខ្មែរ</title>
 </head>
 <body>
-    <h1>សួស្តី ពិភពលោក!</h1>
-    <p>នេះគឺជាទំព័រដំបូងរបស់ខ្ញុំ។</p>
+ <h1>សួស្តី ពិភពលោក!</h1>
+ <p>នេះគឺជាទំព័រដំបូងរបស់ខ្ញុំ។</p>
 </body>
 </html>
 ```
@@ -167,23 +167,23 @@ The `<head>` contains information **about** the page, not the page content itsel
 
 ```html
 <head>
-    <!-- Character encoding - ALWAYS include first -->
-    <meta charset="UTF-8">
-    
-    <!-- Responsive design - ALWAYS include -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Page title - ALWAYS include -->
-    <title>Your Page Title</title>
-    
-    <!-- Description for search engines -->
-    <meta name="description" content="A brief description of your page">
-    
-    <!-- Link to CSS stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
-    
-    <!-- Favicon (icon in browser tab) -->
-    <link rel="icon" href="favicon.ico">
+ <!-- Character encoding - ALWAYS include first -->
+ <meta charset="UTF-8">
+ 
+ <!-- Responsive design - ALWAYS include -->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <!-- Page title - ALWAYS include -->
+ <title>Your Page Title</title>
+ 
+ <!-- Description for search engines -->
+ <meta name="description" content="A brief description of your page">
+ 
+ <!-- Link to CSS stylesheet -->
+ <link rel="stylesheet" href="css/style.css">
+ 
+ <!-- Favicon (icon in browser tab) -->
+ <link rel="icon" href="favicon.ico">
 </head>
 ```
 
@@ -196,7 +196,7 @@ Defines character encoding. UTF-8 supports all characters including:
 - English: Hello
 - Khmer: សួស្តី
 - Chinese: 你好
-- Emoji: 😀
+- Emoji: 
 
 **Always put this first** in your `<head>`.
 
@@ -230,7 +230,7 @@ The title appears:
 - Are 50-60 characters
 - Include the page topic and site name
 
-| Bad ❌ | Good ✅ |
+| Bad | Good |
 |-------|---------|
 | `index` | `Home - KOOMPI Apprenticeship` |
 | `My Page` | `About Me - Sokha's Portfolio` |
@@ -246,17 +246,17 @@ The `<body>` contains everything users see and interact with.
 
 ```html
 <body>
-    <header>
-        <!-- Site header, navigation -->
-    </header>
-    
-    <main>
-        <!-- Main content -->
-    </main>
-    
-    <footer>
-        <!-- Site footer -->
-    </footer>
+ <header>
+ <!-- Site header, navigation -->
+ </header>
+ 
+ <main>
+ <!-- Main content -->
+ </main>
+ 
+ <footer>
+ <!-- Site footer -->
+ </footer>
 </body>
 ```
 
@@ -283,12 +283,12 @@ The `<body>` contains everything users see and interact with.
 ```html
 <!-- Non-semantic (bad) -->
 <div id="header">
-    <div id="nav">Links here</div>
+ <div id="nav">Links here</div>
 </div>
 
 <!-- Semantic (good) -->
 <header>
-    <nav>Links here</nav>
+ <nav>Links here</nav>
 </header>
 ```
 
@@ -308,30 +308,30 @@ Comments are notes in your code that browsers ignore. Only developers see them.
 
 ```html
 <body>
-    <!-- Main Navigation -->
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-    </nav>
-    
-    <!-- Main Content Section -->
-    <main>
-        <h1>Welcome</h1>
-        
-        <!-- TODO: Add more content here -->
-        
-    </main>
-    
-    <!-- Footer -->
-    <footer>
-        <p>© 2024 KOOMPI</p>
-    </footer>
+ <!-- Main Navigation -->
+ <nav>
+ <a href="index.html">Home</a>
+ <a href="about.html">About</a>
+ </nav>
+ 
+ <!-- Main Content Section -->
+ <main>
+ <h1>Welcome</h1>
+ 
+ <!-- TODO: Add more content here -->
+ 
+ </main>
+ 
+ <!-- Footer -->
+ <footer>
+ <p>© 2024 KOOMPI</p>
+ </footer>
 </body>
 ```
 
 ### Comment Best Practices
 
-| Do ✅ | Don't ❌ |
+| Do | Don't |
 |-------|----------|
 | Mark sections | Comment obvious code |
 | Leave TODO notes | Write novels in comments |
@@ -349,49 +349,49 @@ Save this as your template for new projects:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Character encoding -->
-    <meta charset="UTF-8">
-    
-    <!-- Responsive design -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Page info -->
-    <title>Page Title - Site Name</title>
-    <meta name="description" content="Brief description of this page">
-    
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/style.css">
+ <!-- Character encoding -->
+ <meta charset="UTF-8">
+ 
+ <!-- Responsive design -->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <!-- Page info -->
+ <title>Page Title - Site Name</title>
+ <meta name="description" content="Brief description of this page">
+ 
+ <!-- Styles -->
+ <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    
-    <!-- Main Content -->
-    <main>
-        <h1>Page Heading</h1>
-        <p>Page content goes here.</p>
-    </main>
-    
-    <!-- Footer -->
-    <footer>
-        <p>© 2024 Your Name. All rights reserved.</p>
-    </footer>
-    
-    <!-- Scripts (if needed) -->
-    <script src="js/main.js"></script>
+ <!-- Header -->
+ <header>
+ <nav>
+ <a href="index.html">Home</a>
+ <a href="about.html">About</a>
+ <a href="contact.html">Contact</a>
+ </nav>
+ </header>
+ 
+ <!-- Main Content -->
+ <main>
+ <h1>Page Heading</h1>
+ <p>Page content goes here.</p>
+ </main>
+ 
+ <!-- Footer -->
+ <footer>
+ <p>© 2024 Your Name. All rights reserved.</p>
+ </footer>
+ 
+ <!-- Scripts (if needed) -->
+ <script src="js/main.js"></script>
 </body>
 </html>
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Structure Quiz
 
@@ -411,7 +411,7 @@ This code has errors. Find and fix them:
 <html>
 <head>
 <body>
-    <h1>My Page</h1>
+ <h1>My Page</h1>
 </body>
 </head>
 </html>
@@ -464,7 +464,7 @@ Without looking at notes, create a complete HTML page structure including:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Key Vocabulary**
 
@@ -481,23 +481,23 @@ Without looking at notes, create a complete HTML page structure including:
 ```
 <!DOCTYPE html>
 ├── <html lang="en">
-│   ├── <head>
-│   │   ├── <meta charset="UTF-8">
-│   │   ├── <meta name="viewport">
-│   │   ├── <title>
-│   │   └── <link>, <meta>, etc.
-│   │
-│   └── <body>
-│       ├── <header>
-│       ├── <main>
-│       └── <footer>
+│ ├── <head>
+│ │ ├── <meta charset="UTF-8">
+│ │ ├── <meta name="viewport">
+│ │ ├── <title>
+│ │ └── <link>, <meta>, etc.
+│ │
+│ └── <body>
+│ ├── <header>
+│ ├── <main>
+│ └── <footer>
 │
 └── </html>
 ```
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 03:**
 
@@ -514,7 +514,7 @@ Without looking at notes, create a complete HTML page structure including:
 
 <div align="center">
 
-**Great structure = Great websites!** 🏗️
+**Great structure = Great websites!** 
 
 *Every professional website starts with proper structure.*
 

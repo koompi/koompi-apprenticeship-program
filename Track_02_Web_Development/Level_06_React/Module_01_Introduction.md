@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,28 +21,28 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    WHAT IS REACT?                                            │
+│ WHAT IS REACT? │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   React is a JavaScript LIBRARY for building user interfaces.              │
-│                                                                              │
-│   Created by: Facebook (2013)                                               │
-│   Used by: Instagram, Facebook, Netflix, Airbnb, Discord, Notion           │
-│                                                                              │
-│   KEY CONCEPTS:                                                              │
-│                                                                              │
-│   1. COMPONENTS                                                              │
-│      Build UI from small, reusable pieces                                  │
-│                                                                              │
-│   2. DECLARATIVE                                                            │
-│      Describe WHAT you want, not HOW to do it                              │
-│                                                                              │
-│   3. VIRTUAL DOM                                                            │
-│      Only updates what changed (fast!)                                     │
-│                                                                              │
-│   4. ONE-WAY DATA FLOW                                                      │
-│      Data flows from parent to child                                       │
-│                                                                              │
+│ │
+│ React is a JavaScript LIBRARY for building user interfaces. │
+│ │
+│ Created by: Facebook (2013) │
+│ Used by: Instagram, Facebook, Netflix, Airbnb, Discord, Notion │
+│ │
+│ KEY CONCEPTS: │
+│ │
+│ 1. COMPONENTS │
+│ Build UI from small, reusable pieces │
+│ │
+│ 2. DECLARATIVE │
+│ Describe WHAT you want, not HOW to do it │
+│ │
+│ 3. VIRTUAL DOM │
+│ Only updates what changed (fast!) │
+│ │
+│ 4. ONE-WAY DATA FLOW │
+│ Data flows from parent to child │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -84,13 +84,13 @@ npm run dev
 my-react-app/
 ├── node_modules/
 ├── public/
-│   └── vite.svg
+│ └── vite.svg
 ├── src/
-│   ├── assets/
-│   ├── App.css
-│   ├── App.jsx          ← Main component
-│   ├── index.css
-│   └── main.jsx         ← Entry point
+│ ├── assets/
+│ ├── App.css
+│ ├── App.jsx ← Main component
+│ ├── index.css
+│ └── main.jsx ← Entry point
 ├── index.html
 ├── package.json
 └── vite.config.js
@@ -107,9 +107,9 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ <React.StrictMode>
+ <App />
+ </React.StrictMode>,
 )
 ```
 
@@ -117,11 +117,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 ```jsx
 function App() {
-  return (
-    <div>
-      <h1>Hello React!</h1>
-    </div>
-  )
+ return (
+ <div>
+ <h1>Hello React!</h1>
+ </div>
+ )
 }
 
 export default App
@@ -149,49 +149,49 @@ const element = React.createElement('h1', null, 'Hello, World!');
 
 ```jsx
 // 1. Single Root Element
-// ❌ Wrong
+// Wrong
 return (
-  <h1>Title</h1>
-  <p>Content</p>
+ <h1>Title</h1>
+ <p>Content</p>
 )
 
-// ✅ Correct
+// Correct
 return (
-  <div>
-    <h1>Title</h1>
-    <p>Content</p>
-  </div>
+ <div>
+ <h1>Title</h1>
+ <p>Content</p>
+ </div>
 )
 
 // Or use Fragment
 return (
-  <>
-    <h1>Title</h1>
-    <p>Content</p>
-  </>
+ <>
+ <h1>Title</h1>
+ <p>Content</p>
+ </>
 )
 ```
 
 ```jsx
 // 2. Close All Tags
-<br />      // Self-closing
-<img />     // Self-closing
+<br /> // Self-closing
+<img /> // Self-closing
 <div></div> // Paired
 ```
 
 ```jsx
 // 3. className instead of class
-<div className="container">   // ✅
-<div class="container">       // ❌
+<div className="container"> // 
+<div class="container"> // 
 ```
 
 ```jsx
 // 4. camelCase for attributes
-<button onClick={handleClick}>     // ✅
-<button onclick={handleClick}>     // ❌
+<button onClick={handleClick}> // 
+<button onclick={handleClick}> // 
 
-<label htmlFor="email">            // ✅
-<label for="email">                // ❌
+<label htmlFor="email"> // 
+<label for="email"> // 
 ```
 
 ### JavaScript in JSX
@@ -203,26 +203,26 @@ const name = "Sokha";
 const items = ["Apple", "Banana", "Orange"];
 
 function App() {
-  return (
-    <div>
-      {/* Variables */}
-      <h1>Hello, {name}!</h1>
-      
-      {/* Expressions */}
-      <p>2 + 2 = {2 + 2}</p>
-      
-      {/* Function calls */}
-      <p>Uppercase: {name.toUpperCase()}</p>
-      
-      {/* Ternary */}
-      <p>{name ? `Welcome, ${name}` : 'Please log in'}</p>
-      
-      {/* Lists */}
-      <ul>
-        {items.map(item => <li key={item}>{item}</li>)}
-      </ul>
-    </div>
-  );
+ return (
+ <div>
+ {/* Variables */}
+ <h1>Hello, {name}!</h1>
+ 
+ {/* Expressions */}
+ <p>2 + 2 = {2 + 2}</p>
+ 
+ {/* Function calls */}
+ <p>Uppercase: {name.toUpperCase()}</p>
+ 
+ {/* Ternary */}
+ <p>{name ? `Welcome, ${name}` : 'Please log in'}</p>
+ 
+ {/* Lists */}
+ <ul>
+ {items.map(item => <li key={item}>{item}</li>)}
+ </ul>
+ </div>
+ );
 }
 ```
 
@@ -235,12 +235,12 @@ function App() {
 ```jsx
 // Simple component
 function Welcome() {
-  return <h1>Welcome to React!</h1>;
+ return <h1>Welcome to React!</h1>;
 }
 
 // With arrow function
 const Welcome = () => {
-  return <h1>Welcome to React!</h1>;
+ return <h1>Welcome to React!</h1>;
 };
 
 // Shorthand (implicit return)
@@ -251,13 +251,13 @@ const Welcome = () => <h1>Welcome to React!</h1>;
 
 ```jsx
 function App() {
-  return (
-    <div>
-      <Welcome />
-      <Welcome />
-      <Welcome />
-    </div>
-  );
+ return (
+ <div>
+ <Welcome />
+ <Welcome />
+ <Welcome />
+ </div>
+ );
 }
 ```
 
@@ -265,18 +265,18 @@ function App() {
 
 ```jsx
 function Greeting() {
-  const hour = new Date().getHours();
-  
-  let greeting;
-  if (hour < 12) {
-    greeting = "Good morning";
-  } else if (hour < 18) {
-    greeting = "Good afternoon";
-  } else {
-    greeting = "Good evening";
-  }
-  
-  return <h1>{greeting}!</h1>;
+ const hour = new Date().getHours();
+ 
+ let greeting;
+ if (hour < 12) {
+ greeting = "Good morning";
+ } else if (hour < 18) {
+ greeting = "Good afternoon";
+ } else {
+ greeting = "Good evening";
+ }
+ 
+ return <h1>{greeting}!</h1>;
 }
 ```
 
@@ -289,15 +289,15 @@ function Greeting() {
 ```jsx
 // components/Header.jsx
 function Header() {
-  return (
-    <header>
-      <h1>My App</h1>
-      <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-      </nav>
-    </header>
-  );
+ return (
+ <header>
+ <h1>My App</h1>
+ <nav>
+ <a href="/">Home</a>
+ <a href="/about">About</a>
+ </nav>
+ </header>
+ );
 }
 
 export default Header;
@@ -306,11 +306,11 @@ export default Header;
 ```jsx
 // components/Footer.jsx
 function Footer() {
-  return (
-    <footer>
-      <p>&copy; 2024 KOOMPI</p>
-    </footer>
-  );
+ return (
+ <footer>
+ <p>&copy; 2024 KOOMPI</p>
+ </footer>
+ );
 }
 
 export default Footer;
@@ -322,15 +322,15 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
-  return (
-    <div>
-      <Header />
-      <main>
-        <p>Main content here</p>
-      </main>
-      <Footer />
-    </div>
-  );
+ return (
+ <div>
+ <Header />
+ <main>
+ <p>Main content here</p>
+ </main>
+ <Footer />
+ </div>
+ );
 }
 
 export default App;
@@ -341,13 +341,13 @@ export default App;
 ```
 src/
 ├── components/
-│   ├── Header.jsx
-│   ├── Footer.jsx
-│   ├── Button.jsx
-│   └── Card.jsx
+│ ├── Header.jsx
+│ ├── Footer.jsx
+│ ├── Button.jsx
+│ └── Card.jsx
 ├── pages/
-│   ├── Home.jsx
-│   └── About.jsx
+│ ├── Home.jsx
+│ └── About.jsx
 ├── App.jsx
 └── main.jsx
 ```
@@ -363,23 +363,23 @@ src/
 import './Button.css';
 
 function Button({ children }) {
-  return <button className="btn">{children}</button>;
+ return <button className="btn">{children}</button>;
 }
 ```
 
 ```css
 /* Button.css */
 .btn {
-  padding: 10px 20px;
-  background: #3498db;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+ padding: 10px 20px;
+ background: #3498db;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
 }
 
 .btn:hover {
-  background: #2980b9;
+ background: #2980b9;
 }
 ```
 
@@ -387,18 +387,18 @@ function Button({ children }) {
 
 ```jsx
 function Card() {
-  const cardStyle = {
-    backgroundColor: 'white',
-    padding: '20px',
-    borderRadius: '10px',
-    boxShadow: '0 2px 10px rgba(0,0,0,0.1)'
-  };
-  
-  return (
-    <div style={cardStyle}>
-      <h2>Card Title</h2>
-    </div>
-  );
+ const cardStyle = {
+ backgroundColor: 'white',
+ padding: '20px',
+ borderRadius: '10px',
+ boxShadow: '0 2px 10px rgba(0,0,0,0.1)'
+ };
+ 
+ return (
+ <div style={cardStyle}>
+ <h2>Card Title</h2>
+ </div>
+ );
 }
 ```
 
@@ -407,14 +407,14 @@ function Card() {
 ```jsx
 // Button.module.css
 .button {
-  padding: 10px 20px;
+ padding: 10px 20px;
 }
 
 // Button.jsx
 import styles from './Button.module.css';
 
 function Button() {
-  return <button className={styles.button}>Click</button>;
+ return <button className={styles.button}>Click</button>;
 }
 ```
 
@@ -429,69 +429,69 @@ function Button() {
 import './App.css';
 
 function Header() {
-  return (
-    <header className="header">
-      <h1>🇰🇭 Welcome to Cambodia</h1>
-    </header>
-  );
+ return (
+ <header className="header">
+ <h1> Welcome to Cambodia</h1>
+ </header>
+ );
 }
 
 function Greeting() {
-  const name = "KOOMPI Apprentice";
-  const hour = new Date().getHours();
-  
-  let timeGreeting;
-  if (hour < 12) timeGreeting = "Good morning";
-  else if (hour < 18) timeGreeting = "Good afternoon";
-  else timeGreeting = "Good evening";
-  
-  return (
-    <div className="greeting">
-      <h2>{timeGreeting}, {name}!</h2>
-      <p>Welcome to your React journey.</p>
-    </div>
-  );
+ const name = "KOOMPI Apprentice";
+ const hour = new Date().getHours();
+ 
+ let timeGreeting;
+ if (hour < 12) timeGreeting = "Good morning";
+ else if (hour < 18) timeGreeting = "Good afternoon";
+ else timeGreeting = "Good evening";
+ 
+ return (
+ <div className="greeting">
+ <h2>{timeGreeting}, {name}!</h2>
+ <p>Welcome to your React journey.</p>
+ </div>
+ );
 }
 
 function Features() {
-  const features = [
-    "Component-based architecture",
-    "Virtual DOM for fast updates",
-    "Rich ecosystem",
-    "Great developer experience"
-  ];
-  
-  return (
-    <div className="features">
-      <h3>Why React?</h3>
-      <ul>
-        {features.map((feature, index) => (
-          <li key={index}>{feature}</li>
-        ))}
-      </ul>
-    </div>
-  );
+ const features = [
+ "Component-based architecture",
+ "Virtual DOM for fast updates",
+ "Rich ecosystem",
+ "Great developer experience"
+ ];
+ 
+ return (
+ <div className="features">
+ <h3>Why React?</h3>
+ <ul>
+ {features.map((feature, index) => (
+ <li key={index}>{feature}</li>
+ ))}
+ </ul>
+ </div>
+ );
 }
 
 function Footer() {
-  return (
-    <footer className="footer">
-      <p>Built with React ⚛️</p>
-    </footer>
-  );
+ return (
+ <footer className="footer">
+ <p>Built with React </p>
+ </footer>
+ );
 }
 
 function App() {
-  return (
-    <div className="app">
-      <Header />
-      <main>
-        <Greeting />
-        <Features />
-      </main>
-      <Footer />
-    </div>
-  );
+ return (
+ <div className="app">
+ <Header />
+ <main>
+ <Greeting />
+ <Features />
+ </main>
+ <Footer />
+ </div>
+ );
 }
 
 export default App;
@@ -499,7 +499,7 @@ export default App;
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Setup
 
@@ -533,7 +533,7 @@ Create a component that shows different content based on the time of day.
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 | Concept | Description |
 |---------|-------------|
@@ -545,7 +545,7 @@ Create a component that shows different content based on the time of day.
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Coming Next**: Module 02 - Components & Props
 
@@ -555,7 +555,7 @@ Create a component that shows different content based on the time of day.
 
 <div align="center">
 
-**You're now a React developer!** ⚛️
+**You're now a React developer!** 
 
 *Components are the building blocks.*
 

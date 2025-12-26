@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -24,28 +24,28 @@ In CSS, every element is a rectangular box. The box model describes how space is
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                           THE CSS BOX MODEL                                  │
+│ THE CSS BOX MODEL │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   ┌─────────────────────────────────────────────────────────────────────┐   │
-│   │                           MARGIN                                     │   │
-│   │   ┌─────────────────────────────────────────────────────────────┐   │   │
-│   │   │                       BORDER                                 │   │   │
-│   │   │   ┌─────────────────────────────────────────────────────┐   │   │   │
-│   │   │   │                   PADDING                            │   │   │   │
-│   │   │   │   ┌─────────────────────────────────────────────┐   │   │   │   │
-│   │   │   │   │                                             │   │   │   │   │
-│   │   │   │   │               CONTENT                       │   │   │   │   │
-│   │   │   │   │          (text, images, etc.)               │   │   │   │   │
-│   │   │   │   │                                             │   │   │   │   │
-│   │   │   │   └─────────────────────────────────────────────┘   │   │   │   │
-│   │   │   │                                                      │   │   │   │
-│   │   │   └─────────────────────────────────────────────────────┘   │   │   │
-│   │   │                                                              │   │   │
-│   │   └─────────────────────────────────────────────────────────────┘   │   │
-│   │                                                                      │   │
-│   └─────────────────────────────────────────────────────────────────────┘   │
-│                                                                              │
+│ │
+│ ┌─────────────────────────────────────────────────────────────────────┐ │
+│ │ MARGIN │ │
+│ │ ┌─────────────────────────────────────────────────────────────┐ │ │
+│ │ │ BORDER │ │ │
+│ │ │ ┌─────────────────────────────────────────────────────┐ │ │ │
+│ │ │ │ PADDING │ │ │ │
+│ │ │ │ ┌─────────────────────────────────────────────┐ │ │ │ │
+│ │ │ │ │ │ │ │ │ │
+│ │ │ │ │ CONTENT │ │ │ │ │
+│ │ │ │ │ (text, images, etc.) │ │ │ │ │
+│ │ │ │ │ │ │ │ │ │
+│ │ │ │ └─────────────────────────────────────────────┘ │ │ │ │
+│ │ │ │ │ │ │ │
+│ │ │ └─────────────────────────────────────────────────────┘ │ │ │
+│ │ │ │ │ │
+│ │ └─────────────────────────────────────────────────────────────┘ │ │
+│ │ │ │
+│ └─────────────────────────────────────────────────────────────────────┘ │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -66,8 +66,8 @@ In CSS, every element is a rectangular box. The box model describes how space is
 
 ```css
 .box {
-    width: 300px;
-    height: 200px;
+ width: 300px;
+ height: 200px;
 }
 ```
 
@@ -111,9 +111,9 @@ height: auto;
 ```css
 /* Instead of fixed width */
 .container {
-    max-width: 1200px;      /* Never wider than this */
-    width: 100%;            /* Fill available space */
-    margin: 0 auto;         /* Center it */
+ max-width: 1200px; /* Never wider than this */
+ width: 100%; /* Fill available space */
+ margin: 0 auto; /* Center it */
 }
 ```
 
@@ -127,7 +127,7 @@ Padding creates space between the content and the border.
 
 ```css
 .box {
-    padding: 20px;  /* All four sides */
+ padding: 20px; /* All four sides */
 }
 ```
 
@@ -135,10 +135,10 @@ Padding creates space between the content and the border.
 
 ```css
 .box {
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+ padding-top: 10px;
+ padding-right: 20px;
+ padding-bottom: 10px;
+ padding-left: 20px;
 }
 ```
 
@@ -165,22 +165,22 @@ padding: 10px 20px 30px 40px;
 ```css
 /* Button */
 .button {
-    padding: 12px 24px;  /* More horizontal space */
+ padding: 12px 24px; /* More horizontal space */
 }
 
 /* Card */
 .card {
-    padding: 20px;
+ padding: 20px;
 }
 
 /* Header */
 header {
-    padding: 10px 20px;
+ padding: 10px 20px;
 }
 
 /* Section */
 section {
-    padding: 60px 20px;  /* More vertical breathing room */
+ padding: 60px 20px; /* More vertical breathing room */
 }
 ```
 
@@ -192,7 +192,7 @@ section {
 
 ```css
 .box {
-    border: 1px solid black;
+ border: 1px solid black;
 }
 ```
 
@@ -210,13 +210,13 @@ border: 3px dotted red;
 ### Border Styles
 
 ```css
-border-style: solid;    /* ────────── */
-border-style: dashed;   /* - - - - -  */
-border-style: dotted;   /* .......... */
-border-style: double;   /* ══════════ */
-border-style: groove;   /* 3D groove  */
-border-style: ridge;    /* 3D ridge   */
-border-style: none;     /* No border  */
+border-style: solid; /* ────────── */
+border-style: dashed; /* - - - - - */
+border-style: dotted; /* .......... */
+border-style: double; /* ══════════ */
+border-style: groove; /* 3D groove */
+border-style: ridge; /* 3D ridge */
+border-style: none; /* No border */
 ```
 
 ### Individual Border Sides
@@ -238,7 +238,7 @@ border-radius: 10px;
 border-radius: 50%;
 
 /* Individual corners */
-border-radius: 10px 20px 10px 20px;  /* TL TR BR BL */
+border-radius: 10px 20px 10px 20px; /* TL TR BR BL */
 
 /* Different horizontal/vertical */
 border-radius: 20px / 10px;
@@ -249,28 +249,28 @@ border-radius: 20px / 10px;
 ```css
 /* Card */
 .card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
+ border: 1px solid #ddd;
+ border-radius: 8px;
 }
 
 /* Button */
 .button {
-    border: 2px solid #3498db;
-    border-radius: 4px;
+ border: 2px solid #3498db;
+ border-radius: 4px;
 }
 
 /* Circle avatar */
 .avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 3px solid white;
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ border: 3px solid white;
 }
 
 /* Bottom border only (underline effect) */
 .tab {
-    border: none;
-    border-bottom: 3px solid #3498db;
+ border: none;
+ border-bottom: 3px solid #3498db;
 }
 ```
 
@@ -284,7 +284,7 @@ Margin creates space between elements.
 
 ```css
 .box {
-    margin: 20px;  /* All four sides */
+ margin: 20px; /* All four sides */
 }
 ```
 
@@ -292,10 +292,10 @@ Margin creates space between elements.
 
 ```css
 .box {
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    margin-left: 20px;
+ margin-top: 10px;
+ margin-right: 20px;
+ margin-bottom: 10px;
+ margin-left: 20px;
 }
 ```
 
@@ -316,8 +316,8 @@ margin: 10px 20px 30px 40px;
 
 ```css
 .container {
-    max-width: 800px;
-    margin: 0 auto;  /* 0 top/bottom, auto left/right = centered */
+ max-width: 800px;
+ margin: 0 auto; /* 0 top/bottom, auto left/right = centered */
 }
 ```
 
@@ -339,7 +339,7 @@ p { margin-top: 15px; }
 ```css
 /* Pull element up/left */
 .overlap {
-    margin-top: -20px;
+ margin-top: -20px;
 }
 ```
 
@@ -353,9 +353,9 @@ By default, width and height only apply to content. Padding and border add to to
 
 ```css
 .box {
-    width: 200px;
-    padding: 20px;
-    border: 5px solid black;
+ width: 200px;
+ padding: 20px;
+ border: 5px solid black;
 }
 
 /* Actual width = 200 + 20 + 20 + 5 + 5 = 250px! */
@@ -365,10 +365,10 @@ By default, width and height only apply to content. Padding and border add to to
 
 ```css
 .box {
-    box-sizing: border-box;
-    width: 200px;
-    padding: 20px;
-    border: 5px solid black;
+ box-sizing: border-box;
+ width: 200px;
+ padding: 20px;
+ border: 5px solid black;
 }
 
 /* Now width IS 200px (including padding and border) */
@@ -379,7 +379,7 @@ By default, width and height only apply to content. Padding and border add to to
 ```css
 /* Add to your CSS reset */
 *, *::before, *::after {
-    box-sizing: border-box;
+ box-sizing: border-box;
 }
 ```
 
@@ -387,26 +387,26 @@ By default, width and height only apply to content. Padding and border add to to
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    BOX-SIZING COMPARISON                                     │
+│ BOX-SIZING COMPARISON │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   content-box (default)              border-box (recommended)               │
-│   ═══════════════════════            ════════════════════════               │
-│                                                                              │
-│   width: 200px                       width: 200px                           │
-│   padding: 20px                      padding: 20px                          │
-│   border: 5px                        border: 5px                            │
-│                                                                              │
-│   ┌──────────────────────────────┐   ┌────────────────────┐                │
-│   │         250px total           │   │     200px total   │                │
-│   │  ┌──────────────────────┐    │   │ ┌──────────────┐  │                │
-│   │  │      200px content    │    │   │ │  content    │  │                │
-│   │  └──────────────────────┘    │   │ │  (smaller)   │  │                │
-│   └──────────────────────────────┘   │ └──────────────┘  │                │
-│                                       └────────────────────┘                │
-│   Total width = content + padding + border                                  │
-│   Total width = width (includes padding + border)                          │
-│                                                                              │
+│ │
+│ content-box (default) border-box (recommended) │
+│ ═══════════════════════ ════════════════════════ │
+│ │
+│ width: 200px width: 200px │
+│ padding: 20px padding: 20px │
+│ border: 5px border: 5px │
+│ │
+│ ┌──────────────────────────────┐ ┌────────────────────┐ │
+│ │ 250px total │ │ 200px total │ │
+│ │ ┌──────────────────────┐ │ │ ┌──────────────┐ │ │
+│ │ │ 200px content │ │ │ │ content │ │ │
+│ │ └──────────────────────┘ │ │ │ (smaller) │ │ │
+│ └──────────────────────────────┘ │ └──────────────┘ │ │
+│ └────────────────────┘ │
+│ Total width = content + padding + border │
+│ Total width = width (includes padding + border) │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -418,35 +418,35 @@ By default, width and height only apply to content. Padding and border add to to
 
 ```css
 .card {
-    /* Box sizing */
-    box-sizing: border-box;
-    
-    /* Dimensions */
-    width: 300px;
-    min-height: 200px;
-    
-    /* Padding (inside) */
-    padding: 20px;
-    
-    /* Border */
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    
-    /* Margin (outside) */
-    margin: 15px;
-    
-    /* Colors */
-    background-color: white;
+ /* Box sizing */
+ box-sizing: border-box;
+ 
+ /* Dimensions */
+ width: 300px;
+ min-height: 200px;
+ 
+ /* Padding (inside) */
+ padding: 20px;
+ 
+ /* Border */
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ 
+ /* Margin (outside) */
+ margin: 15px;
+ 
+ /* Colors */
+ background-color: white;
 }
 
 .card-title {
-    margin: 0 0 15px 0;  /* Only bottom margin */
-    padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
+ margin: 0 0 15px 0; /* Only bottom margin */
+ padding-bottom: 10px;
+ border-bottom: 1px solid #eee;
 }
 
 .card-content {
-    margin: 0;
+ margin: 0;
 }
 ```
 
@@ -461,7 +461,7 @@ In browser DevTools, you can see the box model:
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Box Model Quiz
 
@@ -512,7 +512,7 @@ Update your bio page with:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Box Model Properties**
 
@@ -527,18 +527,18 @@ Update your bio page with:
 **Shorthand Pattern (Clockwise)**
 
 ```
-        TOP
-         ↓
+ TOP
+ ↓
 LEFT → ───── → RIGHT
-         ↓
-       BOTTOM
+ ↓
+ BOTTOM
 ```
 
 `padding: top right bottom left;`
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 05:**
 
@@ -556,7 +556,7 @@ LEFT → ───── → RIGHT
 
 <div align="center">
 
-**Master of spacing!** 📦
+**Master of spacing!** 
 
 *Understanding the box model is key to CSS layouts.*
 

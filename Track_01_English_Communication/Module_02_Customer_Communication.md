@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,29 +21,29 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    CUSTOMER COMMUNICATION PRINCIPLES                         │
+│ CUSTOMER COMMUNICATION PRINCIPLES │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   1. BE FRIENDLY 😊                                                         │
-│      • Start with a greeting                                                │
-│      • Use the customer's name                                              │
-│      • Show you care                                                        │
-│                                                                              │
-│   2. BE HELPFUL 🤝                                                          │
-│      • Focus on solving their problem                                       │
-│      • Provide clear information                                            │
-│      • Go the extra mile                                                    │
-│                                                                              │
-│   3. BE PROFESSIONAL 👔                                                     │
-│      • Use proper grammar                                                   │
-│      • Avoid slang                                                          │
-│      • Stay calm always                                                     │
-│                                                                              │
-│   4. BE QUICK ⚡                                                            │
-│      • Respond promptly                                                     │
-│      • Don't leave customers waiting                                        │
-│      • If you need time, tell them                                         │
-│                                                                              │
+│ │
+│ 1. BE FRIENDLY │
+│ • Start with a greeting │
+│ • Use the customer's name │
+│ • Show you care │
+│ │
+│ 2. BE HELPFUL │
+│ • Focus on solving their problem │
+│ • Provide clear information │
+│ • Go the extra mile │
+│ │
+│ 3. BE PROFESSIONAL │
+│ • Use proper grammar │
+│ • Avoid slang │
+│ • Stay calm always │
+│ │
+│ 4. BE QUICK │
+│ • Respond promptly │
+│ • Don't leave customers waiting │
+│ • If you need time, tell them │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -64,7 +64,7 @@ Hello! Welcome to KOOMPI support. I'm happy to assist you.
 **Friendly:**
 
 ```
-Hi there! 👋 Thanks for reaching out. What can I help you with?
+Hi there! Thanks for reaching out. What can I help you with?
 
 Hello! Great to hear from you. How can I assist you today?
 ```
@@ -198,15 +198,15 @@ Your product doesn't work! I want my money back!
 **NEVER respond with:**
 
 ```
-❌ That's not my fault.
-❌ You must be doing something wrong.
-❌ Calm down.
+ That's not my fault.
+ You must be doing something wrong.
+ Calm down.
 ```
 
 **ALWAYS respond with:**
 
 ```
-✅ I sincerely apologize for this experience. I understand your frustration.
+ I sincerely apologize for this experience. I understand your frustration.
 
 Let me help make this right. Could you please tell me:
 1. What specific issue are you experiencing?
@@ -254,14 +254,14 @@ I'll make sure we find the best solution for you.
 **Quick, friendly tone:**
 
 ```
-Hi! 👋 Thanks for messaging KOOMPI!
+Hi! Thanks for messaging KOOMPI!
 What can I help you with today?
 ```
 
 **Using emojis appropriately:**
 
-- ✅ Use sparingly: 👋 😊 ✨ 💻
-- ❌ Don't overuse: 🔥🔥🔥😍😍😍🙌🙌
+- Use sparingly: 
+- Don't overuse: 
 
 ### Telegram
 
@@ -306,7 +306,7 @@ Is there anything else I can assist you with today?
 Thank you for choosing KOOMPI! 
 
 If you have any more questions in the future, 
-don't hesitate to reach out. Have a great day! 😊
+don't hesitate to reach out. Have a great day! 
 ```
 
 ### Asking for Feedback
@@ -366,7 +366,7 @@ KOOMPI Support
 
 ---
 
-## 🧪 Practice Exercises
+## Practice Exercises
 
 ### Exercise 1: Respond to Inquiry
 
@@ -411,7 +411,7 @@ With a partner, practice:
 
 ---
 
-## 📝 Key Phrases Summary
+## Key Phrases Summary
 
 | Situation | Phrase |
 |-----------|--------|
@@ -427,7 +427,7 @@ With a partner, practice:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Daily Practice:**
 
@@ -444,7 +444,7 @@ With a partner, practice:
 
 <div align="center">
 
-**Every customer interaction is a chance to shine!** ✨
+**Every customer interaction is a chance to shine!** 
 
 *Great service builds great reputation.*
 

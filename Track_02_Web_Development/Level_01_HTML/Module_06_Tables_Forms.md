@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -26,7 +26,7 @@ By the end of this module, you will be able to:
 
 Use tables for **tabular data** — information that naturally fits in rows and columns.
 
-| ✅ Good Use | ❌ Bad Use |
+| Good Use | Bad Use |
 |-------------|-----------|
 | Student grades | Page layout |
 | Product specifications | Visual design |
@@ -37,21 +37,21 @@ Use tables for **tabular data** — information that naturally fits in rows and 
 
 ```html
 <table>
-    <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Country</th>
-    </tr>
-    <tr>
-        <td>Sokha</td>
-        <td>22</td>
-        <td>Cambodia</td>
-    </tr>
-    <tr>
-        <td>Dara</td>
-        <td>25</td>
-        <td>Cambodia</td>
-    </tr>
+ <tr>
+ <th>Name</th>
+ <th>Age</th>
+ <th>Country</th>
+ </tr>
+ <tr>
+ <td>Sokha</td>
+ <td>22</td>
+ <td>Cambodia</td>
+ </tr>
+ <tr>
+ <td>Dara</td>
+ <td>25</td>
+ <td>Cambodia</td>
+ </tr>
 </table>
 ```
 
@@ -68,11 +68,11 @@ Use tables for **tabular data** — information that naturally fits in rows and 
 
 ```
 ┌────────────┬────────┬────────────┐
-│   Name     │  Age   │  Country   │  ← Header row (<th>)
+│ Name │ Age │ Country │ ← Header row (<th>)
 ├────────────┼────────┼────────────┤
-│   Sokha    │   22   │  Cambodia  │  ← Data row (<td>)
+│ Sokha │ 22 │ Cambodia │ ← Data row (<td>)
 ├────────────┼────────┼────────────┤
-│   Dara     │   25   │  Cambodia  │  ← Data row (<td>)
+│ Dara │ 25 │ Cambodia │ ← Data row (<td>)
 └────────────┴────────┴────────────┘
 ```
 
@@ -84,34 +84,34 @@ Use tables for **tabular data** — information that naturally fits in rows and 
 
 ```html
 <table>
-    <caption>KOOMPI Apprentice Enrollment 2024</caption>
-    
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Track</th>
-            <th>Start Date</th>
-        </tr>
-    </thead>
-    
-    <tbody>
-        <tr>
-            <td>Sokha</td>
-            <td>Web Development</td>
-            <td>January 2024</td>
-        </tr>
-        <tr>
-            <td>Dara</td>
-            <td>Web Development</td>
-            <td>February 2024</td>
-        </tr>
-    </tbody>
-    
-    <tfoot>
-        <tr>
-            <td colspan="3">Total: 2 apprentices</td>
-        </tr>
-    </tfoot>
+ <caption>KOOMPI Apprentice Enrollment 2024</caption>
+ 
+ <thead>
+ <tr>
+ <th>Name</th>
+ <th>Track</th>
+ <th>Start Date</th>
+ </tr>
+ </thead>
+ 
+ <tbody>
+ <tr>
+ <td>Sokha</td>
+ <td>Web Development</td>
+ <td>January 2024</td>
+ </tr>
+ <tr>
+ <td>Dara</td>
+ <td>Web Development</td>
+ <td>February 2024</td>
+ </tr>
+ </tbody>
+ 
+ <tfoot>
+ <tr>
+ <td colspan="3">Total: 2 apprentices</td>
+ </tr>
+ </tfoot>
 </table>
 ```
 
@@ -134,27 +134,27 @@ Use `colspan` to make a cell span multiple columns:
 
 ```html
 <table>
-    <tr>
-        <th colspan="2">Contact Information</th>
-    </tr>
-    <tr>
-        <td>Email</td>
-        <td>info@koompi.com</td>
-    </tr>
-    <tr>
-        <td>Phone</td>
-        <td>+855 12 345 678</td>
-    </tr>
+ <tr>
+ <th colspan="2">Contact Information</th>
+ </tr>
+ <tr>
+ <td>Email</td>
+ <td>info@koompi.com</td>
+ </tr>
+ <tr>
+ <td>Phone</td>
+ <td>+855 12 345 678</td>
+ </tr>
 </table>
 ```
 
 ```
 ┌─────────────────────────────────┐
-│    Contact Information          │  ← spans 2 columns
+│ Contact Information │ ← spans 2 columns
 ├───────────────┬─────────────────┤
-│ Email         │ info@koompi.com │
+│ Email │ info@koompi.com │
 ├───────────────┼─────────────────┤
-│ Phone         │ +855 12 345 678 │
+│ Phone │ +855 12 345 678 │
 └───────────────┴─────────────────┘
 ```
 
@@ -164,36 +164,36 @@ Use `rowspan` to make a cell span multiple rows:
 
 ```html
 <table>
-    <tr>
-        <th rowspan="2">Housing</th>
-        <td>Rent</td>
-        <td>$500</td>
-    </tr>
-    <tr>
-        <td>Utilities</td>
-        <td>$100</td>
-    </tr>
-    <tr>
-        <th rowspan="2">Transport</th>
-        <td>Gas</td>
-        <td>$80</td>
-    </tr>
-    <tr>
-        <td>Insurance</td>
-        <td>$50</td>
-    </tr>
+ <tr>
+ <th rowspan="2">Housing</th>
+ <td>Rent</td>
+ <td>$500</td>
+ </tr>
+ <tr>
+ <td>Utilities</td>
+ <td>$100</td>
+ </tr>
+ <tr>
+ <th rowspan="2">Transport</th>
+ <td>Gas</td>
+ <td>$80</td>
+ </tr>
+ <tr>
+ <td>Insurance</td>
+ <td>$50</td>
+ </tr>
 </table>
 ```
 
 ```
 ┌──────────────┬────────────┬────────┐
-│              │ Rent       │  $500  │
-│   Housing    ├────────────┼────────┤
-│              │ Utilities  │  $100  │
+│ │ Rent │ $500 │
+│ Housing ├────────────┼────────┤
+│ │ Utilities │ $100 │
 ├──────────────┼────────────┼────────┤
-│              │ Gas        │   $80  │
-│  Transport   ├────────────┼────────┤
-│              │ Insurance  │   $50  │
+│ │ Gas │ $80 │
+│ Transport ├────────────┼────────┤
+│ │ Insurance │ $50 │
 └──────────────┴────────────┴────────┘
 ```
 
@@ -205,21 +205,21 @@ Use `rowspan` to make a cell span multiple rows:
 
 ```html
 <table>
-    <tr>
-        <th scope="col">Product</th>
-        <th scope="col">Price</th>
-        <th scope="col">Stock</th>
-    </tr>
-    <tr>
-        <th scope="row">KOOMPI E13</th>
-        <td>$299</td>
-        <td>In Stock</td>
-    </tr>
-    <tr>
-        <th scope="row">KOOMPI E15</th>
-        <td>$399</td>
-        <td>Low Stock</td>
-    </tr>
+ <tr>
+ <th scope="col">Product</th>
+ <th scope="col">Price</th>
+ <th scope="col">Stock</th>
+ </tr>
+ <tr>
+ <th scope="row">KOOMPI E13</th>
+ <td>$299</td>
+ <td>In Stock</td>
+ </tr>
+ <tr>
+ <th scope="row">KOOMPI E15</th>
+ <td>$399</td>
+ <td>Low Stock</td>
+ </tr>
 </table>
 ```
 
@@ -244,7 +244,7 @@ Forms collect user input and send it somewhere:
 
 ```html
 <form action="/submit" method="POST">
-    <!-- Form inputs go here -->
+ <!-- Form inputs go here -->
 </form>
 ```
 
@@ -270,20 +270,20 @@ Forms collect user input and send it somewhere:
 
 ```html
 <form>
-    <!-- Simple text -->
-    <input type="text" name="username" placeholder="Enter username">
-    
-    <!-- Email (validates email format) -->
-    <input type="email" name="email" placeholder="your@email.com">
-    
-    <!-- Password (hides characters) -->
-    <input type="password" name="password" placeholder="Enter password">
-    
-    <!-- Phone number -->
-    <input type="tel" name="phone" placeholder="Phone number">
-    
-    <!-- Website URL -->
-    <input type="url" name="website" placeholder="https://...">
+ <!-- Simple text -->
+ <input type="text" name="username" placeholder="Enter username">
+ 
+ <!-- Email (validates email format) -->
+ <input type="email" name="email" placeholder="your@email.com">
+ 
+ <!-- Password (hides characters) -->
+ <input type="password" name="password" placeholder="Enter password">
+ 
+ <!-- Phone number -->
+ <input type="tel" name="phone" placeholder="Phone number">
+ 
+ <!-- Website URL -->
+ <input type="url" name="website" placeholder="https://...">
 </form>
 ```
 
@@ -291,11 +291,11 @@ Forms collect user input and send it somewhere:
 
 ```html
 <form>
-    <!-- Any number -->
-    <input type="number" name="quantity" min="1" max="100">
-    
-    <!-- Range slider -->
-    <input type="range" name="volume" min="0" max="100" value="50">
+ <!-- Any number -->
+ <input type="number" name="quantity" min="1" max="100">
+ 
+ <!-- Range slider -->
+ <input type="range" name="volume" min="0" max="100" value="50">
 </form>
 ```
 
@@ -303,14 +303,14 @@ Forms collect user input and send it somewhere:
 
 ```html
 <form>
-    <!-- Date picker -->
-    <input type="date" name="birthday">
-    
-    <!-- Time picker -->
-    <input type="time" name="appointment">
-    
-    <!-- Date and time -->
-    <input type="datetime-local" name="meeting">
+ <!-- Date picker -->
+ <input type="date" name="birthday">
+ 
+ <!-- Time picker -->
+ <input type="time" name="appointment">
+ 
+ <!-- Date and time -->
+ <input type="datetime-local" name="meeting">
 </form>
 ```
 
@@ -318,15 +318,15 @@ Forms collect user input and send it somewhere:
 
 ```html
 <form>
-    <!-- Checkboxes (multiple selections) -->
-    <input type="checkbox" name="skills" value="html"> HTML
-    <input type="checkbox" name="skills" value="css"> CSS
-    <input type="checkbox" name="skills" value="js"> JavaScript
-    
-    <!-- Radio buttons (single selection) -->
-    <input type="radio" name="level" value="beginner"> Beginner
-    <input type="radio" name="level" value="intermediate"> Intermediate
-    <input type="radio" name="level" value="expert"> Expert
+ <!-- Checkboxes (multiple selections) -->
+ <input type="checkbox" name="skills" value="html"> HTML
+ <input type="checkbox" name="skills" value="css"> CSS
+ <input type="checkbox" name="skills" value="js"> JavaScript
+ 
+ <!-- Radio buttons (single selection) -->
+ <input type="radio" name="level" value="beginner"> Beginner
+ <input type="radio" name="level" value="intermediate"> Intermediate
+ <input type="radio" name="level" value="expert"> Expert
 </form>
 ```
 
@@ -334,14 +334,14 @@ Forms collect user input and send it somewhere:
 
 ```html
 <form>
-    <!-- Color picker -->
-    <input type="color" name="favorite_color" value="#ff0000">
-    
-    <!-- File upload -->
-    <input type="file" name="resume" accept=".pdf,.doc">
-    
-    <!-- Hidden field -->
-    <input type="hidden" name="form_id" value="contact_form">
+ <!-- Color picker -->
+ <input type="color" name="favorite_color" value="#ff0000">
+ 
+ <!-- File upload -->
+ <input type="file" name="resume" accept=".pdf,.doc">
+ 
+ <!-- Hidden field -->
+ <input type="hidden" name="form_id" value="contact_form">
 </form>
 ```
 
@@ -356,8 +356,8 @@ Forms collect user input and send it somewhere:
 ```html
 <!-- Method 1: Wrap input with label -->
 <label>
-    Username:
-    <input type="text" name="username">
+ Username:
+ <input type="text" name="username">
 </label>
 
 <!-- Method 2: Use "for" and "id" -->
@@ -371,77 +371,77 @@ Forms collect user input and send it somewhere:
 
 ```html
 <form action="/register" method="POST">
-    <h2>KOOMPI Apprenticeship Application</h2>
-    
-    <!-- Text fields -->
-    <div>
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required>
-    </div>
-    
-    <div>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-    </div>
-    
-    <div>
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone">
-    </div>
-    
-    <!-- Selection -->
-    <div>
-        <label for="track">Preferred Track:</label>
-        <select id="track" name="track">
-            <option value="">Select a track</option>
-            <option value="web">Web Development</option>
-            <option value="english">English</option>
-            <option value="business">Business</option>
-        </select>
-    </div>
-    
-    <!-- Radio buttons -->
-    <fieldset>
-        <legend>Experience Level:</legend>
-        <label>
-            <input type="radio" name="level" value="beginner" checked>
-            Beginner
-        </label>
-        <label>
-            <input type="radio" name="level" value="some">
-            Some Experience
-        </label>
-        <label>
-            <input type="radio" name="level" value="experienced">
-            Experienced
-        </label>
-    </fieldset>
-    
-    <!-- Checkboxes -->
-    <fieldset>
-        <legend>Skills (select all that apply):</legend>
-        <label>
-            <input type="checkbox" name="skills" value="typing">
-            Typing
-        </label>
-        <label>
-            <input type="checkbox" name="skills" value="english">
-            Basic English
-        </label>
-        <label>
-            <input type="checkbox" name="skills" value="computer">
-            Computer Basics
-        </label>
-    </fieldset>
-    
-    <!-- Textarea -->
-    <div>
-        <label for="about">Tell us about yourself:</label>
-        <textarea id="about" name="about" rows="5" cols="40"></textarea>
-    </div>
-    
-    <!-- Submit button -->
-    <button type="submit">Submit Application</button>
+ <h2>KOOMPI Apprenticeship Application</h2>
+ 
+ <!-- Text fields -->
+ <div>
+ <label for="name">Full Name:</label>
+ <input type="text" id="name" name="name" required>
+ </div>
+ 
+ <div>
+ <label for="email">Email:</label>
+ <input type="email" id="email" name="email" required>
+ </div>
+ 
+ <div>
+ <label for="phone">Phone Number:</label>
+ <input type="tel" id="phone" name="phone">
+ </div>
+ 
+ <!-- Selection -->
+ <div>
+ <label for="track">Preferred Track:</label>
+ <select id="track" name="track">
+ <option value="">Select a track</option>
+ <option value="web">Web Development</option>
+ <option value="english">English</option>
+ <option value="business">Business</option>
+ </select>
+ </div>
+ 
+ <!-- Radio buttons -->
+ <fieldset>
+ <legend>Experience Level:</legend>
+ <label>
+ <input type="radio" name="level" value="beginner" checked>
+ Beginner
+ </label>
+ <label>
+ <input type="radio" name="level" value="some">
+ Some Experience
+ </label>
+ <label>
+ <input type="radio" name="level" value="experienced">
+ Experienced
+ </label>
+ </fieldset>
+ 
+ <!-- Checkboxes -->
+ <fieldset>
+ <legend>Skills (select all that apply):</legend>
+ <label>
+ <input type="checkbox" name="skills" value="typing">
+ Typing
+ </label>
+ <label>
+ <input type="checkbox" name="skills" value="english">
+ Basic English
+ </label>
+ <label>
+ <input type="checkbox" name="skills" value="computer">
+ Computer Basics
+ </label>
+ </fieldset>
+ 
+ <!-- Textarea -->
+ <div>
+ <label for="about">Tell us about yourself:</label>
+ <textarea id="about" name="about" rows="5" cols="40"></textarea>
+ </div>
+ 
+ <!-- Submit button -->
+ <button type="submit">Submit Application</button>
 </form>
 ```
 
@@ -481,33 +481,33 @@ Forms collect user input and send it somewhere:
 
 ```html
 <form>
-    <!-- Required field -->
-    <label for="name">Name (required):</label>
-    <input type="text" id="name" name="name" required>
-    
-    <!-- Length limits -->
-    <label for="username">Username (5-20 characters):</label>
-    <input type="text" id="username" name="username" 
-           minlength="5" maxlength="20" required>
-    
-    <!-- Number range -->
-    <label for="age">Age (16-100):</label>
-    <input type="number" id="age" name="age" 
-           min="16" max="100" required>
-    
-    <!-- Pattern (phone number) -->
-    <label for="phone">Phone (format: 012-345-678):</label>
-    <input type="tel" id="phone" name="phone" 
-           pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
-           placeholder="012-345-678">
-    
-    <button type="submit">Submit</button>
+ <!-- Required field -->
+ <label for="name">Name (required):</label>
+ <input type="text" id="name" name="name" required>
+ 
+ <!-- Length limits -->
+ <label for="username">Username (5-20 characters):</label>
+ <input type="text" id="username" name="username" 
+ minlength="5" maxlength="20" required>
+ 
+ <!-- Number range -->
+ <label for="age">Age (16-100):</label>
+ <input type="number" id="age" name="age" 
+ min="16" max="100" required>
+ 
+ <!-- Pattern (phone number) -->
+ <label for="phone">Phone (format: 012-345-678):</label>
+ <input type="tel" id="phone" name="phone" 
+ pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+ placeholder="012-345-678">
+ 
+ <button type="submit">Submit</button>
 </form>
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Create a Data Table
 
@@ -562,7 +562,7 @@ Create a survey form with:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Table Elements**
 
@@ -590,7 +590,7 @@ Create a survey form with:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 07:**
 
@@ -608,7 +608,7 @@ Create a survey form with:
 
 <div align="center">
 
-**Tables organize, forms connect!** 📊📝
+**Tables organize, forms connect!** 
 
 *Now you can display data and collect user input.*
 

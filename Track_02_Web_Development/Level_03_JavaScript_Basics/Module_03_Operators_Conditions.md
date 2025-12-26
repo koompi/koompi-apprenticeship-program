@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -24,27 +24,27 @@ let a = 10;
 let b = 5;
 
 // Greater than / Less than
-console.log(a > b);   // true
-console.log(a < b);   // false
+console.log(a > b); // true
+console.log(a < b); // false
 console.log(a >= 10); // true
-console.log(b <= 5);  // true
+console.log(b <= 5); // true
 
 // Equal / Not equal
-console.log(a == 10);  // true
-console.log(a != b);   // true
+console.log(a == 10); // true
+console.log(a != b); // true
 ```
 
 ### == vs === (Important!)
 
 ```javascript
 // == compares VALUE (with conversion)
-console.log(5 == "5");    // true (string converted to number)
-console.log(1 == true);   // true (true converted to 1)
+console.log(5 == "5"); // true (string converted to number)
+console.log(1 == true); // true (true converted to 1)
 
 // === compares VALUE AND TYPE (strict)
-console.log(5 === "5");   // false (different types)
-console.log(1 === true);  // false (different types)
-console.log(5 === 5);     // true (same value and type)
+console.log(5 === "5"); // false (different types)
+console.log(1 === true); // false (different types)
+console.log(5 === 5); // true (same value and type)
 ```
 
 **Always use === and !== for safety!**
@@ -76,12 +76,12 @@ let hasLicense = true;
 
 // Can drive only if 18+ AND has license
 let canDrive = age >= 18 && hasLicense;
-console.log(canDrive);  // true
+console.log(canDrive); // true
 
 // Example
-console.log(true && true);   // true
-console.log(true && false);  // false
-console.log(false && true);  // false
+console.log(true && true); // true
+console.log(true && false); // false
+console.log(false && true); // false
 console.log(false && false); // false
 ```
 
@@ -95,12 +95,12 @@ let isHoliday = false;
 
 // Day off if weekend OR holiday
 let isDayOff = isWeekend || isHoliday;
-console.log(isDayOff);  // true
+console.log(isDayOff); // true
 
 // Example
-console.log(true || true);   // true
-console.log(true || false);  // true
-console.log(false || true);  // true
+console.log(true || true); // true
+console.log(true || false); // true
+console.log(false || true); // true
 console.log(false || false); // false
 ```
 
@@ -111,9 +111,9 @@ console.log(false || false); // false
 ```javascript
 let isLoggedIn = false;
 
-console.log(!isLoggedIn);  // true
-console.log(!true);        // false
-console.log(!false);       // true
+console.log(!isLoggedIn); // true
+console.log(!true); // false
+console.log(!false); // true
 ```
 
 ---
@@ -126,7 +126,7 @@ console.log(!false);       // true
 let age = 20;
 
 if (age >= 18) {
-    console.log("You are an adult.");
+ console.log("You are an adult.");
 }
 ```
 
@@ -136,9 +136,9 @@ if (age >= 18) {
 let age = 15;
 
 if (age >= 18) {
-    console.log("You are an adult.");
+ console.log("You are an adult.");
 } else {
-    console.log("You are a minor.");
+ console.log("You are a minor.");
 }
 ```
 
@@ -148,15 +148,15 @@ if (age >= 18) {
 let score = 85;
 
 if (score >= 90) {
-    console.log("Grade: A");
+ console.log("Grade: A");
 } else if (score >= 80) {
-    console.log("Grade: B");
+ console.log("Grade: B");
 } else if (score >= 70) {
-    console.log("Grade: C");
+ console.log("Grade: C");
 } else if (score >= 60) {
-    console.log("Grade: D");
+ console.log("Grade: D");
 } else {
-    console.log("Grade: F");
+ console.log("Grade: F");
 }
 ```
 
@@ -167,13 +167,13 @@ let age = 25;
 let hasLicense = true;
 
 if (age >= 18) {
-    if (hasLicense) {
-        console.log("You can drive.");
-    } else {
-        console.log("You need a license.");
-    }
+ if (hasLicense) {
+ console.log("You can drive.");
+ } else {
+ console.log("You need a license.");
+ }
 } else {
-    console.log("You are too young to drive.");
+ console.log("You are too young to drive.");
 }
 ```
 
@@ -189,7 +189,7 @@ let hasLicense = true;
 let hasInsurance = true;
 
 if (age >= 18 && hasLicense && hasInsurance) {
-    console.log("You can legally drive.");
+ console.log("You can legally drive.");
 }
 ```
 
@@ -199,9 +199,9 @@ if (age >= 18 && hasLicense && hasInsurance) {
 let day = "Saturday";
 
 if (day === "Saturday" || day === "Sunday") {
-    console.log("It's the weekend!");
+ console.log("It's the weekend!");
 } else {
-    console.log("It's a weekday.");
+ console.log("It's a weekday.");
 }
 ```
 
@@ -214,7 +214,7 @@ let isEmployee = false;
 
 // Student discount for students OR employees under 25
 if (isStudent || (isEmployee && age < 25)) {
-    console.log("You get a discount!");
+ console.log("You get a discount!");
 }
 ```
 
@@ -230,29 +230,29 @@ Use switch when comparing one value against many options:
 let day = 3;
 
 switch (day) {
-    case 1:
-        console.log("Monday");
-        break;
-    case 2:
-        console.log("Tuesday");
-        break;
-    case 3:
-        console.log("Wednesday");
-        break;
-    case 4:
-        console.log("Thursday");
-        break;
-    case 5:
-        console.log("Friday");
-        break;
-    case 6:
-        console.log("Saturday");
-        break;
-    case 7:
-        console.log("Sunday");
-        break;
-    default:
-        console.log("Invalid day");
+ case 1:
+ console.log("Monday");
+ break;
+ case 2:
+ console.log("Tuesday");
+ break;
+ case 3:
+ console.log("Wednesday");
+ break;
+ case 4:
+ console.log("Thursday");
+ break;
+ case 5:
+ console.log("Friday");
+ break;
+ case 6:
+ console.log("Saturday");
+ break;
+ case 7:
+ console.log("Sunday");
+ break;
+ default:
+ console.log("Invalid day");
 }
 ```
 
@@ -264,15 +264,15 @@ Without break, code "falls through" to the next case:
 let fruit = "apple";
 
 switch (fruit) {
-    case "apple":
-    case "apricot":
-        console.log("Starts with A");
-        break;
-    case "banana":
-        console.log("Starts with B");
-        break;
-    default:
-        console.log("Other fruit");
+ case "apple":
+ case "apricot":
+ console.log("Starts with A");
+ break;
+ case "banana":
+ console.log("Starts with B");
+ break;
+ default:
+ console.log("Other fruit");
 }
 ```
 
@@ -289,14 +289,14 @@ The ternary operator is a shorthand for simple if/else:
 
 let age = 20;
 let status = age >= 18 ? "adult" : "minor";
-console.log(status);  // "adult"
+console.log(status); // "adult"
 
 // Same as:
 let status2;
 if (age >= 18) {
-    status2 = "adult";
+ status2 = "adult";
 } else {
-    status2 = "minor";
+ status2 = "minor";
 }
 ```
 
@@ -314,7 +314,7 @@ let display = isVisible ? "block" : "none";
 // Singular/plural
 let count = 5;
 let message = `You have ${count} item${count === 1 ? "" : "s"}`;
-console.log(message);  // "You have 5 items"
+console.log(message); // "You have 5 items"
 ```
 
 ---
@@ -331,11 +331,11 @@ const correctUser = "admin";
 const correctPass = "password123";
 
 if (username === correctUser && password === correctPass) {
-    console.log("Login successful!");
+ console.log("Login successful!");
 } else if (username !== correctUser) {
-    console.log("Username not found.");
+ console.log("Username not found.");
 } else {
-    console.log("Incorrect password.");
+ console.log("Incorrect password.");
 }
 ```
 
@@ -345,17 +345,17 @@ if (username === correctUser && password === correctPass) {
 let age = parseInt(prompt("Enter your age:"));
 
 if (isNaN(age)) {
-    console.log("Please enter a valid number.");
+ console.log("Please enter a valid number.");
 } else if (age < 0) {
-    console.log("Age cannot be negative.");
+ console.log("Age cannot be negative.");
 } else if (age < 13) {
-    console.log("You are a child.");
+ console.log("You are a child.");
 } else if (age < 20) {
-    console.log("You are a teenager.");
+ console.log("You are a teenager.");
 } else if (age < 60) {
-    console.log("You are an adult.");
+ console.log("You are an adult.");
 } else {
-    console.log("You are a senior.");
+ console.log("You are a senior.");
 }
 ```
 
@@ -363,23 +363,23 @@ if (isNaN(age)) {
 
 ```javascript
 function getGrade(score) {
-    if (score < 0 || score > 100) {
-        return "Invalid score";
-    }
-    
-    if (score >= 90) return "A";
-    if (score >= 80) return "B";
-    if (score >= 70) return "C";
-    if (score >= 60) return "D";
-    return "F";
+ if (score < 0 || score > 100) {
+ return "Invalid score";
+ }
+ 
+ if (score >= 90) return "A";
+ if (score >= 80) return "B";
+ if (score >= 70) return "C";
+ if (score >= 60) return "D";
+ return "F";
 }
 
-console.log(getGrade(85));  // "B"
+console.log(getGrade(85)); // "B"
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Comparison Practice
 
@@ -424,7 +424,7 @@ Use a switch statement to:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Comparison Operators**
 
@@ -454,7 +454,7 @@ Use a switch statement to:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 04:**
 
@@ -471,7 +471,7 @@ Use a switch statement to:
 
 <div align="center">
 
-**Decisions drive your code!** 🚦
+**Decisions drive your code!** 
 
 *If/else statements let your code think.*
 

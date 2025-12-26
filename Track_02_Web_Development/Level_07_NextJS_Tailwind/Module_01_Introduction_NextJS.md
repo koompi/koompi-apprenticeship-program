@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,23 +21,23 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    NEXT.JS = REACT + SUPERPOWERS                             │
+│ NEXT.JS = REACT + SUPERPOWERS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   React alone:                         Next.js adds:                        │
-│   ════════════                         ════════════                         │
-│                                                                              │
-│   • Client-side only                   • Server-side rendering (SSR)       │
-│   • Manual routing setup               • File-based routing                │
-│   • No built-in API                    • API routes built-in               │
-│   • Complex deployment                 • Easy deployment (Vercel)          │
-│   • Manual optimization                • Automatic optimization            │
-│                                                                              │
-│   Next.js is a FRAMEWORK built on top of React.                            │
-│   It provides structure and features out of the box.                       │
-│                                                                              │
-│   USED BY: Netflix, TikTok, Nike, Hulu, Notion, Twitch                    │
-│                                                                              │
+│ │
+│ React alone: Next.js adds: │
+│ ════════════ ════════════ │
+│ │
+│ • Client-side only • Server-side rendering (SSR) │
+│ • Manual routing setup • File-based routing │
+│ • No built-in API • API routes built-in │
+│ • Complex deployment • Easy deployment (Vercel) │
+│ • Manual optimization • Automatic optimization │
+│ │
+│ Next.js is a FRAMEWORK built on top of React. │
+│ It provides structure and features out of the box. │
+│ │
+│ USED BY: Netflix, TikTok, Nike, Hulu, Notion, Twitch │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -67,7 +67,7 @@ npx create-next-app@latest my-nextjs-app
 
 ```
 Would you like to use TypeScript? › No
-Would you like to use ESLint? › Yes  
+Would you like to use ESLint? › Yes 
 Would you like to use Tailwind CSS? › Yes
 Would you like to use `src/` directory? › Yes
 Would you like to use App Router? › Yes
@@ -92,20 +92,20 @@ Open [http://localhost:3000](http://localhost:3000)
 ```
 my-nextjs-app/
 ├── src/
-│   └── app/
-│       ├── layout.js       ← Root layout (wraps all pages)
-│       ├── page.js         ← Home page (/)
-│       ├── globals.css     ← Global styles
-│       ├── about/
-│       │   └── page.js     ← About page (/about)
-│       ├── products/
-│       │   ├── page.js     ← Products list (/products)
-│       │   └── [id]/
-│       │       └── page.js ← Product detail (/products/123)
-│       └── api/
-│           └── hello/
-│               └── route.js ← API endpoint (/api/hello)
-├── public/                  ← Static files
+│ └── app/
+│ ├── layout.js ← Root layout (wraps all pages)
+│ ├── page.js ← Home page (/)
+│ ├── globals.css ← Global styles
+│ ├── about/
+│ │ └── page.js ← About page (/about)
+│ ├── products/
+│ │ ├── page.js ← Products list (/products)
+│ │ └── [id]/
+│ │ └── page.js ← Product detail (/products/123)
+│ └── api/
+│ └── hello/
+│ └── route.js ← API endpoint (/api/hello)
+├── public/ ← Static files
 ├── package.json
 ├── next.config.js
 └── tailwind.config.js
@@ -131,40 +131,40 @@ my-nextjs-app/
 ```jsx
 // src/app/page.js (Home - /)
 export default function HomePage() {
-  return (
-    <main>
-      <h1>Welcome to My App</h1>
-      <p>This is the home page.</p>
-    </main>
-  );
+ return (
+ <main>
+ <h1>Welcome to My App</h1>
+ <p>This is the home page.</p>
+ </main>
+ );
 }
 ```
 
 ```jsx
 // src/app/about/page.js (/about)
 export default function AboutPage() {
-  return (
-    <main>
-      <h1>About Us</h1>
-      <p>Learn more about our company.</p>
-    </main>
-  );
+ return (
+ <main>
+ <h1>About Us</h1>
+ <p>Learn more about our company.</p>
+ </main>
+ );
 }
 ```
 
 ```jsx
 // src/app/contact/page.js (/contact)
 export default function ContactPage() {
-  return (
-    <main>
-      <h1>Contact Us</h1>
-      <form>
-        <input type="email" placeholder="Email" />
-        <textarea placeholder="Message"></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </main>
-  );
+ return (
+ <main>
+ <h1>Contact Us</h1>
+ <form>
+ <input type="email" placeholder="Email" />
+ <textarea placeholder="Message"></textarea>
+ <button type="submit">Send</button>
+ </form>
+ </main>
+ );
 }
 ```
 
@@ -190,30 +190,30 @@ Every app needs a root layout:
 import './globals.css';
 
 export const metadata = {
-  title: 'My Next.js App',
-  description: 'Built with Next.js',
+ title: 'My Next.js App',
+ description: 'Built with Next.js',
 };
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>
-        <header>
-          <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/contact">Contact</a>
-          </nav>
-        </header>
-        
-        <main>{children}</main>
-        
-        <footer>
-          <p>&copy; 2024 My App</p>
-        </footer>
-      </body>
-    </html>
-  );
+ return (
+ <html lang="en">
+ <body>
+ <header>
+ <nav>
+ <a href="/">Home</a>
+ <a href="/about">About</a>
+ <a href="/contact">Contact</a>
+ </nav>
+ </header>
+ 
+ <main>{children}</main>
+ 
+ <footer>
+ <p>&copy; 2024 My App</p>
+ </footer>
+ </body>
+ </html>
+ );
 }
 ```
 
@@ -222,19 +222,19 @@ export default function RootLayout({ children }) {
 ```jsx
 // src/app/dashboard/layout.js
 export default function DashboardLayout({ children }) {
-  return (
-    <div className="dashboard">
-      <aside className="sidebar">
-        <nav>
-          <a href="/dashboard">Overview</a>
-          <a href="/dashboard/settings">Settings</a>
-        </nav>
-      </aside>
-      <div className="content">
-        {children}
-      </div>
-    </div>
-  );
+ return (
+ <div className="dashboard">
+ <aside className="sidebar">
+ <nav>
+ <a href="/dashboard">Overview</a>
+ <a href="/dashboard/settings">Settings</a>
+ </nav>
+ </aside>
+ <div className="content">
+ {children}
+ </div>
+ </div>
+ );
 }
 ```
 
@@ -248,14 +248,14 @@ export default function DashboardLayout({ children }) {
 import Link from 'next/link';
 
 export default function Navigation() {
-  return (
-    <nav>
-      <Link href="/">Home</Link>
-      <Link href="/about">About</Link>
-      <Link href="/products">Products</Link>
-      <Link href="/contact">Contact</Link>
-    </nav>
-  );
+ return (
+ <nav>
+ <Link href="/">Home</Link>
+ <Link href="/about">About</Link>
+ <Link href="/products">Products</Link>
+ <Link href="/contact">Contact</Link>
+ </nav>
+ );
 }
 ```
 
@@ -263,17 +263,17 @@ export default function Navigation() {
 
 ```jsx
 function ProductList({ products }) {
-  return (
-    <ul>
-      {products.map(product => (
-        <li key={product.id}>
-          <Link href={`/products/${product.id}`}>
-            {product.name}
-          </Link>
-        </li>
-      ))}
-    </ul>
-  );
+ return (
+ <ul>
+ {products.map(product => (
+ <li key={product.id}>
+ <Link href={`/products/${product.id}`}>
+ {product.name}
+ </Link>
+ </li>
+ ))}
+ </ul>
+ );
 }
 ```
 
@@ -285,20 +285,20 @@ function ProductList({ products }) {
 import { useRouter } from 'next/navigation';
 
 export default function SearchForm() {
-  const router = useRouter();
-  
-  const handleSearch = (e) => {
-    e.preventDefault();
-    const query = e.target.search.value;
-    router.push(`/search?q=${query}`);
-  };
-  
-  return (
-    <form onSubmit={handleSearch}>
-      <input name="search" placeholder="Search..." />
-      <button type="submit">Search</button>
-    </form>
-  );
+ const router = useRouter();
+ 
+ const handleSearch = (e) => {
+ e.preventDefault();
+ const query = e.target.search.value;
+ router.push(`/search?q=${query}`);
+ };
+ 
+ return (
+ <form onSubmit={handleSearch}>
+ <input name="search" placeholder="Search..." />
+ <button type="submit">Search</button>
+ </form>
+ );
 }
 ```
 
@@ -313,33 +313,33 @@ export default function SearchForm() {
 // Runs on the server, can fetch data directly
 
 async function ProductList() {
-  const products = await fetch('https://api.example.com/products')
-    .then(res => res.json());
-  
-  return (
-    <ul>
-      {products.map(p => <li key={p.id}>{p.name}</li>)}
-    </ul>
-  );
+ const products = await fetch('https://api.example.com/products')
+ .then(res => res.json());
+ 
+ return (
+ <ul>
+ {products.map(p => <li key={p.id}>{p.name}</li>)}
+ </ul>
+ );
 }
 ```
 
 ### Client Components
 
 ```jsx
-'use client';  // This directive makes it a Client Component
+'use client'; // This directive makes it a Client Component
 
 import { useState } from 'react';
 
 export default function Counter() {
-  const [count, setCount] = useState(0);
-  
-  return (
-    <div>
-      <p>Count: {count}</p>
-      <button onClick={() => setCount(count + 1)}>+</button>
-    </div>
-  );
+ const [count, setCount] = useState(0);
+ 
+ return (
+ <div>
+ <p>Count: {count}</p>
+ <button onClick={() => setCount(count + 1)}>+</button>
+ </div>
+ );
 }
 ```
 
@@ -354,7 +354,7 @@ export default function Counter() {
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Setup
 
@@ -378,7 +378,7 @@ Create a `/blog/[slug]` route that displays the slug.
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 | Concept | Description |
 |---------|-------------|
@@ -391,7 +391,7 @@ Create a `/blog/[slug]` route that displays the slug.
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Coming Next**: Module 02 - Tailwind CSS Fundamentals
 
@@ -401,7 +401,7 @@ Create a `/blog/[slug]` route that displays the slug.
 
 <div align="center">
 
-**Next.js powers production apps!** 🚀
+**Next.js powers production apps!** 
 
 *React + Structure + Performance*
 

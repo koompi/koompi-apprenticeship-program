@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,25 +21,25 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    THINKING ABOUT YOUR FUTURE                                │
+│ THINKING ABOUT YOUR FUTURE │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   NOW                   1 YEAR                  5 YEARS                     │
-│   ═══                   ══════                  ═══════                     │
-│                                                                              │
-│   KOOMPI Apprentice     Junior Developer        Senior Developer            │
-│   Learning basics        Contributing to        Leading projects            │
-│   Building portfolio     real projects          Mentoring others            │
-│                         Earning income          Building products           │
-│                                                                              │
-│   OR:                                                                        │
-│   Freelance Developer   →  Own Business  →  Tech Company Founder           │
-│                                                                              │
-│   OR:                                                                        │
-│   Web Developer  →  Full-Stack Engineer  →  Tech Lead/Architect            │
-│                                                                              │
-│   THERE ARE MANY PATHS - WHAT'S YOURS?                                      │
-│                                                                              │
+│ │
+│ NOW 1 YEAR 5 YEARS │
+│ ═══ ══════ ═══════ │
+│ │
+│ KOOMPI Apprentice Junior Developer Senior Developer │
+│ Learning basics Contributing to Leading projects │
+│ Building portfolio real projects Mentoring others │
+│ Earning income Building products │
+│ │
+│ OR: │
+│ Freelance Developer → Own Business → Tech Company Founder │
+│ │
+│ OR: │
+│ Web Developer → Full-Stack Engineer → Tech Lead/Architect │
+│ │
+│ THERE ARE MANY PATHS - WHAT'S YOURS? │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -94,26 +94,26 @@ Your portfolio is **proof of what you can do**. It shows:
 PORTFOLIO ESSENTIALS:
 
 1. ABOUT YOU
-   - Brief introduction
-   - Your story
-   - What you're passionate about
+ - Brief introduction
+ - Your story
+ - What you're passionate about
 
 2. SKILLS
-   - Technologies you know
-   - Soft skills
-   - Certifications
+ - Technologies you know
+ - Soft skills
+ - Certifications
 
 3. PROJECTS (3-5 quality ones)
-   - What it is
-   - What problem it solves
-   - Technologies used
-   - Link to live site
-   - Link to code (GitHub)
+ - What it is
+ - What problem it solves
+ - Technologies used
+ - Link to live site
+ - Link to code (GitHub)
 
 4. CONTACT
-   - Email
-   - GitHub
-   - LinkedIn (optional)
+ - Email
+ - GitHub
+ - LinkedIn (optional)
 ```
 
 ### Project Quality Over Quantity
@@ -173,21 +173,21 @@ Your portfolio website is a project itself. It shows:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    TECHNOLOGY CHANGES FAST                                   │
+│ TECHNOLOGY CHANGES FAST │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   What's popular today may change in 2-3 years.                            │
-│   But LEARNING skills never go out of date.                                 │
-│                                                                              │
-│   LEARN HOW TO LEARN:                                                       │
-│   • Find resources quickly                                                  │
-│   • Understand documentation                                                │
-│   • Build projects to practice                                              │
-│   • Stay curious                                                            │
-│   • Adapt to change                                                         │
-│                                                                              │
-│   You can learn any technology if you know HOW to learn                    │
-│                                                                              │
+│ │
+│ What's popular today may change in 2-3 years. │
+│ But LEARNING skills never go out of date. │
+│ │
+│ LEARN HOW TO LEARN: │
+│ • Find resources quickly │
+│ • Understand documentation │
+│ • Build projects to practice │
+│ • Stay curious │
+│ • Adapt to change │
+│ │
+│ You can learn any technology if you know HOW to learn │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -232,7 +232,7 @@ Frontend Developer
 → UI/UX design
 → Performance optimization
 
-Backend Developer  
+Backend Developer 
 → Node.js, Python, PHP
 → Databases, APIs
 → Server management
@@ -285,23 +285,23 @@ There's no wrong answer. Try different things to discover your preference.
 JUNIOR DEVELOPER EXPECTATIONS:
 
 ความรู้TECHNICAL:
-✅ HTML, CSS, JavaScript fundamentals
-✅ Understanding of one framework (React, Vue, etc.)
-✅ Basic Git knowledge
-✅ Ability to read documentation
-✅ Portfolio with projects
+ HTML, CSS, JavaScript fundamentals
+ Understanding of one framework (React, Vue, etc.)
+ Basic Git knowledge
+ Ability to read documentation
+ Portfolio with projects
 
 SOFT SKILLS:
-✅ Willingness to learn
-✅ Communication skills
-✅ Problem-solving attitude
-✅ Teamwork
-✅ Professionalism
+ Willingness to learn
+ Communication skills
+ Problem-solving attitude
+ Teamwork
+ Professionalism
 
 THEY DON'T EXPECT:
-❌ Years of experience
-❌ Knowledge of everything
-❌ Perfect code
+ Years of experience
+ Knowledge of everything
+ Perfect code
 ```
 
 ### The Job Search
@@ -358,9 +358,9 @@ THEY DON'T EXPECT:
 
 ## Success Metrics
 - How will I know I'm progressing?
-  - [Metric 1]
-  - [Metric 2]
-  - [Metric 3]
+ - [Metric 1]
+ - [Metric 2]
+ - [Metric 3]
 ```
 
 ### Track Your Progress
@@ -374,7 +374,7 @@ Review weekly:
 
 ---
 
-## 🧪 Practice Exercises
+## Practice Exercises
 
 ### Exercise 1: SMART Goal
 
@@ -402,7 +402,7 @@ Create your 30-day action plan.
 
 ---
 
-## 📝 Career Resources
+## Career Resources
 
 ### Learning Platforms
 
@@ -427,17 +427,17 @@ Create your 30-day action plan.
 
 ---
 
-## 🎓 Track Complete
+## Track Complete
 
 You've completed Track 03: Business & Entrepreneurship!
 
 You now have essential soft skills:
 
-- ✅ Customer service excellence
-- ✅ Problem solving & research
-- ✅ Business communication
-- ✅ Entrepreneurship mindset
-- ✅ Career development
+- Customer service excellence
+- Problem solving & research
+- Business communication
+- Entrepreneurship mindset
+- Career development
 
 **These skills will set you apart and accelerate your career!**
 
@@ -445,10 +445,10 @@ You now have essential soft skills:
 
 <div align="center">
 
-**Your career is yours to build!** 🚀
+**Your career is yours to build!** 
 
 *Every day is an opportunity to grow.*
 
-🇰🇭
+
 
 </div>

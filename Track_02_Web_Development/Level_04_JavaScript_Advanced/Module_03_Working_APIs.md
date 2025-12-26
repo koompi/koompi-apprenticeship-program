@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,23 +21,23 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    WHAT IS AN API?                                           │
+│ WHAT IS AN API? │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   API = Application Programming Interface                                   │
-│                                                                              │
-│   Think of it as a waiter in a restaurant:                                  │
-│                                                                              │
-│   YOU (Client)          WAITER (API)          KITCHEN (Server)             │
-│   ════════════          ════════════          ════════════════             │
-│                                                                              │
-│   "I want pizza"  ────►  Takes order  ────►  Makes pizza                   │
-│                                                                              │
-│   Eats pizza     ◄────  Delivers food ◄────  Prepares dish                 │
-│                                                                              │
-│   You don't need to know HOW the kitchen works.                            │
-│   The waiter handles the communication.                                     │
-│                                                                              │
+│ │
+│ API = Application Programming Interface │
+│ │
+│ Think of it as a waiter in a restaurant: │
+│ │
+│ YOU (Client) WAITER (API) KITCHEN (Server) │
+│ ════════════ ════════════ ════════════════ │
+│ │
+│ "I want pizza" ────► Takes order ────► Makes pizza │
+│ │
+│ Eats pizza ◄──── Delivers food ◄──── Prepares dish │
+│ │
+│ You don't need to know HOW the kitchen works. │
+│ The waiter handles the communication. │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -83,23 +83,23 @@ By the end of this module, you will be able to:
 
 ```javascript
 fetch('https://api.example.com/users')
-    .then(response => response.json())
-    .then(data => console.log(data))
-    .catch(error => console.error('Error:', error));
+ .then(response => response.json())
+ .then(data => console.log(data))
+ .catch(error => console.error('Error:', error));
 ```
 
 ### With Async/Await
 
 ```javascript
 async function getUsers() {
-    try {
-        const response = await fetch('https://api.example.com/users');
-        const data = await response.json();
-        console.log(data);
-        return data;
-    } catch (error) {
-        console.error('Error:', error);
-    }
+ try {
+ const response = await fetch('https://api.example.com/users');
+ const data = await response.json();
+ console.log(data);
+ return data;
+ } catch (error) {
+ console.error('Error:', error);
+ }
 }
 ```
 
@@ -107,13 +107,13 @@ async function getUsers() {
 
 ```javascript
 async function fetchData(url) {
-    const response = await fetch(url);
-    
-    if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-    
-    return response.json();
+ const response = await fetch(url);
+ 
+ if (!response.ok) {
+ throw new Error(`HTTP error! Status: ${response.status}`);
+ }
+ 
+ return response.json();
 }
 ```
 
@@ -125,15 +125,15 @@ async function fetchData(url) {
 
 ```javascript
 async function createUser(userData) {
-    const response = await fetch('https://api.example.com/users', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(userData)
-    });
-    
-    return response.json();
+ const response = await fetch('https://api.example.com/users', {
+ method: 'POST',
+ headers: {
+ 'Content-Type': 'application/json'
+ },
+ body: JSON.stringify(userData)
+ });
+ 
+ return response.json();
 }
 
 // Usage
@@ -144,15 +144,15 @@ createUser({ name: 'Sokha', email: 'sokha@email.com' });
 
 ```javascript
 async function updateUser(id, userData) {
-    const response = await fetch(`https://api.example.com/users/${id}`, {
-        method: 'PUT',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(userData)
-    });
-    
-    return response.json();
+ const response = await fetch(`https://api.example.com/users/${id}`, {
+ method: 'PUT',
+ headers: {
+ 'Content-Type': 'application/json'
+ },
+ body: JSON.stringify(userData)
+ });
+ 
+ return response.json();
 }
 ```
 
@@ -160,11 +160,11 @@ async function updateUser(id, userData) {
 
 ```javascript
 async function deleteUser(id) {
-    const response = await fetch(`https://api.example.com/users/${id}`, {
-        method: 'DELETE'
-    });
-    
-    return response.ok;
+ const response = await fetch(`https://api.example.com/users/${id}`, {
+ method: 'DELETE'
+ });
+ 
+ return response.ok;
 }
 ```
 
@@ -172,16 +172,16 @@ async function deleteUser(id) {
 
 ```javascript
 async function fetchProtectedData() {
-    const token = 'your-auth-token';
-    
-    const response = await fetch('https://api.example.com/protected', {
-        headers: {
-            'Authorization': `Bearer ${token}`,
-            'Content-Type': 'application/json'
-        }
-    });
-    
-    return response.json();
+ const token = 'your-auth-token';
+ 
+ const response = await fetch('https://api.example.com/protected', {
+ headers: {
+ 'Authorization': `Bearer ${token}`,
+ 'Content-Type': 'application/json'
+ }
+ });
+ 
+ return response.json();
 }
 ```
 
@@ -196,14 +196,14 @@ async function fetchProtectedData() {
 // A text format for storing and transmitting data
 
 {
-    "name": "Sokha",
-    "age": 22,
-    "isStudent": true,
-    "skills": ["HTML", "CSS", "JavaScript"],
-    "address": {
-        "city": "Phnom Penh",
-        "country": "Cambodia"
-    }
+ "name": "Sokha",
+ "age": 22,
+ "isStudent": true,
+ "skills": ["HTML", "CSS", "JavaScript"],
+ "address": {
+ "city": "Phnom Penh",
+ "country": "Cambodia"
+ }
 }
 ```
 
@@ -213,12 +213,12 @@ async function fetchProtectedData() {
 // String to Object
 const jsonString = '{"name": "Sokha", "age": 22}';
 const obj = JSON.parse(jsonString);
-console.log(obj.name);  // "Sokha"
+console.log(obj.name); // "Sokha"
 
 // Object to String
 const data = { name: "Dara", age: 25 };
 const json = JSON.stringify(data);
-console.log(json);  // '{"name":"Dara","age":25}'
+console.log(json); // '{"name":"Dara","age":25}'
 
 // Pretty print
 const prettyJson = JSON.stringify(data, null, 2);
@@ -228,16 +228,16 @@ const prettyJson = JSON.stringify(data, null, 2);
 
 ```javascript
 async function displayUsers() {
-    try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/users');
-        const users = await response.json();
-        
-        users.forEach(user => {
-            console.log(`${user.name} - ${user.email}`);
-        });
-    } catch (error) {
-        console.error('Failed to load users:', error);
-    }
+ try {
+ const response = await fetch('https://jsonplaceholder.typicode.com/users');
+ const users = await response.json();
+ 
+ users.forEach(user => {
+ console.log(`${user.name} - ${user.email}`);
+ });
+ } catch (error) {
+ console.error('Failed to load users:', error);
+ }
 }
 ```
 
@@ -253,20 +253,20 @@ const API_URL = 'https://jsonplaceholder.typicode.com';
 
 // Get posts
 async function getPosts() {
-    const response = await fetch(`${API_URL}/posts`);
-    return response.json();
+ const response = await fetch(`${API_URL}/posts`);
+ return response.json();
 }
 
 // Get single post
 async function getPost(id) {
-    const response = await fetch(`${API_URL}/posts/${id}`);
-    return response.json();
+ const response = await fetch(`${API_URL}/posts/${id}`);
+ return response.json();
 }
 
 // Get post's comments
 async function getPostComments(postId) {
-    const response = await fetch(`${API_URL}/posts/${postId}/comments`);
-    return response.json();
+ const response = await fetch(`${API_URL}/posts/${postId}/comments`);
+ return response.json();
 }
 ```
 
@@ -276,27 +276,27 @@ async function getPostComments(postId) {
 const API_KEY = 'your-api-key';
 
 async function getWeather(city) {
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
-    
-    try {
-        const response = await fetch(url);
-        
-        if (!response.ok) {
-            throw new Error('City not found');
-        }
-        
-        const data = await response.json();
-        
-        return {
-            city: data.name,
-            temp: data.main.temp,
-            description: data.weather[0].description,
-            humidity: data.main.humidity
-        };
-    } catch (error) {
-        console.error('Weather fetch failed:', error);
-        throw error;
-    }
+ const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
+ 
+ try {
+ const response = await fetch(url);
+ 
+ if (!response.ok) {
+ throw new Error('City not found');
+ }
+ 
+ const data = await response.json();
+ 
+ return {
+ city: data.name,
+ temp: data.main.temp,
+ description: data.weather[0].description,
+ humidity: data.main.humidity
+ };
+ } catch (error) {
+ console.error('Weather fetch failed:', error);
+ throw error;
+ }
 }
 
 // Usage
@@ -312,58 +312,58 @@ console.log(`${weather.city}: ${weather.temp}°C, ${weather.description}`);
 
 ```javascript
 class ApiClient {
-    constructor(baseURL) {
-        this.baseURL = baseURL;
-    }
-    
-    async request(endpoint, options = {}) {
-        const url = `${this.baseURL}${endpoint}`;
-        
-        const config = {
-            headers: {
-                'Content-Type': 'application/json',
-                ...options.headers
-            },
-            ...options
-        };
-        
-        if (config.body) {
-            config.body = JSON.stringify(config.body);
-        }
-        
-        const response = await fetch(url, config);
-        
-        if (!response.ok) {
-            const error = await response.json();
-            throw new Error(error.message || 'Request failed');
-        }
-        
-        return response.json();
-    }
-    
-    get(endpoint) {
-        return this.request(endpoint);
-    }
-    
-    post(endpoint, data) {
-        return this.request(endpoint, {
-            method: 'POST',
-            body: data
-        });
-    }
-    
-    put(endpoint, data) {
-        return this.request(endpoint, {
-            method: 'PUT',
-            body: data
-        });
-    }
-    
-    delete(endpoint) {
-        return this.request(endpoint, {
-            method: 'DELETE'
-        });
-    }
+ constructor(baseURL) {
+ this.baseURL = baseURL;
+ }
+ 
+ async request(endpoint, options = {}) {
+ const url = `${this.baseURL}${endpoint}`;
+ 
+ const config = {
+ headers: {
+ 'Content-Type': 'application/json',
+ ...options.headers
+ },
+ ...options
+ };
+ 
+ if (config.body) {
+ config.body = JSON.stringify(config.body);
+ }
+ 
+ const response = await fetch(url, config);
+ 
+ if (!response.ok) {
+ const error = await response.json();
+ throw new Error(error.message || 'Request failed');
+ }
+ 
+ return response.json();
+ }
+ 
+ get(endpoint) {
+ return this.request(endpoint);
+ }
+ 
+ post(endpoint, data) {
+ return this.request(endpoint, {
+ method: 'POST',
+ body: data
+ });
+ }
+ 
+ put(endpoint, data) {
+ return this.request(endpoint, {
+ method: 'PUT',
+ body: data
+ });
+ }
+ 
+ delete(endpoint) {
+ return this.request(endpoint, {
+ method: 'DELETE'
+ });
+ }
 }
 
 // Usage
@@ -376,7 +376,7 @@ await api.delete('/users/1');
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Fetch Users
 
@@ -404,7 +404,7 @@ Create a simple weather widget that:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 | Concept | Description |
 |---------|-------------|
@@ -418,20 +418,20 @@ Create a simple weather widget that:
 
 ```javascript
 async function fetchData(url) {
-    try {
-        const response = await fetch(url);
-        if (!response.ok) throw new Error('Failed');
-        return await response.json();
-    } catch (error) {
-        console.error(error);
-        throw error;
-    }
+ try {
+ const response = await fetch(url);
+ if (!response.ok) throw new Error('Failed');
+ return await response.json();
+ } catch (error) {
+ console.error(error);
+ throw error;
+ }
 }
 ```
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Coming Next**: Module 04 - Error Handling & Debugging
 
@@ -441,7 +441,7 @@ async function fetchData(url) {
 
 <div align="center">
 
-**APIs connect you to the world!** 🌐
+**APIs connect you to the world!** 
 
 *Every modern app uses APIs.*
 

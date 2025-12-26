@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,21 +21,21 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    THE 4 C'S                                                 │
+│ THE 4 C'S │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   CLEAR                                                                      │
-│   Say exactly what you mean. Avoid ambiguity.                               │
-│                                                                              │
-│   CONCISE                                                                    │
-│   Use fewer words. Get to the point.                                        │
-│                                                                              │
-│   CORRECT                                                                    │
-│   Check facts. Proofread. Be accurate.                                      │
-│                                                                              │
-│   COURTEOUS                                                                  │
-│   Be polite. Respect others. Stay professional.                             │
-│                                                                              │
+│ │
+│ CLEAR │
+│ Say exactly what you mean. Avoid ambiguity. │
+│ │
+│ CONCISE │
+│ Use fewer words. Get to the point. │
+│ │
+│ CORRECT │
+│ Check facts. Proofread. Be accurate. │
+│ │
+│ COURTEOUS │
+│ Be polite. Respect others. Stay professional. │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -129,9 +129,9 @@ By the end of this module, you will be able to:
 Use the **SBI Model**:
 
 ```
-S - SITUATION    When/where did this happen?
-B - BEHAVIOR     What specifically did they do?
-I - IMPACT       How did it affect you/others/work?
+S - SITUATION When/where did this happen?
+B - BEHAVIOR What specifically did they do?
+I - IMPACT How did it affect you/others/work?
 ```
 
 **Example:**
@@ -223,28 +223,28 @@ Sometimes you need to:
 
 ```
 1. PREPARE
-   - Know what you want to say
-   - Anticipate reactions
-   - Choose the right time/place
+ - Know what you want to say
+ - Anticipate reactions
+ - Choose the right time/place
 
 2. OPEN
-   - State your intention positively
-   - "I want to discuss something to improve..."
+ - State your intention positively
+ - "I want to discuss something to improve..."
 
 3. SHARE
-   - State facts, not judgments
-   - Use "I" statements
-   - Be specific
+ - State facts, not judgments
+ - Use "I" statements
+ - Be specific
 
 4. LISTEN
-   - Let them respond
-   - Acknowledge their perspective
-   - Ask questions
+ - Let them respond
+ - Acknowledge their perspective
+ - Ask questions
 
 5. RESOLVE
-   - Find common ground
-   - Agree on next steps
-   - Follow up
+ - Find common ground
+ - Agree on next steps
+ - Follow up
 ```
 
 ### Example: Admitting a Mistake
@@ -298,7 +298,7 @@ Your network provides:
 
 ---
 
-## 🧪 Practice Exercises
+## Practice Exercises
 
 ### Exercise 1: Professional Message
 
@@ -336,7 +336,7 @@ List 3 questions you could ask in a team meeting about a new project.
 
 ---
 
-## 📝 Communication Cheat Sheet
+## Communication Cheat Sheet
 
 | Situation | Key Phrase |
 |-----------|------------|
@@ -350,7 +350,7 @@ List 3 questions you could ask in a team meeting about a new project.
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Daily Practice:**
 
@@ -367,7 +367,7 @@ List 3 questions you could ask in a team meeting about a new project.
 
 <div align="center">
 
-**Communication is a superpower!** 💬
+**Communication is a superpower!** 
 
 *How you say something matters as much as what you say.*
 

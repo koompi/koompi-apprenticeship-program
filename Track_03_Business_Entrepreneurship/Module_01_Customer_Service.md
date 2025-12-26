@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,25 +21,25 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    THE IMPACT OF CUSTOMER SERVICE                            │
+│ THE IMPACT OF CUSTOMER SERVICE │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   GOOD EXPERIENCE                      BAD EXPERIENCE                        │
-│   ═══════════════                      ══════════════                        │
-│                                                                              │
-│   😊 Customer happy                    😠 Customer angry                     │
-│      ↓                                    ↓                                  │
-│   📢 Tells 3-5 friends                📢 Tells 10-15 people                 │
-│      ↓                                    ↓                                  │
-│   🔄 Comes back again                  🚫 Never returns                      │
-│      ↓                                    ↓                                  │
-│   📈 Business grows                   📉 Business loses                      │
-│                                                                              │
-│   ONE INTERACTION CAN:                                                       │
-│   • Create a lifelong customer        • Lose a customer forever             │
-│   • Generate referrals                • Create negative publicity           │
-│   • Build reputation                   • Damage brand                        │
-│                                                                              │
+│ │
+│ GOOD EXPERIENCE BAD EXPERIENCE │
+│ ═══════════════ ══════════════ │
+│ │
+│ Customer happy Customer angry │
+│ ↓ ↓ │
+│ Tells 3-5 friends Tells 10-15 people │
+│ ↓ ↓ │
+│ Comes back again Never returns │
+│ ↓ ↓ │
+│ Business grows Business loses │
+│ │
+│ ONE INTERACTION CAN: │
+│ • Create a lifelong customer • Lose a customer forever │
+│ • Generate referrals • Create negative publicity │
+│ • Build reputation • Damage brand │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -136,9 +136,9 @@ First, let's try restarting, which often solves this issue..."
 ### The HEAT Method
 
 ```
-H - HEAR       Listen fully without interrupting
-E - EMPATHIZE  Show you understand their frustration
-A - APOLOGIZE  Say sorry (even if it's not your fault)
+H - HEAR Listen fully without interrupting
+E - EMPATHIZE Show you understand their frustration
+A - APOLOGIZE Say sorry (even if it's not your fault)
 T - TAKE ACTION Solve the problem or find who can
 ```
 
@@ -229,13 +229,13 @@ I can help with?"
 Follow a systematic approach:
 
 ```
-1. IDENTIFY    What exactly is the problem?
-2. REPRODUCE   Can you recreate the issue?
-3. ISOLATE     What changed? What's different?
-4. RESEARCH    Check known issues, documentation
-5. SOLVE       Apply fix
-6. VERIFY      Confirm it's working
-7. PREVENT     Document to prevent recurrence
+1. IDENTIFY What exactly is the problem?
+2. REPRODUCE Can you recreate the issue?
+3. ISOLATE What changed? What's different?
+4. RESEARCH Check known issues, documentation
+5. SOLVE Apply fix
+6. VERIFY Confirm it's working
+7. PREVENT Document to prevent recurrence
 ```
 
 ### Explaining Tech to Non-Tech Customers
@@ -259,10 +259,10 @@ overriding it. Let me fix that for you."
 It's okay not to know! Handle it well:
 
 ```
-❌ "I don't know"
+ "I don't know"
 
-✅ "That's a great question. Let me check with my team 
-   and get back to you within an hour."
+ "That's a great question. Let me check with my team 
+ and get back to you within an hour."
 ```
 
 ---
@@ -302,7 +302,7 @@ Trust is built through:
 
 ---
 
-## 🧪 Practice Exercises
+## Practice Exercises
 
 ### Exercise 1: Role Play - Inquiry
 
@@ -347,7 +347,7 @@ Answer these questions:
 
 ---
 
-## 📝 Key Principles
+## Key Principles
 
 | Principle | Practice |
 |-----------|----------|
@@ -360,7 +360,7 @@ Answer these questions:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Daily Practice:**
 
@@ -377,7 +377,7 @@ Answer these questions:
 
 <div align="center">
 
-**Every customer is an opportunity!** 🤝
+**Every customer is an opportunity!** 
 
 *Create experiences worth talking about.*
 

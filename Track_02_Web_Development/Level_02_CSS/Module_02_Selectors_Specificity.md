@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -24,22 +24,22 @@ Target elements by their tag name:
 ```css
 /* All paragraphs */
 p {
-    color: gray;
+ color: gray;
 }
 
 /* All headings level 1 */
 h1 {
-    font-size: 32px;
+ font-size: 32px;
 }
 
 /* All links */
 a {
-    color: blue;
+ color: blue;
 }
 
 /* All list items */
 li {
-    margin-bottom: 10px;
+ margin-bottom: 10px;
 }
 ```
 
@@ -50,9 +50,9 @@ The `*` targets everything:
 ```css
 /* Affects every element */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
 ```
 
@@ -63,13 +63,13 @@ Style multiple elements the same way with commas:
 ```css
 /* All these get the same style */
 h1, h2, h3 {
-    font-family: Georgia, serif;
-    color: #333;
+ font-family: Georgia, serif;
+ color: #333;
 }
 
 /* Headers and paragraphs */
 h1, h2, p {
-    margin-bottom: 15px;
+ margin-bottom: 15px;
 }
 ```
 
@@ -93,9 +93,9 @@ Classes let you style specific elements. Add a `class` attribute in HTML, then t
 
 ```css
 .intro {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #2c3e50;
+ font-size: 1.2em;
+ font-weight: bold;
+ color: #2c3e50;
 }
 ```
 
@@ -118,19 +118,19 @@ An element can have multiple classes:
 
 ```css
 .card {
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 10px;
+ border: 1px solid #ddd;
+ padding: 20px;
+ margin: 10px;
 }
 
 .featured {
-    border-color: gold;
-    background-color: #fffdf0;
+ border-color: gold;
+ background-color: #fffdf0;
 }
 
 .sale {
-    border-color: red;
-    background-color: #fff0f0;
+ border-color: red;
+ background-color: #fff0f0;
 }
 ```
 
@@ -138,21 +138,21 @@ An element can have multiple classes:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    CLASS NAMING BEST PRACTICES                               │
+│ CLASS NAMING BEST PRACTICES │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   ❌ BAD (Based on appearance)          ✅ GOOD (Based on purpose)          │
-│   ════════════════════════════          ══════════════════════════          │
-│                                                                              │
-│   .red-text                              .error-message                      │
-│   .big-font                              .page-title                         │
-│   .left-box                              .sidebar                            │
-│   .blue-button                           .primary-button                     │
-│   .margin-20                             .card                               │
-│                                                                              │
-│   WHY? If you change the color from red to orange, ".red-text"              │
-│   becomes confusing. ".error-message" stays meaningful.                     │
-│                                                                              │
+│ │
+│ BAD (Based on appearance) GOOD (Based on purpose) │
+│ ════════════════════════════ ══════════════════════════ │
+│ │
+│ .red-text .error-message │
+│ .big-font .page-title │
+│ .left-box .sidebar │
+│ .blue-button .primary-button │
+│ .margin-20 .card │
+│ │
+│ WHY? If you change the color from red to orange, ".red-text" │
+│ becomes confusing. ".error-message" stays meaningful. │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -168,11 +168,11 @@ IDs are unique identifiers. Each ID should only appear ONCE per page.
 
 ```html
 <header id="main-header">
-    <h1>Site Title</h1>
+ <h1>Site Title</h1>
 </header>
 
 <nav id="main-nav">
-    <a href="#">Home</a>
+ <a href="#">Home</a>
 </nav>
 ```
 
@@ -180,13 +180,13 @@ IDs are unique identifiers. Each ID should only appear ONCE per page.
 
 ```css
 #main-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
+ background-color: #333;
+ color: white;
+ padding: 20px;
 }
 
 #main-nav {
-    background-color: #444;
+ background-color: #444;
 }
 ```
 
@@ -205,16 +205,16 @@ IDs are unique identifiers. Each ID should only appear ONCE per page.
 
 ```css
 /* Use CLASSES for: */
-.button { }          /* Multiple buttons */
-.card { }            /* Multiple cards */
-.nav-link { }        /* Multiple nav links */
-.error { }           /* Any error message */
+.button { } /* Multiple buttons */
+.card { } /* Multiple cards */
+.nav-link { } /* Multiple nav links */
+.error { } /* Any error message */
 
 /* Use IDs for: */
-#main-header { }     /* Only one header */
-#footer { }          /* Only one footer */
-#contact-form { }    /* Specific form */
-#hero-section { }    /* Unique section */
+#main-header { } /* Only one header */
+#footer { } /* Only one footer */
+#contact-form { } /* Specific form */
+#hero-section { } /* Unique section */
 ```
 
 ---
@@ -228,18 +228,18 @@ Selects elements inside other elements:
 ```css
 /* Paragraphs inside articles */
 article p {
-    line-height: 1.8;
+ line-height: 1.8;
 }
 
 /* Links inside navigation */
 nav a {
-    text-decoration: none;
-    color: white;
+ text-decoration: none;
+ color: white;
 }
 
 /* List items inside unordered lists inside nav */
 nav ul li {
-    display: inline-block;
+ display: inline-block;
 }
 ```
 
@@ -250,7 +250,7 @@ Selects direct children only:
 ```css
 /* Only direct child paragraphs of article */
 article > p {
-    font-size: 18px;
+ font-size: 18px;
 }
 ```
 
@@ -258,10 +258,10 @@ article > p {
 
 ```html
 <article>
-    <p>Direct child - selected</p>
-    <div>
-        <p>Nested paragraph - NOT selected with ></p>
-    </div>
+ <p>Direct child - selected</p>
+ <div>
+ <p>Nested paragraph - NOT selected with ></p>
+ </div>
 </article>
 ```
 
@@ -272,17 +272,17 @@ Target elements with specific class:
 ```css
 /* Only paragraphs with intro class */
 p.intro {
-    font-weight: bold;
+ font-weight: bold;
 }
 
 /* Only links with nav-link class */
 a.nav-link {
-    padding: 10px;
+ padding: 10px;
 }
 
 /* Only divs with card class */
 div.card {
-    border-radius: 8px;
+ border-radius: 8px;
 }
 ```
 
@@ -293,12 +293,12 @@ Target elements with multiple classes:
 ```css
 /* Element with BOTH classes */
 .card.featured {
-    border: 2px solid gold;
+ border: 2px solid gold;
 }
 
 /* Different from: */
 .card .featured {
-    /* This selects .featured INSIDE .card */
+ /* This selects .featured INSIDE .card */
 }
 ```
 
@@ -311,22 +311,22 @@ Target elements with multiple classes:
 ```css
 /* Links with target attribute */
 a[target] {
-    font-weight: bold;
+ font-weight: bold;
 }
 
 /* Inputs that are required */
 input[required] {
-    border-color: red;
+ border-color: red;
 }
 
 /* Links that open in new tab */
 a[target="_blank"] {
-    /* Show external link icon */
+ /* Show external link icon */
 }
 
 /* Inputs of type email */
 input[type="email"] {
-    background-color: #f9f9f9;
+ background-color: #f9f9f9;
 }
 ```
 
@@ -345,17 +345,17 @@ input[type="email"] {
 ```css
 /* External links (start with http) */
 a[href^="http"] {
-    color: blue;
+ color: blue;
 }
 
 /* PDF downloads (end with .pdf) */
 a[href$=".pdf"]::after {
-    content: " (PDF)";
+ content: " (PDF)";
 }
 
 /* All button classes */
 [class*="button"] {
-    cursor: pointer;
+ cursor: pointer;
 }
 ```
 
@@ -372,24 +372,24 @@ Pseudo-classes select elements based on their **state** or **position**.
 ```css
 /* Mouse hover */
 a:hover {
-    color: orange;
-    text-decoration: underline;
+ color: orange;
+ text-decoration: underline;
 }
 
 /* Being clicked */
 button:active {
-    transform: scale(0.98);
+ transform: scale(0.98);
 }
 
 /* Keyboard focus */
 input:focus {
-    border-color: blue;
-    outline: none;
+ border-color: blue;
+ outline: none;
 }
 
 /* Visited links */
 a:visited {
-    color: purple;
+ color: purple;
 }
 ```
 
@@ -398,22 +398,22 @@ a:visited {
 ```css
 /* First child */
 li:first-child {
-    font-weight: bold;
+ font-weight: bold;
 }
 
 /* Last child */
 li:last-child {
-    border-bottom: none;
+ border-bottom: none;
 }
 
 /* Nth child (every 2nd item) */
 tr:nth-child(2n) {
-    background-color: #f2f2f2;
+ background-color: #f2f2f2;
 }
 
 /* Nth child (every 3rd item starting from 1st) */
 li:nth-child(3n+1) {
-    color: red;
+ color: red;
 }
 ```
 
@@ -422,23 +422,23 @@ li:nth-child(3n+1) {
 ```css
 /* Disabled inputs */
 input:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
+ background-color: #ccc;
+ cursor: not-allowed;
 }
 
 /* Checked checkboxes */
 input:checked {
-    /* Styles for checked state */
+ /* Styles for checked state */
 }
 
 /* Valid input */
 input:valid {
-    border-color: green;
+ border-color: green;
 }
 
 /* Invalid input */
 input:invalid {
-    border-color: red;
+ border-color: red;
 }
 ```
 
@@ -454,22 +454,22 @@ When multiple styles target the same element, **specificity** determines which w
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    SPECIFICITY HIERARCHY                                     │
-│                    (from lowest to highest)                                  │
+│ SPECIFICITY HIERARCHY │
+│ (from lowest to highest) │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   1. Element selectors           p, h1, div, a                    (0,0,1)  │
-│                                                                              │
-│   2. Class selectors             .intro, .button, .nav-link       (0,1,0)  │
-│      Attribute selectors         [type="email"]                             │
-│      Pseudo-classes              :hover, :first-child                       │
-│                                                                              │
-│   3. ID selectors                #header, #main-nav               (1,0,0)  │
-│                                                                              │
-│   4. Inline styles               style="color: red"              (1,0,0,0) │
-│                                                                              │
-│   5. !important                  color: red !important;           (wins)    │
-│                                                                              │
+│ │
+│ 1. Element selectors p, h1, div, a (0,0,1) │
+│ │
+│ 2. Class selectors .intro, .button, .nav-link (0,1,0) │
+│ Attribute selectors [type="email"] │
+│ Pseudo-classes :hover, :first-child │
+│ │
+│ 3. ID selectors #header, #main-nav (1,0,0) │
+│ │
+│ 4. Inline styles style="color: red" (1,0,0,0) │
+│ │
+│ 5. !important color: red !important; (wins) │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -478,13 +478,13 @@ When multiple styles target the same element, **specificity** determines which w
 Count selectors in each category: (ID, Class, Element)
 
 ```css
-p { }                    /* (0,0,1) = 1 */
-.intro { }               /* (0,1,0) = 10 */
-p.intro { }              /* (0,1,1) = 11 */
-#header { }              /* (1,0,0) = 100 */
-#header p { }            /* (1,0,1) = 101 */
-#header .intro { }       /* (1,1,0) = 110 */
-#header p.intro { }      /* (1,1,1) = 111 */
+p { } /* (0,0,1) = 1 */
+.intro { } /* (0,1,0) = 10 */
+p.intro { } /* (0,1,1) = 11 */
+#header { } /* (1,0,0) = 100 */
+#header p { } /* (1,0,1) = 101 */
+#header .intro { } /* (1,1,0) = 110 */
+#header p.intro { } /* (1,1,1) = 111 */
 ```
 
 ### Example: Which Wins?
@@ -494,10 +494,10 @@ p.intro { }              /* (0,1,1) = 11 */
 ```
 
 ```css
-p { color: black; }                    /* (0,0,1) */
-.highlight { color: yellow; }          /* (0,1,0) - wins over p */
-p.highlight { color: orange; }         /* (0,1,1) - wins over .highlight */
-#intro { color: blue; }                /* (1,0,0) - WINS! Highest specificity */
+p { color: black; } /* (0,0,1) */
+.highlight { color: yellow; } /* (0,1,0) - wins over p */
+p.highlight { color: orange; } /* (0,1,1) - wins over .highlight */
+#intro { color: blue; } /* (1,0,0) - WINS! Highest specificity */
 ```
 
 Result: **blue** wins!
@@ -507,12 +507,12 @@ Result: **blue** wins!
 ```css
 /* DON'T do this */
 p {
-    color: red !important;  /* Overrides everything - bad practice */
+ color: red !important; /* Overrides everything - bad practice */
 }
 
 /* Instead, use more specific selectors */
 article p.intro {
-    color: red;
+ color: red;
 }
 ```
 
@@ -520,7 +520,7 @@ article p.intro {
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Selector Types
 
@@ -576,7 +576,7 @@ Style a form using:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Selector Types**
 
@@ -599,7 +599,7 @@ Style a form using:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 03:**
 
@@ -617,7 +617,7 @@ Style a form using:
 
 <div align="center">
 
-**Precision targeting unlocked!** 🎯
+**Precision targeting unlocked!** 
 
 *Now you can style exactly what you want.*
 

@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -111,8 +111,8 @@ NEXT_PUBLIC_API_URL=http://localhost:3000/api
 ### Naming Convention
 
 ```
-NEXT_PUBLIC_*  → Available in browser (be careful!)
-Other          → Server-only (secure)
+NEXT_PUBLIC_* → Available in browser (be careful!)
+Other → Server-only (secure)
 ```
 
 ### In Vercel Dashboard
@@ -153,11 +153,11 @@ Create `netlify.toml`:
 
 ```toml
 [build]
-  command = "npm run build"
-  publish = ".next"
+ command = "npm run build"
+ publish = ".next"
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs"
+ package = "@netlify/plugin-nextjs"
 ```
 
 ### Railway
@@ -210,8 +210,8 @@ docker run -p 3000:3000 my-app
 1. Go to project Settings → Domains
 2. Add your domain (e.g., `myapp.com`)
 3. Add DNS records at your registrar:
-   - A record: `76.76.21.21`
-   - CNAME for www: `cname.vercel-dns.com`
+ - A record: `76.76.21.21`
+ - CNAME for www: `cname.vercel-dns.com`
 4. Wait for SSL certificate (automatic)
 
 ### With Subdomain
@@ -229,17 +229,17 @@ docker run -p 3000:3000 my-app
 import Image from 'next/image';
 
 export default function Hero() {
-  return (
-    <Image
-      src="/hero.jpg"
-      alt="Hero image"
-      width={1200}
-      height={600}
-      priority  // Load immediately
-      placeholder="blur"  // Show blur while loading
-      blurDataURL="..."   // Base64 blur image
-    />
-  );
+ return (
+ <Image
+ src="/hero.jpg"
+ alt="Hero image"
+ width={1200}
+ height={600}
+ priority // Load immediately
+ placeholder="blur" // Show blur while loading
+ blurDataURL="..." // Base64 blur image
+ />
+ );
 }
 ```
 
@@ -252,11 +252,11 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en" className={inter.className}>
-      <body>{children}</body>
-    </html>
-  );
+ return (
+ <html lang="en" className={inter.className}>
+ <body>{children}</body>
+ </html>
+ );
 }
 ```
 
@@ -268,11 +268,11 @@ npm install @next/bundle-analyzer
 
 # next.config.js
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
+ enabled: process.env.ANALYZE === 'true',
 });
 
 module.exports = withBundleAnalyzer({
-  // your config
+ // your config
 });
 
 # Run analysis
@@ -290,14 +290,14 @@ ANALYZE=true npm run build
 import { Analytics } from '@vercel/analytics/react';
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>
-        {children}
-        <Analytics />
-      </body>
-    </html>
-  );
+ return (
+ <html lang="en">
+ <body>
+ {children}
+ <Analytics />
+ </body>
+ </html>
+ );
 }
 ```
 
@@ -307,14 +307,14 @@ export default function RootLayout({ children }) {
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>
-        {children}
-        <SpeedInsights />
-      </body>
-    </html>
-  );
+ return (
+ <html lang="en">
+ <body>
+ {children}
+ <SpeedInsights />
+ </body>
+ </html>
+ );
 }
 ```
 
@@ -333,7 +333,7 @@ npx @sentry/wizard@latest -i nextjs
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Local Build
 
@@ -357,7 +357,7 @@ Add Vercel Analytics to your app.
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 | Topic | Key Points |
 |-------|------------|
@@ -370,14 +370,14 @@ Add Vercel Analytics to your app.
 **Deployment Commands:**
 
 ```bash
-npm run build     # Build locally
-vercel            # Deploy to Vercel
-vercel --prod     # Deploy to production
+npm run build # Build locally
+vercel # Deploy to Vercel
+vercel --prod # Deploy to production
 ```
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Coming Next**: Module 06 - Project: E-commerce Store
 
@@ -387,7 +387,7 @@ vercel --prod     # Deploy to production
 
 <div align="center">
 
-**Your app is live!** 🌐
+**Your app is live!** 
 
 *From localhost to the world.*
 

@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,7 +21,7 @@ By the end of this module, you will be able to:
 
 ```javascript
 // SyntaxError - Invalid code structure
-const x = ;  // Unexpected token
+const x = ; // Unexpected token
 
 // ReferenceError - Using undefined variable
 console.log(undefinedVar);
@@ -54,12 +54,12 @@ decodeURI('%');
 
 ```javascript
 try {
-    // Code that might fail
-    const result = riskyOperation();
-    console.log(result);
+ // Code that might fail
+ const result = riskyOperation();
+ console.log(result);
 } catch (error) {
-    // Handle the error
-    console.error('Something went wrong:', error.message);
+ // Handle the error
+ console.error('Something went wrong:', error.message);
 }
 ```
 
@@ -69,13 +69,13 @@ Runs whether success or failure:
 
 ```javascript
 try {
-    const data = await fetchData();
-    displayData(data);
+ const data = await fetchData();
+ displayData(data);
 } catch (error) {
-    showErrorMessage(error);
+ showErrorMessage(error);
 } finally {
-    // Always runs
-    hideLoadingSpinner();
+ // Always runs
+ hideLoadingSpinner();
 }
 ```
 
@@ -83,11 +83,11 @@ try {
 
 ```javascript
 try {
-    throw new Error('Something failed');
+ throw new Error('Something failed');
 } catch (error) {
-    console.log(error.name);     // "Error"
-    console.log(error.message);  // "Something failed"
-    console.log(error.stack);    // Stack trace
+ console.log(error.name); // "Error"
+ console.log(error.message); // "Something failed"
+ console.log(error.stack); // Stack trace
 }
 ```
 
@@ -99,16 +99,16 @@ try {
 
 ```javascript
 function divide(a, b) {
-    if (b === 0) {
-        throw new Error('Cannot divide by zero');
-    }
-    return a / b;
+ if (b === 0) {
+ throw new Error('Cannot divide by zero');
+ }
+ return a / b;
 }
 
 try {
-    const result = divide(10, 0);
+ const result = divide(10, 0);
 } catch (error) {
-    console.log(error.message);  // "Cannot divide by zero"
+ console.log(error.message); // "Cannot divide by zero"
 }
 ```
 
@@ -124,9 +124,9 @@ throw new RangeError('Value out of range');
 
 // Throw custom object
 throw {
-    code: 'VALIDATION_ERROR',
-    message: 'Invalid email format',
-    field: 'email'
+ code: 'VALIDATION_ERROR',
+ message: 'Invalid email format',
+ field: 'email'
 };
 ```
 
@@ -134,15 +134,15 @@ throw {
 
 ```javascript
 try {
-    processData();
+ processData();
 } catch (error) {
-    if (error.code === 'NETWORK_ERROR') {
-        // Handle network error
-        showOfflineMessage();
-    } else {
-        // Re-throw others
-        throw error;
-    }
+ if (error.code === 'NETWORK_ERROR') {
+ // Handle network error
+ showOfflineMessage();
+ } else {
+ // Re-throw others
+ throw error;
+ }
 }
 ```
 
@@ -154,34 +154,34 @@ try {
 
 ```javascript
 class ValidationError extends Error {
-    constructor(message, field) {
-        super(message);
-        this.name = 'ValidationError';
-        this.field = field;
-    }
+ constructor(message, field) {
+ super(message);
+ this.name = 'ValidationError';
+ this.field = field;
+ }
 }
 
 class NetworkError extends Error {
-    constructor(message, statusCode) {
-        super(message);
-        this.name = 'NetworkError';
-        this.statusCode = statusCode;
-    }
+ constructor(message, statusCode) {
+ super(message);
+ this.name = 'NetworkError';
+ this.statusCode = statusCode;
+ }
 }
 
 // Usage
 function validateEmail(email) {
-    if (!email.includes('@')) {
-        throw new ValidationError('Invalid email format', 'email');
-    }
+ if (!email.includes('@')) {
+ throw new ValidationError('Invalid email format', 'email');
+ }
 }
 
 try {
-    validateEmail('invalid-email');
+ validateEmail('invalid-email');
 } catch (error) {
-    if (error instanceof ValidationError) {
-        console.log(`Field ${error.field}: ${error.message}`);
-    }
+ if (error instanceof ValidationError) {
+ console.log(`Field ${error.field}: ${error.message}`);
+ }
 }
 ```
 
@@ -193,35 +193,35 @@ try {
 
 ```javascript
 fetchData()
-    .then(data => process(data))
-    .then(result => display(result))
-    .catch(error => {
-        // Catches error from any .then()
-        console.error('Pipeline failed:', error);
-    });
+ .then(data => process(data))
+ .then(result => display(result))
+ .catch(error => {
+ // Catches error from any .then()
+ console.error('Pipeline failed:', error);
+ });
 ```
 
 ### With Async/Await
 
 ```javascript
 async function loadData() {
-    try {
-        const response = await fetch(url);
-        
-        if (!response.ok) {
-            throw new NetworkError('Request failed', response.status);
-        }
-        
-        const data = await response.json();
-        return data;
-    } catch (error) {
-        if (error instanceof NetworkError) {
-            showNetworkError(error);
-        } else {
-            showGenericError(error);
-        }
-        throw error;  // Re-throw if caller needs to know
-    }
+ try {
+ const response = await fetch(url);
+ 
+ if (!response.ok) {
+ throw new NetworkError('Request failed', response.status);
+ }
+ 
+ const data = await response.json();
+ return data;
+ } catch (error) {
+ if (error instanceof NetworkError) {
+ showNetworkError(error);
+ } else {
+ showGenericError(error);
+ }
+ throw error; // Re-throw if caller needs to know
+ }
 }
 ```
 
@@ -229,18 +229,18 @@ async function loadData() {
 
 ```javascript
 async function safeOperation(operation, fallback) {
-    try {
-        return await operation();
-    } catch (error) {
-        console.error('Operation failed:', error);
-        return fallback;
-    }
+ try {
+ return await operation();
+ } catch (error) {
+ console.error('Operation failed:', error);
+ return fallback;
+ }
 }
 
 // Usage
 const users = await safeOperation(
-    () => fetchUsers(),
-    []  // Fallback to empty array
+ () => fetchUsers(),
+ [] // Fallback to empty array
 );
 ```
 
@@ -258,8 +258,8 @@ console.info('Info message');
 
 // Table for arrays/objects
 console.table([
-    { name: 'Sokha', age: 22 },
-    { name: 'Dara', age: 25 }
+ { name: 'Sokha', age: 22 },
+ { name: 'Dara', age: 25 }
 ]);
 
 // Grouping
@@ -271,11 +271,11 @@ console.groupEnd();
 // Timing
 console.time('operation');
 // ... code to measure
-console.timeEnd('operation');  // operation: 123.45ms
+console.timeEnd('operation'); // operation: 123.45ms
 
 // Counting
-console.count('clicked');  // clicked: 1
-console.count('clicked');  // clicked: 2
+console.count('clicked'); // clicked: 1
+console.count('clicked'); // clicked: 2
 
 // Assert
 console.assert(1 === 2, 'This will show because condition is false');
@@ -285,14 +285,14 @@ console.assert(1 === 2, 'This will show because condition is false');
 
 ```javascript
 function calculateTotal(items) {
-    let total = 0;
-    
-    for (const item of items) {
-        debugger;  // Browser pauses here
-        total += item.price * item.quantity;
-    }
-    
-    return total;
+ let total = 0;
+ 
+ for (const item of items) {
+ debugger; // Browser pauses here
+ total += item.price * item.quantity;
+ }
+ 
+ return total;
 }
 ```
 
@@ -300,30 +300,30 @@ function calculateTotal(items) {
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    DEVTOOLS FEATURES                                         │
+│ DEVTOOLS FEATURES │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   CONSOLE TAB                                                               │
-│   • View logs and errors                                                    │
-│   • Execute JavaScript                                                      │
-│   • Test expressions                                                        │
-│                                                                              │
-│   SOURCES TAB                                                               │
-│   • Set breakpoints                                                         │
-│   • Step through code                                                       │
-│   • Watch variables                                                         │
-│   • View call stack                                                         │
-│                                                                              │
-│   NETWORK TAB                                                               │
-│   • See all requests                                                        │
-│   • Check response data                                                     │
-│   • Debug API calls                                                         │
-│                                                                              │
-│   ELEMENTS TAB                                                              │
-│   • Inspect DOM                                                             │
-│   • See computed styles                                                     │
-│   • Debug layout                                                            │
-│                                                                              │
+│ │
+│ CONSOLE TAB │
+│ • View logs and errors │
+│ • Execute JavaScript │
+│ • Test expressions │
+│ │
+│ SOURCES TAB │
+│ • Set breakpoints │
+│ • Step through code │
+│ • Watch variables │
+│ • View call stack │
+│ │
+│ NETWORK TAB │
+│ • See all requests │
+│ • Check response data │
+│ • Debug API calls │
+│ │
+│ ELEMENTS TAB │
+│ • Inspect DOM │
+│ • See computed styles │
+│ • Debug layout │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -336,43 +336,43 @@ function calculateTotal(items) {
 ```javascript
 // 1. Always handle async errors
 async function fetchData() {
-    try {
-        const data = await api.get('/data');
-        return { success: true, data };
-    } catch (error) {
-        return { success: false, error: error.message };
-    }
+ try {
+ const data = await api.get('/data');
+ return { success: true, data };
+ } catch (error) {
+ return { success: false, error: error.message };
+ }
 }
 
 // 2. Provide user-friendly messages
 function getUserMessage(error) {
-    const messages = {
-        NETWORK_ERROR: 'Please check your internet connection',
-        NOT_FOUND: 'The requested item was not found',
-        UNAUTHORIZED: 'Please log in to continue',
-        DEFAULT: 'Something went wrong. Please try again.'
-    };
-    
-    return messages[error.code] || messages.DEFAULT;
+ const messages = {
+ NETWORK_ERROR: 'Please check your internet connection',
+ NOT_FOUND: 'The requested item was not found',
+ UNAUTHORIZED: 'Please log in to continue',
+ DEFAULT: 'Something went wrong. Please try again.'
+ };
+ 
+ return messages[error.code] || messages.DEFAULT;
 }
 
 // 3. Log errors for debugging
 function handleError(error, context) {
-    console.error(`Error in ${context}:`, error);
-    
-    // In production, send to error tracking service
-    if (window.errorTracker) {
-        window.errorTracker.capture(error, { context });
-    }
+ console.error(`Error in ${context}:`, error);
+ 
+ // In production, send to error tracking service
+ if (window.errorTracker) {
+ window.errorTracker.capture(error, { context });
+ }
 }
 
 // 4. Fail gracefully
 function renderData(data) {
-    if (!data || !Array.isArray(data)) {
-        return '<p>No data available</p>';
-    }
-    
-    return data.map(item => `<div>${item.name}</div>`).join('');
+ if (!data || !Array.isArray(data)) {
+ return '<p>No data available</p>';
+ }
+ 
+ return data.map(item => `<div>${item.name}</div>`).join('');
 }
 ```
 
@@ -393,7 +393,7 @@ function renderData(data) {
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Try/Catch Practice
 
@@ -409,11 +409,11 @@ Find and fix the bug:
 
 ```javascript
 function sumArray(numbers) {
-    let total;
-    for (let i = 0; i <= numbers.length; i++) {
-        total += numbers[i];
-    }
-    return total;
+ let total;
+ for (let i = 0; i <= numbers.length; i++) {
+ total += numbers[i];
+ }
+ return total;
 }
 ```
 
@@ -431,7 +431,7 @@ Create a user registration form with:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 | Concept | Purpose |
 |---------|---------|
@@ -444,7 +444,7 @@ Create a user registration form with:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Coming Next**: Module 05 - Project: Weather Dashboard
 
@@ -454,7 +454,7 @@ Create a user registration form with:
 
 <div align="center">
 
-**Errors are information!** 🔍
+**Errors are information!** 
 
 *Good error handling makes great apps.*
 

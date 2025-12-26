@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -24,26 +24,26 @@ Every element has a default display value:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    BLOCK vs INLINE                                           │
+│ BLOCK vs INLINE │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   BLOCK ELEMENTS                       INLINE ELEMENTS                       │
-│   ═══════════════                      ═════════════════                     │
-│                                                                              │
-│   ┌────────────────────────────────┐   text ┌───┐ more ┌────┐ text         │
-│   │ Takes full width               │        │box│      │ box│              │
-│   └────────────────────────────────┘        └───┘      └────┘              │
-│   ┌────────────────────────────────┐                                        │
-│   │ Stacks vertically              │   • Flows with text                   │
-│   └────────────────────────────────┘   • Only as wide as content           │
-│                                        • Can't set width/height             │
-│   • Full width available                                                    │
-│   • Stacks below previous                                                   │
-│   • Can set width/height                                                    │
-│                                                                              │
-│   Examples:                            Examples:                            │
-│   div, p, h1-h6, section              span, a, strong, em, img             │
-│                                                                              │
+│ │
+│ BLOCK ELEMENTS INLINE ELEMENTS │
+│ ═══════════════ ═════════════════ │
+│ │
+│ ┌────────────────────────────────┐ text ┌───┐ more ┌────┐ text │
+│ │ Takes full width │ │box│ │ box│ │
+│ └────────────────────────────────┘ └───┘ └────┘ │
+│ ┌────────────────────────────────┐ │
+│ │ Stacks vertically │ • Flows with text │
+│ └────────────────────────────────┘ • Only as wide as content │
+│ • Can't set width/height │
+│ • Full width available │
+│ • Stacks below previous │
+│ • Can set width/height │
+│ │
+│ Examples: Examples: │
+│ div, p, h1-h6, section span, a, strong, em, img │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -73,10 +73,10 @@ display: grid;
 
 ```css
 .button {
-    display: inline-block;
-    width: 200px;          /* Can set width (like block) */
-    padding: 10px 20px;    
-    /* Sits inline with other elements (like inline) */
+ display: inline-block;
+ width: 200px; /* Can set width (like block) */
+ padding: 10px 20px; 
+ /* Sits inline with other elements (like inline) */
 }
 ```
 
@@ -103,18 +103,18 @@ visibility: hidden;
 ### Position Values
 
 ```css
-position: static;    /* Default - normal flow */
-position: relative;  /* Relative to normal position */
-position: absolute;  /* Relative to positioned parent */
-position: fixed;     /* Relative to viewport */
-position: sticky;    /* Hybrid relative/fixed */
+position: static; /* Default - normal flow */
+position: relative; /* Relative to normal position */
+position: absolute; /* Relative to positioned parent */
+position: fixed; /* Relative to viewport */
+position: sticky; /* Hybrid relative/fixed */
 ```
 
 ### Static (Default)
 
 ```css
 .box {
-    position: static;  /* Default - follows normal document flow */
+ position: static; /* Default - follows normal document flow */
 }
 ```
 
@@ -126,9 +126,9 @@ Offset from its **normal position**:
 
 ```css
 .box {
-    position: relative;
-    top: 20px;     /* Move down 20px */
-    left: 30px;    /* Move right 30px */
+ position: relative;
+ top: 20px; /* Move down 20px */
+ left: 30px; /* Move right 30px */
 }
 ```
 
@@ -141,13 +141,13 @@ Positioned relative to **nearest positioned ancestor**:
 
 ```css
 .parent {
-    position: relative;  /* Creates positioning context */
+ position: relative; /* Creates positioning context */
 }
 
 .child {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+ position: absolute;
+ top: 10px;
+ right: 10px;
 }
 ```
 
@@ -161,10 +161,10 @@ Positioned relative to **viewport** (browser window):
 
 ```css
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
 }
 ```
 
@@ -177,8 +177,8 @@ Hybrid of relative and fixed:
 
 ```css
 .header {
-    position: sticky;
-    top: 0;  /* Sticks when reaching top */
+ position: sticky;
+ top: 0; /* Sticks when reaching top */
 }
 ```
 
@@ -192,10 +192,10 @@ Hybrid of relative and fixed:
 ### Offset Properties
 
 ```css
-top: 20px;     /* Distance from top */
-right: 20px;   /* Distance from right */
-bottom: 20px;  /* Distance from bottom */
-left: 20px;    /* Distance from left */
+top: 20px; /* Distance from top */
+right: 20px; /* Distance from right */
+bottom: 20px; /* Distance from bottom */
+left: 20px; /* Distance from left */
 ```
 
 ### Centering with Position
@@ -203,10 +203,10 @@ left: 20px;    /* Distance from left */
 ```css
 /* Center absolutely */
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
 }
 ```
 
@@ -216,13 +216,13 @@ When elements overlap, `z-index` controls which is on top:
 
 ```css
 .behind {
-    position: relative;
-    z-index: 1;
+ position: relative;
+ z-index: 1;
 }
 
 .in-front {
-    position: relative;
-    z-index: 2;  /* Higher = on top */
+ position: relative;
+ z-index: 2; /* Higher = on top */
 }
 ```
 
@@ -238,12 +238,12 @@ When elements overlap, `z-index` controls which is on top:
 
 ```html
 <nav class="main-nav">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
+ <ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">About</a></li>
+ <li><a href="#">Services</a></li>
+ <li><a href="#">Contact</a></li>
+ </ul>
 </nav>
 ```
 
@@ -251,25 +251,25 @@ When elements overlap, `z-index` controls which is on top:
 
 ```css
 .main-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ background-color: #333;
 }
 
 .main-nav li {
-    display: inline-block;
+ display: inline-block;
 }
 
 .main-nav a {
-    display: block;
-    padding: 15px 20px;
-    color: white;
-    text-decoration: none;
+ display: block;
+ padding: 15px 20px;
+ color: white;
+ text-decoration: none;
 }
 
 .main-nav a:hover {
-    background-color: #555;
+ background-color: #555;
 }
 ```
 
@@ -277,16 +277,16 @@ When elements overlap, `z-index` controls which is on top:
 
 ```css
 .main-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ z-index: 1000;
 }
 
 /* Add padding to body to prevent content hiding behind nav */
 body {
-    padding-top: 60px;  /* Height of navbar */
+ padding-top: 60px; /* Height of navbar */
 }
 ```
 
@@ -294,31 +294,31 @@ body {
 
 ```css
 .main-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    background-color: #333;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 20px;
+ background-color: #333;
 }
 
 .logo {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
+ color: white;
+ font-size: 1.5rem;
+ font-weight: bold;
 }
 
 .nav-links {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+ list-style: none;
+ display: flex;
+ margin: 0;
+ padding: 0;
 }
 
 .nav-links a {
-    display: block;
-    padding: 15px 20px;
-    color: white;
-    text-decoration: none;
+ display: block;
+ padding: 15px 20px;
+ color: white;
+ text-decoration: none;
 }
 ```
 
@@ -332,13 +332,13 @@ Floats were used for layout before Flexbox. Know them for older code.
 
 ```css
 .left-column {
-    float: left;
-    width: 30%;
+ float: left;
+ width: 30%;
 }
 
 .right-column {
-    float: right;
-    width: 70%;
+ float: right;
+ width: 70%;
 }
 ```
 
@@ -349,9 +349,9 @@ Floats can cause layout problems. Clear them:
 ```css
 /* Clearfix - add to parent of floated elements */
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+ content: "";
+ display: table;
+ clear: both;
 }
 ```
 
@@ -361,9 +361,9 @@ Floats are still useful for wrapping text around images:
 
 ```css
 .article-image {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
+ float: left;
+ margin-right: 20px;
+ margin-bottom: 10px;
 }
 ```
 
@@ -377,26 +377,26 @@ Floats are still useful for wrapping text around images:
 
 ```css
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+ max-width: 1200px;
+ margin: 0 auto;
 }
 
 .sidebar {
-    float: left;
-    width: 25%;
-    padding: 20px;
+ float: left;
+ width: 25%;
+ padding: 20px;
 }
 
 .main-content {
-    float: right;
-    width: 75%;
-    padding: 20px;
+ float: right;
+ width: 75%;
+ padding: 20px;
 }
 
 .container::after {
-    content: "";
-    display: table;
-    clear: both;
+ content: "";
+ display: table;
+ clear: both;
 }
 ```
 
@@ -404,17 +404,17 @@ Floats are still useful for wrapping text around images:
 
 ```css
 .sidebar {
-    display: inline-block;
-    width: 24%;  /* Slightly less than 25% for spacing */
-    vertical-align: top;
-    padding: 20px;
+ display: inline-block;
+ width: 24%; /* Slightly less than 25% for spacing */
+ vertical-align: top;
+ padding: 20px;
 }
 
 .main-content {
-    display: inline-block;
-    width: 74%;
-    vertical-align: top;
-    padding: 20px;
+ display: inline-block;
+ width: 74%;
+ vertical-align: top;
+ padding: 20px;
 }
 ```
 
@@ -422,17 +422,17 @@ Floats are still useful for wrapping text around images:
 
 ```css
 .container {
-    display: flex;
+ display: flex;
 }
 
 .sidebar {
-    width: 25%;
-    padding: 20px;
+ width: 25%;
+ padding: 20px;
 }
 
 .main-content {
-    flex: 1;  /* Takes remaining space */
-    padding: 20px;
+ flex: 1; /* Takes remaining space */
+ padding: 20px;
 }
 ```
 
@@ -444,19 +444,19 @@ Floats are still useful for wrapping text around images:
 
 ```css
 .cards-container {
-    max-width: 1200px;
-    margin: 0 auto;
+ max-width: 1200px;
+ margin: 0 auto;
 }
 
 .card {
-    display: inline-block;
-    width: calc(33.333% - 20px);  /* 3 columns with gap */
-    margin: 10px;
-    vertical-align: top;
-    box-sizing: border-box;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+ display: inline-block;
+ width: calc(33.333% - 20px); /* 3 columns with gap */
+ margin: 10px;
+ vertical-align: top;
+ box-sizing: border-box;
+ padding: 20px;
+ border: 1px solid #ddd;
+ border-radius: 8px;
 }
 ```
 
@@ -464,23 +464,23 @@ Floats are still useful for wrapping text around images:
 
 ```css
 html, body {
-    height: 100%;
+ height: 100%;
 }
 
 .wrapper {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
+ min-height: 100%;
+ display: flex;
+ flex-direction: column;
 }
 
 main {
-    flex: 1;  /* Grows to fill space */
+ flex: 1; /* Grows to fill space */
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
+ background-color: #333;
+ color: white;
+ padding: 20px;
 }
 ```
 
@@ -488,30 +488,30 @@ footer {
 
 ```css
 .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.5);
+ z-index: 1000;
 }
 
 .modal-content {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-    z-index: 1001;
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background-color: white;
+ padding: 30px;
+ border-radius: 8px;
+ z-index: 1001;
 }
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Display Types
 
@@ -555,7 +555,7 @@ Build navigation with:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Display Values**
 
@@ -579,7 +579,7 @@ Build navigation with:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 06:**
 
@@ -597,7 +597,7 @@ Build navigation with:
 
 <div align="center">
 
-**Layout master!** 📐
+**Layout master!** 
 
 *Now you control where everything goes.*
 

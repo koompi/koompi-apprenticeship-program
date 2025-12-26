@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Level Overview
+## Level Overview
 
 Learn production-ready technologies! **Next.js** is a React framework for building full-stack applications, and **Tailwind CSS** is a utility-first CSS framework.
 
@@ -23,9 +23,9 @@ Learn production-ready technologies! **Next.js** is a React framework for buildi
 
 ## Prerequisites
 
-- ✅ Completed React Fundamentals
-- ✅ Git & GitHub proficiency
-- ✅ Understanding of APIs
+- Completed React Fundamentals
+- Git & GitHub proficiency
+- Understanding of APIs
 
 ---
 
@@ -33,26 +33,26 @@ Learn production-ready technologies! **Next.js** is a React framework for buildi
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    NEXT.JS + TAILWIND CSS                                    │
+│ NEXT.JS + TAILWIND CSS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   NEXT.JS BENEFITS                     TAILWIND BENEFITS                    │
-│   ════════════════                     ═════════════════                    │
-│                                                                              │
-│   ✓ File-based routing                ✓ Rapid styling                      │
-│   ✓ Server-side rendering             ✓ No CSS files to manage             │
-│   ✓ API routes built-in               ✓ Consistent design system           │
-│   ✓ Automatic optimization            ✓ Responsive made easy               │
-│   ✓ Easy deployment                   ✓ Highly customizable                │
-│                                                                              │
-│   USED BY                                                                   │
-│   ═══════                                                                   │
-│   Netflix, TikTok, Nike, Hulu, Twitch, The Washington Post                 │
-│                                                                              │
-│   PERFECT FOR                                                               │
-│   ═══════════                                                               │
-│   Production apps, E-commerce, Dashboards, SaaS products                   │
-│                                                                              │
+│ │
+│ NEXT.JS BENEFITS TAILWIND BENEFITS │
+│ ════════════════ ═════════════════ │
+│ │
+│ File-based routing Rapid styling │
+│ Server-side rendering No CSS files to manage │
+│ API routes built-in Consistent design system │
+│ Automatic optimization Responsive made easy │
+│ Easy deployment Highly customizable │
+│ │
+│ USED BY │
+│ ═══════ │
+│ Netflix, TikTok, Nike, Hulu, Twitch, The Washington Post │
+│ │
+│ PERFECT FOR │
+│ ═══════════ │
+│ Production apps, E-commerce, Dashboards, SaaS products │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -64,25 +64,25 @@ A **Full-Stack E-commerce Product Catalog**:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                              │
-│   🛍️ KOOMPI SHOP                          [Products] [About] [Cart (3)]    │
-│                                                                              │
-│   ┌──────────────────────────────────────────────────────────────────────┐  │
-│   │  HERO: Discover Amazing Tech Products                                │  │
-│   │  [Shop Now]                                                          │  │
-│   └──────────────────────────────────────────────────────────────────────┘  │
-│                                                                              │
-│   Featured Products                                                          │
-│                                                                              │
-│   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐   │
-│   │  [Image]     │  │  [Image]     │  │  [Image]     │  │  [Image]     │   │
-│   │              │  │              │  │              │  │              │   │
-│   │  KOOMPI E13  │  │  USB-C Hub   │  │  Webcam      │  │  Keyboard    │   │
-│   │  $299        │  │  $45         │  │  $65         │  │  $55         │   │
-│   │  ⭐⭐⭐⭐⭐      │  │  ⭐⭐⭐⭐       │  │  ⭐⭐⭐⭐⭐      │  │  ⭐⭐⭐⭐       │   │
-│   │  [Add Cart]  │  │  [Add Cart]  │  │  [Add Cart]  │  │  [Add Cart]  │   │
-│   └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘   │
-│                                                                              │
+│ │
+│ KOOMPI SHOP [Products] [About] [Cart (3)] │
+│ │
+│ ┌──────────────────────────────────────────────────────────────────────┐ │
+│ │ HERO: Discover Amazing Tech Products │ │
+│ │ [Shop Now] │ │
+│ └──────────────────────────────────────────────────────────────────────┘ │
+│ │
+│ Featured Products │
+│ │
+│ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ │
+│ │ [Image] │ │ [Image] │ │ [Image] │ │ [Image] │ │
+│ │ │ │ │ │ │ │ │ │
+│ │ KOOMPI E13 │ │ USB-C Hub │ │ Webcam │ │ Keyboard │ │
+│ │ $299 │ │ $45 │ │ $65 │ │ $55 │ │
+│ │ │ │ │ │ │ │ │ │
+│ │ [Add Cart] │ │ [Add Cart] │ │ [Add Cart] │ │ [Add Cart] │ │
+│ └──────────────┘ └──────────────┘ └──────────────┘ └──────────────┘ │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -110,23 +110,23 @@ A **Full-Stack E-commerce Product Catalog**:
 import ProductCard from '@/components/ProductCard';
 
 async function getProducts() {
-    const res = await fetch('https://api.example.com/products');
-    return res.json();
+ const res = await fetch('https://api.example.com/products');
+ return res.json();
 }
 
 export default async function ProductsPage() {
-    const products = await getProducts();
-    
-    return (
-        <div className="container mx-auto px-4 py-8">
-            <h1 className="text-3xl font-bold mb-8">Our Products</h1>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {products.map(product => (
-                    <ProductCard key={product.id} product={product} />
-                ))}
-            </div>
-        </div>
-    );
+ const products = await getProducts();
+ 
+ return (
+ <div className="container mx-auto px-4 py-8">
+ <h1 className="text-3xl font-bold mb-8">Our Products</h1>
+ <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+ {products.map(product => (
+ <ProductCard key={product.id} product={product} />
+ ))}
+ </div>
+ </div>
+ );
 }
 ```
 
@@ -134,29 +134,29 @@ export default async function ProductsPage() {
 
 ```jsx
 function ProductCard({ product }) {
-    return (
-        <div className="bg-white rounded-lg shadow-md overflow-hidden 
-                        hover:shadow-xl transition-shadow duration-300">
-            <img 
-                src={product.image} 
-                alt={product.name}
-                className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-                <h3 className="text-lg font-semibold mb-2">
-                    {product.name}
-                </h3>
-                <p className="text-gray-600 mb-4">
-                    ${product.price}
-                </p>
-                <button className="w-full bg-blue-600 text-white py-2 
-                                   rounded-lg hover:bg-blue-700 
-                                   transition-colors">
-                    Add to Cart
-                </button>
-            </div>
-        </div>
-    );
+ return (
+ <div className="bg-white rounded-lg shadow-md overflow-hidden 
+ hover:shadow-xl transition-shadow duration-300">
+ <img 
+ src={product.image} 
+ alt={product.name}
+ className="w-full h-48 object-cover"
+ />
+ <div className="p-4">
+ <h3 className="text-lg font-semibold mb-2">
+ {product.name}
+ </h3>
+ <p className="text-gray-600 mb-4">
+ ${product.price}
+ </p>
+ <button className="w-full bg-blue-600 text-white py-2 
+ rounded-lg hover:bg-blue-700 
+ transition-colors">
+ Add to Cart
+ </button>
+ </div>
+ </div>
+ );
 }
 ```
 
@@ -189,7 +189,7 @@ npm run dev
 
 ---
 
-## 🎓 Track Complete
+## Track Complete
 
 After completing Level 2.7, you have finished **Track 02: Web Development**!
 
@@ -207,7 +207,7 @@ You are now a **Full-Stack Apprentice** with skills in:
 
 <div align="center">
 
-**Production-ready skills!** 🚀
+**Production-ready skills!** 
 
 *You can now build real-world applications.*
 

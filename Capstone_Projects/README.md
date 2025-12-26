@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 Capstone projects are the final requirement for each certification level. They demonstrate your skills by building real, complete applications.
 
@@ -16,27 +16,27 @@ Capstone projects are the final requirement for each certification level. They d
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    CAPSTONE PROJECT CRITERIA                                 │
+│ CAPSTONE PROJECT CRITERIA │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   ✅ SOLVES A REAL PROBLEM                                                  │
-│      Not just a tutorial copy — solve an actual need                        │
-│                                                                              │
-│   ✅ DEMONSTRATES YOUR SKILLS                                               │
-│      Uses technologies from your completed tracks                          │
-│                                                                              │
-│   ✅ IS COMPLETE AND POLISHED                                               │
-│      Not a half-finished prototype                                          │
-│                                                                              │
-│   ✅ HAS DOCUMENTATION                                                      │
-│      README with setup instructions and description                        │
-│                                                                              │
-│   ✅ IS YOUR OWN WORK                                                       │
-│      You built it, you can explain every part                              │
-│                                                                              │
-│   ✅ IS PRESENTABLE                                                         │
-│      Ready to show to employers or clients                                 │
-│                                                                              │
+│ │
+│ SOLVES A REAL PROBLEM │
+│ Not just a tutorial copy — solve an actual need │
+│ │
+│ DEMONSTRATES YOUR SKILLS │
+│ Uses technologies from your completed tracks │
+│ │
+│ IS COMPLETE AND POLISHED │
+│ Not a half-finished prototype │
+│ │
+│ HAS DOCUMENTATION │
+│ README with setup instructions and description │
+│ │
+│ IS YOUR OWN WORK │
+│ You built it, you can explain every part │
+│ │
+│ IS PRESENTABLE │
+│ Ready to show to employers or clients │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -76,12 +76,12 @@ Capstone projects are the final requirement for each certification level. They d
 
 ```
 Pages Required:
-├── index.html       (Home - welcome, featured dishes)
-├── menu.html        (Full menu with prices)
-├── about.html       (Story, location, hours)
-├── contact.html     (Contact form, map embed)
+├── index.html (Home - welcome, featured dishes)
+├── menu.html (Full menu with prices)
+├── about.html (Story, location, hours)
+├── contact.html (Contact form, map embed)
 └── css/
-    └── style.css    (All styling)
+ └── style.css (All styling)
 
 Features:
 • Responsive navigation
@@ -133,9 +133,9 @@ Features Required:
 Code Structure:
 ├── index.html
 ├── css/
-│   └── style.css
+│ └── style.css
 └── js/
-    └── app.js
+ └── app.js
 ```
 
 ---
@@ -284,26 +284,26 @@ Submit:
 ```
 EVALUATION CRITERIA:
 
-Technical Implementation    (40%)
+Technical Implementation (40%)
 • Functionality works correctly
 • Code quality and organization
 • Appropriate use of technologies
 
-Design & User Experience   (20%)
+Design & User Experience (20%)
 • Visual design
 • Usability
 • Responsive/accessible
 
-Completeness              (20%)
+Completeness (20%)
 • All features working
 • Documentation complete
 • Deployed (if applicable)
 
-Problem Solving           (10%)
+Problem Solving (10%)
 • Addresses a real need
 • Creative solutions
 
-Presentation              (10%)
+Presentation (10%)
 • Clear explanation
 • Answers questions well
 ```
@@ -355,22 +355,22 @@ Presentation              (10%)
 
 ### Do's
 
-✅ Start with a clear plan
-✅ Build incrementally (MVP first)
-✅ Commit frequently to Git
-✅ Ask for help when stuck
-✅ Test on multiple devices
-✅ Get user feedback
-✅ Document as you go
+ Start with a clear plan
+ Build incrementally (MVP first)
+ Commit frequently to Git
+ Ask for help when stuck
+ Test on multiple devices
+ Get user feedback
+ Document as you go
 
 ### Don'ts
 
-❌ Overscope your project
-❌ Wait until the last minute
-❌ Skip documentation
-❌ Copy code without understanding
-❌ Ignore responsive design
-❌ Submit unfinished work
+ Overscope your project
+ Wait until the last minute
+ Skip documentation
+ Copy code without understanding
+ Ignore responsive design
+ Submit unfinished work
 
 ---
 
@@ -388,12 +388,12 @@ Presentation              (10%)
 
 <div align="center">
 
-**Your capstone is your proof.** 🏆
+**Your capstone is your proof.** 
 
 *It shows the world what you can do.*
 
 *Make it something you're proud of.*
 
-🇰🇭
+
 
 </div>

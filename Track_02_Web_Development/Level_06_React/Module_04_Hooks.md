@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,21 +21,21 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    SIDE EFFECTS                                              │
+│ SIDE EFFECTS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   Anything that affects something outside the component:                    │
-│                                                                              │
-│   • Fetching data from an API                                               │
-│   • Updating the document title                                             │
-│   • Setting up subscriptions                                                │
-│   • Manually changing the DOM                                               │
-│   • Setting timers                                                          │
-│   • Logging                                                                 │
-│   • Saving to localStorage                                                  │
-│                                                                              │
-│   These are NOT pure rendering → they need useEffect                       │
-│                                                                              │
+│ │
+│ Anything that affects something outside the component: │
+│ │
+│ • Fetching data from an API │
+│ • Updating the document title │
+│ • Setting up subscriptions │
+│ • Manually changing the DOM │
+│ • Setting timers │
+│ • Logging │
+│ • Saving to localStorage │
+│ │
+│ These are NOT pure rendering → they need useEffect │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -49,12 +49,12 @@ By the end of this module, you will be able to:
 import { useEffect } from 'react';
 
 function Component() {
-  useEffect(() => {
-    // Side effect code here
-    console.log("Effect ran!");
-  });
-  
-  return <div>Hello</div>;
+ useEffect(() => {
+ // Side effect code here
+ console.log("Effect ran!");
+ });
+ 
+ return <div>Hello</div>;
 }
 ```
 
@@ -63,22 +63,22 @@ function Component() {
 ```jsx
 // Runs after EVERY render
 useEffect(() => {
-  console.log("Every render");
+ console.log("Every render");
 });
 
 // Runs only ONCE (on mount)
 useEffect(() => {
-  console.log("Only once");
-}, []);  // Empty array
+ console.log("Only once");
+}, []); // Empty array
 
 // Runs when 'count' changes
 useEffect(() => {
-  console.log("Count changed:", count);
+ console.log("Count changed:", count);
 }, [count]);
 
 // Runs when 'name' OR 'age' changes
 useEffect(() => {
-  console.log("Name or age changed");
+ console.log("Name or age changed");
 }, [name, age]);
 ```
 
@@ -90,11 +90,11 @@ useEffect(() => {
 
 ```jsx
 function PageTitle({ title }) {
-  useEffect(() => {
-    document.title = title;
-  }, [title]);
-  
-  return <h1>{title}</h1>;
+ useEffect(() => {
+ document.title = title;
+ }, [title]);
+ 
+ return <h1>{title}</h1>;
 }
 ```
 
@@ -102,37 +102,37 @@ function PageTitle({ title }) {
 
 ```jsx
 function UserProfile({ userId }) {
-  const [user, setUser] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  
-  useEffect(() => {
-    const fetchUser = async () => {
-      try {
-        setLoading(true);
-        const response = await fetch(`/api/users/${userId}`);
-        const data = await response.json();
-        setUser(data);
-      } catch (err) {
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-    
-    fetchUser();
-  }, [userId]);  // Re-fetch when userId changes
-  
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error: {error}</p>;
-  if (!user) return null;
-  
-  return (
-    <div>
-      <h2>{user.name}</h2>
-      <p>{user.email}</p>
-    </div>
-  );
+ const [user, setUser] = useState(null);
+ const [loading, setLoading] = useState(true);
+ const [error, setError] = useState(null);
+ 
+ useEffect(() => {
+ const fetchUser = async () => {
+ try {
+ setLoading(true);
+ const response = await fetch(`/api/users/${userId}`);
+ const data = await response.json();
+ setUser(data);
+ } catch (err) {
+ setError(err.message);
+ } finally {
+ setLoading(false);
+ }
+ };
+ 
+ fetchUser();
+ }, [userId]); // Re-fetch when userId changes
+ 
+ if (loading) return <p>Loading...</p>;
+ if (error) return <p>Error: {error}</p>;
+ if (!user) return null;
+ 
+ return (
+ <div>
+ <h2>{user.name}</h2>
+ <p>{user.email}</p>
+ </div>
+ );
 }
 ```
 
@@ -140,25 +140,25 @@ function UserProfile({ userId }) {
 
 ```jsx
 function ThemeToggle() {
-  const [isDark, setIsDark] = useState(() => {
-    // Initialize from localStorage
-    const saved = localStorage.getItem('darkMode');
-    return saved ? JSON.parse(saved) : false;
-  });
-  
-  useEffect(() => {
-    // Save to localStorage when changed
-    localStorage.setItem('darkMode', JSON.stringify(isDark));
-    
-    // Apply to document
-    document.body.classList.toggle('dark-mode', isDark);
-  }, [isDark]);
-  
-  return (
-    <button onClick={() => setIsDark(!isDark)}>
-      {isDark ? '☀️ Light' : '🌙 Dark'}
-    </button>
-  );
+ const [isDark, setIsDark] = useState(() => {
+ // Initialize from localStorage
+ const saved = localStorage.getItem('darkMode');
+ return saved ? JSON.parse(saved) : false;
+ });
+ 
+ useEffect(() => {
+ // Save to localStorage when changed
+ localStorage.setItem('darkMode', JSON.stringify(isDark));
+ 
+ // Apply to document
+ document.body.classList.toggle('dark-mode', isDark);
+ }, [isDark]);
+ 
+ return (
+ <button onClick={() => setIsDark(!isDark)}>
+ {isDark ? ' Light' : ' Dark'}
+ </button>
+ );
 }
 ```
 
@@ -172,13 +172,13 @@ Prevent memory leaks and stale operations:
 
 ```jsx
 useEffect(() => {
-  // Setup
-  const subscription = subscribeToData();
-  
-  // Cleanup function (runs before next effect or unmount)
-  return () => {
-    subscription.unsubscribe();
-  };
+ // Setup
+ const subscription = subscribeToData();
+ 
+ // Cleanup function (runs before next effect or unmount)
+ return () => {
+ subscription.unsubscribe();
+ };
 }, []);
 ```
 
@@ -186,18 +186,18 @@ useEffect(() => {
 
 ```jsx
 function Timer() {
-  const [seconds, setSeconds] = useState(0);
-  
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setSeconds(prev => prev + 1);
-    }, 1000);
-    
-    // Cleanup: clear interval when component unmounts
-    return () => clearInterval(interval);
-  }, []);
-  
-  return <p>Time: {seconds}s</p>;
+ const [seconds, setSeconds] = useState(0);
+ 
+ useEffect(() => {
+ const interval = setInterval(() => {
+ setSeconds(prev => prev + 1);
+ }, 1000);
+ 
+ // Cleanup: clear interval when component unmounts
+ return () => clearInterval(interval);
+ }, []);
+ 
+ return <p>Time: {seconds}s</p>;
 }
 ```
 
@@ -205,26 +205,26 @@ function Timer() {
 
 ```jsx
 function WindowSize() {
-  const [size, setSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight
-  });
-  
-  useEffect(() => {
-    const handleResize = () => {
-      setSize({
-        width: window.innerWidth,
-        height: window.innerHeight
-      });
-    };
-    
-    window.addEventListener('resize', handleResize);
-    
-    // Cleanup
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-  
-  return <p>Window: {size.width} x {size.height}</p>;
+ const [size, setSize] = useState({
+ width: window.innerWidth,
+ height: window.innerHeight
+ });
+ 
+ useEffect(() => {
+ const handleResize = () => {
+ setSize({
+ width: window.innerWidth,
+ height: window.innerHeight
+ });
+ };
+ 
+ window.addEventListener('resize', handleResize);
+ 
+ // Cleanup
+ return () => window.removeEventListener('resize', handleResize);
+ }, []);
+ 
+ return <p>Window: {size.width} x {size.height}</p>;
 }
 ```
 
@@ -240,18 +240,18 @@ Reference to DOM elements or mutable values:
 import { useRef } from 'react';
 
 function TextInput() {
-  const inputRef = useRef(null);
-  
-  const focusInput = () => {
-    inputRef.current.focus();
-  };
-  
-  return (
-    <div>
-      <input ref={inputRef} type="text" />
-      <button onClick={focusInput}>Focus Input</button>
-    </div>
-  );
+ const inputRef = useRef(null);
+ 
+ const focusInput = () => {
+ inputRef.current.focus();
+ };
+ 
+ return (
+ <div>
+ <input ref={inputRef} type="text" />
+ <button onClick={focusInput}>Focus Input</button>
+ </div>
+ );
 }
 ```
 
@@ -259,20 +259,20 @@ function TextInput() {
 
 ```jsx
 function Counter() {
-  const [count, setCount] = useState(0);
-  const renderCount = useRef(0);
-  
-  useEffect(() => {
-    renderCount.current += 1;
-  });
-  
-  return (
-    <div>
-      <p>Count: {count}</p>
-      <p>Renders: {renderCount.current}</p>
-      <button onClick={() => setCount(count + 1)}>+</button>
-    </div>
-  );
+ const [count, setCount] = useState(0);
+ const renderCount = useRef(0);
+ 
+ useEffect(() => {
+ renderCount.current += 1;
+ });
+ 
+ return (
+ <div>
+ <p>Count: {count}</p>
+ <p>Renders: {renderCount.current}</p>
+ <button onClick={() => setCount(count + 1)}>+</button>
+ </div>
+ );
 }
 ```
 
@@ -284,16 +284,16 @@ Memoize expensive calculations:
 import { useMemo } from 'react';
 
 function ExpensiveList({ items, filter }) {
-  const filteredItems = useMemo(() => {
-    console.log("Filtering...");
-    return items.filter(item => item.includes(filter));
-  }, [items, filter]);
-  
-  return (
-    <ul>
-      {filteredItems.map(item => <li key={item}>{item}</li>)}
-    </ul>
-  );
+ const filteredItems = useMemo(() => {
+ console.log("Filtering...");
+ return items.filter(item => item.includes(filter));
+ }, [items, filter]);
+ 
+ return (
+ <ul>
+ {filteredItems.map(item => <li key={item}>{item}</li>)}
+ </ul>
+ );
 }
 ```
 
@@ -305,20 +305,20 @@ Memoize functions:
 import { useCallback } from 'react';
 
 function Parent() {
-  const [count, setCount] = useState(0);
-  
-  const handleClick = useCallback(() => {
-    console.log("Clicked!");
-  }, []);  // Function identity stays stable
-  
-  return (
-    <div>
-      <Child onClick={handleClick} />
-      <button onClick={() => setCount(count + 1)}>
-        Count: {count}
-      </button>
-    </div>
-  );
+ const [count, setCount] = useState(0);
+ 
+ const handleClick = useCallback(() => {
+ console.log("Clicked!");
+ }, []); // Function identity stays stable
+ 
+ return (
+ <div>
+ <Child onClick={handleClick} />
+ <button onClick={() => setCount(count + 1)}>
+ Count: {count}
+ </button>
+ </div>
+ );
 }
 ```
 
@@ -333,28 +333,28 @@ Extract reusable logic:
 ```jsx
 // useLocalStorage.js
 function useLocalStorage(key, initialValue) {
-  const [value, setValue] = useState(() => {
-    const saved = localStorage.getItem(key);
-    return saved ? JSON.parse(saved) : initialValue;
-  });
-  
-  useEffect(() => {
-    localStorage.setItem(key, JSON.stringify(value));
-  }, [key, value]);
-  
-  return [value, setValue];
+ const [value, setValue] = useState(() => {
+ const saved = localStorage.getItem(key);
+ return saved ? JSON.parse(saved) : initialValue;
+ });
+ 
+ useEffect(() => {
+ localStorage.setItem(key, JSON.stringify(value));
+ }, [key, value]);
+ 
+ return [value, setValue];
 }
 
 // Usage
 function App() {
-  const [name, setName] = useLocalStorage('name', '');
-  
-  return (
-    <input
-      value={name}
-      onChange={e => setName(e.target.value)}
-    />
-  );
+ const [name, setName] = useLocalStorage('name', '');
+ 
+ return (
+ <input
+ value={name}
+ onChange={e => setName(e.target.value)}
+ />
+ );
 }
 ```
 
@@ -362,43 +362,43 @@ function App() {
 
 ```jsx
 function useFetch(url) {
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        setLoading(true);
-        const response = await fetch(url);
-        if (!response.ok) throw new Error('Failed');
-        const json = await response.json();
-        setData(json);
-      } catch (err) {
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-    
-    fetchData();
-  }, [url]);
-  
-  return { data, loading, error };
+ const [data, setData] = useState(null);
+ const [loading, setLoading] = useState(true);
+ const [error, setError] = useState(null);
+ 
+ useEffect(() => {
+ const fetchData = async () => {
+ try {
+ setLoading(true);
+ const response = await fetch(url);
+ if (!response.ok) throw new Error('Failed');
+ const json = await response.json();
+ setData(json);
+ } catch (err) {
+ setError(err.message);
+ } finally {
+ setLoading(false);
+ }
+ };
+ 
+ fetchData();
+ }, [url]);
+ 
+ return { data, loading, error };
 }
 
 // Usage
 function UserList() {
-  const { data: users, loading, error } = useFetch('/api/users');
-  
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error: {error}</p>;
-  
-  return (
-    <ul>
-      {users.map(user => <li key={user.id}>{user.name}</li>)}
-    </ul>
-  );
+ const { data: users, loading, error } = useFetch('/api/users');
+ 
+ if (loading) return <p>Loading...</p>;
+ if (error) return <p>Error: {error}</p>;
+ 
+ return (
+ <ul>
+ {users.map(user => <li key={user.id}>{user.name}</li>)}
+ </ul>
+ );
 }
 ```
 
@@ -406,30 +406,30 @@ function UserList() {
 
 ```jsx
 function useToggle(initialValue = false) {
-  const [value, setValue] = useState(initialValue);
-  
-  const toggle = useCallback(() => {
-    setValue(v => !v);
-  }, []);
-  
-  return [value, toggle];
+ const [value, setValue] = useState(initialValue);
+ 
+ const toggle = useCallback(() => {
+ setValue(v => !v);
+ }, []);
+ 
+ return [value, toggle];
 }
 
 // Usage
 function Modal() {
-  const [isOpen, toggleOpen] = useToggle();
-  
-  return (
-    <div>
-      <button onClick={toggleOpen}>Open Modal</button>
-      {isOpen && (
-        <div className="modal">
-          <p>Modal content</p>
-          <button onClick={toggleOpen}>Close</button>
-        </div>
-      )}
-    </div>
-  );
+ const [isOpen, toggleOpen] = useToggle();
+ 
+ return (
+ <div>
+ <button onClick={toggleOpen}>Open Modal</button>
+ {isOpen && (
+ <div className="modal">
+ <p>Modal content</p>
+ <button onClick={toggleOpen}>Close</button>
+ </div>
+ )}
+ </div>
+ );
 }
 ```
 
@@ -440,38 +440,38 @@ function Modal() {
 ### The Rules
 
 ```jsx
-// ✅ Rule 1: Only call hooks at the top level
+// Rule 1: Only call hooks at the top level
 function Component() {
-  const [count, setCount] = useState(0);  // ✅ Top level
-  
-  // ❌ Wrong: Inside condition
-  if (count > 0) {
-    const [name, setName] = useState("");  // ❌
-  }
-  
-  // ❌ Wrong: Inside loop
-  for (let i = 0; i < 3; i++) {
-    useEffect(() => {});  // ❌
-  }
+ const [count, setCount] = useState(0); // Top level
+ 
+ // Wrong: Inside condition
+ if (count > 0) {
+ const [name, setName] = useState(""); // 
+ }
+ 
+ // Wrong: Inside loop
+ for (let i = 0; i < 3; i++) {
+ useEffect(() => {}); // 
+ }
 }
 
-// ✅ Rule 2: Only call hooks in React functions
+// Rule 2: Only call hooks in React functions
 function MyComponent() {
-  useState();  // ✅ React component
+ useState(); // React component
 }
 
 function useMyHook() {
-  useState();  // ✅ Custom hook (starts with "use")
+ useState(); // Custom hook (starts with "use")
 }
 
 function regularFunction() {
-  useState();  // ❌ Regular function
+ useState(); // Regular function
 }
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Document Title
 
@@ -495,7 +495,7 @@ Create a search input that debounces API calls.
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 | Hook | Purpose |
 |------|---------|
@@ -508,14 +508,14 @@ Create a search input that debounces API calls.
 **useEffect Patterns:**
 
 ```jsx
-useEffect(() => {}, []);        // Run once
-useEffect(() => {}, [dep]);     // Run on dep change
+useEffect(() => {}, []); // Run once
+useEffect(() => {}, [dep]); // Run on dep change
 useEffect(() => { return cleanup; }, []); // With cleanup
 ```
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Coming Next**: Module 05 - React Router
 
@@ -525,7 +525,7 @@ useEffect(() => { return cleanup; }, []); // With cleanup
 
 <div align="center">
 
-**Hooks power modern React!** 🪝
+**Hooks power modern React!** 
 
 *Side effects under control.*
 

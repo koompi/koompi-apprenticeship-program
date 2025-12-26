@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,24 +21,24 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    TWO TYPES OF PEOPLE                                       │
+│ TWO TYPES OF PEOPLE │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   PROBLEM AVOIDERS                     PROBLEM SOLVERS                      │
-│   ════════════════                     ═══════════════                      │
-│                                                                              │
-│   😫 "This is too hard"                🤔 "This is interesting"             │
-│   🏃 Run from challenges               💪 Embrace challenges                │
-│   🙋 Wait for someone else             🔧 Figure it out                     │
-│   😤 Frustrated by obstacles           🎯 Motivated by obstacles            │
-│                                                                              │
-│   RESULT:                              RESULT:                              │
-│   • Limited growth                     • Constant growth                    │
-│   • Dependence on others               • Independence                       │
-│   • Few opportunities                  • Many opportunities                 │
-│                                                                              │
-│   KOOMPI Apprentices are PROBLEM SOLVERS                                    │
-│                                                                              │
+│ │
+│ PROBLEM AVOIDERS PROBLEM SOLVERS │
+│ ════════════════ ═══════════════ │
+│ │
+│ "This is too hard" "This is interesting" │
+│ Run from challenges Embrace challenges │
+│ Wait for someone else Figure it out │
+│ Frustrated by obstacles Motivated by obstacles │
+│ │
+│ RESULT: RESULT: │
+│ • Limited growth • Constant growth │
+│ • Dependence on others • Independence │
+│ • Few opportunities • Many opportunities │
+│ │
+│ KOOMPI Apprentices are PROBLEM SOLVERS │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -60,35 +60,35 @@ This builds your problem-solving skills while respecting others' time.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                              │
-│   STEP 1: DEFINE                                                            │
-│   What exactly is the problem?                                              │
-│   "The login button doesn't work on mobile"                                │
-│                                                                              │
-│           ↓                                                                  │
-│                                                                              │
-│   STEP 2: ANALYZE                                                           │
-│   Why is this happening?                                                    │
-│   Gather information, test, investigate                                     │
-│                                                                              │
-│           ↓                                                                  │
-│                                                                              │
-│   STEP 3: GENERATE OPTIONS                                                  │
-│   What are possible solutions?                                              │
-│   List multiple ideas, don't judge yet                                      │
-│                                                                              │
-│           ↓                                                                  │
-│                                                                              │
-│   STEP 4: DECIDE & ACT                                                      │
-│   Which solution is best?                                                   │
-│   Implement the chosen solution                                             │
-│                                                                              │
-│           ↓                                                                  │
-│                                                                              │
-│   STEP 5: EVALUATE                                                          │
-│   Did it work?                                                              │
-│   Learn from the result                                                     │
-│                                                                              │
+│ │
+│ STEP 1: DEFINE │
+│ What exactly is the problem? │
+│ "The login button doesn't work on mobile" │
+│ │
+│ ↓ │
+│ │
+│ STEP 2: ANALYZE │
+│ Why is this happening? │
+│ Gather information, test, investigate │
+│ │
+│ ↓ │
+│ │
+│ STEP 3: GENERATE OPTIONS │
+│ What are possible solutions? │
+│ List multiple ideas, don't judge yet │
+│ │
+│ ↓ │
+│ │
+│ STEP 4: DECIDE & ACT │
+│ Which solution is best? │
+│ Implement the chosen solution │
+│ │
+│ ↓ │
+│ │
+│ STEP 5: EVALUATE │
+│ Did it work? │
+│ Learn from the result │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -108,31 +108,31 @@ This builds your problem-solving skills while respecting others' time.
 
 ```
 1. IDENTIFY what you need to know
-   → "How do I center a div horizontally?"
+ → "How do I center a div horizontally?"
 
 2. CHOOSE the right sources
-   → MDN, Stack Overflow, Official Docs
+ → MDN, Stack Overflow, Official Docs
 
 3. EVALUATE the information
-   → Is it current? Is it reliable?
+ → Is it current? Is it reliable?
 
 4. APPLY what you learned
-   → Try the solution
+ → Try the solution
 
 5. DOCUMENT for future reference
-   → Save useful resources
+ → Save useful resources
 ```
 
 ### Quality Sources
 
 | Source | Best For | Trust Level |
 |--------|----------|-------------|
-| Official Documentation | Accurate syntax, API | ⭐⭐⭐⭐⭐ |
-| MDN Web Docs | HTML/CSS/JS reference | ⭐⭐⭐⭐⭐ |
-| Stack Overflow | Common problems | ⭐⭐⭐⭐ (check votes) |
-| Dev.to / Medium | Tutorials, explanations | ⭐⭐⭐ (varies) |
-| Random blogs | Various | ⭐⭐ (verify) |
-| YouTube | Visual learning | ⭐⭐⭐ (check date) |
+| Official Documentation | Accurate syntax, API | |
+| MDN Web Docs | HTML/CSS/JS reference | |
+| Stack Overflow | Common problems | (check votes) |
+| Dev.to / Medium | Tutorials, explanations | (varies) |
+| Random blogs | Various | (verify) |
+| YouTube | Visual learning | (check date) |
 
 ### Evaluating Information
 
@@ -151,32 +151,32 @@ Ask these questions:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    DEBUGGING PROCESS                                         │
+│ DEBUGGING PROCESS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   1. REPRODUCE THE BUG                                                      │
-│      Can you make it happen again?                                          │
-│      What exact steps cause it?                                             │
-│                                                                              │
-│   2. READ THE ERROR                                                         │
-│      Don't panic. Read the message.                                         │
-│      What file? What line? What type?                                       │
-│                                                                              │
-│   3. CHECK RECENT CHANGES                                                   │
-│      What did you change before it broke?                                   │
-│      Can you undo and test?                                                 │
-│                                                                              │
-│   4. SIMPLIFY                                                               │
-│      Remove code until it works.                                            │
-│      Add back until it breaks.                                              │
-│                                                                              │
-│   5. SEARCH                                                                 │
-│      Google the error message.                                              │
-│      Check Stack Overflow.                                                  │
-│                                                                              │
-│   6. ASK FOR HELP                                                           │
-│      After trying above, ask with context.                                  │
-│                                                                              │
+│ │
+│ 1. REPRODUCE THE BUG │
+│ Can you make it happen again? │
+│ What exact steps cause it? │
+│ │
+│ 2. READ THE ERROR │
+│ Don't panic. Read the message. │
+│ What file? What line? What type? │
+│ │
+│ 3. CHECK RECENT CHANGES │
+│ What did you change before it broke? │
+│ Can you undo and test? │
+│ │
+│ 4. SIMPLIFY │
+│ Remove code until it works. │
+│ Add back until it breaks. │
+│ │
+│ 5. SEARCH │
+│ Google the error message. │
+│ Check Stack Overflow. │
+│ │
+│ 6. ASK FOR HELP │
+│ After trying above, ask with context. │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -238,30 +238,30 @@ When solving problems, consider:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    THE LEARNING LOOP                                         │
+│ THE LEARNING LOOP │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│           ┌─────────────┐                                                   │
-│           │   LEARN     │ ← Read, watch, study                              │
-│           └──────┬──────┘                                                   │
-│                  │                                                           │
-│                  ↓                                                           │
-│           ┌─────────────┐                                                   │
-│           │   PRACTICE  │ ← Try it yourself                                 │
-│           └──────┬──────┘                                                   │
-│                  │                                                           │
-│                  ↓                                                           │
-│           ┌─────────────┐                                                   │
-│           │   BUILD     │ ← Create something real                           │
-│           └──────┬──────┘                                                   │
-│                  │                                                           │
-│                  ↓                                                           │
-│           ┌─────────────┐                                                   │
-│           │   TEACH     │ ← Share with others                               │
-│           └──────┬──────┘                                                   │
-│                  │                                                           │
-│                  └──────────→ Repeat                                        │
-│                                                                              │
+│ │
+│ ┌─────────────┐ │
+│ │ LEARN │ ← Read, watch, study │
+│ └──────┬──────┘ │
+│ │ │
+│ ↓ │
+│ ┌─────────────┐ │
+│ │ PRACTICE │ ← Try it yourself │
+│ └──────┬──────┘ │
+│ │ │
+│ ↓ │
+│ ┌─────────────┐ │
+│ │ BUILD │ ← Create something real │
+│ └──────┬──────┘ │
+│ │ │
+│ ↓ │
+│ ┌─────────────┐ │
+│ │ TEACH │ ← Share with others │
+│ └──────┬──────┘ │
+│ │ │
+│ └──────────→ Repeat │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -322,7 +322,7 @@ Better: "How do I check if a file is a PDF?"
 
 ---
 
-## 🧪 Practice Exercises
+## Practice Exercises
 
 ### Exercise 1: Define Problems
 
@@ -361,7 +361,7 @@ Write a good question for asking help with a coding problem you've faced recentl
 
 ---
 
-## 📝 Problem-Solving Checklist
+## Problem-Solving Checklist
 
 ```
 □ Define the problem clearly
@@ -375,7 +375,7 @@ Write a good question for asking help with a coding problem you've faced recentl
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Daily Practice:**
 
@@ -392,7 +392,7 @@ Write a good question for asking help with a coding problem you've faced recentl
 
 <div align="center">
 
-**Every problem has a solution!** 🧩
+**Every problem has a solution!** 
 
 *Your ability to solve problems defines your value.*
 

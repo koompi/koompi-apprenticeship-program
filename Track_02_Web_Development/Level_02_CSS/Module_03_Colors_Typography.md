@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -44,13 +44,13 @@ color: hsla(240, 100%, 50%, 0.5);
 ### Hexadecimal Colors
 
 ```
-#RRGGBB  or  #RGB (shorthand)
+#RRGGBB or #RGB (shorthand)
 
-#ff0000 = red    (#f00)
-#00ff00 = green  (#0f0)
-#0000ff = blue   (#00f)
-#ffffff = white  (#fff)
-#000000 = black  (#000)
+#ff0000 = red (#f00)
+#00ff00 = green (#0f0)
+#0000ff = blue (#00f)
+#ffffff = white (#fff)
+#000000 = black (#000)
 #808080 = gray
 ```
 
@@ -69,13 +69,13 @@ Common hex colors to memorize:
 
 ```css
 /* rgb(red, green, blue) - values 0-255 */
-color: rgb(255, 0, 0);      /* Red */
-color: rgb(0, 255, 0);      /* Green */
-color: rgb(0, 0, 255);      /* Blue */
-color: rgb(128, 128, 128);  /* Gray */
+color: rgb(255, 0, 0); /* Red */
+color: rgb(0, 255, 0); /* Green */
+color: rgb(0, 0, 255); /* Blue */
+color: rgb(128, 128, 128); /* Gray */
 
 /* With transparency (0-1) */
-color: rgba(255, 0, 0, 0.5);  /* 50% transparent red */
+color: rgba(255, 0, 0, 0.5); /* 50% transparent red */
 ```
 
 ### HSL Colors
@@ -84,14 +84,14 @@ HSL is often more intuitive:
 
 ```css
 /* hsl(hue, saturation, lightness) */
-color: hsl(0, 100%, 50%);    /* Red */
-color: hsl(120, 100%, 50%);  /* Green */
-color: hsl(240, 100%, 50%);  /* Blue */
+color: hsl(0, 100%, 50%); /* Red */
+color: hsl(120, 100%, 50%); /* Green */
+color: hsl(240, 100%, 50%); /* Blue */
 
 /* Adjusting lightness */
-color: hsl(0, 100%, 25%);    /* Dark red */
-color: hsl(0, 100%, 50%);    /* Normal red */
-color: hsl(0, 100%, 75%);    /* Light red */
+color: hsl(0, 100%, 25%); /* Dark red */
+color: hsl(0, 100%, 50%); /* Normal red */
+color: hsl(0, 100%, 75%); /* Light red */
 ```
 
 ---
@@ -102,19 +102,19 @@ color: hsl(0, 100%, 75%);    /* Light red */
 
 ```css
 h1 {
-    color: #2c3e50;
+ color: #2c3e50;
 }
 
 p {
-    color: #666666;
+ color: #666666;
 }
 
 a {
-    color: #3498db;
+ color: #3498db;
 }
 
 a:hover {
-    color: #2980b9;
+ color: #2980b9;
 }
 ```
 
@@ -122,20 +122,20 @@ a:hover {
 
 ```css
 body {
-    background-color: #f5f5f5;
+ background-color: #f5f5f5;
 }
 
 header {
-    background-color: #2c3e50;
-    color: white;
+ background-color: #2c3e50;
+ color: white;
 }
 
 .highlight {
-    background-color: #ffff00;
+ background-color: #ffff00;
 }
 
 .card {
-    background-color: white;
+ background-color: white;
 }
 ```
 
@@ -144,30 +144,30 @@ header {
 ```css
 /* Professional color scheme example */
 :root {
-    --primary: #3498db;      /* Main brand color */
-    --secondary: #2ecc71;    /* Accent color */
-    --dark: #2c3e50;         /* Dark backgrounds, headings */
-    --light: #ecf0f1;        /* Light backgrounds */
-    --text: #333333;         /* Body text */
-    --text-light: #7f8c8d;   /* Muted text */
+ --primary: #3498db; /* Main brand color */
+ --secondary: #2ecc71; /* Accent color */
+ --dark: #2c3e50; /* Dark backgrounds, headings */
+ --light: #ecf0f1; /* Light backgrounds */
+ --text: #333333; /* Body text */
+ --text-light: #7f8c8d; /* Muted text */
 }
 
 body {
-    background-color: var(--light);
-    color: var(--text);
+ background-color: var(--light);
+ color: var(--text);
 }
 
 h1 {
-    color: var(--dark);
+ color: var(--dark);
 }
 
 a {
-    color: var(--primary);
+ color: var(--primary);
 }
 
 button {
-    background-color: var(--primary);
-    color: white;
+ background-color: var(--primary);
+ color: white;
 }
 ```
 
@@ -179,7 +179,7 @@ button {
 
 ```css
 .hero {
-    background-image: url('images/hero-bg.jpg');
+ background-image: url('images/hero-bg.jpg');
 }
 ```
 
@@ -187,14 +187,14 @@ button {
 
 ```css
 .hero {
-    background-image: url('images/hero-bg.jpg');
-    background-size: cover;  /* Covers entire element */
+ background-image: url('images/hero-bg.jpg');
+ background-size: cover; /* Covers entire element */
 }
 
 /* Options */
-background-size: cover;      /* Scale to cover, may crop */
-background-size: contain;    /* Scale to fit, may leave space */
-background-size: 100% 100%;  /* Stretch to fill */
+background-size: cover; /* Scale to cover, may crop */
+background-size: contain; /* Scale to fit, may leave space */
+background-size: 100% 100%; /* Stretch to fill */
 background-size: 300px 200px; /* Specific size */
 ```
 
@@ -202,9 +202,9 @@ background-size: 300px 200px; /* Specific size */
 
 ```css
 .hero {
-    background-image: url('images/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;  /* Center the image */
+ background-image: url('images/hero-bg.jpg');
+ background-size: cover;
+ background-position: center; /* Center the image */
 }
 
 /* Options */
@@ -235,18 +235,18 @@ background-repeat: repeat-y;
 
 ```css
 .hero {
-    background-image: url('images/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;  /* Parallax effect */
-    height: 100vh;
+ background-image: url('images/hero-bg.jpg');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed; /* Parallax effect */
+ height: 100vh;
 }
 
 /* Shorthand */
 .hero {
-    background: url('images/hero-bg.jpg') center/cover no-repeat fixed;
-    height: 100vh;
+ background: url('images/hero-bg.jpg') center/cover no-repeat fixed;
+ height: 100vh;
 }
 ```
 
@@ -255,22 +255,22 @@ background-repeat: repeat-y;
 ```css
 /* Linear gradient */
 .gradient {
-    background: linear-gradient(to right, #3498db, #2ecc71);
+ background: linear-gradient(to right, #3498db, #2ecc71);
 }
 
 /* Angled gradient */
 .gradient {
-    background: linear-gradient(45deg, #3498db, #2ecc71);
+ background: linear-gradient(45deg, #3498db, #2ecc71);
 }
 
 /* Multiple colors */
 .gradient {
-    background: linear-gradient(to bottom, #3498db, #9b59b6, #e74c3c);
+ background: linear-gradient(to bottom, #3498db, #9b59b6, #e74c3c);
 }
 
 /* Radial gradient */
 .gradient {
-    background: radial-gradient(circle, #3498db, #2c3e50);
+ background: radial-gradient(circle, #3498db, #2c3e50);
 }
 ```
 
@@ -282,15 +282,15 @@ background-repeat: repeat-y;
 
 ```css
 body {
-    font-family: Arial, Helvetica, sans-serif;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', serif;
+ font-family: Georgia, 'Times New Roman', serif;
 }
 
 code {
-    font-family: 'Courier New', Consolas, monospace;
+ font-family: 'Courier New', Consolas, monospace;
 }
 ```
 
@@ -322,11 +322,11 @@ Free fonts from Google:
 
 ```css
 body {
-    font-family: 'Open Sans', sans-serif;
+ font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
+ font-family: 'Roboto', sans-serif;
 }
 ```
 
@@ -349,7 +349,7 @@ p { font-size: 100%; }
 | Unit | Best For |
 |------|----------|
 | `px` | Precise sizes |
-| `rem` | Scalable layouts ✅ |
+| `rem` | Scalable layouts |
 | `em` | Component-relative sizing |
 | `%` | Relative to parent |
 
@@ -357,16 +357,16 @@ p { font-size: 100%; }
 
 ```css
 /* Keywords */
-font-weight: normal;    /* 400 */
-font-weight: bold;      /* 700 */
+font-weight: normal; /* 400 */
+font-weight: bold; /* 700 */
 
 /* Numbers (100-900) */
-font-weight: 100;  /* Thin */
-font-weight: 300;  /* Light */
-font-weight: 400;  /* Normal */
-font-weight: 500;  /* Medium */
-font-weight: 700;  /* Bold */
-font-weight: 900;  /* Black */
+font-weight: 100; /* Thin */
+font-weight: 300; /* Light */
+font-weight: 400; /* Normal */
+font-weight: 500; /* Medium */
+font-weight: 700; /* Bold */
+font-weight: 900; /* Black */
 ```
 
 ### Font Style
@@ -384,19 +384,19 @@ font-style: oblique;
 ### Text Alignment
 
 ```css
-text-align: left;      /* Default for LTR */
+text-align: left; /* Default for LTR */
 text-align: right;
 text-align: center;
-text-align: justify;   /* Stretches to fill width */
+text-align: justify; /* Stretches to fill width */
 ```
 
 ### Text Decoration
 
 ```css
 /* Underline, line-through, etc. */
-text-decoration: none;           /* Remove underline from links */
+text-decoration: none; /* Remove underline from links */
 text-decoration: underline;
-text-decoration: line-through;   /* Strikethrough */
+text-decoration: line-through; /* Strikethrough */
 text-decoration: overline;
 ```
 
@@ -404,18 +404,18 @@ text-decoration: overline;
 
 ```css
 text-transform: none;
-text-transform: uppercase;   /* ALL CAPS */
-text-transform: lowercase;   /* all lowercase */
-text-transform: capitalize;  /* First Letter Of Each Word */
+text-transform: uppercase; /* ALL CAPS */
+text-transform: lowercase; /* all lowercase */
+text-transform: capitalize; /* First Letter Of Each Word */
 ```
 
 ### Line Height
 
 ```css
 /* Controls space between lines */
-line-height: 1.6;      /* Recommended for body text */
-line-height: 1.2;      /* Tighter for headings */
-line-height: 24px;     /* Exact pixels */
+line-height: 1.6; /* Recommended for body text */
+line-height: 1.2; /* Tighter for headings */
+line-height: 24px; /* Exact pixels */
 ```
 
 ### Letter Spacing
@@ -424,7 +424,7 @@ line-height: 24px;     /* Exact pixels */
 /* Space between letters */
 letter-spacing: 1px;
 letter-spacing: 0.1em;
-letter-spacing: -0.5px;  /* Tighter */
+letter-spacing: -0.5px; /* Tighter */
 ```
 
 ### Word Spacing
@@ -440,19 +440,19 @@ word-spacing: 5px;
 ```css
 /* Base typography */
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
+ font-family: 'Open Sans', Arial, sans-serif;
+ font-size: 16px;
+ line-height: 1.6;
+ color: #333;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', Helvetica, sans-serif;
-    font-weight: 700;
-    line-height: 1.2;
-    color: #2c3e50;
-    margin-bottom: 0.5em;
+ font-family: 'Roboto', Helvetica, sans-serif;
+ font-weight: 700;
+ line-height: 1.2;
+ color: #2c3e50;
+ margin-bottom: 0.5em;
 }
 
 h1 { font-size: 2.5rem; }
@@ -462,32 +462,32 @@ h4 { font-size: 1.5rem; }
 
 /* Paragraphs */
 p {
-    margin-bottom: 1rem;
+ margin-bottom: 1rem;
 }
 
 /* Links */
 a {
-    color: #3498db;
-    text-decoration: none;
+ color: #3498db;
+ text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+ text-decoration: underline;
 }
 
 /* Intro paragraph */
 .intro {
-    font-size: 1.25rem;
-    font-weight: 300;
-    color: #555;
+ font-size: 1.25rem;
+ font-weight: 300;
+ color: #555;
 }
 
 /* All caps heading */
 .section-title {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 0.875rem;
-    color: #666;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ font-size: 0.875rem;
+ color: #666;
 }
 ```
 
@@ -499,36 +499,36 @@ a:hover {
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    READABILITY BEST PRACTICES                                │
+│ READABILITY BEST PRACTICES │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   CONTRAST                                                                   │
-│   • Dark text on light background (or vice versa)                           │
-│   • Avoid low-contrast combinations                                         │
-│   • Test readability!                                                        │
-│                                                                              │
-│   FONT SIZE                                                                  │
-│   • Body text: minimum 16px                                                 │
-│   • Never go below 12px                                                     │
-│                                                                              │
-│   LINE HEIGHT                                                                │
-│   • Body text: 1.5 - 1.7                                                   │
-│   • Headings: 1.1 - 1.3                                                    │
-│                                                                              │
-│   LINE LENGTH                                                                │
-│   • Ideal: 50-75 characters per line                                       │
-│   • Too wide = hard to read                                                 │
-│                                                                              │
-│   FONT CHOICES                                                               │
-│   • Maximum 2-3 fonts per site                                             │
-│   • One for headings, one for body                                          │
-│                                                                              │
+│ │
+│ CONTRAST │
+│ • Dark text on light background (or vice versa) │
+│ • Avoid low-contrast combinations │
+│ • Test readability! │
+│ │
+│ FONT SIZE │
+│ • Body text: minimum 16px │
+│ • Never go below 12px │
+│ │
+│ LINE HEIGHT │
+│ • Body text: 1.5 - 1.7 │
+│ • Headings: 1.1 - 1.3 │
+│ │
+│ LINE LENGTH │
+│ • Ideal: 50-75 characters per line │
+│ • Too wide = hard to read │
+│ │
+│ FONT CHOICES │
+│ • Maximum 2-3 fonts per site │
+│ • One for headings, one for body │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Color Formats
 
@@ -577,7 +577,7 @@ Apply to your bio page:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Color Formats**
 
@@ -602,7 +602,7 @@ Apply to your bio page:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 04:**
 
@@ -620,7 +620,7 @@ Apply to your bio page:
 
 <div align="center">
 
-**Your designs are coming to life!** 🎨
+**Your designs are coming to life!** 
 
 *Colors and fonts transform plain pages into beautiful ones.*
 

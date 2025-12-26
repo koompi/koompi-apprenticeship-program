@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,27 +21,27 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    ORGANIZED vs DISORGANIZED                                 │
+│ ORGANIZED vs DISORGANIZED │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   DISORGANIZED DEVELOPER                ORGANIZED DEVELOPER                 │
-│   ══════════════════════                ════════════════════                 │
-│                                                                              │
-│   Desktop/                              projects/                            │
-│   ├── final_v2_FINAL.html              ├── koompi-website/                  │
-│   ├── test.html                        │   ├── index.html                   │
-│   ├── asdfasdf.js                      │   ├── css/                         │
-│   ├── project(1).zip                   │   │   └── style.css                │
-│   ├── IMG_20241226.jpg                 │   └── js/                          │
-│   ├── New folder/                      │       └── main.js                  │
-│   ├── New folder (2)/                  └── portfolio/                        │
-│   └── untitled.txt                         ├── index.html                   │
-│                                            └── css/                          │
-│   ❌ Can't find anything                   ✅ Easy to navigate               │
-│   ❌ Wastes time searching                 ✅ Saves hours                     │
-│   ❌ Looks unprofessional                  ✅ Shows competence                │
-│   ❌ Hard to share with team              ✅ Team-friendly                   │
-│                                                                              │
+│ │
+│ DISORGANIZED DEVELOPER ORGANIZED DEVELOPER │
+│ ══════════════════════ ════════════════════ │
+│ │
+│ Desktop/ projects/ │
+│ ├── final_v2_FINAL.html ├── koompi-website/ │
+│ ├── test.html │ ├── index.html │
+│ ├── asdfasdf.js │ ├── css/ │
+│ ├── project(1).zip │ │ └── style.css │
+│ ├── IMG_20241226.jpg │ └── js/ │
+│ ├── New folder/ │ └── main.js │
+│ ├── New folder (2)/ └── portfolio/ │
+│ └── untitled.txt ├── index.html │
+│ └── css/ │
+│ Can't find anything Easy to navigate │
+│ Wastes time searching Saves hours │
+│ Looks unprofessional Shows competence │
+│ Hard to share with team Team-friendly │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -65,29 +65,29 @@ Every web project should follow a similar pattern:
 
 ```
 project-name/
-├── index.html              ← Main homepage
-├── about.html              ← Other HTML pages
+├── index.html ← Main homepage
+├── about.html ← Other HTML pages
 ├── contact.html
 │
-├── css/                    ← All stylesheets
-│   ├── style.css          ← Main styles
-│   ├── reset.css          ← CSS reset (optional)
-│   └── responsive.css     ← Mobile styles (optional)
+├── css/ ← All stylesheets
+│ ├── style.css ← Main styles
+│ ├── reset.css ← CSS reset (optional)
+│ └── responsive.css ← Mobile styles (optional)
 │
-├── js/                     ← All JavaScript files
-│   ├── main.js            ← Main script
-│   └── utils.js           ← Helper functions (optional)
+├── js/ ← All JavaScript files
+│ ├── main.js ← Main script
+│ └── utils.js ← Helper functions (optional)
 │
-├── images/                 ← All images
-│   ├── logo.png
-│   ├── hero-banner.jpg
-│   └── icons/             ← Subfolder for icons
-│       ├── menu.svg
-│       └── close.svg
+├── images/ ← All images
+│ ├── logo.png
+│ ├── hero-banner.jpg
+│ └── icons/ ← Subfolder for icons
+│ ├── menu.svg
+│ └── close.svg
 │
-├── fonts/                  ← Custom fonts (if any)
+├── fonts/ ← Custom fonts (if any)
 │
-└── README.md              ← Project description
+└── README.md ← Project description
 ```
 
 ### Why This Structure?
@@ -108,30 +108,30 @@ project-name/
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    FILE NAMING BEST PRACTICES                                │
+│ FILE NAMING BEST PRACTICES │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   ✅ DO                                    ❌ DON'T                          │
-│   ═════                                    ═══════                          │
-│                                                                              │
-│   Use lowercase                            Use UPPERCASE or MixedCase        │
-│   index.html                               Index.HTML                        │
-│                                                                              │
-│   Use hyphens for spaces                   Use spaces                        │
-│   my-project.html                          my project.html                   │
-│                                                                              │
-│   Use underscores for multi-word           Use special characters            │
-│   user_profile.js                          user@profile!.js                  │
-│                                                                              │
-│   Be descriptive                           Be vague                          │
-│   contact-form.css                         style2.css                        │
-│                                                                              │
-│   Use proper extensions                    Forget extensions                 │
-│   script.js                                script                            │
-│                                                                              │
-│   Keep it short but clear                  Use very long names               │
-│   nav-menu.css                             navigation-menu-styles-v2.css    │
-│                                                                              │
+│ │
+│ DO DON'T │
+│ ═════ ═══════ │
+│ │
+│ Use lowercase Use UPPERCASE or MixedCase │
+│ index.html Index.HTML │
+│ │
+│ Use hyphens for spaces Use spaces │
+│ my-project.html my project.html │
+│ │
+│ Use underscores for multi-word Use special characters │
+│ user_profile.js user@profile!.js │
+│ │
+│ Be descriptive Be vague │
+│ contact-form.css style2.css │
+│ │
+│ Use proper extensions Forget extensions │
+│ script.js script │
+│ │
+│ Keep it short but clear Use very long names │
+│ nav-menu.css navigation-menu-styles-v2.css │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -147,7 +147,7 @@ project-name/
 
 ### Bad vs Good Examples
 
-| Bad ❌ | Good ✅ | Why |
+| Bad | Good | Why |
 |--------|---------|-----|
 | `My Page.html` | `my-page.html` | No spaces, lowercase |
 | `STYLE.CSS` | `style.css` | Lowercase |
@@ -166,24 +166,24 @@ Set up your home directory for success:
 ```
 /home/student/
 │
-├── Documents/              ← General documents
-│   ├── notes/             ← Learning notes
-│   ├── certificates/      ← Earned certificates
-│   └── resources/         ← Downloaded resources
+├── Documents/ ← General documents
+│ ├── notes/ ← Learning notes
+│ ├── certificates/ ← Earned certificates
+│ └── resources/ ← Downloaded resources
 │
-├── projects/               ← ALL coding projects go here
-│   ├── learning/          ← Practice projects
-│   │   ├── html-practice/
-│   │   ├── css-exercises/
-│   │   └── js-basics/
-│   ├── portfolio/         ← Your personal portfolio
-│   └── client-work/       ← Real projects (later)
+├── projects/ ← ALL coding projects go here
+│ ├── learning/ ← Practice projects
+│ │ ├── html-practice/
+│ │ ├── css-exercises/
+│ │ └── js-basics/
+│ ├── portfolio/ ← Your personal portfolio
+│ └── client-work/ ← Real projects (later)
 │
-├── Downloads/              ← Temporary downloads
-│                          ← Clean this regularly!
+├── Downloads/ ← Temporary downloads
+│ ← Clean this regularly!
 │
-└── Desktop/                ← Keep almost empty!
-    └── (only shortcuts)
+└── Desktop/ ← Keep almost empty!
+ └── (only shortcuts)
 ```
 
 ### Setting Up Your Workspace
@@ -214,32 +214,32 @@ ls -la projects/
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    DAILY FILE MANAGEMENT HABITS                              │
+│ DAILY FILE MANAGEMENT HABITS │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   🌅 START OF DAY                                                           │
-│   ───────────────                                                           │
-│   • Open terminal, check your projects folder                               │
-│   • Know what you're working on today                                       │
-│                                                                              │
-│   💻 DURING WORK                                                            │
-│   ─────────────                                                             │
-│   • Save files frequently (Ctrl+S)                                          │
-│   • Keep files in the right folders                                         │
-│   • Name files clearly immediately                                          │
-│                                                                              │
-│   🌙 END OF DAY                                                             │
-│   ───────────                                                               │
-│   • Clean up Downloads folder                                               │
-│   • Delete temporary/test files                                             │
-│   • Make sure work is saved                                                 │
-│                                                                              │
-│   📅 WEEKLY                                                                  │
-│   ────────                                                                  │
-│   • Clear trash                                                              │
-│   • Review and organize Desktop                                             │
-│   • Back up important work                                                  │
-│                                                                              │
+│ │
+│ START OF DAY │
+│ ─────────────── │
+│ • Open terminal, check your projects folder │
+│ • Know what you're working on today │
+│ │
+│ DURING WORK │
+│ ───────────── │
+│ • Save files frequently (Ctrl+S) │
+│ • Keep files in the right folders │
+│ • Name files clearly immediately │
+│ │
+│ END OF DAY │
+│ ─────────── │
+│ • Clean up Downloads folder │
+│ • Delete temporary/test files │
+│ • Make sure work is saved │
+│ │
+│ WEEKLY │
+│ ──────── │
+│ • Clear trash │
+│ • Review and organize Desktop │
+│ • Back up important work │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -314,7 +314,7 @@ While the terminal is powerful, the file manager is helpful for:
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Create Standard Web Project
 
@@ -384,7 +384,7 @@ Perform a complete cleanup:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Key Concepts**
 
@@ -397,24 +397,24 @@ Perform a complete cleanup:
 
 **Best Practices Learned**
 
-- ✅ Standard web project structure
-- ✅ Lowercase, hyphenated file names
-- ✅ Organized home directory
-- ✅ Daily and weekly cleanup habits
-- ✅ README documentation
+- Standard web project structure
+- Lowercase, hyphenated file names
+- Organized home directory
+- Daily and weekly cleanup habits
+- README documentation
 
 ---
 
-## 🎓 Track 00 Complete
+## Track 00 Complete
 
 **Congratulations!** You have completed Track 00: Digital Foundations.
 
 **Skills You Now Have:**
 
-- ✅ Computer basics and KOOMPI OS navigation
-- ✅ Touch typing with proper finger placement
-- ✅ Linux terminal commands
-- ✅ Professional file organization
+- Computer basics and KOOMPI OS navigation
+- Touch typing with proper finger placement
+- Linux terminal commands
+- Professional file organization
 
 **Next Steps:**
 
@@ -425,7 +425,7 @@ Perform a complete cleanup:
 
 ---
 
-## 🏆 Ready for Certification?
+## Ready for Certification?
 
 **Digital Citizen Certificate Requirements:**
 
@@ -441,7 +441,7 @@ Perform a complete cleanup:
 
 <div align="center">
 
-**You're ready to start building websites!** 🎉
+**You're ready to start building websites!** 
 
 *Track 02: Web Development awaits you.*
 

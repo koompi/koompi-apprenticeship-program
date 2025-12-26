@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -23,25 +23,25 @@ The DOM is how JavaScript sees HTML:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    THE DOM TREE                                              │
+│ THE DOM TREE │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│                         document                                            │
-│                            │                                                │
-│                          <html>                                             │
-│                          ╱    ╲                                             │
-│                      <head>   <body>                                        │
-│                        │        │                                           │
-│                     <title>   ┌─┴─────┬─────────┐                          │
-│                               │       │         │                          │
-│                            <header> <main>  <footer>                       │
-│                               │       │         │                          │
-│                             <h1>    <div>     <p>                          │
-│                                       │                                     │
-│                                    <button>                                 │
-│                                                                              │
-│   Every element becomes a "node" JavaScript can work with.                 │
-│                                                                              │
+│ │
+│ document │
+│ │ │
+│ <html> │
+│ ╱ ╲ │
+│ <head> <body> │
+│ │ │ │
+│ <title> ┌─┴─────┬─────────┐ │
+│ │ │ │ │
+│ <header> <main> <footer> │
+│ │ │ │ │
+│ <h1> <div> <p> │
+│ │ │
+│ <button> │
+│ │
+│ Every element becomes a "node" JavaScript can work with. │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -50,10 +50,10 @@ The DOM is how JavaScript sees HTML:
 The `document` object is your entry point:
 
 ```javascript
-console.log(document);           // The whole page
-console.log(document.title);     // Page title
-console.log(document.body);      // Body element
-console.log(document.URL);       // Page URL
+console.log(document); // The whole page
+console.log(document.title); // Page title
+console.log(document.body); // Body element
+console.log(document.URL); // Page URL
 ```
 
 ---
@@ -70,7 +70,7 @@ Select one element by its ID:
 
 ```javascript
 const title = document.getElementById("title");
-console.log(title);  // <h1 id="title">Welcome</h1>
+console.log(title); // <h1 id="title">Welcome</h1>
 ```
 
 ### querySelector
@@ -98,11 +98,11 @@ Select ALL matching elements:
 ```javascript
 // Get all paragraphs
 const paragraphs = document.querySelectorAll("p");
-console.log(paragraphs);  // NodeList [p, p, p, ...]
+console.log(paragraphs); // NodeList [p, p, p, ...]
 
 // Loop through them
 paragraphs.forEach(p => {
-    console.log(p.textContent);
+ console.log(p.textContent);
 });
 ```
 
@@ -155,8 +155,8 @@ container.innerHTML = "<h2>New Heading</h2><p>New paragraph</p>";
 | `innerHTML` | HTML markup | `"<b>Hello</b> World"` |
 
 ```javascript
-element.textContent = "<b>bold</b>";  // Shows: <b>bold</b>
-element.innerHTML = "<b>bold</b>";    // Shows: **bold**
+element.textContent = "<b>bold</b>"; // Shows: <b>bold</b>
+element.innerHTML = "<b>bold</b>"; // Shows: **bold**
 ```
 
 ---
@@ -183,12 +183,12 @@ Better approach — use CSS classes:
 ```css
 /* styles.css */
 .highlight {
-    background-color: yellow;
-    font-weight: bold;
+ background-color: yellow;
+ font-weight: bold;
 }
 
 .hidden {
-    display: none;
+ display: none;
 }
 ```
 
@@ -206,7 +206,7 @@ element.classList.toggle("hidden");
 
 // Check if has class
 if (element.classList.contains("highlight")) {
-    console.log("It's highlighted!");
+ console.log("It's highlighted!");
 }
 ```
 
@@ -224,12 +224,12 @@ Events are user actions: clicks, typing, scrolling, etc.
 const button = document.querySelector("#myButton");
 
 button.addEventListener("click", function() {
-    console.log("Button was clicked!");
+ console.log("Button was clicked!");
 });
 
 // With arrow function
 button.addEventListener("click", () => {
-    console.log("Clicked!");
+ console.log("Clicked!");
 });
 ```
 
@@ -254,14 +254,14 @@ Every event handler receives an event object:
 
 ```javascript
 button.addEventListener("click", function(event) {
-    console.log(event.type);      // "click"
-    console.log(event.target);    // The clicked element
-    console.log(event.clientX);   // Mouse X position
+ console.log(event.type); // "click"
+ console.log(event.target); // The clicked element
+ console.log(event.clientX); // Mouse X position
 });
 
 // Often shortened to 'e'
 button.addEventListener("click", (e) => {
-    e.target.style.backgroundColor = "red";
+ e.target.style.backgroundColor = "red";
 });
 ```
 
@@ -279,14 +279,14 @@ button.addEventListener("click", (e) => {
 const toggle = document.querySelector("#themeToggle");
 
 toggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
+ document.body.classList.toggle("dark-mode");
 });
 ```
 
 ```css
 .dark-mode {
-    background-color: #1a1a1a;
-    color: white;
+ background-color: #1a1a1a;
+ color: white;
 }
 ```
 
@@ -305,13 +305,13 @@ const incrementBtn = document.querySelector("#increment");
 const decrementBtn = document.querySelector("#decrement");
 
 incrementBtn.addEventListener("click", () => {
-    count++;
-    countDisplay.textContent = count;
+ count++;
+ countDisplay.textContent = count;
 });
 
 decrementBtn.addEventListener("click", () => {
-    count--;
-    countDisplay.textContent = count;
+ count--;
+ countDisplay.textContent = count;
 });
 ```
 
@@ -327,7 +327,7 @@ const input = document.querySelector("#nameInput");
 const greeting = document.querySelector("#greeting");
 
 input.addEventListener("input", (e) => {
-    greeting.textContent = e.target.value || "Guest";
+ greeting.textContent = e.target.value || "Guest";
 });
 ```
 
@@ -389,35 +389,35 @@ const taskInput = document.querySelector("#taskInput");
 const taskList = document.querySelector("#taskList");
 
 addBtn.addEventListener("click", () => {
-    const taskText = taskInput.value.trim();
-    
-    if (taskText) {
-        const li = document.createElement("li");
-        li.textContent = taskText;
-        
-        // Add delete button
-        const deleteBtn = document.createElement("button");
-        deleteBtn.textContent = "Delete";
-        deleteBtn.addEventListener("click", () => li.remove());
-        
-        li.appendChild(deleteBtn);
-        taskList.appendChild(li);
-        taskInput.value = "";
-    }
+ const taskText = taskInput.value.trim();
+ 
+ if (taskText) {
+ const li = document.createElement("li");
+ li.textContent = taskText;
+ 
+ // Add delete button
+ const deleteBtn = document.createElement("button");
+ deleteBtn.textContent = "Delete";
+ deleteBtn.addEventListener("click", () => li.remove());
+ 
+ li.appendChild(deleteBtn);
+ taskList.appendChild(li);
+ taskInput.value = "";
+ }
 });
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Select and Change
 
 1. Create an HTML file with a heading and paragraph
 2. Use JavaScript to:
-   - Change the heading text
-   - Change the paragraph color
-   - Add a class to the paragraph
+ - Change the heading text
+ - Change the paragraph color
+ - Add a class to the paragraph
 
 ### Exercise 2: Click Counter
 
@@ -451,7 +451,7 @@ Create:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Selecting Elements**
 
@@ -483,7 +483,7 @@ Create:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 07:**
 
@@ -501,7 +501,7 @@ Create:
 
 <div align="center">
 
-**JavaScript controls the page!** 🎮
+**JavaScript controls the page!** 
 
 *Now your websites can respond to users.*
 

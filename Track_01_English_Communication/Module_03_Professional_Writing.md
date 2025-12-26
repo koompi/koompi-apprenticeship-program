@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -21,22 +21,22 @@ By the end of this module, you will be able to:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│  To: recipient@email.com                                                     │
-│  Subject: Clear, Specific Subject Line                                      │
+│ To: recipient@email.com │
+│ Subject: Clear, Specific Subject Line │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  Greeting,                                                                   │
-│                                                                              │
-│  [Opening - purpose of email]                                               │
-│                                                                              │
-│  [Body - main content, details]                                             │
-│                                                                              │
-│  [Closing - next steps, call to action]                                     │
-│                                                                              │
-│  Sign-off,                                                                   │
-│  Your Name                                                                   │
-│  Your Title/Role                                                            │
-│                                                                              │
+│ │
+│ Greeting, │
+│ │
+│ [Opening - purpose of email] │
+│ │
+│ [Body - main content, details] │
+│ │
+│ [Closing - next steps, call to action] │
+│ │
+│ Sign-off, │
+│ Your Name │
+│ Your Title/Role │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -48,7 +48,7 @@ By the end of this module, you will be able to:
 - Short (under 50 characters)
 - Action-oriented when needed
 
-| Bad ❌ | Good ✅ |
+| Bad | Good |
 |--------|---------|
 | Hello | Meeting Request: Project Review - Dec 27 |
 | Question | Question About CSS Layout Issue |
@@ -142,17 +142,17 @@ Hello Team,
 Here is my progress update for this week:
 
 COMPLETED:
-✅ Homepage HTML structure
-✅ Navigation CSS styling
-✅ Responsive design for mobile
+ Homepage HTML structure
+ Navigation CSS styling
+ Responsive design for mobile
 
 IN PROGRESS:
-🔄 About page content
-🔄 Contact form functionality
+ About page content
+ Contact form functionality
 
 NEXT WEEK:
-📋 Complete remaining pages
-📋 Testing and debugging
+ Complete remaining pages
+ Testing and debugging
 
 Please let me know if you have any questions.
 
@@ -218,12 +218,12 @@ Best regards,
 Put the most important information first.
 
 ```
-❌ UNCLEAR:
+ UNCLEAR:
 "I was working on the project yesterday and found some issues. 
 The first one was pretty small, but then I noticed another one... 
 [3 paragraphs later]... So I think we need to delay the launch."
 
-✅ CLEAR (BLUF):
+ CLEAR (BLUF):
 "We need to delay the launch by one week due to critical bugs.
 
 Here are the details:
@@ -235,7 +235,7 @@ I recommend we address these before going live."
 
 ### Be Specific
 
-| Vague ❌ | Specific ✅ |
+| Vague | Specific |
 |----------|-------------|
 | "Let's meet soon" | "Can we meet Tuesday at 2 PM?" |
 | "It's not working" | "The submit button doesn't respond when clicked" |
@@ -323,27 +323,27 @@ Related guides or resources.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    PROFESSIONAL WRITING TONE                                 │
+│ PROFESSIONAL WRITING TONE │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   ✅ DO                              ❌ DON'T                               │
-│   ════                               ═══════                                │
-│                                                                              │
-│   Be polite and respectful          Be rude or demanding                   │
-│   Use complete sentences            Use txt speak (u, r, thx)              │
-│   Be clear and concise              Write unnecessarily long               │
-│   Use "please" and "thank you"      Forget common courtesy                 │
-│   Proofread before sending          Send with obvious errors               │
-│   Use proper capitalization         WRITE IN ALL CAPS                       │
-│   Stay positive                     Complain or blame                       │
-│   Be patient                        Sound frustrated                        │
-│                                                                              │
+│ │
+│ DO DON'T │
+│ ════ ═══════ │
+│ │
+│ Be polite and respectful Be rude or demanding │
+│ Use complete sentences Use txt speak (u, r, thx) │
+│ Be clear and concise Write unnecessarily long │
+│ Use "please" and "thank you" Forget common courtesy │
+│ Proofread before sending Send with obvious errors │
+│ Use proper capitalization WRITE IN ALL CAPS │
+│ Stay positive Complain or blame │
+│ Be patient Sound frustrated │
+│ │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Converting Casual to Professional
 
-| Casual ❌ | Professional ✅ |
+| Casual | Professional |
 |-----------|-----------------|
 | "Hey" | "Hello" / "Dear" |
 | "I wanna" | "I would like to" |
@@ -358,7 +358,7 @@ Related guides or resources.
 
 ### Grammar Mistakes
 
-| Wrong ❌ | Correct ✅ |
+| Wrong | Correct |
 |----------|-----------|
 | "Please revert back" | "Please reply" or "Please respond" |
 | "Do the needful" | "Please handle this" or "Please take care of this" |
@@ -367,7 +367,7 @@ Related guides or resources.
 
 ### Tone Mistakes
 
-| Wrong ❌ | Correct ✅ |
+| Wrong | Correct |
 |----------|-----------|
 | "You need to..." | "Could you please..." |
 | "Why haven't you..." | "I wanted to follow up on..." |
@@ -376,7 +376,7 @@ Related guides or resources.
 
 ---
 
-## 🧪 Practice Exercises
+## Practice Exercises
 
 ### Exercise 1: Write a Request Email
 
@@ -427,7 +427,7 @@ Exchange emails with a fellow apprentice:
 
 ---
 
-## 📝 Email Templates
+## Email Templates
 
 ### Template 1: Information Request
 
@@ -472,7 +472,7 @@ Best regards,
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Daily Practice:**
 
@@ -489,7 +489,7 @@ Best regards,
 
 <div align="center">
 
-**Write with purpose and clarity!** ✍️
+**Write with purpose and clarity!** 
 
 *Good writing reflects good thinking.*
 

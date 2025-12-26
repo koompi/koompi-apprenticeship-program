@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Module Objectives
+## Module Objectives
 
 By the end of this module, you will be able to:
 
@@ -22,9 +22,9 @@ By the end of this module, you will be able to:
 Think of variables as labeled boxes that hold information:
 
 ```javascript
-let name = "Sokha";       // Box labeled "name" contains "Sokha"
-let age = 22;             // Box labeled "age" contains 22
-let isStudent = true;     // Box labeled "isStudent" contains true
+let name = "Sokha"; // Box labeled "name" contains "Sokha"
+let age = 22; // Box labeled "age" contains 22
+let isStudent = true; // Box labeled "isStudent" contains true
 ```
 
 ### Declaring Variables
@@ -50,29 +50,29 @@ score = 150;
 ### Three Ways to Declare
 
 ```javascript
-let   message = "Hello";   // Can be changed
-const PI = 3.14159;        // Cannot be changed
-var   oldWay = "Legacy";   // Old way (avoid)
+let message = "Hello"; // Can be changed
+const PI = 3.14159; // Cannot be changed
+var oldWay = "Legacy"; // Old way (avoid)
 ```
 
 ### let — Use Most of the Time
 
 ```javascript
 let count = 0;
-count = 1;  // ✅ OK - can change
-count = 2;  // ✅ OK - can change again
+count = 1; // OK - can change
+count = 2; // OK - can change again
 
-let count = 3;  // ❌ Error - can't redeclare
+let count = 3; // Error - can't redeclare
 ```
 
 ### const — For Values That Don't Change
 
 ```javascript
 const maxUsers = 100;
-maxUsers = 200;  // ❌ Error! Cannot change const
+maxUsers = 200; // Error! Cannot change const
 
 const siteName = "KOOMPI";
-siteName = "Other";  // ❌ Error!
+siteName = "Other"; // Error!
 ```
 
 **When to use const:**
@@ -94,10 +94,10 @@ var oldVariable = "Legacy code";
 
 | Feature | let | const | var |
 |---------|-----|-------|-----|
-| Can reassign | ✅ Yes | ❌ No | ✅ Yes |
-| Can redeclare | ❌ No | ❌ No | ✅ Yes |
-| Block scope | ✅ Yes | ✅ Yes | ❌ No |
-| Recommended | ✅ | ✅ | ❌ |
+| Can reassign | Yes | No | Yes |
+| Can redeclare | No | No | Yes |
+| Block scope | Yes | Yes | No |
+| Recommended | | | |
 
 ---
 
@@ -114,10 +114,10 @@ let $price;
 let _private;
 
 // Invalid names
-let 1user;      // ❌ Can't start with number
-let user-name;  // ❌ Can't use hyphen
-let let;        // ❌ Can't use reserved words
-let my name;    // ❌ Can't have spaces
+let 1user; // Can't start with number
+let user-name; // Can't use hyphen
+let let; // Can't use reserved words
+let my name; // Can't have spaces
 ```
 
 ### Common Conventions
@@ -129,8 +129,8 @@ let userEmailAddress;
 let isLoggedIn;
 
 // Use descriptive names
-let x;         // ❌ What does x mean?
-let userAge;   // ✅ Clear meaning
+let x; // What does x mean?
+let userAge; // Clear meaning
 
 // Boolean names often start with is, has, can
 let isActive;
@@ -172,7 +172,7 @@ let hasLicense = false;
 
 // 4. UNDEFINED - no value assigned
 let unknown;
-console.log(unknown);  // undefined
+console.log(unknown); // undefined
 
 // 5. NULL - intentionally empty
 let selectedUser = null;
@@ -188,11 +188,11 @@ let name = "Sokha";
 let age = 22;
 let isStudent = true;
 
-console.log(typeof name);      // "string"
-console.log(typeof age);       // "number"
+console.log(typeof name); // "string"
+console.log(typeof age); // "number"
 console.log(typeof isStudent); // "boolean"
 console.log(typeof undefined); // "undefined"
-console.log(typeof null);      // "object" (JavaScript quirk!)
+console.log(typeof null); // "object" (JavaScript quirk!)
 ```
 
 ---
@@ -220,11 +220,11 @@ let lastName = "Meas";
 
 // Using +
 let fullName = firstName + " " + lastName;
-console.log(fullName);  // "Sokha Meas"
+console.log(fullName); // "Sokha Meas"
 
 // Using template literals (better!)
 let greeting = `Hello, ${firstName} ${lastName}!`;
-console.log(greeting);  // "Hello, Sokha Meas!"
+console.log(greeting); // "Hello, Sokha Meas!"
 ```
 
 ### Template Literals
@@ -241,10 +241,10 @@ let message = `Next year I will be ${age + 1}.`;
 
 // Multi-line strings
 let poem = `
-    Roses are red,
-    Violets are blue,
-    JavaScript is fun,
-    And so are you!
+ Roses are red,
+ Violets are blue,
+ JavaScript is fun,
+ And so are you!
 `;
 ```
 
@@ -254,19 +254,19 @@ let poem = `
 let text = "Hello, Cambodia!";
 
 // Length
-console.log(text.length);  // 16
+console.log(text.length); // 16
 
 // Access character
-console.log(text[0]);      // "H"
-console.log(text[7]);      // "C"
+console.log(text[0]); // "H"
+console.log(text[7]); // "C"
 
 // Common methods
-console.log(text.toUpperCase());  // "HELLO, CAMBODIA!"
-console.log(text.toLowerCase());  // "hello, cambodia!"
-console.log(text.includes("Cambodia"));  // true
-console.log(text.indexOf("Cambodia"));   // 7
-console.log(text.slice(0, 5));    // "Hello"
-console.log(text.replace("Cambodia", "World"));  // "Hello, World!"
+console.log(text.toUpperCase()); // "HELLO, CAMBODIA!"
+console.log(text.toLowerCase()); // "hello, cambodia!"
+console.log(text.includes("Cambodia")); // true
+console.log(text.indexOf("Cambodia")); // 7
+console.log(text.slice(0, 5)); // "Hello"
+console.log(text.replace("Cambodia", "World")); // "Hello, World!"
 ```
 
 ---
@@ -279,12 +279,12 @@ console.log(text.replace("Cambodia", "World"));  // "Hello, World!"
 let a = 10;
 let b = 3;
 
-console.log(a + b);   // 13 (addition)
-console.log(a - b);   // 7 (subtraction)
-console.log(a * b);   // 30 (multiplication)
-console.log(a / b);   // 3.333... (division)
-console.log(a % b);   // 1 (remainder/modulo)
-console.log(a ** b);  // 1000 (exponent)
+console.log(a + b); // 13 (addition)
+console.log(a - b); // 7 (subtraction)
+console.log(a * b); // 30 (multiplication)
+console.log(a / b); // 3.333... (division)
+console.log(a % b); // 1 (remainder/modulo)
+console.log(a ** b); // 1000 (exponent)
 ```
 
 ### Increment and Decrement
@@ -292,29 +292,29 @@ console.log(a ** b);  // 1000 (exponent)
 ```javascript
 let count = 0;
 
-count++;  // count is now 1
-count++;  // count is now 2
-count--;  // count is now 1
+count++; // count is now 1
+count++; // count is now 2
+count--; // count is now 1
 
 // Also:
-count += 5;  // count = count + 5
-count -= 2;  // count = count - 2
-count *= 3;  // count = count * 3
+count += 5; // count = count + 5
+count -= 2; // count = count - 2
+count *= 3; // count = count * 3
 ```
 
 ### Math Object
 
 ```javascript
 // Rounding
-console.log(Math.round(4.5));   // 5
-console.log(Math.floor(4.9));   // 4 (round down)
-console.log(Math.ceil(4.1));    // 5 (round up)
+console.log(Math.round(4.5)); // 5
+console.log(Math.floor(4.9)); // 4 (round down)
+console.log(Math.ceil(4.1)); // 5 (round up)
 
 // Other useful methods
-console.log(Math.abs(-5));      // 5 (absolute value)
+console.log(Math.abs(-5)); // 5 (absolute value)
 console.log(Math.max(1, 5, 3)); // 5
 console.log(Math.min(1, 5, 3)); // 1
-console.log(Math.random());     // Random 0-1
+console.log(Math.random()); // Random 0-1
 
 // Random whole number between 1 and 10
 let random = Math.floor(Math.random() * 10) + 1;
@@ -328,15 +328,15 @@ let random = Math.floor(Math.random() * 10) + 1;
 
 ```javascript
 // String + Number = String
-console.log("5" + 3);      // "53" (string)
+console.log("5" + 3); // "53" (string)
 
 // Number operations try to convert
-console.log("5" - 3);      // 2 (number)
-console.log("5" * 3);      // 15 (number)
+console.log("5" - 3); // 2 (number)
+console.log("5" * 3); // 15 (number)
 
 // Be careful!
-console.log("5" + 3);      // "53"
-console.log(5 + "3");      // "53"
+console.log("5" + 3); // "53"
+console.log(5 + "3"); // "53"
 ```
 
 ### Explicit Conversion
@@ -344,19 +344,19 @@ console.log(5 + "3");      // "53"
 ```javascript
 // To String
 let num = 123;
-let str = String(num);        // "123"
-let str2 = num.toString();    // "123"
+let str = String(num); // "123"
+let str2 = num.toString(); // "123"
 
 // To Number
 let text = "456";
-let number = Number(text);    // 456
-let num2 = parseInt("456");   // 456
+let number = Number(text); // 456
+let num2 = parseInt("456"); // 456
 let num3 = parseFloat("3.14"); // 3.14
 
 // To Boolean
-let bool = Boolean(1);        // true
-let bool2 = Boolean(0);       // false
-let bool3 = Boolean("");      // false
+let bool = Boolean(1); // true
+let bool2 = Boolean(0); // false
+let bool3 = Boolean(""); // false
 let bool4 = Boolean("hello"); // true
 ```
 
@@ -364,23 +364,23 @@ let bool4 = Boolean("hello"); // true
 
 ```javascript
 // Falsy values (become false)
-Boolean(0);          // false
-Boolean("");         // false
-Boolean(null);       // false
-Boolean(undefined);  // false
-Boolean(NaN);        // false
-Boolean(false);      // false
+Boolean(0); // false
+Boolean(""); // false
+Boolean(null); // false
+Boolean(undefined); // false
+Boolean(NaN); // false
+Boolean(false); // false
 
 // Everything else is truthy
-Boolean(1);          // true
-Boolean("hello");    // true
-Boolean([]);         // true
-Boolean({});         // true
+Boolean(1); // true
+Boolean("hello"); // true
+Boolean([]); // true
+Boolean({}); // true
 ```
 
 ---
 
-## 🧪 Self-Check Exercises
+## Self-Check Exercises
 
 ### Exercise 1: Variable Practice
 
@@ -436,15 +436,15 @@ Create a page that:
 
 ---
 
-## 📝 Module Summary
+## Module Summary
 
 **Variable Declarations**
 
 | Keyword | Reassign | Best For |
 |---------|----------|----------|
-| `let` | ✅ Yes | Variables that change |
-| `const` | ❌ No | Constants, config |
-| `var` | ✅ Yes | Old code only |
+| `let` | Yes | Variables that change |
+| `const` | No | Constants, config |
+| `var` | Yes | Old code only |
 
 **Data Types**
 
@@ -458,7 +458,7 @@ Create a page that:
 
 ---
 
-## 🎯 Next Steps
+## Next Steps
 
 **Before moving to Module 03:**
 
@@ -476,7 +476,7 @@ Create a page that:
 
 <div align="center">
 
-**Data is the foundation!** 📊
+**Data is the foundation!** 
 
 *Everything in programming starts with data.*
 
