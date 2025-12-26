@@ -8,7 +8,7 @@
 
 Before building software, you need strong digital foundations. This track ensures every apprentice has the essential skills to succeed.
 
-**Duration**: 1-2 weeks
+**Duration**: 4-8 weeks
 
 **This is the starting point for all apprentices!**
 
@@ -16,14 +16,16 @@ Before building software, you need strong digital foundations. This track ensure
 
 ## Why Digital Foundations?
 
-- BUILDING A SOLID FOUNDATION
-- Without foundations: With foundations:
-- Shaky building Solid structure
-- • Slow typing = slow coding • Fast typing = productive
-- • Lost files = lost work • Organized = efficient
-- • Fear of terminal = limited • Terminal comfort = powerful
-- • Computer confusion = frustration • Computer mastery = confidence
-- INVEST TIME HERE → SAVE TIME LATER
+**Building a Solid Foundation:**
+
+| Without Foundations | With Foundations |
+|---------------------|------------------|
+| Slow typing = slow coding | Fast typing = productive |
+| Lost files = lost work | Organized = efficient |
+| Fear of terminal = limited | Terminal comfort = powerful |
+| Computer confusion = frustration | Computer mastery = confidence |
+
+*Invest time here → Save time later*
 
 ---
 
@@ -115,10 +117,8 @@ Just bring:
 
 <div align="center">
 
-**Master the basics, master everything!** 
+**Master the basics, master everything!**
 
 *Start with Module 01: Computer Basics*
-
-
 
 </div>

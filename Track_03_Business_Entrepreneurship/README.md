@@ -14,15 +14,15 @@ Technical skills alone don't make a successful career. This track develops the b
 
 ## Why Business Skills?
 
-- CODER vs ENGINEER
-- A "CODER" A "SOFTWARE ENGINEER"
-- • Writes code • Solves problems
-- • Follows instructions • Understands the "why"
-- • Works alone • Collaborates with team
-- • Focuses on technology • Focuses on value created
-- • Waits for tasks • Identifies opportunities
-- KOOMPI creates SOFTWARE ENGINEERS
-- who understand business and can create value
+| A "Coder" | A "Software Engineer" |
+|-----------|----------------------|
+| Writes code | Solves problems |
+| Follows instructions | Understands the "why" |
+| Works alone | Collaborates with team |
+| Focuses on technology | Focuses on value created |
+| Waits for tasks | Identifies opportunities |
+
+**KOOMPI creates Software Engineers who understand business and can create value.**
 
 ---
 
@@ -95,7 +95,7 @@ This track is learned through **doing**, not just reading:
 
 <div align="center">
 
-**Be more than a coder.** 
+**Be more than a coder.**
 
 *Create value. Solve problems. Make an impact.*
 

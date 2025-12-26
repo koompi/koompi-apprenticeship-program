@@ -23,13 +23,13 @@ This track helps you learn English while you work and code. English is essential
 
 Don't just study English — **use it**!
 
-- LEARNING ENGLISH AT KOOMPI
-- OLD WAY KOOMPI WAY
-- Memorize grammar rules Use English while coding
-- Study vocabulary lists Learn tech vocabulary in context
-- Practice in classrooms Practice with real customers
-- Tests on paper Real-world communication
-- RESULT: Forgotten quickly RESULT: Practical fluency
+| Old Way | KOOMPI Way |
+|---------|------------|
+| Memorize grammar rules | Use English while coding |
+| Study vocabulary lists | Learn tech vocabulary in context |
+| Practice in classrooms | Practice with real customers |
+| Tests on paper | Real-world communication |
+| *Result: Forgotten quickly* | *Result: Practical fluency* |
 
 ---
 
@@ -94,7 +94,7 @@ English skills are assessed through:
 
 <div align="center">
 
-**English opens doors!** 
+**English opens doors!**
 
 *Every day is an opportunity to improve.*
 
